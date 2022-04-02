@@ -2,4 +2,3 @@ node_modules/
 .firebase/
 *.log
 *.bak
-/dist

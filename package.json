@@ -13,7 +13,6 @@
   },
   "scripts": {
     "typecheck": "tsc --noEmit",
-    "prepare": "npm run build",
     "build": "ncc build --source-map src/index.ts",
     "rebuild": "npm run clean && npm run build",
     "clean": "rimraf dist"
