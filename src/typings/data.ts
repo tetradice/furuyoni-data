@@ -11,7 +11,6 @@ export type StandardCardSet =
   | "na-s2"
   | "na-s3"
   | "na-s4"
-  | "na-s4-pre"
   | "na-s5"
   | "na-s6"
   | "na-s6-2"
@@ -38,7 +37,9 @@ export type StoryCardSet =
   | "raira-challenge"
   | "raira-challenge-heroic"
   | "megumi-challenge"
-  | "megumi-challenge-heroic";
+  | "megumi-challenge-heroic"
+  | "shinra-challenge"
+  | "shinra-challenge-heroic";
 
 /** カードタイプ */
 export type CardType = "attack" | "action" | "enhance" | "variable";

@@ -11832,16 +11832,6 @@ for (let key of typedObjectKeys(S4_UPDATED_CARD_DATA) as TCardId[]) {
   }
 }
 
-CARD_DATA["na-s4-pre"] = { ...CARD_DATA["na-s4"] };
-for (let key of typedObjectKeys(S4_PRE_UPDATED_CARD_DATA) as TCardId[]) {
-  let data = S4_PRE_UPDATED_CARD_DATA[key];
-  if (data === null || data === undefined) {
-    delete CARD_DATA["na-s4-pre"][key];
-  } else {
-    CARD_DATA["na-s4-pre"][key] = data;
-  }
-}
-
 CARD_DATA["na-s5"] = { ...CARD_DATA["na-s4"] };
 for (let key of typedObjectKeys(S5_UPDATED_CARD_DATA) as TCardId[]) {
   let data = S5_UPDATED_CARD_DATA[key];

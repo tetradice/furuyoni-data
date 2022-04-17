@@ -2,9 +2,9 @@ import { Megami, TCardId } from '../data';
 /** カードセット */
 export declare type CardSet = StandardCardSet | StoryCardSet;
 /** 通常のカードセット（物語セットを含まない） */
-export declare type StandardCardSet = "na-s2" | "na-s3" | "na-s4" | "na-s4-pre" | "na-s5" | "na-s6" | "na-s6-2" | "na-s7";
+export declare type StandardCardSet = "na-s2" | "na-s3" | "na-s4" | "na-s5" | "na-s6" | "na-s6-2" | "na-s7";
 /** 物語カードセット（はじまりの決闘、メガミへの挑戦も含む） */
-export declare type StoryCardSet = "story-0" | "story-1" | "story-2" | "story-9" | "story-10" | "story-10-heroic" | "story-12" | "story-12-heroic" | "story-13" | "story-13-heroic" | "story-15" | "hajimari" | "oboro-challenge" | "oboro-challenge-heroic" | "chikage-challenge" | "chikage-challenge-heroic" | "raira-challenge" | "raira-challenge-heroic" | "megumi-challenge" | "megumi-challenge-heroic";
+export declare type StoryCardSet = "story-0" | "story-1" | "story-2" | "story-9" | "story-10" | "story-10-heroic" | "story-12" | "story-12-heroic" | "story-13" | "story-13-heroic" | "story-15" | "hajimari" | "oboro-challenge" | "oboro-challenge-heroic" | "chikage-challenge" | "chikage-challenge-heroic" | "raira-challenge" | "raira-challenge-heroic" | "megumi-challenge" | "megumi-challenge-heroic" | "shinra-challenge" | "shinra-challenge-heroic";
 /** カードタイプ */
 export declare type CardType = "attack" | "action" | "enhance" | "variable";
 /** カードのサブタイプ */
