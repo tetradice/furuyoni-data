@@ -12311,12 +12311,45 @@ Object.defineProperty(exports, "__esModule", ({ value: true }));
 /***/ }),
 
 /***/ 598:
-/***/ ((__unused_webpack_module, exports) => {
+/***/ ((__unused_webpack_module, exports, __nccwpck_require__) => {
 
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.isMegamiChallengeSet = exports.isStorySet = void 0;
-// 指定したカードセットが物語セットであるかどうかを判定
+exports.isMegamiChallengeSet = exports.isStorySet = exports.getCardSetListName = exports.getCardSetName = void 0;
+const data_1 = __nccwpck_require__(974);
+/** 言語に応じたカードセット名を取得 */
+function getCardSetName(cardSet, lang) {
+    if (lang === "zh") {
+        return data_1.CARD_SET_DATA[cardSet].nameZh;
+    }
+    else if (lang === "ko") {
+        return data_1.CARD_SET_DATA[cardSet].nameKo;
+    }
+    else if (lang === "en") {
+        return data_1.CARD_SET_DATA[cardSet].nameEn;
+    }
+    else {
+        return data_1.CARD_SET_DATA[cardSet].name;
+    }
+}
+exports.getCardSetName = getCardSetName;
+/** 言語に応じたカードセットの一覧表示名を取得 */
+function getCardSetListName(cardSet, lang) {
+    if (lang === "zh") {
+        return data_1.CARD_SET_DATA[cardSet].listNameZh;
+    }
+    else if (lang === "ko") {
+        return data_1.CARD_SET_DATA[cardSet].listNameKo;
+    }
+    else if (lang === "en") {
+        return data_1.CARD_SET_DATA[cardSet].listNameEn;
+    }
+    else {
+        return data_1.CARD_SET_DATA[cardSet].listName;
+    }
+}
+exports.getCardSetListName = getCardSetListName;
+/** 指定したカードセットが物語セットであるかどうかを判定 */
 function isStorySet(cardSet) {
     return (cardSet === "story-0" ||
         cardSet === "story-1" ||
@@ -12333,7 +12366,7 @@ function isStorySet(cardSet) {
         isMegamiChallengeSet(cardSet));
 }
 exports.isStorySet = isStorySet;
-// 指定したカードセットが「メガミへの挑戦」であるかどうかを判定
+/** 指定したカードセットが「メガミへの挑戦」であるかどうかを判定 */
 function isMegamiChallengeSet(cardSet) {
     return (cardSet === "oboro-challenge" ||
         cardSet === "oboro-challenge-heroic" ||
