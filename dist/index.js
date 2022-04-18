@@ -12375,7 +12375,9 @@ function isMegamiChallengeSet(cardSet) {
         cardSet === "raira-challenge" ||
         cardSet === "raira-challenge-heroic" ||
         cardSet === "megumi-challenge" ||
-        cardSet === "megumi-challenge-heroic");
+        cardSet === "megumi-challenge-heroic" ||
+        cardSet === "shinra-challenge" ||
+        cardSet === "shinra-challenge-heroic");
 }
 exports.isMegamiChallengeSet = isMegamiChallengeSet;
 
