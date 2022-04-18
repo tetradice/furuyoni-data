@@ -1,4 +1,4 @@
-import { CardSet } from '../typings/data';
+import { CardSet } from "../typings/data";
 /** カードセット情報を表すインターフェース */
 export interface CardSetDataItem {
     name: string;
