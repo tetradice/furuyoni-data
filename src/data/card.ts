@@ -11995,6 +11995,8 @@ for (let cardSet of [
   "raira-challenge-heroic",
   "megumi-challenge",
   "megumi-challenge-heroic",
+  "shinra-challenge",
+  "shinra-challenge-heroic",
 ] as StoryCardSet[]) {
   CARD_DATA[cardSet] = { ...CARD_DATA["na-s7"] };
   for (let key of typedObjectKeys(STORY_CARD_DATA) as TCardId[]) {

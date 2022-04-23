@@ -10503,6 +10503,8 @@ for (let cardSet of [
     "raira-challenge-heroic",
     "megumi-challenge",
     "megumi-challenge-heroic",
+    "shinra-challenge",
+    "shinra-challenge-heroic",
 ]) {
     exports.CARD_DATA[cardSet] = Object.assign({}, exports.CARD_DATA["na-s7"]);
     for (let key of (0, typedObjectKeys_1.typedObjectKeys)(exports.STORY_CARD_DATA)) {
