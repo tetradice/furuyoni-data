@@ -1,6 +1,6 @@
 {
   "name": "furuyoni-data",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "files": [
     "README.md",
     "dist/*",
@@ -19,7 +19,7 @@
   },
   "scripts": {
     "typecheck": "tsc --noEmit",
-    "build": "ncc build --source-map src/index.ts",
+    "build": "ncc build --source-map --no-source-map-register src/index.ts",
     "rebuild": "npm run clean && npm run build",
     "clean": "rimraf dist"
   }
