@@ -61,64 +61,6 @@ export function isSymbolShownMegami(megami: Megami): boolean {
   );
 }
 
-/** 追加札領域を表示するメガミかどうかを判定 */
-export function isMegamiExtraCardAreaVisible(megami: Megami): boolean {
-  return (
-    megami === "kururu" ||
-    megami === "kururu-a1" ||
-    megami === "kururu-a2" ||
-    megami === "thallya" ||
-    megami === "thallya-a1" ||
-    megami === "raira" ||
-    megami === "raira-a1" ||
-    megami === "raira-original" ||
-    megami === "oboro" ||
-    megami === "oboro-a1" ||
-    megami === "utsuro-a1" ||
-    megami === "hagane-a1" ||
-    megami === "honoka" ||
-    megami === "honoka-a1" ||
-    megami === "mizuki" ||
-    megami === "yatsuha-a1" ||
-    megami === "yatsuha-story-15" ||
-    megami === "hatsumi-a1" ||
-    megami === "megumi-original" ||
-    megami === "kanawe" ||
-    megami === "kamuwi" ||
-    megami === "renri"
-  );
-}
-
-/** 毒袋領域を表示するメガミかどうかを判定 */
-export function isMegamiPoisonBagAreaVisible(megami: Megami): boolean {
-  return (
-    megami === "chikage" ||
-    megami === "chikage-a1" ||
-    megami === "chikage-story-2" ||
-    megami === "chikage-original"
-  );
-}
-
-/** 風雷ゲージを持つメガミかどうかを判定 */
-export function isMegamiHasWindThunderGuage(megami: Megami): boolean {
-  return (
-    megami === "raira" ||
-    megami === "raira-a1" ||
-    megami === "raira-original" ||
-    megami === "yura-story-9"
-  );
-}
-
-/** 禁忌ゲージを持つメガミかどうかを判定 */
-export function isMegamiHasTabooGuage(megami: Megami): boolean {
-  return megami === "kamuwi";
-}
-
-/** 偽証可能なメガミかどうかを判定 */
-export function isMegamiCanLie(megami: Megami): boolean {
-  return megami === "renri";
-}
-
 // メガミのキー一覧取得モード
 export const GetMegamiKeyMode = {
   /** 双掌繚乱時（使用メガミ数を数える時にも使用） */
@@ -288,13 +230,26 @@ export function getMegamiKeys(
       cardSet === "megumi-challenge" ||
       cardSet === "megumi-challenge-heroic"
     ) {
-      let isRaira = megami === "megumi" || megamiData.base === "megumi";
+      let isMegumi = megami === "megumi" || megamiData.base === "megumi";
       if (mode === GetMegamiKeyMode.MegamiSelecting) {
-        if (isRaira) continue;
+        if (isMegumi) continue;
       }
 
       if (mode === GetMegamiKeyMode.CardList) {
-        if (isRaira && megami !== "megumi-original") continue;
+        if (isMegumi && megami !== "megumi-original") continue;
+      }
+    }
+    if (
+      cardSet === "shinra-challenge" ||
+      cardSet === "shinra-challenge-heroic"
+    ) {
+      let isShinra = megami === "shinra" || megamiData.base === "shinra";
+      if (mode === GetMegamiKeyMode.MegamiSelecting) {
+        if (isShinra) continue;
+      }
+
+      if (mode === GetMegamiKeyMode.CardList) {
+        if (isShinra && megami !== "shinra-original") continue;
       }
     }
 
@@ -308,9 +263,4 @@ export function getMegamiKeys(
   }
 
   return keys;
-}
-
-/** カードリストに初期表示するメガミを取得 */
-export function getCardListDefaultMegami(cardSet: CardSet): Megami {
-  return getMegamiKeys(GetMegamiKeyMode.CardList, cardSet)[0];
 }

@@ -12511,7 +12511,7 @@ __exportStar(__nccwpck_require__(407), exports);
 
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-exports.getCardListDefaultMegami = exports.getMegamiKeys = exports.GetMegamiKeyMode = exports.isMegamiCanLie = exports.isMegamiHasTabooGuage = exports.isMegamiHasWindThunderGuage = exports.isMegamiPoisonBagAreaVisible = exports.isMegamiExtraCardAreaVisible = exports.isSymbolShownMegami = exports.getMegamiDispName = exports.getMegamiDispNameWithSymbol = void 0;
+exports.getMegamiKeys = exports.GetMegamiKeyMode = exports.isSymbolShownMegami = exports.getMegamiDispName = exports.getMegamiDispNameWithSymbol = void 0;
 const data_1 = __nccwpck_require__(974);
 /** メガミの表示名を取得（象徴武器表示あり） */
 function getMegamiDispNameWithSymbol(language, zhValiation, megami) {
@@ -12565,58 +12565,6 @@ function isSymbolShownMegami(megami) {
         megami === "utsuro-hajimari");
 }
 exports.isSymbolShownMegami = isSymbolShownMegami;
-/** 追加札領域を表示するメガミかどうかを判定 */
-function isMegamiExtraCardAreaVisible(megami) {
-    return (megami === "kururu" ||
-        megami === "kururu-a1" ||
-        megami === "kururu-a2" ||
-        megami === "thallya" ||
-        megami === "thallya-a1" ||
-        megami === "raira" ||
-        megami === "raira-a1" ||
-        megami === "raira-original" ||
-        megami === "oboro" ||
-        megami === "oboro-a1" ||
-        megami === "utsuro-a1" ||
-        megami === "hagane-a1" ||
-        megami === "honoka" ||
-        megami === "honoka-a1" ||
-        megami === "mizuki" ||
-        megami === "yatsuha-a1" ||
-        megami === "yatsuha-story-15" ||
-        megami === "hatsumi-a1" ||
-        megami === "megumi-original" ||
-        megami === "kanawe" ||
-        megami === "kamuwi" ||
-        megami === "renri");
-}
-exports.isMegamiExtraCardAreaVisible = isMegamiExtraCardAreaVisible;
-/** 毒袋領域を表示するメガミかどうかを判定 */
-function isMegamiPoisonBagAreaVisible(megami) {
-    return (megami === "chikage" ||
-        megami === "chikage-a1" ||
-        megami === "chikage-story-2" ||
-        megami === "chikage-original");
-}
-exports.isMegamiPoisonBagAreaVisible = isMegamiPoisonBagAreaVisible;
-/** 風雷ゲージを持つメガミかどうかを判定 */
-function isMegamiHasWindThunderGuage(megami) {
-    return (megami === "raira" ||
-        megami === "raira-a1" ||
-        megami === "raira-original" ||
-        megami === "yura-story-9");
-}
-exports.isMegamiHasWindThunderGuage = isMegamiHasWindThunderGuage;
-/** 禁忌ゲージを持つメガミかどうかを判定 */
-function isMegamiHasTabooGuage(megami) {
-    return megami === "kamuwi";
-}
-exports.isMegamiHasTabooGuage = isMegamiHasTabooGuage;
-/** 偽証可能なメガミかどうかを判定 */
-function isMegamiCanLie(megami) {
-    return megami === "renri";
-}
-exports.isMegamiCanLie = isMegamiCanLie;
 // メガミのキー一覧取得モード
 exports.GetMegamiKeyMode = {
     /** 双掌繚乱時（使用メガミ数を数える時にも使用） */
@@ -12772,13 +12720,25 @@ function getMegamiKeys(mode, cardSet) {
         }
         if (cardSet === "megumi-challenge" ||
             cardSet === "megumi-challenge-heroic") {
-            let isRaira = megami === "megumi" || megamiData.base === "megumi";
+            let isMegumi = megami === "megumi" || megamiData.base === "megumi";
             if (mode === exports.GetMegamiKeyMode.MegamiSelecting) {
-                if (isRaira)
+                if (isMegumi)
                     continue;
             }
             if (mode === exports.GetMegamiKeyMode.CardList) {
-                if (isRaira && megami !== "megumi-original")
+                if (isMegumi && megami !== "megumi-original")
+                    continue;
+            }
+        }
+        if (cardSet === "shinra-challenge" ||
+            cardSet === "shinra-challenge-heroic") {
+            let isShinra = megami === "shinra" || megamiData.base === "shinra";
+            if (mode === exports.GetMegamiKeyMode.MegamiSelecting) {
+                if (isShinra)
+                    continue;
+            }
+            if (mode === exports.GetMegamiKeyMode.CardList) {
+                if (isShinra && megami !== "shinra-original")
                     continue;
             }
         }
@@ -12791,11 +12751,6 @@ function getMegamiKeys(mode, cardSet) {
     return keys;
 }
 exports.getMegamiKeys = getMegamiKeys;
-/** カードリストに初期表示するメガミを取得 */
-function getCardListDefaultMegami(cardSet) {
-    return getMegamiKeys(exports.GetMegamiKeyMode.CardList, cardSet)[0];
-}
-exports.getCardListDefaultMegami = getCardListDefaultMegami;
 
 
 /***/ }),
