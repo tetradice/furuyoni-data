@@ -10313,6 +10313,82 @@ exports.STORY_CARD_DATA = {
         textKo: "",
         textEn: "",
     },
+    "07-shinra-o-n-a": {
+        megami: "shinra-original",
+        name: "啓発",
+        nameEn: "",
+        nameZh: "",
+        nameZhG1: "",
+        nameKo: "",
+        ruby: "けいはつ",
+        rubyEn: "",
+        baseType: "normal",
+        type: "enhance",
+        capacity: "3",
+        text: "【常時】使用するに際し、相手のオーラやフレアから桜花結晶を納めてもよい。",
+        textZh: "",
+        textZhG1: "",
+        textKo: "",
+        textEn: "",
+        original: true,
+    },
+    "07-shinra-o-n-b": {
+        megami: "shinra-original",
+        name: "啓蒙",
+        nameEn: "",
+        nameZh: "",
+        nameZhG1: "",
+        nameKo: "",
+        ruby: "けいもう",
+        rubyEn: "",
+        baseType: "normal",
+        type: "enhance",
+        capacity: "3",
+        text: "【常時】使用するに際し、相手のオーラやフレアから桜花結晶を納めてもよい。\n【展開中】相手は山札の再構成を行えない。",
+        textZh: "",
+        textZhG1: "",
+        textKo: "",
+        textEn: "",
+        original: true,
+    },
+    "07-shinra-o-n-y": {
+        megami: "shinra-original",
+        name: "福音",
+        nameEn: "",
+        nameZh: "",
+        nameZhG1: "",
+        nameKo: "",
+        ruby: "ふくいん",
+        rubyEn: "",
+        baseType: "normal",
+        type: "action",
+        subType: "reaction",
+        text: "計略を実行し、同じ計略を準備する。\n[神算] あなたと相手はカードを1枚引く。\n[鬼謀] 相手は手札を1枚捨て札にする。あなたは集中力を1得る。",
+        textZh: "",
+        textZhG1: "",
+        textKo: "",
+        textEn: "",
+    },
+    "07-shinra-o-s-a": {
+        megami: "shinra-original",
+        name: "不在証明",
+        nameEn: "",
+        nameZh: "",
+        nameZhG1: "",
+        nameKo: "",
+        ruby: "ふざいしょうめい",
+        rubyEn: "",
+        baseType: "special",
+        type: "enhance",
+        capacity: "3",
+        cost: "1",
+        text: "【展開時】相手の宿すメガミ1柱を封印する。\n（相手は封印されたメガミのカードを使用できない）\n【破棄時】封印されたメガミを解放し、このカードを未使用に戻す。",
+        textZh: "",
+        textZhG1: "",
+        textKo: "",
+        textEn: "",
+        original: true,
+    },
 };
 // カード情報を格納
 exports.CARD_DATA["na-s2"] = exports.S2_BASE_CARD_DATA;
@@ -10950,6 +11026,10 @@ var CardId;
     /** 《英雄の一撃》 */ CardId.MEGUMI_O_N_E = "19-megumi-o-n-e";
     /** 《勇者の杖》 */ CardId.MEGUMI_O_N_Y = "19-megumi-o-n-y";
     /** 《魔女の杖》 */ CardId.MEGUMI_O_N_O = "19-megumi-o-n-o";
+    /** 《啓発》 */ CardId.SHINRA_O_N_A = "07-shinra-o-n-a";
+    /** 《啓蒙》 */ CardId.SHINRA_O_N_B = "07-shinra-o-n-b";
+    /** 《福音》 */ CardId.SHINRA_O_N_Y = "07-shinra-o-n-y";
+    /** 《不在証明》 */ CardId.SHINRA_O_S_A = "07-shinra-o-s-a";
 })(CardId = exports.CardId || (exports.CardId = {}));
 /** 偽証カードのIDリスト */
 exports.LIE_CARD_IDS = [
@@ -12234,6 +12314,21 @@ const MEGAMI_DATA_BASE = {
         base: "megumi",
         anotherID: "C4",
         tarotNo: "19",
+    },
+    "shinra-original": {
+        name: "シンラ",
+        nameZh: "森罗",
+        nameZhG1: "森罗",
+        nameKo: "신라",
+        nameEn: "Shinra",
+        symbol: "書",
+        symbolZh: "书",
+        symbolZhG1: "书",
+        symbolKo: "책",
+        symbolEn: "Scroll",
+        base: "shinra",
+        anotherID: "C5",
+        tarotNo: "07",
     },
 };
 exports.MEGAMI_DATA = MEGAMI_DATA_BASE;

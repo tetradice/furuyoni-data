@@ -1,7 +1,4 @@
-import {
-  CardSet,
-  MegamiDataItem,
-} from '../typings/data';
+import { CardSet, MegamiDataItem } from "../typings/data";
 
 const MEGAMI_DATA_BASE = {
   yurina: {
@@ -935,6 +932,21 @@ const MEGAMI_DATA_BASE = {
     base: "megumi",
     anotherID: "C4",
     tarotNo: "19",
+  },
+  "shinra-original": {
+    name: "シンラ",
+    nameZh: "森罗",
+    nameZhG1: "森罗",
+    nameKo: "신라",
+    nameEn: "Shinra",
+    symbol: "書",
+    symbolZh: "书",
+    symbolZhG1: "书",
+    symbolKo: "책",
+    symbolEn: "Scroll",
+    base: "shinra",
+    anotherID: "C5",
+    tarotNo: "07",
   },
 } as const;
 export type Megami = keyof typeof MEGAMI_DATA_BASE;

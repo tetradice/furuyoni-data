@@ -519,6 +519,10 @@ export namespace CardId {
   /** 《英雄の一撃》 */ export const MEGUMI_O_N_E: TCardId = "19-megumi-o-n-e";
   /** 《勇者の杖》 */ export const MEGUMI_O_N_Y: TCardId = "19-megumi-o-n-y";
   /** 《魔女の杖》 */ export const MEGUMI_O_N_O: TCardId = "19-megumi-o-n-o";
+  /** 《啓発》 */ export const SHINRA_O_N_A: TCardId = "07-shinra-o-n-a";
+  /** 《啓蒙》 */ export const SHINRA_O_N_B: TCardId = "07-shinra-o-n-b";
+  /** 《福音》 */ export const SHINRA_O_N_Y: TCardId = "07-shinra-o-n-y";
+  /** 《不在証明》 */ export const SHINRA_O_S_A: TCardId = "07-shinra-o-s-a";
 }
 
 export type TCardId =
@@ -1017,7 +1021,11 @@ export type TCardId =
   | "19-megumi-o-s-a"
   | "19-megumi-o-n-e"
   | "19-megumi-o-n-y"
-  | "19-megumi-o-n-o";
+  | "19-megumi-o-n-o"
+  | "07-shinra-o-n-a"
+  | "07-shinra-o-n-b"
+  | "07-shinra-o-n-y"
+  | "07-shinra-o-s-a";
 
 /** 偽証カードのID */
 export type TLieCardId =

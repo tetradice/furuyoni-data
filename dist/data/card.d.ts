@@ -1,5 +1,5 @@
-import { CardDataItem, CardSet } from '../typings/data';
-import { TCardId } from './cardId';
+import { CardDataItem, CardSet } from "../typings/data";
+import { TCardId } from "./cardId";
 export declare const CARD_DATA: {
     [key in CardSet]: {
         [key: string]: CardDataItem;

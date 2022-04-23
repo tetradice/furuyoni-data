@@ -1,16 +1,9 @@
-import sortBy from 'lodash-es/sortBy';
-import sortedUniq from 'lodash-es/sortedUniq';
+import sortBy from "lodash-es/sortBy";
+import sortedUniq from "lodash-es/sortedUniq";
 
-import { typedObjectKeys } from '../_internal/typedObjectKeys';
-import {
-  CardDataItem,
-  CardSet,
-  StoryCardSet,
-} from '../typings/data';
-import {
-  CardId,
-  TCardId,
-} from './cardId';
+import { typedObjectKeys } from "../_internal/typedObjectKeys";
+import { CardDataItem, CardSet, StoryCardSet } from "../typings/data";
+import { CardId, TCardId } from "./cardId";
 
 export const CARD_DATA: { [key in CardSet]: { [key: string]: CardDataItem } } =
   {} as any;
@@ -11806,6 +11799,83 @@ export const STORY_CARD_DATA: Partial<{ [id in TCardId]: CardDataItem }> = {
     textZhG1: "",
     textKo: "",
     textEn: "",
+  },
+  "07-shinra-o-n-a": {
+    megami: "shinra-original",
+    name: "啓発",
+    nameEn: "",
+    nameZh: "",
+    nameZhG1: "",
+    nameKo: "",
+    ruby: "けいはつ",
+    rubyEn: "",
+    baseType: "normal",
+    type: "enhance",
+    capacity: "3",
+    text: "【常時】使用するに際し、相手のオーラやフレアから桜花結晶を納めてもよい。",
+    textZh: "",
+    textZhG1: "",
+    textKo: "",
+    textEn: "",
+    original: true,
+  },
+  "07-shinra-o-n-b": {
+    megami: "shinra-original",
+    name: "啓蒙",
+    nameEn: "",
+    nameZh: "",
+    nameZhG1: "",
+    nameKo: "",
+    ruby: "けいもう",
+    rubyEn: "",
+    baseType: "normal",
+    type: "enhance",
+    capacity: "3",
+    text: "【常時】使用するに際し、相手のオーラやフレアから桜花結晶を納めてもよい。\n【展開中】相手は山札の再構成を行えない。",
+    textZh: "",
+    textZhG1: "",
+    textKo: "",
+    textEn: "",
+    original: true,
+  },
+  "07-shinra-o-n-y": {
+    megami: "shinra-original",
+    name: "福音",
+    nameEn: "",
+    nameZh: "",
+    nameZhG1: "",
+    nameKo: "",
+    ruby: "ふくいん",
+    rubyEn: "",
+    baseType: "normal",
+    type: "action",
+    subType: "reaction",
+    text: "計略を実行し、同じ計略を準備する。\n[神算] あなたと相手はカードを1枚引く。\n[鬼謀] 相手は手札を1枚捨て札にする。あなたは集中力を1得る。",
+    textZh: "",
+    textZhG1: "",
+    textKo: "",
+    textEn: "",
+  },
+
+  "07-shinra-o-s-a": {
+    megami: "shinra-original",
+    name: "不在証明",
+    nameEn: "",
+    nameZh: "",
+    nameZhG1: "",
+    nameKo: "",
+    ruby: "ふざいしょうめい",
+    rubyEn: "",
+    baseType: "special",
+    type: "enhance",
+    capacity: "3",
+    cost: "1",
+    text: "【展開時】相手の宿すメガミ1柱を封印する。\n（相手は封印されたメガミのカードを使用できない）\n【破棄時】封印されたメガミを解放し、このカードを未使用に戻す。",
+    textZh: "",
+    textZhG1: "",
+    textKo: "",
+    textEn: "",
+    original: true,
   },
 };
 

@@ -1,4 +1,4 @@
-import { CardSet, MegamiDataItem } from '../typings/data';
+import { CardSet, MegamiDataItem } from "../typings/data";
 declare const MEGAMI_DATA_BASE: {
     readonly yurina: {
         readonly name: "ユリナ";
@@ -861,6 +861,21 @@ declare const MEGAMI_DATA_BASE: {
         readonly base: "megumi";
         readonly anotherID: "C4";
         readonly tarotNo: "19";
+    };
+    readonly "shinra-original": {
+        readonly name: "シンラ";
+        readonly nameZh: "森罗";
+        readonly nameZhG1: "森罗";
+        readonly nameKo: "신라";
+        readonly nameEn: "Shinra";
+        readonly symbol: "書";
+        readonly symbolZh: "书";
+        readonly symbolZhG1: "书";
+        readonly symbolKo: "책";
+        readonly symbolEn: "Scroll";
+        readonly base: "shinra";
+        readonly anotherID: "C5";
+        readonly tarotNo: "07";
     };
 };
 export declare type Megami = keyof typeof MEGAMI_DATA_BASE;
