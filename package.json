@@ -19,7 +19,8 @@
     "typecheck": "tsc --noEmit",
     "build": "tsc",
     "rebuild": "npm run clean && npm run build",
-    "clean": "rimraf dist/*"
+    "clean": "rimraf dist/*",
+    "prepare": "npm run rebuild"
   },
   "dependencies": {
     "lodash-es": "^4.17.21"
