@@ -1,4 +1,3 @@
 export * from "./data";
-export * from "./typings";
-export * from "./utils";
+export * from "./language";
 //# sourceMappingURL=index.js.map
