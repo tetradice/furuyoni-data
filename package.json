@@ -1,6 +1,6 @@
 {
   "name": "furuyoni-data",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "files": [
     "README.md",
     "dist/*",
@@ -19,8 +19,7 @@
     "typecheck": "tsc --noEmit",
     "build": "tsc",
     "rebuild": "npm run clean && npm run build",
-    "clean": "rimraf dist/*",
-    "prepare": "npm run rebuild"
+    "clean": "rimraf dist/*"
   },
   "dependencies": {
     "lodash-es": "^4.17.21"
