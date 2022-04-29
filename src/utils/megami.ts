@@ -144,7 +144,12 @@ export function getMegamiKeys(
       cardSet !== "megumi-challenge-heroic"
     )
       continue;
-
+    if (
+      megami === "shinra-original" &&
+      cardSet !== "shinra-challenge" &&
+      cardSet !== "shinra-challenge-heroic"
+    )
+      continue;
     // 物語セット・はじまりの決闘用のメガミは対応する物語セットでなければスキップ
     if (megami === "yurina-story-0") continue;
     if (megami === "saine-story-0") continue;
