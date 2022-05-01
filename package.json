@@ -1,13 +1,13 @@
 {
   "name": "furuyoni-data",
-  "version": "2.3.1",
+  "version": "3.0.0",
   "files": [
     "README.md",
     "dist/*",
     "package.json",
     "tsconfig.json"
   ],
-  "main": "dist/index.js",
+  "module": "dist/index.mjs",
   "typings": "dist/index.d.ts",
   "license": "MIT",
   "devDependencies": {

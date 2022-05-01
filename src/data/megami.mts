@@ -1,4 +1,4 @@
-import { CardSet, MegamiDataItem } from "../typings/data";
+import { CardSet, MegamiDataItem } from "../typings/data.mjs";
 
 const MEGAMI_DATA_BASE = {
   yurina: {

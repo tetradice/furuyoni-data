@@ -1,6 +1,6 @@
-import { CARD_SET_DATA } from "../data";
-import { Language } from "../typings";
-import { CardSet, StoryCardSet } from "../typings/data";
+import { CARD_SET_DATA } from "../data/index.mjs";
+import { Language } from "../typings/index.mjs";
+import { CardSet, StoryCardSet } from "../typings/data.mjs";
 
 /** 言語に応じたカードセット名を取得 */
 export function getCardSetName(cardSet: CardSet, lang: Language) {

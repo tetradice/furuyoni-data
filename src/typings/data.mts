@@ -1,7 +1,4 @@
-import {
-  Megami,
-  TCardId,
-} from '../data';
+import { Megami, TCardId } from "../data/index.mjs";
 
 /** カードセット */
 export type CardSet = StandardCardSet | StoryCardSet;
