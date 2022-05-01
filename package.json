@@ -1,6 +1,6 @@
 {
   "name": "furuyoni-data",
-  "version": "3.1.0",
+  "version": "3.1.1",
   "files": [
     "README.md",
     "dist/*",
@@ -9,7 +9,7 @@
   ],
   "main": "dist/index.mjs",
   "module": "dist/index.mjs",
-  "typings": "dist/index.d.ts",
+  "typings": "dist/index.d.mts",
   "sideEffects": false,
   "license": "MIT",
   "devDependencies": {
