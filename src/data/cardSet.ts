@@ -1,5 +1,5 @@
-import { CardSet } from "../typings/data.mjs";
-import { typedObjectKeys } from "../_internal/typedObjectKeys.mjs";
+import { CardSet } from "../typings/data.js";
+import { typedObjectKeys } from "../_internal/typedObjectKeys.js";
 
 /** カードセット情報を表すインターフェース */
 export interface CardSetDataItem {

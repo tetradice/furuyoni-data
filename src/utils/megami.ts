@@ -1,6 +1,6 @@
-import { Megami, MEGAMI_DATA } from "../data/index.mjs";
-import { CardSet } from "../typings/index.mjs";
-import { Language, ZhValiation } from "../typings/language.mjs";
+import { Megami, MEGAMI_DATA } from "../data/index.js";
+import { CardSet } from "../typings/index.js";
+import { Language, ZhValiation } from "../typings/language.js";
 
 /** メガミの表示名を取得（象徴武器表示あり） */
 export function getMegamiDispNameWithSymbol(

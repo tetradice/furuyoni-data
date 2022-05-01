@@ -1,9 +1,9 @@
 import sortBy from "lodash-es/sortBy";
 import sortedUniq from "lodash-es/sortedUniq";
 
-import { typedObjectKeys } from "../_internal/typedObjectKeys.mjs";
-import { CardDataItem, CardSet, StoryCardSet } from "../typings/data.mjs";
-import { CardId, TCardId } from "./cardId.mjs";
+import { typedObjectKeys } from "../_internal/typedObjectKeys.js";
+import { CardDataItem, CardSet, StoryCardSet } from "../typings/data.js";
+import { CardId, TCardId } from "./cardId.js";
 
 export const CARD_DATA: { [key in CardSet]: { [key: string]: CardDataItem } } =
   {} as any;
