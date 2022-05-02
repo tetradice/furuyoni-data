@@ -12264,8 +12264,8 @@ for (let key of typedObjectKeys(S7_UPDATED_CARD_DATA) as TCardId[]) {
 }
 
 CARD_DATA["na-s7-2"] = { ...CARD_DATA["na-s7"] };
-for (let key of typedObjectKeys(S7_UPDATED_CARD_DATA) as TCardId[]) {
-  let data = S7_UPDATED_CARD_DATA[key];
+for (let key of typedObjectKeys(S7_2_UPDATED_CARD_DATA) as TCardId[]) {
+  let data = S7_2_UPDATED_CARD_DATA[key];
   if (data === null || data === undefined) {
     delete CARD_DATA["na-s7-2"][key];
   } else {
