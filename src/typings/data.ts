@@ -11,7 +11,8 @@ export type StandardCardSet =
   | "na-s5"
   | "na-s6"
   | "na-s6-2"
-  | "na-s7";
+  | "na-s7"
+  | "na-s7-2";
 
 /** 物語カードセット（はじまりの決闘、メガミへの挑戦も含む） */
 export type StoryCardSet =

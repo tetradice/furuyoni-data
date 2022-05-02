@@ -85,6 +85,16 @@ export const CARD_SET_DATA: { readonly [key in CardSet]: CardSetDataItem } = {
     nameEn: "Shinmaku Season 7",
     listNameEn: "Shinmaku Season 7 (2021/12/3-)",
   },
+  "na-s7-2": {
+    name: "新幕 シーズン7-2",
+    listName: "新幕 シーズン7 (2022/5/13～ 『第七拡張：徒桜団円』以降)",
+    nameZh: "新幕 赛季7-2",
+    listNameZh: "",
+    nameKo: "신막 시즌7-2",
+    listNameKo: "",
+    nameEn: "Shinmaku Season 7-2",
+    listNameEn: "",
+  },
   "story-0": {
     name: "物語0：神語りのはじまり",
     listName: "物語0：神語りのはじまり",
