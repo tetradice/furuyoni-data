@@ -406,6 +406,18 @@ export namespace CardId {
   /** 《刻まれし衣》 */ export const RENRI_O_S_4_EX_1 = "22-renri-o-s-4-ex-1";
   /** 《御劔桐子の巫女神楽》 */ export const KIRIKO_O_S_1 = "22-kiriko-o-s-1";
 
+  /** 《問答》 */ export const YURINA_A2_N_3: TCardId = "01-yurina-A2-n-3";
+  /** 《阿吽》 */ export const YURINA_A2_N_7: TCardId = "01-yurina-A2-n-7";
+  /** 《神座渡》 */ export const YURINA_A2_S_1: TCardId = "01-yurina-A2-s-1";
+  /** 《見知らぬ世界》 */ export const YATSUHA_AA1_N_7: TCardId =
+    "16-yatsuha-AA1-n-7";
+  /** 《色づく世界》 */ export const YATSUHA_AA1_N_7_EX1: TCardId =
+    "16-yatsuha-AA1-n-7-ex1";
+  /** 《彼女にとっての桜降る代》 */ export const YATSUHA_AA1_N_7_EX2: TCardId =
+    "16-yatsuha-AA1-n-7-ex2";
+  /** 《彼女にとっての自我と決意》 */ export const YATSUHA_AA1_S_4: TCardId =
+    "16-yatsuha-AA1-s-4";
+
   // 物語セット
   /** 《威風》 */ export const STORY_00_A_1 = "story-00-A-1";
   /** 《執着》 */ export const STORY_00_A_2 = "story-00-A-2";
@@ -925,6 +937,13 @@ export type TCardId =
   | "22-renri-o-s-4"
   | "22-renri-o-s-4-ex-1"
   | "22-kiriko-o-s-1"
+  | "01-yurina-A2-n-3"
+  | "01-yurina-A2-n-7"
+  | "01-yurina-A2-s-1"
+  | "16-yatsuha-AA1-n-7"
+  | "16-yatsuha-AA1-n-7-ex1"
+  | "16-yatsuha-AA1-n-7-ex2"
+  | "16-yatsuha-AA1-s-4"
 
   // 物語セット
   | "story-00-A-1"
