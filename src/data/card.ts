@@ -10190,7 +10190,7 @@ export const S7_2_UPDATED_CARD_DATA: Partial<{
       '(+2): Initialize: You attack with "Range: 3-4, Damage: 3/3, No Reactions (Normal)".\n----\nForced: As long as there are Sakura tokens on this card, you cannot win the game.',
   },
   "01-yurina-A2-n-3": {
-    megami: "yurina-a2",
+    megami: "yurina",
     anotherID: "A2",
     replace: "01-yurina-o-n-3",
     name: "問答",
@@ -10212,7 +10212,7 @@ export const S7_2_UPDATED_CARD_DATA: Partial<{
     textEn: "",
   },
   "01-yurina-A2-n-7": {
-    megami: "yurina-a2",
+    megami: "yurina",
     anotherID: "A2",
     replace: "01-yurina-o-n-7",
     name: "阿吽",
@@ -10231,7 +10231,7 @@ export const S7_2_UPDATED_CARD_DATA: Partial<{
     textEn: "",
   },
   "01-yurina-A2-s-1": {
-    megami: "yurina-a2",
+    megami: "yurina",
     anotherID: "A2",
     replace: "01-yurina-o-s-1",
     name: "神座渡",
@@ -10254,7 +10254,7 @@ export const S7_2_UPDATED_CARD_DATA: Partial<{
     textEn: "",
   },
   "16-yatsuha-AA1-n-7": {
-    megami: "yatsuha-aa1",
+    megami: "yatsuha",
     anotherID: "AA1",
     replace: "16-yatsuha-o-n-7",
     name: "見知らぬ世界",
@@ -10275,7 +10275,7 @@ export const S7_2_UPDATED_CARD_DATA: Partial<{
     textEn: "",
   },
   "16-yatsuha-AA1-n-7-ex1": {
-    megami: "yatsuha-aa1",
+    megami: "yatsuha",
     anotherID: "AA1",
     replace: "",
     name: "色づく世界",
@@ -10286,6 +10286,7 @@ export const S7_2_UPDATED_CARD_DATA: Partial<{
     ruby: "いろづくせかい",
     rubyEn: "",
     baseType: "special",
+    extra: true,
     extraFrom: "16-yatsuha-AA1-n-7",
     exchangableTo: "16-yatsuha-AA1-n-7-ex2",
     type: "action",
@@ -10297,7 +10298,7 @@ export const S7_2_UPDATED_CARD_DATA: Partial<{
     textEn: "",
   },
   "16-yatsuha-AA1-n-7-ex2": {
-    megami: "yatsuha-aa1",
+    megami: "yatsuha",
     anotherID: "AA1",
     replace: "",
     name: "彼女にとっての桜降る代",
@@ -10308,7 +10309,8 @@ export const S7_2_UPDATED_CARD_DATA: Partial<{
     ruby: "かのじょにとってのさくらふるよ",
     rubyEn: "",
     baseType: "special",
-    extraFrom: "16-yatsuha-AA1-n-7-ex2",
+    extra: true,
+    extraFrom: "16-yatsuha-AA1-n-7-ex1",
     type: "action",
     cost: "0",
     text: "",
@@ -10318,7 +10320,7 @@ export const S7_2_UPDATED_CARD_DATA: Partial<{
     textEn: "",
   },
   "16-yatsuha-AA1-s-4": {
-    megami: "yatsuha-aa1",
+    megami: "yatsuha",
     anotherID: "AA1",
     replace: "16-yatsuha-A1-s-4",
     name: "彼女にとっての自我と決意",
@@ -10330,6 +10332,7 @@ export const S7_2_UPDATED_CARD_DATA: Partial<{
     rubyEn: "",
     baseType: "special",
     type: "action",
+    cost: "4",
     text: "",
     textZh: "",
     textZhG1: "",
