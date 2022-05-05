@@ -12503,7 +12503,12 @@ for (let cardSet of typedObjectKeys(CARD_DATA)) {
       cardId === CardId.HATSUMI_A1_D_2
     ) {
       // 《御劔桐子の巫女神楽》《潜水前進》《潜水後退》は特殊（カード一覧で最後に並べるため）
-      card.sortKey === `99-${cardId}`;
+    } else if (cardId === CardId.YATSUHA_AA1_N_7) {
+      // 《見知らぬ世界》
+      card.sortKey = CardId.YATSUHA_O_N_7;
+    } else if (cardId === CardId.YATSUHA_AA1_S_4) {
+      // 《彼女にとっての自我と決意》
+      card.sortKey = CardId.YATSUHA_O_S_4;
     } else if (card.extraFrom) {
       // 追加札
       card.sortKey = `${
