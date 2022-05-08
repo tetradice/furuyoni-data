@@ -6307,7 +6307,7 @@ export const S5_UPDATED_CARD_DATA: Partial<{ [id in TCardId]: CardDataItem }> =
       textKo:
         "【변형시】상대는 패산을 전부 덮임패로 한다.\n----\n【상시：Zeta-Voice】\n상대가 패산을 재구성할 때마다 그 해결 후에 공격 「적정 거리 2, 4, 6, 2/2」을 해도 좋다.",
       textEn:
-        'TransForm: Discard your opponent\'s hand.\n----\nForced ("Zeta-Voice"): After your opponent reshuffles their deck, you attack with "Range: 2, 4, 6, Damage: 2/2".',
+        'TransForm: Discard your opponent\'s deck.\n----\nForced ("Zeta-Voice"): After your opponent reshuffles their deck, you attack with "Range: 2, 4, 6, Damage: 2/2".',
     },
     "transform-A1-03": {
       megami: "thallya",
