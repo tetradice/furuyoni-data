@@ -1,5 +1,5 @@
 import sortBy from "lodash-es/sortBy";
-import sortedUniq from "lodash-es/sortedUniq";
+import uniq from "lodash-es/uniq";
 import { typedObjectKeys } from "../_internal/typedObjectKeys.js";
 import { CardId } from "./cardId.js";
 export const CARD_DATA = {};
@@ -10963,7 +10963,7 @@ for (let cardSet of typedObjectKeys(CARD_DATA)) {
     }
 }
 // カードIDをソートキー順に並べ替える
-let sortedAllCardIds = sortedUniq(sortBy(cardSortKeys, (p) => p[1]).map((p) => p[0]));
+let sortedAllCardIds = uniq(sortBy(cardSortKeys, (p) => p[1]).map((p) => p[0]));
 // 全カードをソートキー順にソートして、（カードセット別に）全カードIDの配列と、全カードの配列を作成
 export const ALL_CARD_ID_LIST = {};
 export const ALL_CARD_LIST = {};
