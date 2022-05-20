@@ -1,5 +1,5 @@
-import sortBy from "lodash-es/sortBy";
-import uniq from "lodash-es/uniq";
+import sortBy from "lodash/sortBy";
+import uniq from "lodash/uniq";
 
 import { typedObjectKeys } from "../_internal/typedObjectKeys.js";
 import { CardDataItem, CardSet, StoryCardSet } from "../typings/data.js";
