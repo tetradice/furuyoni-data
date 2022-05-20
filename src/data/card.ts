@@ -9870,6 +9870,479 @@ export const S7_UPDATED_CARD_DATA: Partial<{ [id in TCardId]: CardDataItem }> =
     },
   };
 
+// シーズン7-2
+export const S7_2_UPDATED_CARD_DATA: Partial<{
+  [id in TCardId]: CardDataItem;
+}> = {
+  "02-saine-A2-n-7": {
+    megami: "saine",
+    anotherID: "A2",
+    replace: "02-saine-o-n-7",
+    name: "遺響壁",
+    nameEn: "Reverberant Wall",
+    nameZh: "遗响壁",
+    nameZhG1: "遗响壁",
+    nameKo: "유향벽",
+    ruby: "いきょうへき",
+    rubyEn: "",
+    baseType: "normal",
+    type: "enhance",
+    capacity: "2",
+    text: "【展開中】あなたへのダメージを解决するに際し、このカードの上に置かれた桜花結晶をあなたのオーラにあるかのように扱う。\n【破棄時】八相-あなたのオーラが1以下かつ現在のターンがあなたのターンならば、攻撃『適正距離0-5、0/0、【攻撃後】相手のオーラに2ダメージを与え、このターンにあなたが次に行う《攻撃》は+0/+1となる』を行う。",
+    textZh:
+      "【展开中】对你造成的伤害结算时，此牌上的樱花结晶视为在自装中。\n【破弃时】本回合你的下一次《攻击》得+0/+1。",
+    textZhG1:
+      "【展开中】当你结算对装伤害时，此牌上的樱花结晶视为在自装中。\n【破弃时】本回合你的下一次《攻击》得+0/+1。",
+    textKo:
+      "【전개중】당신으로의 대미지를 해결 할 때, 이 카드 위에 놓인 벚꽃 결정을 당신의 오라에 있는 것처럼 취급한다.\n【파기시】이번 턴에 당신이 하는 다음 《공격》은 +0/+1된다.",
+    textEn:
+      "Ongoing: Treat Sakura tokens on this card as if they were on your Aura whenever you are dealt damage.\n\nDisenchant: The next attack you make this turn gets +0/+1.",
+  },
+  "08-hagane-o-n-7": {
+    megami: "hagane",
+    name: "引力場",
+    nameEn: "Gravity Well",
+    nameZh: "引力场",
+    nameZhG1: "引力场",
+    nameKo: "인력장",
+    ruby: "いんりょくば",
+    rubyEn: "",
+    baseType: "normal",
+    type: "enhance",
+    capacity: "2",
+    text: "全力化：【常時】このカードの持つ矢印（→）で動く桜花結晶は1つ多くなる。\n\n【展開時】間合→自オーラ：1 \n【展開中】達人の間合は1小さくなる。",
+    textZh: "【展开时】距→1→虚\n【展开中】达人距离的值减小1。",
+    textZhG1: "【展开时】距（1）→虚\n【展开中】达人距离的值减小1。",
+    textKo: "【전개시】간격→더스트：1 \n 【전개중】달인의 간격은 1 작게 된다.",
+    textEn:
+      "Initialize:\nDistance (1)→ Shadow\n\nOngoing: Decrease the size of the Mastery Zone by 1.",
+  },
+  "10-kururu-o-n-5": {
+    megami: "kururu",
+    name: "りげいなー",
+    nameEn: "Regainah",
+    nameZh: "重振装置",
+    nameZhG1: "回嗖利用",
+    nameKo: "리게이너",
+    ruby: "",
+    rubyEn: "",
+    rubyZh: "Regainer",
+    baseType: "normal",
+    type: "action",
+    subType: "fullpower",
+    text: "----\n<付対> 捨て札、伏せ札、切札のいずれかから未使用でも《全力》でもない他のメガミのカードを1枚選んでもよい。そのカードをコストを支払わずに使用する。その際、適正距離の全ての値、どちらかのダメージ、納のいずれかを1増減させてもよい。\n----\n【常時】このカードは伏せ札から手札にあるかのように通常の方法で使用できる。",
+    textZh:
+      "----\n<攻对> 你可以使用你的1张使用后的王牌，而不需支付其费用（可以选择《全力》牌）。\n----\n你的集中力变为0。",
+    textZhG1:
+      "----\n机巧：红紫 你可以使用你的一张正面朝上的王牌，而不需支付其费用（可以选择《全力》牌） 。\n----\n你的集中力变为0。",
+    textKo:
+      "----\n <공대> 당신의 사용완료 비장패를 1장 골라도 좋다. 그 카드를 소비를 지불하지 않고 사용한다. (《전력》카드여도 좋다) \n ----\n 당신의 집중력은 0이 된다.",
+    textEn:
+      "Mechanism (ATK REA) - You may choose 1 of your Devoted Special cards. Play that card without paying its cost.\n----\nYour Vigor becomes 0.",
+  },
+  "13-utsuro-o-n-1": {
+    megami: "utsuro",
+    name: "円月",
+    nameEn: "Full Moon",
+    nameZh: "圆月",
+    nameZhG1: "圆月",
+    nameKo: "만월",
+    ruby: "えんげつ",
+    rubyEn: "",
+    baseType: "normal",
+    type: "attack",
+    range: "5-7",
+    damage: "2/2",
+    text: "【常時】灰塵-ダストが12以上ならば、この《攻撃》は距離拡大（近1）を得て、そのオーラへのダメージは「-」になる。",
+    textZh:
+      "【常时】灰尘～若虚中的樱花结晶数大于等于12，则此《攻击》对装伤害改为「-」。",
+    textZhG1:
+      "【常时】灰尘-若虚中的樱花结晶的数目大于12，则此《攻击》对装伤害改为“-”。",
+    textKo:
+      "【상시】회진-더스트가 12 이상이라면、이 《공격》의 오라로의 대미지는 「-」가 된다.",
+    textEn:
+      'Forced: Ashen - If there are 12 or more Sakura tokens on Shadow, this attack\'s Damage to Aura becomes "-".',
+  },
+  "14-honoka-o-n-1": {
+    megami: "honoka",
+    name: "精霊式",
+    nameEn: "Spirit Rite",
+    nameZh: "精灵式",
+    nameZhG1: "精灵式",
+    nameKo: "정령식",
+    ruby: "せいれいしき",
+    rubyEn: "",
+    baseType: "normal",
+    exchangableTo: "14-honoka-o-n-1-ex1",
+    type: "attack",
+    range: "2-8",
+    damage: "1/1",
+    text: "対応不可 \n【攻撃後】開花-この「精霊式」を追加札の「守護霊式」と交換してもよい。そうした場合、その「守護霊式」を山札の底に置いてもよい。",
+    textZh:
+      "不可被对应\n【攻击后】开花～你可以将这张『精灵式』与追加牌区的『守护灵式』交换。若如此做，则你可以将『守护灵式』置于你的牌库底。",
+    textZhG1:
+      "不可被对应\n【攻击后】开花-将此牌与追加牌『守护灵式』交换。若如此做，则你可以将『守护灵式』置于你的牌库底。",
+    textKo:
+      "대응불가 \n【공격후】개화-이 「정령식」을 추가패의 「수호령식」과 교환해도 좋다. 그럴 경우, 그 「수호령식」을 패산 밑에 두어도 좋다.",
+    textEn:
+      'No Reactions\n\nAfter Attack: Bloom - You may exchange this card with your set aside "Guardian Spirit Rite". If you do, you may put that card on the bottom of your deck.',
+  },
+  "14-honoka-o-n-1-ex2": {
+    megami: "honoka",
+    name: "突撃霊式",
+    nameEn: "Destructive Spirit Rite",
+    nameZh: "突击灵式",
+    nameZhG1: "突击灵式",
+    nameKo: "돌격령식",
+    ruby: "とつげきれいしき",
+    rubyEn: "",
+    baseType: "normal",
+    extra: true,
+    extraFrom: "14-honoka-o-n-1-ex1",
+    exchangableTo: "14-honoka-o-n-1-ex3",
+    type: "attack",
+    range: "5",
+    damage: "3/2",
+    text: "対応不可 \n【攻撃後】ダスト→自ライフ：1\n【攻撃後】開花-この「突撃霊式」を追加札の「神霊ヲウカ」と交換してもよい。そうした場合、その「神霊ヲウカ」を山札の底に置いてもよい。",
+    textZh:
+      "不可被闪避\n【攻击后】开花～你可以将这张『突击灵式』与追加牌区的『神灵樱华』交换。若如此做，则你可以将『神灵樱华』置于你的牌库底。",
+    textZhG1:
+      "不可被闪避\n【攻击后】开花-将此牌与追加牌『神灵樱华』交换。若如此做，则你可以将『神灵樱华』置于你的牌库底。",
+    textKo:
+      "불가피 \n【공격후】개화-이 「돌격령식」을 추가패의 「신령 오우카」와 교환해도 좋다. 그럴 경우, 그 「신령 오우카」를 패산 밑에 두어도 좋다.",
+    textEn:
+      'Unavoidable\n\nAfter Attack: Bloom - You may exchange this card with your set aside "Divine Spirit: Ouka". If you do, you may put that card on the bottom of your deck.',
+  },
+  "15-korunu-o-n-5": {
+    megami: "korunu",
+    name: "絶対零度",
+    nameEn: "Absolute Zero",
+    nameZh: "绝对零度",
+    nameZhG1: "绝对零度",
+    nameKo: "절대영도",
+    ruby: "ぜったいれいど",
+    rubyEn: "",
+    baseType: "normal",
+    type: "action",
+    subType: "reaction",
+    text: "全力化：攻撃『適正距離2-5、1/2』を行い、相手はオーラの空きがなくなるまで凍結する。\n\n基本動作《纏い》を1回行う。相手が3つ以上凍結しているならばさらにもう1回行う。",
+    textZh: "冻结对手，直至敌装中没有空位为止。",
+    textZhG1: "冻结对手，直至敌装中没有空位为止。",
+    textKo: "상대의 오라가 꽉 찰때까지 동결시킨다.",
+    textEn: "Freeze your opponent until their Aura is full.",
+  },
+  "16-yatsuha-A1-s-4": {
+    megami: "yatsuha",
+    anotherID: "A1",
+    replace: "16-yatsuha-o-s-4",
+    name: "八葉鏡の徒桜",
+    nameEn: "Naughtbloom of the Eight Mirrors",
+    nameZh: "八叶镜的徒樱",
+    nameZhG1: "八叶镜的徒樱",
+    nameKo: "야츠하거울의 허무의 벚꽃",
+    ruby: "やつはかがみのあだざくら",
+    rubyEn: "",
+    baseType: "special",
+    type: "attack",
+    range: "0-8",
+    damage: "1/0",
+    cost: "1",
+    text: "終端　対応不可\n【攻撃後/使用済】攻撃後とあなたが山札を再構成する直前に、あなたの捨て札または手札にあるヤツハのカード1枚を公開し、完全態にしてもよい。\n（例えば手札の「星の爪」を公開したなら追加札の「星辰の鉤爪」と交換され、手札に加わる）",
+    textZh:
+      "【使用后】如果你要重铸牌库，则在之前你可以公开你弃牌或者手牌中的一张八叶的牌并将其变为完全态。\n（例如将手牌中的『星之爪』公开的话就和追加牌区的『星辰之钩爪』作交换并加入手牌。）",
+    textZhG1:
+      "【使用后】每当你将要重铸牌库时，你可以从弃牌区或手牌中选择1张八叶的牌，展示该牌，然后将其变为完全态。\n（例如，若你展示了手牌中的『星之爪』，则将其与追加牌中的『星尘之利爪』交换，并加入手牌。）",
+    textKo:
+      "【사용됨】 당신이 패산의 재구성을 수행할 때, 직전에 당신의 버림패나 손패의 야츠하의 카드 1장을 공개한 뒤,완전태로 바꿀 수 있다.\n(예를 들어 손패의 별의 손톱을 공개했다면,\n추가패의 성진의 발톱과 교환하여 손패로 추가한다.)",
+    textEn:
+      'Devoted: Immediately before reshuffling your deck, you may reveal a Yatsuha card from your hand or played pile and Perfect it. (For example, if you reveal "Astral Claw" from your hand, exchange it for your set aside "Celestial Talon" and add it your hand.)',
+  },
+  "17-hatsumi-o-n-5": {
+    megami: "hatsumi",
+    name: "準備万端",
+    nameEn: "Batten Down",
+    nameZh: "万事俱备",
+    nameZhG1: "准备万全",
+    nameKo: "준비만전",
+    ruby: "じゅんびばんたん",
+    rubyEn: "",
+    baseType: "normal",
+    type: "action",
+    subType: "fullpower",
+    text: "ダスト→自オーラ：3\nカードを1枚引いてもよい。\n逆風ならばこのターンの間、手札の上限が1増加する。",
+    textZh: "虚→3→自装\n你将一张手牌置于牌库顶。",
+    textZhG1: "虚（3）→自装\n你可以从手牌中选择1张牌，将其置于你的牌库顶。",
+    textKo:
+      "더스트→자신 오라：3\n당신은 손패를 1장 고르고, 그것을 패산 가장 위에 올려두어도 좋다.",
+    textEn:
+      "Shadow (3)→ Your Aura\n\nYou may choose a card in your hand and put it on top of your deck.",
+  },
+  "18-mizuki-o-s-3": {
+    megami: "mizuki",
+    name: "大手楯無門",
+    nameEn: 'Ōte Gate "Tatenashi"',
+    nameZh: "大手楯无门",
+    nameZhG1: "大手楯无门",
+    nameKo: "대수순무문",
+    ruby: "おおてたてなしもん",
+    rubyEn: "",
+    baseType: "special",
+    type: "action",
+    cost: "3",
+    text: "終端\n追加札の「闘神」と手札のカード1枚を選び、それらを兵舎に徴兵済で置く。徴兵を1回行う。\n【使用済】あなたが兵舎から使用した《攻撃》カードによる《攻撃》は+1/+0となる。あなたが兵舎から使用した《対応》カードは終端を失う。",
+    textZh: "终端\n将你的1张手牌和追加牌处的『斗神』以已征兵的状态置入兵营。",
+    textZhG1: "终端\n将你的1张手牌与追加牌中的『斗神』以已征兵状态置于兵舍。",
+    textKo:
+      "종단\n당신의 손패 1장과 추가패의 「투신」을 병영에 징집 상태로 둔다.",
+    textEn:
+      'Terminal\n\nPut your set aside "Divinity of War" and a card from your hand into your Barracks, conscripted.',
+  },
+  "20-kanawe-o-n-2": {
+    megami: "kanawe",
+    name: "脚本化",
+    nameEn: "Composition",
+    nameZh: "剧本化",
+    nameZhG1: "脚本化",
+    nameKo: "각본화",
+    ruby: "きゃくほんか",
+    rubyEn: "",
+    baseType: "normal",
+    type: "attack",
+    range: "2-8",
+    damage: "0/0",
+    text: "【攻撃後】追加札から構想カードを1枚準備してもよい。\n【常時】あなたの終了フェイズにこのカードを捨て札から山札の底に置いてもよい。そうした場合、相手は集中力を1得る。",
+    textZh:
+      "【攻击后】你可以从追加牌区的构想牌中准备1张构想。\n【常时】在你的结束阶段你可以将此牌从弃牌放到牌库底。",
+    textZhG1:
+      "【攻击后】你可以从追加区准备1张构想牌。\n【常时】你的结束阶段开始时，你可以将弃牌区中的此牌置于牌库底。",
+    textKo:
+      "【공격후】추가패에서 구상 카드를 1장 준비해도 좋다.\n【상시】당신의 종료 페이즈에 이 카드가 버림패에 있다면 패산의 아래에 두어도 좋다.あなたの終了フェイズにこのカードを捨て札から山札の底に置いてもよい。",
+    textEn:
+      "After Attack: You may prepare one of your set aside Plot cards.\n\nForced: At the end of your turn, you may move this card from your played pile to the bottom of your deck.",
+  },
+  "21-kamuwi-o-n-4": {
+    megami: "kamuwi",
+    name: "斬り払い",
+    nameEn: "Sever",
+    nameZh: "斩除",
+    nameZhG1: "格杀",
+    nameKo: "베어내기",
+    ruby: "きりはらい",
+    rubyEn: "",
+    baseType: "normal",
+    type: "attack",
+    subType: "reaction",
+    range: "1-4",
+    damage: "1/1",
+    text: "【常時】このカードは対応でしか使用できない。\n----\n(+2) 【攻撃後】対応した《攻撃》のダメージを打ち消す。その《攻撃》が《全力》または切札であるなら禁忌ゲージを2上げる。",
+    textZh:
+      "(+1) 【攻击后】打消被对应的《攻击》。该《攻击》为王牌的话，禁忌槽上升2。",
+    textZhG1:
+      "禁忌+1～【攻击后】打消被对应的《攻击》。若该《攻击》为王牌，则禁忌槽的值增加2。",
+    textKo:
+      "(+1) 【공격후】대응한 《공격》을 무효화한다. 그 《공격》이 비장패라면, 금기 게이지를 +2한다.",
+    textEn:
+      "(+1): After Attack: Cancel the attack you played this card as a Reaction to. If that attack was Special, increase your Taboo gauge by 2.",
+  },
+  "21-kamuwi-o-s-1": {
+    megami: "kamuwi",
+    name: "灯",
+    nameEn: "Kindle",
+    nameZh: "灯",
+    nameZhG1: "灯",
+    nameKo: "등불",
+    ruby: "ともしび",
+    rubyEn: "",
+    baseType: "special",
+    type: "action",
+    cost: "5",
+    text: "(+3) あなたのフレアにある桜花結晶全てをダストに送り、あなたのライフに1ダメージを与える。\n追加札から「暁」を未使用で得る。",
+    textZh:
+      "(+2) 若自气的樱花结晶数大于等于2，则保留其中1个，其余移至虚。\n从追加牌区以未使用的状态获得『晓』。",
+    textZhG1:
+      "禁忌+2～若自气中樱花结晶的数目大于等于2，则保留其中1个樱花结晶，其余移至虚。从追加牌中将『晓』以未使用状态加入王牌。",
+    textKo:
+      "(+2) 당신의 플레어가 1 이하가 될 때 까지 벛꽃결정을 더스트로 보낸다,\n추가패에서 「새벽」을 미사용 상태로 얻는다.",
+    textEn:
+      '(+2): If there are 2 or more Sakura tokens on your Flare, move all but 1 of them to Shadow. Add your set aside "Daybreak" to your Special cards, face-down.',
+  },
+  "21-kamuwi-o-s-2": {
+    megami: "kamuwi",
+    name: "阡",
+    nameEn: "Gravewalk",
+    nameZh: "阡",
+    nameZhG1: "阡",
+    nameKo: "무덤길",
+    ruby: "はかみち",
+    rubyEn: "",
+    baseType: "special",
+    type: "enhance",
+    capacity: "4",
+    cost: "3",
+    text: "(+2) 【展開時】攻撃『適正距離3-4、3/3、対応不可（通常札）』を行い、あなたのライフに1ダメージを与える。\n----\n【常時】このカードの上に桜花結晶が置かれているならば、あなたは勝利できない。",
+    textZh:
+      "(+1) 【展开时】进行一次“攻击距离3-4、伤害3/3、不可被对应（通常牌）”的攻击。\n----\n【常时】此牌上有樱花结晶放置时，你无法胜利。",
+    textZhG1:
+      "禁忌+1～【展开时】进行一次“攻击距离3-4 伤害3/3 不可被对应（通常牌）”的攻击。\n----\n【常时】若此牌上置有樱花结晶，则你不能因敌命中樱花结晶的数目降至0而赢得本局游戏。",
+    textKo:
+      "(+1) 【전개시】공격 『적정거리3-4、3/3, 대응불가(통상패)』를 수행한다.\n----\n【상시】이 카드 위에 벚꽃결정이 올려져 있다면, 당신은 승리할 수 없다.",
+    textEn:
+      '(+2): Initialize: You attack with "Range: 3-4, Damage: 3/3, No Reactions (Normal)".\n----\nForced: As long as there are Sakura tokens on this card, you cannot win the game.',
+  },
+  "01-yurina-A2-n-3": {
+    megami: "yurina",
+    anotherID: "A2",
+    replace: "01-yurina-o-n-3",
+    name: "問答",
+    nameEn: "",
+    nameZh: "",
+    nameZhG1: "",
+    nameKo: "",
+    ruby: "もんどう",
+    rubyEn: "",
+    baseType: "normal",
+    type: "attack",
+    range: "2-5",
+    damage: "3/0",
+    text: "【攻撃後】相手がライフへのダメージを選んだならば、相手の山札の上から3枚を伏せ札にして、あなたは基本動作を1回行い、相手は同じ基本動作を可能ならば行う。",
+    textZh: "",
+    textZhG1: "",
+    textKo: "",
+    textEn: "",
+  },
+  "01-yurina-A2-n-7": {
+    megami: "yurina",
+    anotherID: "A2",
+    replace: "01-yurina-o-n-7",
+    name: "阿吽",
+    nameEn: "",
+    nameZh: "",
+    nameZhG1: "",
+    nameKo: "",
+    ruby: "あうん",
+    rubyEn: "",
+    baseType: "normal",
+    type: "enhance",
+    capacity: "3",
+    text: "【展開中】各ターンで《攻撃》のダメージまたは基本動作で初めて相手のオーラが変化した時、その《攻撃》や基本動作の解決後にあなたは以下のいずれかを行ってもよい。\n・基本動作《纏い》を行う。その後、基本動作《宿し》を行ってもよい。\n・攻撃『適正距離3-5、2/1』を行う。",
+    textZh: "",
+    textZhG1: "",
+    textKo: "",
+    textEn: "",
+  },
+  "01-yurina-A2-s-1": {
+    megami: "yurina",
+    anotherID: "A2",
+    replace: "01-yurina-o-s-1",
+    name: "神座渡",
+    nameEn: "",
+    nameZh: "",
+    nameZhG1: "",
+    nameKo: "",
+    ruby: "かむくらわたし",
+    rubyEn: "",
+    baseType: "special",
+    type: "attack",
+    subType: "fullpower",
+    range: "0-5",
+    damage: "X/2",
+    cost: "X",
+    text: "対応不可\n【常時】Xはこのカードのコストを支払う際のあなたのフレアに等しい。\n【攻撃後】基本動作《纏い》か《宿し》を合計X回まで行う。あなたの使用済の切札をX枚まで選び、それらを未使用に戻す。このターンの間、手札の上限がX増加する。",
+    textZh: "",
+    textZhG1: "",
+    textKo: "",
+    textEn: "",
+  },
+  "16-yatsuha-AA1-n-7": {
+    megami: "yatsuha",
+    anotherID: "AA1",
+    replace: "16-yatsuha-o-n-7",
+    name: "見知らぬ世界",
+    nameEn: "",
+    nameZh: "",
+    nameZhG1: "",
+    nameKo: "",
+    ruby: "みしらぬせかい",
+    rubyEn: "",
+    baseType: "normal",
+    type: "enhance",
+    capacity: "1",
+    text: "【常時】このカードがあなたがこのゲームで初めて使用するカードならば、使用するに際し、ゲーム外から桜花結晶を納めてもよい。\n【破棄時】あなたは基本動作《前進》を2回行う。その後、このカードを取り除き、追加札から「色づく世界」を未使用で得る。",
+    textZh: "",
+    textZhG1: "",
+    textKo: "",
+    textEn: "",
+    removable: true,
+  },
+  "16-yatsuha-AA1-n-7-ex1": {
+    megami: "yatsuha",
+    anotherID: "AA1",
+    replace: "",
+    name: "色づく世界",
+    nameEn: "",
+    nameZh: "",
+    nameZhG1: "",
+    nameKo: "",
+    ruby: "いろづくせかい",
+    rubyEn: "",
+    baseType: "special",
+    extra: true,
+    extraFrom: "16-yatsuha-AA1-n-7",
+    type: "action",
+    cost: "2",
+    text: "桜降る代の旅路に任意の始点から出発する。\n【使用済】各ターンの開始フェイズの開始時に所在地の効果を解決し、桜花結晶を次の位置へと時計回りに動かす。始点の効果を2回目に解決するならば、代わりに家路の効果を解決する。",
+    textAdditional:
+      "（表向きの状態で右クリックすることで効果を発動可能。以降は、画面上の「旅路」ボタンから旅路を進めることができる）",
+    textZh: "",
+    textZhG1: "",
+    textKo: "",
+    textEn: "",
+  },
+  "16-yatsuha-AA1-n-7-ex2": {
+    megami: "yatsuha",
+    anotherID: "AA1",
+    replace: "",
+    name: "彼女にとっての桜降る代",
+    nameEn: "",
+    nameZh: "",
+    nameZhG1: "",
+    nameKo: "",
+    ruby: "かのじょにとってのさくらふるよ",
+    rubyEn: "",
+    baseType: "special",
+    extra: true,
+    extraFrom: "16-yatsuha-AA1-n-7-ex1",
+    type: "action",
+    cost: "0",
+    text: "思い出からカードを1枚選び、それを手札に戻す。\n【使用済】あなたがカードを引くならば、代わりに思い出のカードを選んで手札に戻してもよい。\n【使用済】あなたが山札の再構成によりダメージを受けるならば、代わりに思い出のカードを1枚選んで公開し、それを取り除いてもよい。\n（思い出から戻るカードは公開し完全態とできる）",
+    textZh: "",
+    textZhG1: "",
+    textKo: "",
+    textEn: "",
+  },
+  "16-yatsuha-AA1-s-4": {
+    megami: "yatsuha",
+    anotherID: "AA1",
+    replace: "16-yatsuha-A1-s-4",
+    name: "彼女にとっての自我と決意",
+    nameEn: "",
+    nameZh: "",
+    nameZhG1: "",
+    nameKo: "",
+    ruby: "かのじょにとってのじがとけつい",
+    rubyEn: "",
+    baseType: "special",
+    type: "action",
+    cost: "4",
+    text: "捨て札、伏せ札、手札のいずれかからヤツハのカードを1枚公開し、そのカードを完全態にしてもよい。その後、そのカードを山札の上に置いてもよい。\n【使用済】あなたはある《攻撃》に対応を行う代わりにこのカードを取り除き、手札から他のメガミのカード1枚を捨て札にしてもよい。そうした場合、その《攻撃》を打ち消す。\n（対応不可を持つ《攻撃》にも行える）",
+    textZh: "",
+    textZhG1: "",
+    textKo: "",
+    textEn: "",
+    removable: true,
+  },
+};
+
 // 物語セットのオリジナルカードデータ
 export const STORY_CARD_DATA: Partial<{ [id in TCardId]: CardDataItem }> = {
   "story-00-A-1": {
@@ -11942,6 +12415,16 @@ for (let key of typedObjectKeys(S7_UPDATED_CARD_DATA) as TCardId[]) {
   }
 }
 
+CARD_DATA["na-s7-2"] = { ...CARD_DATA["na-s7"] };
+for (let key of typedObjectKeys(S7_2_UPDATED_CARD_DATA) as TCardId[]) {
+  let data = S7_2_UPDATED_CARD_DATA[key];
+  if (data === null || data === undefined) {
+    delete CARD_DATA["na-s7-2"][key];
+  } else {
+    CARD_DATA["na-s7-2"][key] = data;
+  }
+}
+
 // 物語セットで使用するカード (シーズン5を基本とし、物語セットのカードを追加する)
 CARD_DATA["story-0"] = { ...CARD_DATA["na-s5"] };
 for (let key of typedObjectKeys(STORY_CARD_DATA) as TCardId[]) {
@@ -12022,7 +12505,12 @@ for (let cardSet of typedObjectKeys(CARD_DATA)) {
       cardId === CardId.HATSUMI_A1_D_2
     ) {
       // 《御劔桐子の巫女神楽》《潜水前進》《潜水後退》は特殊（カード一覧で最後に並べるため）
-      card.sortKey === `99-${cardId}`;
+    } else if (cardId === CardId.YATSUHA_AA1_N_7) {
+      // 《見知らぬ世界》
+      card.sortKey = CardId.YATSUHA_O_N_7;
+    } else if (cardId === CardId.YATSUHA_AA1_S_4) {
+      // 《彼女にとっての自我と決意》
+      card.sortKey = CardId.YATSUHA_O_S_4;
     } else if (card.extraFrom) {
       // 追加札
       card.sortKey = `${
