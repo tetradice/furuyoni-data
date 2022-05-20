@@ -1,5 +1,5 @@
 import sortBy from "lodash-es/sortBy";
-import sortedUniq from "lodash-es/sortedUniq";
+import uniq from "lodash-es/uniq";
 
 import { typedObjectKeys } from "../_internal/typedObjectKeys.js";
 import { CardDataItem, CardSet, StoryCardSet } from "../typings/data.js";
@@ -12533,7 +12533,7 @@ for (let cardSet of typedObjectKeys(CARD_DATA)) {
 }
 
 // カードIDをソートキー順に並べ替える
-let sortedAllCardIds = sortedUniq(
+let sortedAllCardIds = uniq(
   sortBy(cardSortKeys, (p) => p[1]).map((p) => p[0])
 ) as TCardId[];
 
