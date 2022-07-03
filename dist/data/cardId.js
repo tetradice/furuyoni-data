@@ -463,6 +463,10 @@ export var CardId;
     /** 《啓蒙》 */ CardId.SHINRA_O_N_B = "07-shinra-o-n-b";
     /** 《福音》 */ CardId.SHINRA_O_N_Y = "07-shinra-o-n-y";
     /** 《不在証明》 */ CardId.SHINRA_O_S_A = "07-shinra-o-s-a";
+    /** 《永久凍土》 */ CardId.KORUNU_O_N_A = "15-korunu-o-n-a";
+    /** 《永劫凍土》 */ CardId.KORUNU_O_N_B = "15-korunu-o-n-b";
+    /** 《霧氷》 */ CardId.KORUNU_O_N_Y = "15-korunu-o-n-y";
+    /** 《コルヌコラムヌカラ》 */ CardId.KORUNU_O_S_A = "15-korunu-o-s-a";
 })(CardId || (CardId = {}));
 /** 偽証カードのIDリスト */
 export const LIE_CARD_IDS = [

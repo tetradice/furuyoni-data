@@ -301,6 +301,26 @@ export const CARD_SET_DATA = {
         nameEn: "",
         listNameEn: "",
     },
+    "korunu-challenge": {
+        name: "コルヌへの挑戦",
+        listName: "メガミへの挑戦　第7回：コルヌへの挑戦",
+        nameZh: "",
+        listNameZh: "",
+        nameKo: "",
+        listNameKo: "",
+        nameEn: "",
+        listNameEn: "",
+    },
+    "korunu-challenge-heroic": {
+        name: "コルヌへの挑戦（英雄戦）",
+        listName: "メガミへの挑戦　第7回：コルヌへの挑戦（英雄戦）",
+        nameZh: "",
+        listNameZh: "",
+        nameKo: "",
+        listNameKo: "",
+        nameEn: "",
+        listNameEn: "",
+    },
 };
 /** 全カードセット一覧 */
 export const CARD_SETS = typedObjectKeys(CARD_SET_DATA);
