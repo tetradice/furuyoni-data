@@ -535,6 +535,11 @@ export namespace CardId {
   /** 《啓蒙》 */ export const SHINRA_O_N_B: TCardId = "07-shinra-o-n-b";
   /** 《福音》 */ export const SHINRA_O_N_Y: TCardId = "07-shinra-o-n-y";
   /** 《不在証明》 */ export const SHINRA_O_S_A: TCardId = "07-shinra-o-s-a";
+  /** 《永久凍土》 */ export const KORUNU_O_N_A: TCardId = "15-korunu-o-n-a";
+  /** 《永劫凍土》 */ export const KORUNU_O_N_B: TCardId = "15-korunu-o-n-b";
+  /** 《霧氷》 */ export const KORUNU_O_N_Y: TCardId = "15-korunu-o-n-y";
+  /** 《コルヌコラムヌカラ》 */ export const KORUNU_O_S_A: TCardId =
+    "15-korunu-o-s-a";
 }
 
 export type TCardId =
@@ -1044,7 +1049,11 @@ export type TCardId =
   | "07-shinra-o-n-a"
   | "07-shinra-o-n-b"
   | "07-shinra-o-n-y"
-  | "07-shinra-o-s-a";
+  | "07-shinra-o-s-a"
+  | "15-korunu-o-n-a"
+  | "15-korunu-o-n-b"
+  | "15-korunu-o-n-y"
+  | "15-korunu-o-s-a";
 
 /** 偽証カードのID */
 export type TLieCardId =

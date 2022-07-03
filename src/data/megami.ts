@@ -999,6 +999,21 @@ const MEGAMI_DATA_BASE = {
     anotherID: "C5",
     tarotNo: "07",
   },
+  "korunu-original": {
+    name: "コルヌ",
+    nameZh: "凝努",
+    nameZhG1: "凝努",
+    nameKo: "코르누",
+    nameEn: "Korunu",
+    symbol: "橇",
+    symbolZh: "橇",
+    symbolZhG1: "橇",
+    symbolKo: "썰매",
+    symbolEn: "Skate blade",
+    base: "korunu",
+    anotherID: "C7",
+    tarotNo: "15",
+  },
 } as const;
 export type Megami = keyof typeof MEGAMI_DATA_BASE;
 export const MEGAMI_DATA: { [megami in Megami]: MegamiDataItem } =

@@ -37,7 +37,9 @@ export type StoryCardSet =
   | "megumi-challenge"
   | "megumi-challenge-heroic"
   | "shinra-challenge"
-  | "shinra-challenge-heroic";
+  | "shinra-challenge-heroic"
+  | "korunu-challenge"
+  | "korunu-challenge-heroic";
 
 /** カードタイプ */
 export type CardType = "attack" | "action" | "enhance" | "variable";
