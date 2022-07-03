@@ -3811,7 +3811,8 @@ export const S3_UPDATED_CARD_DATA: Partial<{
     text: "【攻撃後】ダスト→自フレア：1 \n----\n【再起】あなたのフレアが0である。",
     textZh: "【攻击后】虚→1→自气 \n----\n【再起】自气中没有樱花结晶。",
     textZhG1: "【攻击后】虚（1）→自气 \n----\n【再起】自气中没有樱花结晶。",
-    textKo: "【공격후】더스트→자신 플레어：1 \n ----\n 【재기】당신의 플레어가 0이다.",
+    textKo:
+      "【공격후】더스트→자신 플레어：1 \n ----\n 【재기】당신의 플레어가 0이다.",
     textEn:
       "After Attack: Shadow (1)→ Your Flare\n----\nResurgence: There are no Sakura tokens on your Flare.",
   },
@@ -12558,6 +12559,8 @@ for (let cardSet of [
   "megumi-challenge-heroic",
   "shinra-challenge",
   "shinra-challenge-heroic",
+  "korunu-challenge",
+  "korunu-challenge-heroic",
 ] as StoryCardSet[]) {
   CARD_DATA[cardSet] = { ...CARD_DATA["na-s7"] };
   for (let key of typedObjectKeys(STORY_CARD_DATA) as TCardId[]) {

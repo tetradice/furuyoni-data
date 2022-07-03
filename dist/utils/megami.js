@@ -113,6 +113,10 @@ export function getMegamiKeys(mode, cardSet) {
             cardSet !== "shinra-challenge" &&
             cardSet !== "shinra-challenge-heroic")
             continue;
+        if (megami === "korunu-original" &&
+            cardSet !== "korunu-challenge" &&
+            cardSet !== "korunu-challenge-heroic")
+            continue;
         // 物語セット・はじまりの決闘用のメガミは対応する物語セットでなければスキップ
         if (megami === "yurina-story-0")
             continue;
@@ -226,6 +230,18 @@ export function getMegamiKeys(mode, cardSet) {
             }
             if (mode === GetMegamiKeyMode.CardList) {
                 if (isShinra && megami !== "shinra-original")
+                    continue;
+            }
+        }
+        if (cardSet === "korunu-challenge" ||
+            cardSet === "korunu-challenge-heroic") {
+            let isKorunu = megami === "korunu" || megamiData.base === "korunu";
+            if (mode === GetMegamiKeyMode.MegamiSelecting) {
+                if (isKorunu)
+                    continue;
+            }
+            if (mode === GetMegamiKeyMode.CardList) {
+                if (isKorunu && megami !== "korunu-original")
                     continue;
             }
         }

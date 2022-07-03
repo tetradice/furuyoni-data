@@ -10989,6 +10989,8 @@ for (let cardSet of [
     "megumi-challenge-heroic",
     "shinra-challenge",
     "shinra-challenge-heroic",
+    "korunu-challenge",
+    "korunu-challenge-heroic",
 ]) {
     CARD_DATA[cardSet] = Object.assign({}, CARD_DATA["na-s7"]);
     for (let key of typedObjectKeys(STORY_CARD_DATA)) {
