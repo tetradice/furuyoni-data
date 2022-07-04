@@ -1,11 +1,14 @@
-import { MEGAMI_DATA } from "../data/index.js";
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.getMegamiKeys = exports.GetMegamiKeyMode = exports.isSymbolShownMegami = exports.getMegamiDispName = exports.getMegamiDispNameWithSymbol = void 0;
+const index_js_1 = require("../data/index.js");
 /** メガミの表示名を取得（象徴武器表示あり） */
-export function getMegamiDispNameWithSymbol(language, zhValiation, megami) {
+function getMegamiDispNameWithSymbol(language, zhValiation, megami) {
     // 象徴武器表示なしメガミ
     if (!isSymbolShownMegami(megami)) {
         return getMegamiDispName(language, zhValiation, megami);
     }
-    let data = MEGAMI_DATA[megami];
+    let data = index_js_1.MEGAMI_DATA[megami];
     if (language === "zh") {
         return `${zhValiation === "G1" ? data.nameZhG1 : data.nameZh}(${zhValiation === "G1" ? data.symbolZhG1 : data.symbolZh})`;
     }
@@ -19,9 +22,10 @@ export function getMegamiDispNameWithSymbol(language, zhValiation, megami) {
         return `${data.name}(${data.symbol})`;
     }
 }
+exports.getMegamiDispNameWithSymbol = getMegamiDispNameWithSymbol;
 /** メガミの表示名を取得 */
-export function getMegamiDispName(language, zhValiation, megami) {
-    let data = MEGAMI_DATA[megami];
+function getMegamiDispName(language, zhValiation, megami) {
+    let data = index_js_1.MEGAMI_DATA[megami];
     if (language === "zh") {
         return `${zhValiation === "G1" ? data.nameZhG1 : data.nameZh}`;
     }
@@ -35,8 +39,9 @@ export function getMegamiDispName(language, zhValiation, megami) {
         return `${data.name}`;
     }
 }
+exports.getMegamiDispName = getMegamiDispName;
 // 象徴武器を表示するメガミであるかどうかを判定
-export function isSymbolShownMegami(megami) {
+function isSymbolShownMegami(megami) {
     return !(megami === "yurina-story-0" ||
         megami === "saine-story-0" ||
         megami === "yurina-story-1" ||
@@ -48,15 +53,16 @@ export function isSymbolShownMegami(megami) {
         megami === "honoka-hajimari" ||
         megami === "utsuro-hajimari");
 }
+exports.isSymbolShownMegami = isSymbolShownMegami;
 // メガミのキー一覧取得モード
-export const GetMegamiKeyMode = {
+exports.GetMegamiKeyMode = {
     /** 双掌繚乱時（使用メガミ数を数える時にも使用） */
     MegamiSelecting: "MegamiSelecting",
     /** カードリスト表示時 */
     CardList: "CardList",
 };
 /** 指定したカードセットに対応するメガミのキー一覧を取得 */
-export function getMegamiKeys(mode, cardSet) {
+function getMegamiKeys(mode, cardSet) {
     // 物語セットやはじまりの決闘で、使用するメガミが決まっている場合の特殊処理
     if (cardSet === "story-0") {
         return ["yurina-story-0", "saine-story-0"];
@@ -77,9 +83,9 @@ export function getMegamiKeys(mode, cardSet) {
         return ["utsuro-hajimari", "honoka-hajimari"];
     }
     let keys = [];
-    for (let key in MEGAMI_DATA) {
+    for (let key in index_js_1.MEGAMI_DATA) {
         let megami = key;
-        let megamiData = MEGAMI_DATA[megami];
+        let megamiData = index_js_1.MEGAMI_DATA[megami];
         // 原初メガミは対応する物語セットでなければスキップ
         if (megami === "korunu-story-10" &&
             cardSet !== "story-10" &&
@@ -144,44 +150,44 @@ export function getMegamiKeys(mode, cardSet) {
         // カードリストへの原初メガミ情報の表示のみ行う
         if (cardSet === "story-10" || cardSet === "story-10-heroic") {
             let isKorunu = megami === "korunu" || megamiData.base === "korunu";
-            if (mode === GetMegamiKeyMode.MegamiSelecting) {
+            if (mode === exports.GetMegamiKeyMode.MegamiSelecting) {
                 if (isKorunu)
                     continue;
             }
-            if (mode === GetMegamiKeyMode.CardList) {
+            if (mode === exports.GetMegamiKeyMode.CardList) {
                 if (isKorunu && megami !== "korunu-story-10")
                     continue;
             }
         }
         if (cardSet === "story-12" || cardSet === "story-12-heroic") {
             let isSaine = megami === "saine" || megamiData.base === "saine";
-            if (mode === GetMegamiKeyMode.MegamiSelecting) {
+            if (mode === exports.GetMegamiKeyMode.MegamiSelecting) {
                 if (isSaine)
                     continue;
             }
-            if (mode === GetMegamiKeyMode.CardList) {
+            if (mode === exports.GetMegamiKeyMode.CardList) {
                 if (isSaine && megami !== "saine-story-12")
                     continue;
             }
         }
         if (cardSet === "story-13" || cardSet === "story-13-heroic") {
             let isTokoyo = megami === "tokoyo" || megamiData.base === "tokoyo";
-            if (mode === GetMegamiKeyMode.MegamiSelecting) {
+            if (mode === exports.GetMegamiKeyMode.MegamiSelecting) {
                 if (isTokoyo)
                     continue;
             }
-            if (mode === GetMegamiKeyMode.CardList) {
+            if (mode === exports.GetMegamiKeyMode.CardList) {
                 if (isTokoyo && megami !== "tokoyo-story-13")
                     continue;
             }
         }
         if (cardSet === "oboro-challenge" || cardSet === "oboro-challenge-heroic") {
             let isOboro = megami === "oboro" || megamiData.base === "oboro";
-            if (mode === GetMegamiKeyMode.MegamiSelecting) {
+            if (mode === exports.GetMegamiKeyMode.MegamiSelecting) {
                 if (isOboro)
                     continue;
             }
-            if (mode === GetMegamiKeyMode.CardList) {
+            if (mode === exports.GetMegamiKeyMode.CardList) {
                 if (isOboro && megami !== "oboro-original")
                     continue;
             }
@@ -189,22 +195,22 @@ export function getMegamiKeys(mode, cardSet) {
         if (cardSet === "chikage-challenge" ||
             cardSet === "chikage-challenge-heroic") {
             let isChikage = megami === "chikage" || megamiData.base === "chikage";
-            if (mode === GetMegamiKeyMode.MegamiSelecting) {
+            if (mode === exports.GetMegamiKeyMode.MegamiSelecting) {
                 if (isChikage)
                     continue;
             }
-            if (mode === GetMegamiKeyMode.CardList) {
+            if (mode === exports.GetMegamiKeyMode.CardList) {
                 if (isChikage && megami !== "chikage-original")
                     continue;
             }
         }
         if (cardSet === "raira-challenge" || cardSet === "raira-challenge-heroic") {
             let isRaira = megami === "raira" || megamiData.base === "raira";
-            if (mode === GetMegamiKeyMode.MegamiSelecting) {
+            if (mode === exports.GetMegamiKeyMode.MegamiSelecting) {
                 if (isRaira)
                     continue;
             }
-            if (mode === GetMegamiKeyMode.CardList) {
+            if (mode === exports.GetMegamiKeyMode.CardList) {
                 if (isRaira && megami !== "raira-original")
                     continue;
             }
@@ -212,11 +218,11 @@ export function getMegamiKeys(mode, cardSet) {
         if (cardSet === "megumi-challenge" ||
             cardSet === "megumi-challenge-heroic") {
             let isMegumi = megami === "megumi" || megamiData.base === "megumi";
-            if (mode === GetMegamiKeyMode.MegamiSelecting) {
+            if (mode === exports.GetMegamiKeyMode.MegamiSelecting) {
                 if (isMegumi)
                     continue;
             }
-            if (mode === GetMegamiKeyMode.CardList) {
+            if (mode === exports.GetMegamiKeyMode.CardList) {
                 if (isMegumi && megami !== "megumi-original")
                     continue;
             }
@@ -224,11 +230,11 @@ export function getMegamiKeys(mode, cardSet) {
         if (cardSet === "shinra-challenge" ||
             cardSet === "shinra-challenge-heroic") {
             let isShinra = megami === "shinra" || megamiData.base === "shinra";
-            if (mode === GetMegamiKeyMode.MegamiSelecting) {
+            if (mode === exports.GetMegamiKeyMode.MegamiSelecting) {
                 if (isShinra)
                     continue;
             }
-            if (mode === GetMegamiKeyMode.CardList) {
+            if (mode === exports.GetMegamiKeyMode.CardList) {
                 if (isShinra && megami !== "shinra-original")
                     continue;
             }
@@ -236,11 +242,11 @@ export function getMegamiKeys(mode, cardSet) {
         if (cardSet === "korunu-challenge" ||
             cardSet === "korunu-challenge-heroic") {
             let isKorunu = megami === "korunu" || megamiData.base === "korunu";
-            if (mode === GetMegamiKeyMode.MegamiSelecting) {
+            if (mode === exports.GetMegamiKeyMode.MegamiSelecting) {
                 if (isKorunu)
                     continue;
             }
-            if (mode === GetMegamiKeyMode.CardList) {
+            if (mode === exports.GetMegamiKeyMode.CardList) {
                 if (isKorunu && megami !== "korunu-original")
                     continue;
             }
@@ -253,4 +259,5 @@ export function getMegamiKeys(mode, cardSet) {
     }
     return keys;
 }
+exports.getMegamiKeys = getMegamiKeys;
 //# sourceMappingURL=megami.js.map

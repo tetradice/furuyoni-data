@@ -1,4 +1,7 @@
-export var CardId;
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.LIE_CARD_IDS = exports.CardId = void 0;
+var CardId;
 (function (CardId) {
     /** 《斬》 */ CardId.YURINA_O_N_1 = "01-yurina-o-n-1";
     /** 《乱打》 */ CardId.YURINA_A1_N_1 = "01-yurina-A1-n-1";
@@ -467,9 +470,9 @@ export var CardId;
     /** 《永劫凍土》 */ CardId.KORUNU_O_N_B = "15-korunu-o-n-b";
     /** 《霧氷》 */ CardId.KORUNU_O_N_Y = "15-korunu-o-n-y";
     /** 《コルヌコラムヌカラ》 */ CardId.KORUNU_O_S_A = "15-korunu-o-s-a";
-})(CardId || (CardId = {}));
+})(CardId = exports.CardId || (exports.CardId = {}));
 /** 偽証カードのIDリスト */
-export const LIE_CARD_IDS = [
+exports.LIE_CARD_IDS = [
     CardId.RENRI_O_N_1,
     CardId.RENRI_O_N_2,
     CardId.RENRI_O_N_3,

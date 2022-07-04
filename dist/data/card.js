@@ -1,9 +1,15 @@
-import sortBy from "lodash-es/sortBy";
-import uniq from "lodash-es/uniq";
-import { typedObjectKeys } from "../_internal/typedObjectKeys.js";
-import { CardId } from "./cardId.js";
-export const CARD_DATA = {};
-export const S2_BASE_CARD_DATA = {
+"use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.ALL_CARD_LIST = exports.ALL_CARD_ID_LIST = exports.CARD_SORT_KEY_MAP = exports.STORY_CARD_DATA = exports.S7_2_UPDATED_CARD_DATA = exports.S7_UPDATED_CARD_DATA = exports.S6_2_UPDATED_CARD_DATA = exports.S6_UPDATED_CARD_DATA = exports.S5_UPDATED_CARD_DATA = exports.S4_PRE_UPDATED_CARD_DATA = exports.S4_UPDATED_CARD_DATA = exports.S3_UPDATED_CARD_DATA = exports.S2_BASE_CARD_DATA = exports.CARD_DATA = void 0;
+const sortBy_1 = __importDefault(require("lodash/sortBy"));
+const uniq_1 = __importDefault(require("lodash/uniq"));
+const typedObjectKeys_js_1 = require("../_internal/typedObjectKeys.js");
+const cardId_js_1 = require("./cardId.js");
+exports.CARD_DATA = {};
+exports.S2_BASE_CARD_DATA = {
     "01-yurina-o-n-1": {
         megami: "yurina",
         name: "斬",
@@ -3206,7 +3212,7 @@ export const S2_BASE_CARD_DATA = {
     },
 };
 // シーズン3
-export const S3_UPDATED_CARD_DATA = {
+exports.S3_UPDATED_CARD_DATA = {
     "02-saine-o-n-3": {
         megami: "saine",
         name: "石突",
@@ -4046,7 +4052,7 @@ export const S3_UPDATED_CARD_DATA = {
     },
 };
 // シーズン4
-export const S4_UPDATED_CARD_DATA = {
+exports.S4_UPDATED_CARD_DATA = {
     "03-himika-o-n-2": {
         megami: "himika",
         name: "ラピッドファイア",
@@ -4780,7 +4786,7 @@ export const S4_UPDATED_CARD_DATA = {
     },
 };
 // シーズン4プレ更新
-export const S4_PRE_UPDATED_CARD_DATA = {
+exports.S4_PRE_UPDATED_CARD_DATA = {
     "01-yurina-o-n-3": {
         megami: "yurina",
         name: "柄打ち",
@@ -4978,7 +4984,7 @@ export const S4_PRE_UPDATED_CARD_DATA = {
     },
 };
 // シーズン5
-export const S5_UPDATED_CARD_DATA = {
+exports.S5_UPDATED_CARD_DATA = {
     "01-yurina-o-n-5": {
         megami: "yurina",
         name: "気迫",
@@ -6078,7 +6084,7 @@ export const S5_UPDATED_CARD_DATA = {
     },
 };
 // シーズン6
-export const S6_UPDATED_CARD_DATA = {
+exports.S6_UPDATED_CARD_DATA = {
     "07-shinra-o-s-1": {
         megami: "shinra",
         name: "完全論破",
@@ -7195,7 +7201,7 @@ export const S6_UPDATED_CARD_DATA = {
     },
 };
 // シーズン6-2
-export const S6_2_UPDATED_CARD_DATA = {
+exports.S6_2_UPDATED_CARD_DATA = {
     "02-saine-A1-s-2": {
         megami: "saine",
         anotherID: "A1",
@@ -7498,7 +7504,7 @@ export const S6_2_UPDATED_CARD_DATA = {
     },
 };
 // シーズン7
-export const S7_UPDATED_CARD_DATA = {
+exports.S7_UPDATED_CARD_DATA = {
     "14-honoka-A1-s-1": {
         megami: "honoka",
         anotherID: "A1",
@@ -8485,7 +8491,7 @@ export const S7_UPDATED_CARD_DATA = {
     },
 };
 // シーズン7-2
-export const S7_2_UPDATED_CARD_DATA = {
+exports.S7_2_UPDATED_CARD_DATA = {
     "02-saine-A2-n-7": {
         megami: "saine",
         anotherID: "A2",
@@ -8909,7 +8915,7 @@ export const S7_2_UPDATED_CARD_DATA = {
     },
 };
 // 物語セットのオリジナルカードデータ
-export const STORY_CARD_DATA = {
+exports.STORY_CARD_DATA = {
     "story-00-A-1": {
         megami: "yurina-story-0",
         name: "威風",
@@ -10865,86 +10871,86 @@ export const STORY_CARD_DATA = {
     },
 };
 // カード情報を格納
-CARD_DATA["na-s2"] = S2_BASE_CARD_DATA;
-CARD_DATA["na-s3"] = Object.assign({}, CARD_DATA["na-s2"]);
-for (let key of typedObjectKeys(S3_UPDATED_CARD_DATA)) {
-    let data = S3_UPDATED_CARD_DATA[key];
+exports.CARD_DATA["na-s2"] = exports.S2_BASE_CARD_DATA;
+exports.CARD_DATA["na-s3"] = Object.assign({}, exports.CARD_DATA["na-s2"]);
+for (let key of (0, typedObjectKeys_js_1.typedObjectKeys)(exports.S3_UPDATED_CARD_DATA)) {
+    let data = exports.S3_UPDATED_CARD_DATA[key];
     if (data === null || data === undefined) {
-        delete CARD_DATA["na-s3"][key];
+        delete exports.CARD_DATA["na-s3"][key];
     }
     else {
-        CARD_DATA["na-s3"][key] = data;
+        exports.CARD_DATA["na-s3"][key] = data;
     }
 }
-CARD_DATA["na-s4"] = Object.assign({}, CARD_DATA["na-s3"]);
-for (let key of typedObjectKeys(S4_UPDATED_CARD_DATA)) {
-    let data = S4_UPDATED_CARD_DATA[key];
+exports.CARD_DATA["na-s4"] = Object.assign({}, exports.CARD_DATA["na-s3"]);
+for (let key of (0, typedObjectKeys_js_1.typedObjectKeys)(exports.S4_UPDATED_CARD_DATA)) {
+    let data = exports.S4_UPDATED_CARD_DATA[key];
     if (data === null || data === undefined) {
-        delete CARD_DATA["na-s4"][key];
+        delete exports.CARD_DATA["na-s4"][key];
     }
     else {
-        CARD_DATA["na-s4"][key] = data;
+        exports.CARD_DATA["na-s4"][key] = data;
     }
 }
-CARD_DATA["na-s5"] = Object.assign({}, CARD_DATA["na-s4"]);
-for (let key of typedObjectKeys(S5_UPDATED_CARD_DATA)) {
-    let data = S5_UPDATED_CARD_DATA[key];
+exports.CARD_DATA["na-s5"] = Object.assign({}, exports.CARD_DATA["na-s4"]);
+for (let key of (0, typedObjectKeys_js_1.typedObjectKeys)(exports.S5_UPDATED_CARD_DATA)) {
+    let data = exports.S5_UPDATED_CARD_DATA[key];
     if (data === null || data === undefined) {
-        delete CARD_DATA["na-s5"][key];
+        delete exports.CARD_DATA["na-s5"][key];
     }
     else {
-        CARD_DATA["na-s5"][key] = data;
+        exports.CARD_DATA["na-s5"][key] = data;
     }
 }
-CARD_DATA["na-s6"] = Object.assign({}, CARD_DATA["na-s5"]);
-for (let key of typedObjectKeys(S6_UPDATED_CARD_DATA)) {
-    let data = S6_UPDATED_CARD_DATA[key];
+exports.CARD_DATA["na-s6"] = Object.assign({}, exports.CARD_DATA["na-s5"]);
+for (let key of (0, typedObjectKeys_js_1.typedObjectKeys)(exports.S6_UPDATED_CARD_DATA)) {
+    let data = exports.S6_UPDATED_CARD_DATA[key];
     if (data === null || data === undefined) {
-        delete CARD_DATA["na-s6"][key];
+        delete exports.CARD_DATA["na-s6"][key];
     }
     else {
-        CARD_DATA["na-s6"][key] = data;
+        exports.CARD_DATA["na-s6"][key] = data;
     }
 }
-CARD_DATA["na-s6-2"] = Object.assign({}, CARD_DATA["na-s6"]);
-for (let key of typedObjectKeys(S6_2_UPDATED_CARD_DATA)) {
-    let data = S6_2_UPDATED_CARD_DATA[key];
+exports.CARD_DATA["na-s6-2"] = Object.assign({}, exports.CARD_DATA["na-s6"]);
+for (let key of (0, typedObjectKeys_js_1.typedObjectKeys)(exports.S6_2_UPDATED_CARD_DATA)) {
+    let data = exports.S6_2_UPDATED_CARD_DATA[key];
     if (data === null || data === undefined) {
-        delete CARD_DATA["na-s6-2"][key];
+        delete exports.CARD_DATA["na-s6-2"][key];
     }
     else {
-        CARD_DATA["na-s6-2"][key] = data;
+        exports.CARD_DATA["na-s6-2"][key] = data;
     }
 }
-CARD_DATA["na-s7"] = Object.assign({}, CARD_DATA["na-s6-2"]);
-for (let key of typedObjectKeys(S7_UPDATED_CARD_DATA)) {
-    let data = S7_UPDATED_CARD_DATA[key];
+exports.CARD_DATA["na-s7"] = Object.assign({}, exports.CARD_DATA["na-s6-2"]);
+for (let key of (0, typedObjectKeys_js_1.typedObjectKeys)(exports.S7_UPDATED_CARD_DATA)) {
+    let data = exports.S7_UPDATED_CARD_DATA[key];
     if (data === null || data === undefined) {
-        delete CARD_DATA["na-s7"][key];
+        delete exports.CARD_DATA["na-s7"][key];
     }
     else {
-        CARD_DATA["na-s7"][key] = data;
+        exports.CARD_DATA["na-s7"][key] = data;
     }
 }
-CARD_DATA["na-s7-2"] = Object.assign({}, CARD_DATA["na-s7"]);
-for (let key of typedObjectKeys(S7_2_UPDATED_CARD_DATA)) {
-    let data = S7_2_UPDATED_CARD_DATA[key];
+exports.CARD_DATA["na-s7-2"] = Object.assign({}, exports.CARD_DATA["na-s7"]);
+for (let key of (0, typedObjectKeys_js_1.typedObjectKeys)(exports.S7_2_UPDATED_CARD_DATA)) {
+    let data = exports.S7_2_UPDATED_CARD_DATA[key];
     if (data === null || data === undefined) {
-        delete CARD_DATA["na-s7-2"][key];
+        delete exports.CARD_DATA["na-s7-2"][key];
     }
     else {
-        CARD_DATA["na-s7-2"][key] = data;
+        exports.CARD_DATA["na-s7-2"][key] = data;
     }
 }
 // 物語セットで使用するカード (シーズン5を基本とし、物語セットのカードを追加する)
-CARD_DATA["story-0"] = Object.assign({}, CARD_DATA["na-s5"]);
-for (let key of typedObjectKeys(STORY_CARD_DATA)) {
-    let data = STORY_CARD_DATA[key];
+exports.CARD_DATA["story-0"] = Object.assign({}, exports.CARD_DATA["na-s5"]);
+for (let key of (0, typedObjectKeys_js_1.typedObjectKeys)(exports.STORY_CARD_DATA)) {
+    let data = exports.STORY_CARD_DATA[key];
     if (data === null || data === undefined) {
-        delete CARD_DATA["story-0"][key];
+        delete exports.CARD_DATA["story-0"][key];
     }
     else {
-        CARD_DATA["story-0"][key] = data;
+        exports.CARD_DATA["story-0"][key] = data;
     }
 }
 for (let cardSet of [
@@ -10959,22 +10965,22 @@ for (let cardSet of [
     "story-13-heroic",
     "story-15",
 ]) {
-    CARD_DATA[cardSet] = Object.assign({}, CARD_DATA["story-0"]);
+    exports.CARD_DATA[cardSet] = Object.assign({}, exports.CARD_DATA["story-0"]);
 }
 // 物語セット0, 1では足捌き使用可能
-CARD_DATA["story-0"]["01-yurina-o-n-5"] = CARD_DATA["na-s4"]["01-yurina-o-n-5"];
-CARD_DATA["story-1"]["01-yurina-o-n-5"] = CARD_DATA["na-s4"]["01-yurina-o-n-5"];
+exports.CARD_DATA["story-0"]["01-yurina-o-n-5"] = exports.CARD_DATA["na-s4"]["01-yurina-o-n-5"];
+exports.CARD_DATA["story-1"]["01-yurina-o-n-5"] = exports.CARD_DATA["na-s4"]["01-yurina-o-n-5"];
 // 物語セット1では返し刃使用可能
-CARD_DATA["story-1"]["02-saine-o-n-3"] = CARD_DATA["na-s2"]["02-saine-o-n-3"];
+exports.CARD_DATA["story-1"]["02-saine-o-n-3"] = exports.CARD_DATA["na-s2"]["02-saine-o-n-3"];
 // はじまりの決闘で使用するカード
-CARD_DATA["hajimari"] = {};
-for (let key of typedObjectKeys(STORY_CARD_DATA)) {
-    let data = STORY_CARD_DATA[key];
+exports.CARD_DATA["hajimari"] = {};
+for (let key of (0, typedObjectKeys_js_1.typedObjectKeys)(exports.STORY_CARD_DATA)) {
+    let data = exports.STORY_CARD_DATA[key];
     if (data === null || data === undefined) {
-        delete CARD_DATA["hajimari"][key];
+        delete exports.CARD_DATA["hajimari"][key];
     }
     else {
-        CARD_DATA["hajimari"][key] = data;
+        exports.CARD_DATA["hajimari"][key] = data;
     }
 }
 // メガミへの挑戦で使用するカード（シーズン7ベース）
@@ -10992,39 +10998,39 @@ for (let cardSet of [
     "korunu-challenge",
     "korunu-challenge-heroic",
 ]) {
-    CARD_DATA[cardSet] = Object.assign({}, CARD_DATA["na-s7"]);
-    for (let key of typedObjectKeys(STORY_CARD_DATA)) {
-        let data = STORY_CARD_DATA[key];
+    exports.CARD_DATA[cardSet] = Object.assign({}, exports.CARD_DATA["na-s7"]);
+    for (let key of (0, typedObjectKeys_js_1.typedObjectKeys)(exports.STORY_CARD_DATA)) {
+        let data = exports.STORY_CARD_DATA[key];
         if (data === null || data === undefined) {
-            delete CARD_DATA[cardSet][key];
+            delete exports.CARD_DATA[cardSet][key];
         }
         else {
-            CARD_DATA[cardSet][key] = data;
+            exports.CARD_DATA[cardSet][key] = data;
         }
     }
 }
 // ソートキーを自動で割り振り、また同時にカードIDとソートキーの対応を記憶
 let cardSortKeys = [];
-export const CARD_SORT_KEY_MAP = {};
-for (let cardSet of typedObjectKeys(CARD_DATA)) {
-    for (let cardId of typedObjectKeys(CARD_DATA[cardSet])) {
-        let card = CARD_DATA[cardSet][cardId];
-        if (cardId === CardId.KIRIKO_O_S_1 ||
-            cardId === CardId.HATSUMI_A1_D_1 ||
-            cardId === CardId.HATSUMI_A1_D_2) {
+exports.CARD_SORT_KEY_MAP = {};
+for (let cardSet of (0, typedObjectKeys_js_1.typedObjectKeys)(exports.CARD_DATA)) {
+    for (let cardId of (0, typedObjectKeys_js_1.typedObjectKeys)(exports.CARD_DATA[cardSet])) {
+        let card = exports.CARD_DATA[cardSet][cardId];
+        if (cardId === cardId_js_1.CardId.KIRIKO_O_S_1 ||
+            cardId === cardId_js_1.CardId.HATSUMI_A1_D_1 ||
+            cardId === cardId_js_1.CardId.HATSUMI_A1_D_2) {
             // 《御劔桐子の巫女神楽》《潜水前進》《潜水後退》は特殊（カード一覧で最後に並べるため）
         }
-        else if (cardId === CardId.YATSUHA_AA1_N_7) {
+        else if (cardId === cardId_js_1.CardId.YATSUHA_AA1_N_7) {
             // 《見知らぬ世界》
-            card.sortKey = CardId.YATSUHA_O_N_7;
+            card.sortKey = cardId_js_1.CardId.YATSUHA_O_N_7;
         }
-        else if (cardId === CardId.YATSUHA_AA1_S_4) {
+        else if (cardId === cardId_js_1.CardId.YATSUHA_AA1_S_4) {
             // 《彼女にとっての自我と決意》
-            card.sortKey = CardId.YATSUHA_O_S_4;
+            card.sortKey = cardId_js_1.CardId.YATSUHA_O_S_4;
         }
         else if (card.extraFrom) {
             // 追加札
-            card.sortKey = `${CARD_DATA[cardSet][card.extraFrom].sortKey}_${cardId}`;
+            card.sortKey = `${exports.CARD_DATA[cardSet][card.extraFrom].sortKey}_${cardId}`;
         }
         else if (card.replace) {
             // 別のカードを置き換えるアナザー
@@ -11039,21 +11045,21 @@ for (let cardSet of typedObjectKeys(CARD_DATA)) {
             card.sortKey = cardId;
         }
         cardSortKeys.push([cardId, card.sortKey]);
-        CARD_SORT_KEY_MAP[cardId] = card.sortKey;
+        exports.CARD_SORT_KEY_MAP[cardId] = card.sortKey;
     }
 }
 // カードIDをソートキー順に並べ替える
-let sortedAllCardIds = uniq(sortBy(cardSortKeys, (p) => p[1]).map((p) => p[0]));
+let sortedAllCardIds = (0, uniq_1.default)((0, sortBy_1.default)(cardSortKeys, (p) => p[1]).map((p) => p[0]));
 // 全カードをソートキー順にソートして、（カードセット別に）全カードIDの配列と、全カードの配列を作成
-export const ALL_CARD_ID_LIST = {};
-export const ALL_CARD_LIST = {};
-for (let cardSet of typedObjectKeys(CARD_DATA)) {
-    ALL_CARD_ID_LIST[cardSet] = [];
-    ALL_CARD_LIST[cardSet] = [];
+exports.ALL_CARD_ID_LIST = {};
+exports.ALL_CARD_LIST = {};
+for (let cardSet of (0, typedObjectKeys_js_1.typedObjectKeys)(exports.CARD_DATA)) {
+    exports.ALL_CARD_ID_LIST[cardSet] = [];
+    exports.ALL_CARD_LIST[cardSet] = [];
     for (let cardId of sortedAllCardIds) {
-        if (CARD_DATA[cardSet][cardId]) {
-            ALL_CARD_ID_LIST[cardSet].push(cardId);
-            ALL_CARD_LIST[cardSet].push(CARD_DATA[cardSet][cardId]);
+        if (exports.CARD_DATA[cardSet][cardId]) {
+            exports.ALL_CARD_ID_LIST[cardSet].push(cardId);
+            exports.ALL_CARD_LIST[cardSet].push(exports.CARD_DATA[cardSet][cardId]);
         }
     }
 }

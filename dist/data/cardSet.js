@@ -1,6 +1,9 @@
-import { typedObjectKeys } from "../_internal/typedObjectKeys.js";
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.CARD_SETS = exports.CARD_SET_DATA = void 0;
+const typedObjectKeys_js_1 = require("../_internal/typedObjectKeys.js");
 /** カードセット情報 */
-export const CARD_SET_DATA = {
+exports.CARD_SET_DATA = {
     "na-s2": {
         name: "新幕 シーズン2",
         listName: "新幕 シーズン2 (2018/8/17～ 『第壱拡張：神語起譚』以降)",
@@ -323,5 +326,5 @@ export const CARD_SET_DATA = {
     },
 };
 /** 全カードセット一覧 */
-export const CARD_SETS = typedObjectKeys(CARD_SET_DATA);
+exports.CARD_SETS = (0, typedObjectKeys_js_1.typedObjectKeys)(exports.CARD_SET_DATA);
 //# sourceMappingURL=cardSet.js.map

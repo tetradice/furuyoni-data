@@ -1,3 +1,6 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.MEGAMI_DATA = void 0;
 const MEGAMI_DATA_BASE = {
     yurina: {
         name: "ユリナ",
@@ -1012,5 +1015,5 @@ const MEGAMI_DATA_BASE = {
         tarotNo: "15",
     },
 };
-export const MEGAMI_DATA = MEGAMI_DATA_BASE;
+exports.MEGAMI_DATA = MEGAMI_DATA_BASE;
 //# sourceMappingURL=megami.js.map
