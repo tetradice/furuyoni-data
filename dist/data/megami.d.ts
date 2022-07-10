@@ -31,13 +31,13 @@ declare const MEGAMI_DATA_BASE: {
     readonly "yurina-a2": {
         readonly name: "調停者ユリナ";
         readonly nameZh: "调停者摇波";
-        readonly nameZhG1: "";
-        readonly nameKo: "";
+        readonly nameZhG1: "调停者摇波";
+        readonly nameKo: "조정자 유리나";
         readonly nameEn: "Arbitrator Yurina";
         readonly symbol: "心";
         readonly symbolZh: "心";
-        readonly symbolZhG1: "";
-        readonly symbolKo: "";
+        readonly symbolZhG1: "心";
+        readonly symbolKo: "마음";
         readonly symbolEn: "Heart";
         readonly base: "yurina";
         readonly anotherID: "A2";
@@ -514,13 +514,13 @@ declare const MEGAMI_DATA_BASE: {
     readonly "yatsuha-aa1": {
         readonly name: "自我ヤツハ";
         readonly nameZh: "自我八叶";
-        readonly nameZhG1: "";
-        readonly nameKo: "";
+        readonly nameZhG1: "自我八叶";
+        readonly nameKo: "자아 야츠하";
         readonly nameEn: "Yatsuha Realized";
         readonly symbol: "魂";
         readonly symbolZh: "魂";
-        readonly symbolZhG1: "";
-        readonly symbolKo: "";
+        readonly symbolZhG1: "魂";
+        readonly symbolKo: "혼";
         readonly symbolEn: "Soul";
         readonly base: "yatsuha";
         readonly anotherID: "AA1";
