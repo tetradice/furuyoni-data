@@ -7781,7 +7781,7 @@ exports.S7_UPDATED_CARD_DATA = {
         textZh: "不可被对应（通常牌）\n----\n<付> 【攻击后】如果是用其他女神的牌组装的机巧槽，则进行一次“攻击距离0-6、伤害1/1”的攻击。\n----\n<行对> 【攻击后】如果是用其他女神的牌组装的机巧槽，则进行一次“攻击距离0-6、伤害1/1”的攻击。",
         textZhG1: "不可被对应（通常牌）\n机巧：绿～【攻击后】若此机巧全部由其他女神的牌组装，则进行一次“攻击距离0-6 伤害1/1”的攻击。\n机巧：蓝紫～【攻击后】若此机巧全部由其他女神的牌组装，则进行一次“攻击距离0-6 伤害1/1”的攻击。",
         textKo: "대응불가(통상패)\n----\n<부> 【공격후】 다른 여신에 의해 기교가 완성됐다면,\n공격 『적정거리0-6、1/1』을 수행한다.\n----\n<행대> 【공격후】 다른 여신에 의해 기교가 완성됐다면,\n공격 『적정거리0-6、1/1』을 수행한다.",
-        textEn: 'No Reactions (Normal)\n\n----------\n\nMechanism (ENH) - After Attack: If this was completed using only non-Kururu Megami cards, you attack with "Range: 0-6, Damage: 1/1."\n\n----------\n\nMechanism (ACT REA) - After Attack: If this was completed using only non-Kururu Megami cards, you attack with "Range: 0-6, Damage: 1/1."',
+        textEn: 'No Reactions (Normal)\n----\nMechanism (ENH) - After Attack: If this was completed using only non-Kururu Megami cards, you attack with "Range: 0-6, Damage: 1/1."\n----\nMechanism (ACT REA) - After Attack: If this was completed using only non-Kururu Megami cards, you attack with "Range: 0-6, Damage: 1/1."',
     },
     "10-kururu-A2-n-2": {
         megami: "kururu",
@@ -7803,7 +7803,7 @@ exports.S7_UPDATED_CARD_DATA = {
         textZh: "----\n<攻攻> 【常时】进行此《攻击》时，此《攻击》得+2/+0。\n----\n<全> 终端\n【常时】进行此《攻击》时，此《攻击》得+0/+1且不可被打消。",
         textZhG1: "机巧：红红～【常时】进行此《攻击》时，此《攻击》获得+2/+0。\n机巧：黄～终端\n【常时】进行此《攻击》时，此《攻击》获得+0/+1和不可被打消。",
         textKo: "----\n<공공> 【상시】 이 《공격》을 사용할 때, 이 《공격》은 +2/+0을 얻는다.\n----\n<전> 종단\n【상시】 이 《공격》을 사용할 때,\n이 《공격》은 +0/+1을 얻고, 무효화당하지 않는다.",
-        textEn: "Mechanism (ATK ATK) - Forced: This attack gains +2/+0 as long as it has initiated.\n\n----------\n\nMechanism (THR) - Terminal\nForced: This attack gains +0/+1 and cannot be cancelled as long as it has initiated.",
+        textEn: "Mechanism (ATK ATK) - Forced: This attack gains +2/+0 as long as it has initiated.\n----\nMechanism (THR) - Terminal\nForced: This attack gains +0/+1 and cannot be cancelled as long as it has initiated.",
     },
     "10-kururu-A2-s-4": {
         megami: "kururu",
@@ -7824,7 +7824,7 @@ exports.S7_UPDATED_CARD_DATA = {
         textZh: "----\n<付行对> 【使用时/使用后】如果是用其他女神的牌组装的机巧槽，在使用时和你的结束阶段可以从虚或自装中将1个樱花结晶放到此牌上。\n----\n【使用后】你结算机巧槽的效果的时候，可以将此牌上的1个樱花结晶移到虚。若如此做，则那个机巧槽中所写的数字全部变成两倍。",
         textZhG1: "机巧：绿蓝紫～【使用时/使用后】若此机巧全部由其他女神的牌组装，则使用此牌时和你的结束阶段开始时你可以从虚或自装中选择1个樱花结晶移至此牌上。\n【使用后】当你结算齿轮框中的效果时，你可以将此牌上的1个樱花结晶移至虚。若如此做，该齿轮框中记述的所有数字变为原来的2倍。",
         textKo: "----\n<부행대> 【사용시/사용됨】다른 여신의 카드로 기교가 완성되었다면, 사용시와 당신 턴의 종료 페이즈에 더스트 또는 당신의 오라로부터 이 카드 위에 벛꽃결정을 올릴 수 있다.\n----\n【사용됨】당신이 어떤 기교 조건의 효과를 해결할 때마다, 이 카드 위의 벛꽃결정을 하나 더스트로 보낼 수 있다.\n그렇게 하면 그 기교칸에 씌여진 숫자를 모두 2배로 한다.",
-        textEn: "Mechanism (ENH ACT REA) - Played/Devoted: If this was completed using only non-Kururu Megami cards, when this card resolves, and at the end of your turn, you may move 1 Sakura token from Shadow or your Aura to this card.\n\n----------\n\nDevoted: When you would resolve a Mechanism effect, you may move 1 Sakura token from this card to Shadow. If you do, double the value of all numbers printed in that Mechanism.",
+        textEn: "Mechanism (ENH ACT REA) - Played/Devoted: If this was completed using only non-Kururu Megami cards, when this card resolves, and at the end of your turn, you may move 1 Sakura token from Shadow or your Aura to this card.\n----\nDevoted: When you would resolve a Mechanism effect, you may move 1 Sakura token from this card to Shadow. If you do, double the value of all numbers printed in that Mechanism.",
     },
     "17-hatsumi-A1-n-4": {
         megami: "hatsumi",
