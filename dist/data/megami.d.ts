@@ -30,15 +30,15 @@ declare const MEGAMI_DATA_BASE: {
     };
     readonly "yurina-a2": {
         readonly name: "調停者ユリナ";
-        readonly nameZh: "";
+        readonly nameZh: "调停者摇波";
         readonly nameZhG1: "";
         readonly nameKo: "";
-        readonly nameEn: "";
+        readonly nameEn: "Arbitrator Yurina";
         readonly symbol: "心";
-        readonly symbolZh: "";
+        readonly symbolZh: "心";
         readonly symbolZhG1: "";
         readonly symbolKo: "";
-        readonly symbolEn: "";
+        readonly symbolEn: "Heart";
         readonly base: "yurina";
         readonly anotherID: "A2";
         readonly notExistCardSets: CardSet[];
@@ -53,7 +53,7 @@ declare const MEGAMI_DATA_BASE: {
         readonly symbol: "薙刀";
         readonly symbolZh: "薙刀";
         readonly symbolZhG1: "薙刀";
-        readonly symbolKo: "나기나타";
+        readonly symbolKo: "장도";
         readonly symbolEn: "Naginata";
         readonly tarotNo: "02";
     };
@@ -110,7 +110,7 @@ declare const MEGAMI_DATA_BASE: {
         readonly symbol: "炎";
         readonly symbolZh: "炎";
         readonly symbolZhG1: "炎";
-        readonly symbolKo: "화염";
+        readonly symbolKo: "불꽃";
         readonly symbolEn: "Flame";
         readonly base: "himika";
         readonly anotherID: "A1";
@@ -227,7 +227,7 @@ declare const MEGAMI_DATA_BASE: {
         readonly symbol: "書";
         readonly symbolZh: "书";
         readonly symbolZhG1: "书";
-        readonly symbolKo: "책";
+        readonly symbolKo: "서책";
         readonly symbolEn: "Scroll";
         readonly tarotNo: "07";
     };
@@ -314,7 +314,7 @@ declare const MEGAMI_DATA_BASE: {
         readonly symbol: "絡繰";
         readonly symbolZh: "机关";
         readonly symbolZhG1: "机巧";
-        readonly symbolKo: "꼭두각시";
+        readonly symbolKo: "자동장치";
         readonly symbolEn: "Karakuri";
         readonly tarotNo: "10";
     };
@@ -359,7 +359,7 @@ declare const MEGAMI_DATA_BASE: {
         readonly symbol: "乗騎";
         readonly symbolZh: "骑";
         readonly symbolZhG1: "车";
-        readonly symbolKo: "탈것";
+        readonly symbolKo: "기승";
         readonly symbolEn: "Mount";
         readonly tarotNo: "11";
     };
@@ -367,7 +367,7 @@ declare const MEGAMI_DATA_BASE: {
         readonly name: "帰還サリヤ";
         readonly nameZh: "回返萨莉娅";
         readonly nameZhG1: "归还萨莉娅";
-        readonly nameKo: "귀향 탈리야";
+        readonly nameKo: "귀환 탈리야";
         readonly nameEn: "Return Thallya";
         readonly symbol: "新型";
         readonly symbolZh: "新型";
@@ -388,7 +388,7 @@ declare const MEGAMI_DATA_BASE: {
         readonly symbol: "爪";
         readonly symbolZh: "爪";
         readonly symbolZhG1: "爪";
-        readonly symbolKo: "발톱";
+        readonly symbolKo: "손톱";
         readonly symbolEn: "Claw";
         readonly tarotNo: "12";
     };
@@ -417,7 +417,7 @@ declare const MEGAMI_DATA_BASE: {
         readonly symbol: "鎌";
         readonly symbolZh: "镰";
         readonly symbolZhG1: "镰";
-        readonly symbolKo: "낫";
+        readonly symbolKo: "대낫";
         readonly symbolEn: "Scythe";
         readonly tarotNo: "13";
     };
@@ -455,7 +455,7 @@ declare const MEGAMI_DATA_BASE: {
         readonly name: "桜花拝ホノカ";
         readonly nameZh: "拜樱仄佳";
         readonly nameZhG1: "樱花拜仄佳";
-        readonly nameKo: "앵화배 호노카";
+        readonly nameKo: "오우카 호노카";
         readonly nameEn: "Sakuraist Honoka";
         readonly symbol: "勾玉";
         readonly symbolZh: "勾玉";
@@ -476,7 +476,7 @@ declare const MEGAMI_DATA_BASE: {
         readonly symbol: "橇";
         readonly symbolZh: "橇";
         readonly symbolZhG1: "橇";
-        readonly symbolKo: "썰매";
+        readonly symbolKo: "썰매날";
         readonly symbolEn: "Skate blade";
         readonly notExistCardSets: CardSet[];
         readonly tarotNo: "15";
@@ -513,15 +513,15 @@ declare const MEGAMI_DATA_BASE: {
     };
     readonly "yatsuha-aa1": {
         readonly name: "自我ヤツハ";
-        readonly nameZh: "";
+        readonly nameZh: "自我八叶";
         readonly nameZhG1: "";
         readonly nameKo: "";
-        readonly nameEn: "";
+        readonly nameEn: "Yatsuha Realized";
         readonly symbol: "魂";
-        readonly symbolZh: "";
+        readonly symbolZh: "魂";
         readonly symbolZhG1: "";
         readonly symbolKo: "";
-        readonly symbolEn: "";
+        readonly symbolEn: "Soul";
         readonly base: "yatsuha";
         readonly anotherID: "AA1";
         readonly notExistCardSets: CardSet[];
