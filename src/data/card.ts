@@ -10321,6 +10321,8 @@ export const S7_2_UPDATED_CARD_DATA: Partial<{
       "（面朝上的状态下右键可以发动效果。之后，可以用画面上的「旅路」按钮来进行推进旅路的操作）",
     textKo:
       "벛꽃 내리는 시대의 여로의 임의의 지점에서 출발한다.\n【사용됨】각 턴의 개시 페이즈의 시작에 소재지의 효과를 해결 후, 벛꽃결정을 다음 위치에 시계방향으로 이동시킨다.\n출발점의 효과를 2번째 해결하려 한다면, 그 대신 귀로의 효과를 해결한다.",
+    textKoAdditional:
+      "(앞면 표시의 상태에서 우클릭으로 효과 발동 가능. 이후 화면에서 「여로」버튼으로 여로를 진행시킬 수 있다)",
     textEn:
       "Begin your Journey at the starting location of your choice.\n\nDevoted: At the beginning of each turn, resolve the effect of your current location, then move your Sakura token one location clockwise. If you would resolve your starting location's effect for the second time, instead resolve Homecoming.",
     textEnAdditional:
