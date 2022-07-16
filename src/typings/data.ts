@@ -39,7 +39,9 @@ export type StoryCardSet =
   | "shinra-challenge"
   | "shinra-challenge-heroic"
   | "korunu-challenge"
-  | "korunu-challenge-heroic";
+  | "korunu-challenge-heroic"
+  | "hagane-challenge"
+  | "hagane-challenge-heroic";
 
 /** カードタイプ */
 export type CardType = "attack" | "action" | "enhance" | "variable";

@@ -324,6 +324,26 @@ exports.CARD_SET_DATA = {
         nameEn: "",
         listNameEn: "",
     },
+    "hagane-challenge": {
+        name: "ハガネへの挑戦",
+        listName: "メガミへの挑戦　第8回：ハガネへの挑戦",
+        nameZh: "",
+        listNameZh: "",
+        nameKo: "",
+        listNameKo: "",
+        nameEn: "",
+        listNameEn: "",
+    },
+    "hagane-challenge-heroic": {
+        name: "ハガネへの挑戦（英雄戦）",
+        listName: "メガミへの挑戦　第8回：ハガネへの挑戦（英雄戦）",
+        nameZh: "",
+        listNameZh: "",
+        nameKo: "",
+        listNameKo: "",
+        nameEn: "",
+        listNameEn: "",
+    },
 };
 /** 全カードセット一覧 */
 exports.CARD_SETS = (0, typedObjectKeys_js_1.typedObjectKeys)(exports.CARD_SET_DATA);

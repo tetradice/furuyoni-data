@@ -335,6 +335,26 @@ export const CARD_SET_DATA: { readonly [key in CardSet]: CardSetDataItem } = {
     nameEn: "",
     listNameEn: "",
   },
+  "hagane-challenge": {
+    name: "ハガネへの挑戦",
+    listName: "メガミへの挑戦　第8回：ハガネへの挑戦",
+    nameZh: "",
+    listNameZh: "",
+    nameKo: "",
+    listNameKo: "",
+    nameEn: "",
+    listNameEn: "",
+  },
+  "hagane-challenge-heroic": {
+    name: "ハガネへの挑戦（英雄戦）",
+    listName: "メガミへの挑戦　第8回：ハガネへの挑戦（英雄戦）",
+    nameZh: "",
+    listNameZh: "",
+    nameKo: "",
+    listNameKo: "",
+    nameEn: "",
+    listNameEn: "",
+  },
 };
 
 /** 全カードセット一覧 */

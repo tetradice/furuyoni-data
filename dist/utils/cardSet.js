@@ -64,7 +64,9 @@ function isMegamiChallengeSet(cardSet) {
         cardSet === "shinra-challenge" ||
         cardSet === "shinra-challenge-heroic" ||
         cardSet === "korunu-challenge" ||
-        cardSet === "korunu-challenge-heroic");
+        cardSet === "korunu-challenge-heroic" ||
+        cardSet === "hagane-challenge" ||
+        cardSet === "hagane-challenge-heroic");
 }
 exports.isMegamiChallengeSet = isMegamiChallengeSet;
 //# sourceMappingURL=cardSet.js.map

@@ -470,6 +470,10 @@ var CardId;
     /** 《永劫凍土》 */ CardId.KORUNU_O_N_B = "15-korunu-o-n-b";
     /** 《霧氷》 */ CardId.KORUNU_O_N_Y = "15-korunu-o-n-y";
     /** 《コルヌコラムヌカラ》 */ CardId.KORUNU_O_S_A = "15-korunu-o-s-a";
+    /** 《大跳ね》 */ CardId.HAGANE_O_N_A = "08-hagane-o-n-a";
+    /** 《土砂雪崩》 */ CardId.HAGANE_O_N_B = "08-hagane-o-n-b";
+    /** 《大旋空ストリーム》 */ CardId.HAGANE_O_S_A = "08-hagane-o-s-a";
+    /** 《大旋空エクストリーム》 */ CardId.HAGANE_O_S_B = "08-hagane-o-s-b";
 })(CardId = exports.CardId || (exports.CardId = {}));
 /** 偽証カードのIDリスト */
 exports.LIE_CARD_IDS = [

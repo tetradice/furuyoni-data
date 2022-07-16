@@ -156,6 +156,12 @@ export function getMegamiKeys(
       cardSet !== "korunu-challenge-heroic"
     )
       continue;
+    if (
+      megami === "hagane-original" &&
+      cardSet !== "hagane-challenge" &&
+      cardSet !== "hagane-challenge-heroic"
+    )
+      continue;
 
     // 物語セット・はじまりの決闘用のメガミは対応する物語セットでなければスキップ
     if (megami === "yurina-story-0") continue;
@@ -275,6 +281,20 @@ export function getMegamiKeys(
 
       if (mode === GetMegamiKeyMode.CardList) {
         if (isKorunu && megami !== "korunu-original") continue;
+      }
+    }
+
+    if (
+      cardSet === "hagane-challenge" ||
+      cardSet === "hagane-challenge-heroic"
+    ) {
+      let isHagane = megami === "hagane" || megamiData.base === "hagane";
+      if (mode === GetMegamiKeyMode.MegamiSelecting) {
+        if (isHagane) continue;
+      }
+
+      if (mode === GetMegamiKeyMode.CardList) {
+        if (isHagane && megami !== "hagane-original") continue;
       }
     }
 

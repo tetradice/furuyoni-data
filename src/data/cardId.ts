@@ -540,6 +540,12 @@ export namespace CardId {
   /** 《霧氷》 */ export const KORUNU_O_N_Y: TCardId = "15-korunu-o-n-y";
   /** 《コルヌコラムヌカラ》 */ export const KORUNU_O_S_A: TCardId =
     "15-korunu-o-s-a";
+  /** 《大跳ね》 */ export const HAGANE_O_N_A: TCardId = "08-hagane-o-n-a";
+  /** 《土砂雪崩》 */ export const HAGANE_O_N_B: TCardId = "08-hagane-o-n-b";
+  /** 《大旋空ストリーム》 */ export const HAGANE_O_S_A: TCardId =
+    "08-hagane-o-s-a";
+  /** 《大旋空エクストリーム》 */ export const HAGANE_O_S_B: TCardId =
+    "08-hagane-o-s-b";
 }
 
 export type TCardId =
@@ -1053,7 +1059,11 @@ export type TCardId =
   | "15-korunu-o-n-a"
   | "15-korunu-o-n-b"
   | "15-korunu-o-n-y"
-  | "15-korunu-o-s-a";
+  | "15-korunu-o-s-a"
+  | "08-hagane-o-n-a"
+  | "08-hagane-o-n-b"
+  | "08-hagane-o-s-a"
+  | "08-hagane-o-s-b";
 
 /** 偽証カードのID */
 export type TLieCardId =

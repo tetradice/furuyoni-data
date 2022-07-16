@@ -1014,6 +1014,21 @@ const MEGAMI_DATA_BASE = {
         anotherID: "C7",
         tarotNo: "15",
     },
+    "hagane-original": {
+        name: "ハガネ",
+        nameZh: "破钟",
+        nameZhG1: "破钟",
+        nameKo: "하가네",
+        nameEn: "Hagane",
+        symbol: "鎚",
+        symbolZh: "锤",
+        symbolZhG1: "锤",
+        symbolKo: "망치",
+        symbolEn: "Hammer",
+        base: "hagane",
+        anotherID: "C8",
+        tarotNo: "08",
+    },
 };
 exports.MEGAMI_DATA = MEGAMI_DATA_BASE;
 //# sourceMappingURL=megami.js.map
