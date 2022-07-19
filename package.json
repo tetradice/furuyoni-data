@@ -1,6 +1,6 @@
 {
   "name": "furuyoni-data",
-  "version": "3.12.0",
+  "version": "3.12.1",
   "files": [
     "README.md",
     "dist/*",
@@ -13,7 +13,7 @@
   "license": "MIT",
   "devDependencies": {
     "rimraf": "^3.0.2",
-    "typescript": "^4.6.3"
+    "typescript": "~4.6"
   },
   "scripts": {
     "typecheck": "tsc --noEmit",
