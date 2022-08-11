@@ -84,6 +84,16 @@ exports.CARD_SET_DATA = {
         nameEn: "Shinmaku Season 7-2",
         listNameEn: "Shinmaku Season 7-2 (Expansion 7 release, from 2022/05/13)",
     },
+    "na-s8": {
+        name: "新幕 シーズン8 プレリリース",
+        listName: "新幕 シーズン8 プレリリース",
+        nameZh: "新幕 赛季7",
+        listNameZh: "新幕 赛季7 (2021/12/3～ 『六扩：失乐飞翔』之后)",
+        nameKo: "신막 시즌7",
+        listNameKo: "신막 시즌7 (2021/12/3～ 『제6확장：실락비상』이후)",
+        nameEn: "Shinmaku Season 7",
+        listNameEn: "Shinmaku Season 7 (Expansion 6 release, 2021/12/3-)",
+    },
     "story-0": {
         name: "物語0：神語りのはじまり",
         listName: "物語0：神語りのはじまり",
