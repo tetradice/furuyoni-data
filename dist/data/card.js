@@ -11214,6 +11214,16 @@ for (let key of (0, typedObjectKeys_js_1.typedObjectKeys)(exports.S7_2_UPDATED_C
         exports.CARD_DATA["na-s7-2"][key] = data;
     }
 }
+exports.CARD_DATA["na-s8"] = Object.assign({}, exports.CARD_DATA["na-s7-2"]);
+for (let key of (0, typedObjectKeys_js_1.typedObjectKeys)(exports.S8_UPDATED_CARD_DATA)) {
+    let data = exports.S8_UPDATED_CARD_DATA[key];
+    if (data === null || data === undefined) {
+        delete exports.CARD_DATA["na-s8"][key];
+    }
+    else {
+        exports.CARD_DATA["na-s8"][key] = data;
+    }
+}
 // 物語セットで使用するカード (シーズン5を基本とし、物語セットのカードを追加する)
 exports.CARD_DATA["story-0"] = Object.assign({}, exports.CARD_DATA["na-s5"]);
 for (let key of (0, typedObjectKeys_js_1.typedObjectKeys)(exports.STORY_CARD_DATA)) {
