@@ -103,6 +103,8 @@ export interface CardDataItem {
   growth?: number;
   /** 偽証 */
   lie?: boolean;
+  /** 投資券 */
+  investable?: boolean;
   text: string;
   textAdditional?: string;
   textZh: string;

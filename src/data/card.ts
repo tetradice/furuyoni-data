@@ -10410,6 +10410,7 @@ export const S8_UPDATED_CARD_DATA: Partial<{
     textZhG1: "",
     textKo: "",
     textEn: "",
+    investable: true,
   },
   "23-akina-o-n-2": {
     megami: "akina",
@@ -10427,6 +10428,7 @@ export const S8_UPDATED_CARD_DATA: Partial<{
     textZhG1: "",
     textKo: "",
     textEn: "",
+    investable: true,
   },
   "23-akina-o-n-3": {
     megami: "akina",
@@ -10530,6 +10532,7 @@ export const S8_UPDATED_CARD_DATA: Partial<{
     textZhG1: "",
     textKo: "",
     textEn: "",
+    investable: true,
   },
   "23-akina-o-s-2": {
     megami: "akina",
@@ -10548,6 +10551,7 @@ export const S8_UPDATED_CARD_DATA: Partial<{
     textZhG1: "",
     textKo: "",
     textEn: "",
+    investable: true,
   },
   "23-akina-o-s-3": {
     megami: "akina",
