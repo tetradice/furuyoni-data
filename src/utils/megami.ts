@@ -162,6 +162,12 @@ export function getMegamiKeys(
       cardSet !== "hagane-challenge-heroic"
     )
       continue;
+    if (
+      megami === "yukihi-original" &&
+      cardSet !== "yukihi-challenge" &&
+      cardSet !== "yukihi-challenge-heroic"
+    )
+      continue;
 
     // 物語セット・はじまりの決闘用のメガミは対応する物語セットでなければスキップ
     if (megami === "yurina-story-0") continue;
@@ -295,6 +301,20 @@ export function getMegamiKeys(
 
       if (mode === GetMegamiKeyMode.CardList) {
         if (isHagane && megami !== "hagane-original") continue;
+      }
+    }
+
+    if (
+      cardSet === "yukihi-challenge" ||
+      cardSet === "yukihi-challenge-heroic"
+    ) {
+      let isYukihi = megami === "yukihi" || megamiData.base === "yukihi";
+      if (mode === GetMegamiKeyMode.MegamiSelecting) {
+        if (isYukihi) continue;
+      }
+
+      if (mode === GetMegamiKeyMode.CardList) {
+        if (isYukihi && megami !== "yukihi-original") continue;
       }
     }
 

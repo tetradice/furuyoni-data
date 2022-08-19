@@ -474,6 +474,9 @@ var CardId;
     /** 《土砂雪崩》 */ CardId.HAGANE_O_N_B = "08-hagane-o-n-b";
     /** 《大旋空ストリーム》 */ CardId.HAGANE_O_S_A = "08-hagane-o-s-a";
     /** 《大旋空エクストリーム》 */ CardId.HAGANE_O_S_B = "08-hagane-o-s-b";
+    /** 《こころがさね》 */ CardId.YUKIHI_O_N_A = "08-yukihi-o-n-a";
+    /** 《ゆきのいろ》 */ CardId.YUKIHI_O_S_A = "08-yukihi-o-s-a";
+    /** 《滅灯淀路》 */ CardId.YUKIHI_O_S_B = "08-yukihi-o-s-b";
 })(CardId = exports.CardId || (exports.CardId = {}));
 /** 偽証カードのIDリスト */
 exports.LIE_CARD_IDS = [

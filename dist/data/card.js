@@ -10947,6 +10947,65 @@ exports.STORY_CARD_DATA = {
         textEn: "",
         original: true,
     },
+    "08-yukihi-o-n-a": {
+        megami: "yukihi-original",
+        name: "こころがさね",
+        nameEn: "",
+        nameZh: "",
+        nameZhG1: "",
+        nameKo: "",
+        ruby: "",
+        rubyEn: "",
+        baseType: "normal",
+        type: "action",
+        subType: "reaction",
+        text: "あなたは集中力を1得る。傘の開閉を行ってもよい。",
+        textZh: "",
+        textZhG1: "",
+        textKo: "",
+        textEn: "",
+        original: true,
+    },
+    "08-yukihi-o-s-a": {
+        megami: "yukihi-original",
+        name: "ゆきのいろ",
+        nameEn: "",
+        nameZh: "",
+        nameZhG1: "",
+        nameKo: "",
+        ruby: "",
+        rubyEn: "",
+        baseType: "special",
+        type: "attack",
+        range: "4-6",
+        damage: "2/1",
+        cost: "2",
+        text: "（ゲーム開始時はこちらが表向きであり、「ゆきのいろ」が使用済と扱う）\n【常時】このカードはあなたの傘が閉じている場合のみ使用できる。\n【使用済】あなたが傘の開閉を行った時、基本動作を1回行ってもよい。",
+        textZh: "",
+        textZhG1: "",
+        textKo: "",
+        textEn: "",
+        original: true,
+    },
+    "08-yukihi-o-s-b": {
+        megami: "yukihi-original",
+        name: "滅灯淀路",
+        nameEn: "",
+        nameZh: "",
+        nameZhG1: "",
+        nameKo: "",
+        ruby: "ほろびのよどみち",
+        rubyEn: "",
+        baseType: "special",
+        type: "action",
+        cost: "0",
+        text: "終端\n相手のライフに1ダメージを与え、相手は畏縮する。\n【常時】このカードはあなたの傘が開いている場合のみ使用できる。\n【使用済】あなたは開始フェイズに集中力を得られない。",
+        textZh: "",
+        textZhG1: "",
+        textKo: "",
+        textEn: "",
+        original: true,
+    },
 };
 // カード情報を格納
 exports.CARD_DATA["na-s2"] = exports.S2_BASE_CARD_DATA;
@@ -11061,7 +11120,7 @@ for (let key of (0, typedObjectKeys_js_1.typedObjectKeys)(exports.STORY_CARD_DAT
         exports.CARD_DATA["hajimari"][key] = data;
     }
 }
-// メガミへの挑戦で使用するカード（シーズン7ベース）
+// メガミへの挑戦で使用するカード（シーズン7-2ベース）
 for (let cardSet of [
     "oboro-challenge",
     "oboro-challenge-heroic",
@@ -11077,8 +11136,10 @@ for (let cardSet of [
     "korunu-challenge-heroic",
     "hagane-challenge",
     "hagane-challenge-heroic",
+    "yukihi-challenge",
+    "yukihi-challenge-heroic",
 ]) {
-    exports.CARD_DATA[cardSet] = Object.assign({}, exports.CARD_DATA["na-s7"]);
+    exports.CARD_DATA[cardSet] = Object.assign({}, exports.CARD_DATA["na-s7-2"]);
     for (let key of (0, typedObjectKeys_js_1.typedObjectKeys)(exports.STORY_CARD_DATA)) {
         let data = exports.STORY_CARD_DATA[key];
         if (data === null || data === undefined) {
