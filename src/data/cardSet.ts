@@ -365,6 +365,26 @@ export const CARD_SET_DATA: { readonly [key in CardSet]: CardSetDataItem } = {
     nameEn: "",
     listNameEn: "",
   },
+  "yukihi-challenge": {
+    name: "ユキヒへの挑戦",
+    listName: "メガミへの挑戦　第9回：ユキヒへの挑戦",
+    nameZh: "",
+    listNameZh: "",
+    nameKo: "",
+    listNameKo: "",
+    nameEn: "",
+    listNameEn: "",
+  },
+  "yukihi-challenge-heroic": {
+    name: "ユキヒへの挑戦（英雄戦）",
+    listName: "メガミへの挑戦　第9回：ユキヒへの挑戦（英雄戦）",
+    nameZh: "",
+    listNameZh: "",
+    nameKo: "",
+    listNameKo: "",
+    nameEn: "",
+    listNameEn: "",
+  },
 };
 
 /** 全カードセット一覧 */

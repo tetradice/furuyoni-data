@@ -953,6 +953,21 @@ declare const MEGAMI_DATA_BASE: {
         readonly anotherID: "C8";
         readonly tarotNo: "08";
     };
+    readonly "yukihi-original": {
+        readonly name: "ユキヒ";
+        readonly nameZh: "雪灯";
+        readonly nameZhG1: "雪灯";
+        readonly nameKo: "유키히";
+        readonly nameEn: "Yukihi";
+        readonly symbol: "傘/簪";
+        readonly symbolZh: "伞/簪";
+        readonly symbolZhG1: "伞/簪";
+        readonly symbolKo: "우산/비녀";
+        readonly symbolEn: "Umbrella/Hairpin";
+        readonly base: "yukihi";
+        readonly anotherID: "C9";
+        readonly tarotNo: "06";
+    };
 };
 export declare type Megami = keyof typeof MEGAMI_DATA_BASE;
 export declare const MEGAMI_DATA: {

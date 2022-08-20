@@ -558,6 +558,10 @@ export namespace CardId {
     "08-hagane-o-s-a";
   /** 《大旋空エクストリーム》 */ export const HAGANE_O_S_B: TCardId =
     "08-hagane-o-s-b";
+  /** 《こころがさね》 */ export const YUKIHI_O_N_A: TCardId =
+    "08-yukihi-o-n-a";
+  /** 《ゆきのいろ》 */ export const YUKIHI_O_S_A: TCardId = "08-yukihi-o-s-a";
+  /** 《滅灯淀路》 */ export const YUKIHI_O_S_B: TCardId = "08-yukihi-o-s-b";
 }
 
 export type TCardId =
@@ -1086,7 +1090,10 @@ export type TCardId =
   | "08-hagane-o-n-a"
   | "08-hagane-o-n-b"
   | "08-hagane-o-s-a"
-  | "08-hagane-o-s-b";
+  | "08-hagane-o-s-b"
+  | "08-yukihi-o-n-a"
+  | "08-yukihi-o-s-a"
+  | "08-yukihi-o-s-b";
 
 /** 偽証カードのID */
 export type TLieCardId =

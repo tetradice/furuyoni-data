@@ -65,6 +65,8 @@ export function isMegamiChallengeSet(
     cardSet === "korunu-challenge" ||
     cardSet === "korunu-challenge-heroic" ||
     cardSet === "hagane-challenge" ||
-    cardSet === "hagane-challenge-heroic"
+    cardSet === "hagane-challenge-heroic" ||
+    cardSet === "yukihi-challenge" ||
+    cardSet === "yukihi-challenge-heroic"
   );
 }

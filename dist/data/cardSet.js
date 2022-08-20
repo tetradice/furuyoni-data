@@ -354,6 +354,26 @@ exports.CARD_SET_DATA = {
         nameEn: "",
         listNameEn: "",
     },
+    "yukihi-challenge": {
+        name: "ユキヒへの挑戦",
+        listName: "メガミへの挑戦　第9回：ユキヒへの挑戦",
+        nameZh: "",
+        listNameZh: "",
+        nameKo: "",
+        listNameKo: "",
+        nameEn: "",
+        listNameEn: "",
+    },
+    "yukihi-challenge-heroic": {
+        name: "ユキヒへの挑戦（英雄戦）",
+        listName: "メガミへの挑戦　第9回：ユキヒへの挑戦（英雄戦）",
+        nameZh: "",
+        listNameZh: "",
+        nameKo: "",
+        listNameKo: "",
+        nameEn: "",
+        listNameEn: "",
+    },
 };
 /** 全カードセット一覧 */
 exports.CARD_SETS = (0, typedObjectKeys_js_1.typedObjectKeys)(exports.CARD_SET_DATA);
