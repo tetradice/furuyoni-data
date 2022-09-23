@@ -418,17 +418,21 @@ export namespace CardId {
   /** 《彼女にとっての自我と決意》 */ export const YATSUHA_AA1_S_4: TCardId =
     "16-yatsuha-AA1-s-4";
 
-  /** 《通常札1》 */ export const AKINA_O_N_1: TCardId = "23-akina-o-n-1";
-  /** 《通常札2》 */ export const AKINA_O_N_2: TCardId = "23-akina-o-n-2";
-  /** 《通常札3》 */ export const AKINA_O_N_3: TCardId = "23-akina-o-n-3";
-  /** 《通常札4》 */ export const AKINA_O_N_4: TCardId = "23-akina-o-n-4";
-  /** 《通常札5》 */ export const AKINA_O_N_5: TCardId = "23-akina-o-n-5";
-  /** 《通常札6》 */ export const AKINA_O_N_6: TCardId = "23-akina-o-n-6";
-  /** 《通常札7》 */ export const AKINA_O_N_7: TCardId = "23-akina-o-n-7";
-  /** 《切札1》 */ export const AKINA_O_S_1: TCardId = "23-akina-o-s-1";
-  /** 《切札2》 */ export const AKINA_O_S_2: TCardId = "23-akina-o-s-2";
-  /** 《切札3》 */ export const AKINA_O_S_3: TCardId = "23-akina-o-s-3";
-  /** 《切札4》 */ export const AKINA_O_S_4: TCardId = "23-akina-o-s-4";
+  /** 《算盤玉》 */ export const AKINA_O_N_1: TCardId = "23-akina-o-n-1";
+  /** 《恫喝》 */ export const AKINA_O_N_2: TCardId = "23-akina-o-n-2";
+  /** 《交易》 */ export const AKINA_O_N_3: TCardId = "23-akina-o-n-3";
+  /** 《投機》 */ export const AKINA_O_N_4: TCardId = "23-akina-o-n-4";
+  /** 《算法》 */ export const AKINA_O_N_5: TCardId = "23-akina-o-n-5";
+  /** 《盤狂わせ》 */ export const AKINA_O_N_6: TCardId = "23-akina-o-n-6";
+  /** 《直接金融》 */ export const AKINA_O_N_7: TCardId = "23-akina-o-n-7";
+  /** 《開方冥式切取法》 */ export const AKINA_O_S_1: TCardId =
+    "23-akina-o-s-1";
+  /** 《大衍算顆手打表》 */ export const AKINA_O_S_2: TCardId =
+    "23-akina-o-s-2";
+  /** 《衰垜逐肘守料術》 */ export const AKINA_O_S_3: TCardId =
+    "23-akina-o-s-3";
+  /** 《源上安岐那の御明算》 */ export const AKINA_O_S_4: TCardId =
+    "23-akina-o-s-4";
 
   // 物語セット
   /** 《威風》 */ export const STORY_00_A_1 = "story-00-A-1";
