@@ -627,6 +627,20 @@ declare const MEGAMI_DATA_BASE: {
         readonly notExistCardSets: CardSet[];
         readonly tarotNo: "22";
     };
+    readonly akina: {
+        readonly name: "アキナ";
+        readonly nameZh: "";
+        readonly nameZhG1: "";
+        readonly nameKo: "";
+        readonly nameEn: "";
+        readonly symbol: "算盤";
+        readonly symbolZh: "";
+        readonly symbolZhG1: "";
+        readonly symbolKo: "";
+        readonly symbolEn: "";
+        readonly notExistCardSets: CardSet[];
+        readonly tarotNo: "23";
+    };
     readonly "yurina-story-0": {
         readonly name: "天音揺波";
         readonly nameZh: "天音摇波";
@@ -938,6 +952,21 @@ declare const MEGAMI_DATA_BASE: {
         readonly base: "hagane";
         readonly anotherID: "C8";
         readonly tarotNo: "08";
+    };
+    readonly "yukihi-original": {
+        readonly name: "ユキヒ";
+        readonly nameZh: "雪灯";
+        readonly nameZhG1: "雪灯";
+        readonly nameKo: "유키히";
+        readonly nameEn: "Yukihi";
+        readonly symbol: "傘/簪";
+        readonly symbolZh: "伞/簪";
+        readonly symbolZhG1: "伞/簪";
+        readonly symbolKo: "우산/비녀";
+        readonly symbolEn: "Umbrella/Hairpin";
+        readonly base: "yukihi";
+        readonly anotherID: "C9";
+        readonly tarotNo: "06";
     };
 };
 export declare type Megami = keyof typeof MEGAMI_DATA_BASE;

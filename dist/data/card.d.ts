@@ -32,6 +32,9 @@ export declare const S7_UPDATED_CARD_DATA: Partial<{
 export declare const S7_2_UPDATED_CARD_DATA: Partial<{
     [id in TCardId]: CardDataItem;
 }>;
+export declare const S8_UPDATED_CARD_DATA: Partial<{
+    [id in TCardId]: CardDataItem;
+}>;
 export declare const STORY_CARD_DATA: Partial<{
     [id in TCardId]: CardDataItem;
 }>;

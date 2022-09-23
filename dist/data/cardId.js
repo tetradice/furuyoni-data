@@ -366,6 +366,17 @@ var CardId;
     /** 《色づく世界》 */ CardId.YATSUHA_AA1_N_7_EX1 = "16-yatsuha-AA1-n-7-ex1";
     /** 《彼女にとっての桜降る代》 */ CardId.YATSUHA_AA1_N_7_EX2 = "16-yatsuha-AA1-n-7-ex2";
     /** 《彼女にとっての自我と決意》 */ CardId.YATSUHA_AA1_S_4 = "16-yatsuha-AA1-s-4";
+    /** 《算盤玉》 */ CardId.AKINA_O_N_1 = "23-akina-o-n-1";
+    /** 《恫喝》 */ CardId.AKINA_O_N_2 = "23-akina-o-n-2";
+    /** 《交易》 */ CardId.AKINA_O_N_3 = "23-akina-o-n-3";
+    /** 《投機》 */ CardId.AKINA_O_N_4 = "23-akina-o-n-4";
+    /** 《算法》 */ CardId.AKINA_O_N_5 = "23-akina-o-n-5";
+    /** 《盤狂わせ》 */ CardId.AKINA_O_N_6 = "23-akina-o-n-6";
+    /** 《直接金融》 */ CardId.AKINA_O_N_7 = "23-akina-o-n-7";
+    /** 《開方冥式切取法》 */ CardId.AKINA_O_S_1 = "23-akina-o-s-1";
+    /** 《大衍算顆手打表》 */ CardId.AKINA_O_S_2 = "23-akina-o-s-2";
+    /** 《衰垜逐肘守料術》 */ CardId.AKINA_O_S_3 = "23-akina-o-s-3";
+    /** 《源上安岐那の御明算》 */ CardId.AKINA_O_S_4 = "23-akina-o-s-4";
     // 物語セット
     /** 《威風》 */ CardId.STORY_00_A_1 = "story-00-A-1";
     /** 《執着》 */ CardId.STORY_00_A_2 = "story-00-A-2";
@@ -474,6 +485,9 @@ var CardId;
     /** 《土砂雪崩》 */ CardId.HAGANE_O_N_B = "08-hagane-o-n-b";
     /** 《大旋空ストリーム》 */ CardId.HAGANE_O_S_A = "08-hagane-o-s-a";
     /** 《大旋空エクストリーム》 */ CardId.HAGANE_O_S_B = "08-hagane-o-s-b";
+    /** 《こころがさね》 */ CardId.YUKIHI_O_N_A = "08-yukihi-o-n-a";
+    /** 《ゆきのいろ》 */ CardId.YUKIHI_O_S_A = "08-yukihi-o-s-a";
+    /** 《滅灯淀路》 */ CardId.YUKIHI_O_S_B = "08-yukihi-o-s-b";
 })(CardId = exports.CardId || (exports.CardId = {}));
 /** 偽証カードのIDリスト */
 exports.LIE_CARD_IDS = [

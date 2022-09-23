@@ -418,6 +418,22 @@ export namespace CardId {
   /** 《彼女にとっての自我と決意》 */ export const YATSUHA_AA1_S_4: TCardId =
     "16-yatsuha-AA1-s-4";
 
+  /** 《算盤玉》 */ export const AKINA_O_N_1: TCardId = "23-akina-o-n-1";
+  /** 《恫喝》 */ export const AKINA_O_N_2: TCardId = "23-akina-o-n-2";
+  /** 《交易》 */ export const AKINA_O_N_3: TCardId = "23-akina-o-n-3";
+  /** 《投機》 */ export const AKINA_O_N_4: TCardId = "23-akina-o-n-4";
+  /** 《算法》 */ export const AKINA_O_N_5: TCardId = "23-akina-o-n-5";
+  /** 《盤狂わせ》 */ export const AKINA_O_N_6: TCardId = "23-akina-o-n-6";
+  /** 《直接金融》 */ export const AKINA_O_N_7: TCardId = "23-akina-o-n-7";
+  /** 《開方冥式切取法》 */ export const AKINA_O_S_1: TCardId =
+    "23-akina-o-s-1";
+  /** 《大衍算顆手打表》 */ export const AKINA_O_S_2: TCardId =
+    "23-akina-o-s-2";
+  /** 《衰垜逐肘守料術》 */ export const AKINA_O_S_3: TCardId =
+    "23-akina-o-s-3";
+  /** 《源上安岐那の御明算》 */ export const AKINA_O_S_4: TCardId =
+    "23-akina-o-s-4";
+
   // 物語セット
   /** 《威風》 */ export const STORY_00_A_1 = "story-00-A-1";
   /** 《執着》 */ export const STORY_00_A_2 = "story-00-A-2";
@@ -546,6 +562,10 @@ export namespace CardId {
     "08-hagane-o-s-a";
   /** 《大旋空エクストリーム》 */ export const HAGANE_O_S_B: TCardId =
     "08-hagane-o-s-b";
+  /** 《こころがさね》 */ export const YUKIHI_O_N_A: TCardId =
+    "08-yukihi-o-n-a";
+  /** 《ゆきのいろ》 */ export const YUKIHI_O_S_A: TCardId = "08-yukihi-o-s-a";
+  /** 《滅灯淀路》 */ export const YUKIHI_O_S_B: TCardId = "08-yukihi-o-s-b";
 }
 
 export type TCardId =
@@ -955,6 +975,17 @@ export type TCardId =
   | "16-yatsuha-AA1-n-7-ex1"
   | "16-yatsuha-AA1-n-7-ex2"
   | "16-yatsuha-AA1-s-4"
+  | "23-akina-o-n-1"
+  | "23-akina-o-n-2"
+  | "23-akina-o-n-3"
+  | "23-akina-o-n-4"
+  | "23-akina-o-n-5"
+  | "23-akina-o-n-6"
+  | "23-akina-o-n-7"
+  | "23-akina-o-s-1"
+  | "23-akina-o-s-2"
+  | "23-akina-o-s-3"
+  | "23-akina-o-s-4"
 
   // 物語セット
   | "story-00-A-1"
@@ -1063,7 +1094,10 @@ export type TCardId =
   | "08-hagane-o-n-a"
   | "08-hagane-o-n-b"
   | "08-hagane-o-s-a"
-  | "08-hagane-o-s-b";
+  | "08-hagane-o-s-b"
+  | "08-yukihi-o-n-a"
+  | "08-yukihi-o-s-a"
+  | "08-yukihi-o-s-b";
 
 /** 偽証カードのID */
 export type TLieCardId =

@@ -12,7 +12,8 @@ export type StandardCardSet =
   | "na-s6"
   | "na-s6-2"
   | "na-s7"
-  | "na-s7-2";
+  | "na-s7-2"
+  | "na-s8";
 
 /** 物語カードセット（はじまりの決闘、メガミへの挑戦も含む） */
 export type StoryCardSet =
@@ -41,7 +42,9 @@ export type StoryCardSet =
   | "korunu-challenge"
   | "korunu-challenge-heroic"
   | "hagane-challenge"
-  | "hagane-challenge-heroic";
+  | "hagane-challenge-heroic"
+  | "yukihi-challenge"
+  | "yukihi-challenge-heroic";
 
 /** カードタイプ */
 export type CardType = "attack" | "action" | "enhance" | "variable";
@@ -102,6 +105,8 @@ export interface CardDataItem {
   growth?: number;
   /** 偽証 */
   lie?: boolean;
+  /** 投資券 */
+  investable?: boolean;
   text: string;
   textAdditional?: string;
   textZh: string;
