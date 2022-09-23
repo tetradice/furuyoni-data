@@ -10600,6 +10600,7 @@ export const S8_UPDATED_CARD_DATA: Partial<{
     textZhG1: "",
     textKo: "",
     textEn: "",
+    removable: true,
     investable: true,
   },
 };

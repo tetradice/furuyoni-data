@@ -9126,6 +9126,7 @@ exports.S8_UPDATED_CARD_DATA = {
         textZhG1: "",
         textKo: "",
         textEn: "",
+        removable: true,
         investable: true,
     },
 };
