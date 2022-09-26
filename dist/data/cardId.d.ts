@@ -354,7 +354,7 @@ export declare namespace CardId {
     /** 《オリレテラレル》 */ const RENRI_O_S_3 = "22-renri-o-s-3";
     /** 《夜山恋離のなれの果て》 */ const RENRI_O_S_4 = "22-renri-o-s-4";
     /** 《刻まれし衣》 */ const RENRI_O_S_4_EX_1 = "22-renri-o-s-4-ex-1";
-    /** 《御劔桐子の巫女神楽》 */ const KIRIKO_O_S_1 = "22-kiriko-o-s-1";
+    /** 《御剱桐子の巫女神楽》 */ const KIRIKO_O_S_1 = "22-kiriko-o-s-1";
     /** 《問答》 */ const YURINA_A2_N_3: TCardId;
     /** 《阿吽》 */ const YURINA_A2_N_7: TCardId;
     /** 《神座渡》 */ const YURINA_A2_S_1: TCardId;

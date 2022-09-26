@@ -8453,7 +8453,7 @@ exports.S7_UPDATED_CARD_DATA = {
         extraFrom: "22-renri-o-s-4",
         type: "variable",
         cost: "X",
-        text: "【常時】このカードはあなたの「夜山恋離のなれの果て」の上の桜花結晶の個数に応じて、以下のカードの複製となる。\n3以上…「久遠ノ花」\n2…「完全論破」\n1…「望我」\n0…「御劔桐子の巫女神楽」",
+        text: "【常時】このカードはあなたの「夜山恋離のなれの果て」の上の桜花結晶の個数に応じて、以下のカードの複製となる。\n3以上…「久遠ノ花」\n2…「完全論破」\n1…「望我」\n0…「御剱桐子の巫女神楽」",
         textAdditional: "（各カードの効果については、カードリストよりトコヨ、シンラ、終章ウツロ、レンリの該当カードを参照）",
         textZh: "【常时】此牌依照你的『夜山恋离的惯见之末』之上的樱花结晶的个数，成为以下对应卡牌的复制。\n3或以上…『久远之花』\n2…『完美驳倒』\n1…『夙愿』\n1…『御剑桐子的巫女神乐』",
         textZhG1: "【常时】根据你的『夜山恋离的终幕』上的樱花结晶的数目，此牌成为以下牌的复制。\n大于等于3……『久远之花』\n2……『完全论破』\n1……『夙愿』\n0……『御剑桐子的巫女神乐』",
@@ -8466,7 +8466,7 @@ exports.S7_UPDATED_CARD_DATA = {
     },
     "22-kiriko-o-s-1": {
         megami: "renri",
-        name: "御劔桐子の巫女神楽",
+        name: "御剱桐子の巫女神楽",
         nameEn: "Kiriko's Sacred Dance",
         nameZh: "御剑桐子的巫女神乐",
         nameZhG1: "御剑桐子的巫女神乐",
@@ -11384,7 +11384,7 @@ for (let cardSet of (0, typedObjectKeys_js_1.typedObjectKeys)(exports.CARD_DATA)
         if (cardId === cardId_js_1.CardId.KIRIKO_O_S_1 ||
             cardId === cardId_js_1.CardId.HATSUMI_A1_D_1 ||
             cardId === cardId_js_1.CardId.HATSUMI_A1_D_2) {
-            // 《御劔桐子の巫女神楽》《潜水前進》《潜水後退》は特殊（カード一覧で最後に並べるため）
+            // 《御剱桐子の巫女神楽》《潜水前進》《潜水後退》は特殊（カード一覧で最後に並べるため）
         }
         else if (cardId === cardId_js_1.CardId.YATSUHA_AA1_N_7) {
             // 《見知らぬ世界》

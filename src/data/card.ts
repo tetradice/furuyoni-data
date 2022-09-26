@@ -9817,7 +9817,7 @@ export const S7_UPDATED_CARD_DATA: Partial<{ [id in TCardId]: CardDataItem }> =
       extraFrom: "22-renri-o-s-4",
       type: "variable",
       cost: "X",
-      text: "【常時】このカードはあなたの「夜山恋離のなれの果て」の上の桜花結晶の個数に応じて、以下のカードの複製となる。\n3以上…「久遠ノ花」\n2…「完全論破」\n1…「望我」\n0…「御劔桐子の巫女神楽」",
+      text: "【常時】このカードはあなたの「夜山恋離のなれの果て」の上の桜花結晶の個数に応じて、以下のカードの複製となる。\n3以上…「久遠ノ花」\n2…「完全論破」\n1…「望我」\n0…「御剱桐子の巫女神楽」",
       textAdditional:
         "（各カードの効果については、カードリストよりトコヨ、シンラ、終章ウツロ、レンリの該当カードを参照）",
       textZh:
@@ -9838,7 +9838,7 @@ export const S7_UPDATED_CARD_DATA: Partial<{ [id in TCardId]: CardDataItem }> =
     },
     "22-kiriko-o-s-1": {
       megami: "renri",
-      name: "御劔桐子の巫女神楽",
+      name: "御剱桐子の巫女神楽",
       nameEn: "Kiriko's Sacred Dance",
       nameZh: "御剑桐子的巫女神乐",
       nameZhG1: "御剑桐子的巫女神乐",
@@ -12996,7 +12996,7 @@ for (let cardSet of typedObjectKeys(CARD_DATA)) {
       cardId === CardId.HATSUMI_A1_D_1 ||
       cardId === CardId.HATSUMI_A1_D_2
     ) {
-      // 《御劔桐子の巫女神楽》《潜水前進》《潜水後退》は特殊（カード一覧で最後に並べるため）
+      // 《御剱桐子の巫女神楽》《潜水前進》《潜水後退》は特殊（カード一覧で最後に並べるため）
     } else if (cardId === CardId.YATSUHA_AA1_N_7) {
       // 《見知らぬ世界》
       card.sortKey = CardId.YATSUHA_O_N_7;

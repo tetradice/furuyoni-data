@@ -358,7 +358,7 @@ var CardId;
     /** 《オリレテラレル》 */ CardId.RENRI_O_S_3 = "22-renri-o-s-3";
     /** 《夜山恋離のなれの果て》 */ CardId.RENRI_O_S_4 = "22-renri-o-s-4";
     /** 《刻まれし衣》 */ CardId.RENRI_O_S_4_EX_1 = "22-renri-o-s-4-ex-1";
-    /** 《御劔桐子の巫女神楽》 */ CardId.KIRIKO_O_S_1 = "22-kiriko-o-s-1";
+    /** 《御剱桐子の巫女神楽》 */ CardId.KIRIKO_O_S_1 = "22-kiriko-o-s-1";
     /** 《問答》 */ CardId.YURINA_A2_N_3 = "01-yurina-A2-n-3";
     /** 《阿吽》 */ CardId.YURINA_A2_N_7 = "01-yurina-A2-n-7";
     /** 《神座渡》 */ CardId.YURINA_A2_S_1 = "01-yurina-A2-s-1";
