@@ -1,6 +1,7 @@
 import { Megami, MEGAMI_DATA } from "../data/index.js";
 import { CardSet } from "../typings/index.js";
 import { Language, ZhValiation } from "../typings/language.js";
+import { isMegamiChallengeSet } from "./cardSet.js";
 
 /** メガミの表示名を取得（象徴武器表示あり） */
 export function getMegamiDispNameWithSymbol(
@@ -319,9 +320,11 @@ export function getMegamiKeys(
     }
 
     // そのカードセットに存在するメガミなら追加
+    // 「メガミへの挑戦」の場合は、判定に使用するカードセットを置き換える
+    const usingCardSet = isMegamiChallengeSet(cardSet) ? "na-s7-2" : cardSet;
     if (
       megamiData.notExistCardSets === undefined ||
-      megamiData.notExistCardSets.indexOf(cardSet) === -1
+      megamiData.notExistCardSets.indexOf(usingCardSet) === -1
     ) {
       keys.push(megami);
     }

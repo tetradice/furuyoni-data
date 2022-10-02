@@ -2,6 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.getMegamiKeys = exports.GetMegamiKeyMode = exports.isSymbolShownMegami = exports.getMegamiDispName = exports.getMegamiDispNameWithSymbol = void 0;
 const index_js_1 = require("../data/index.js");
+const cardSet_js_1 = require("./cardSet.js");
 /** メガミの表示名を取得（象徴武器表示あり） */
 function getMegamiDispNameWithSymbol(language, zhValiation, megami) {
     // 象徴武器表示なしメガミ
@@ -284,8 +285,10 @@ function getMegamiKeys(mode, cardSet) {
             }
         }
         // そのカードセットに存在するメガミなら追加
+        // 「メガミへの挑戦」の場合は、判定に使用するカードセットを置き換える
+        const usingCardSet = (0, cardSet_js_1.isMegamiChallengeSet)(cardSet) ? "na-s7-2" : cardSet;
         if (megamiData.notExistCardSets === undefined ||
-            megamiData.notExistCardSets.indexOf(cardSet) === -1) {
+            megamiData.notExistCardSets.indexOf(usingCardSet) === -1) {
             keys.push(megami);
         }
     }
