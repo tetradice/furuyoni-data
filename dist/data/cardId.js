@@ -377,6 +377,17 @@ var CardId;
     /** 《大衍算顆手打表》 */ CardId.AKINA_O_S_2 = "23-akina-o-s-2";
     /** 《衰垜逐肘守料術》 */ CardId.AKINA_O_S_3 = "23-akina-o-s-3";
     /** 《源上安岐那の御明算》 */ CardId.AKINA_O_S_4 = "23-akina-o-s-4";
+    /** 《鋸斬り》 */ CardId.SHISUI_O_N_1 = "24-shisui-o-n-1";
+    /** 《刻み刃》 */ CardId.SHISUI_O_N_2 = "24-shisui-o-n-2";
+    /** 《反乱撃》 */ CardId.SHISUI_O_N_3 = "24-shisui-o-n-3";
+    /** 《徹底抗戦》 */ CardId.SHISUI_O_N_4 = "24-shisui-o-n-4";
+    /** 《茨道》 */ CardId.SHISUI_O_N_5 = "24-shisui-o-n-5";
+    /** 《金屑纏い》 */ CardId.SHISUI_O_N_6 = "24-shisui-o-n-6";
+    /** 《黒き鎧》 */ CardId.SHISUI_O_N_7 = "24-shisui-o-n-7";
+    /** 《ハドマギリ》 */ CardId.SHISUI_O_S_1 = "24-shisui-o-s-1";
+    /** 《ウバラザキ》 */ CardId.SHISUI_O_S_2 = "24-shisui-o-s-2";
+    /** 《アブダグイ》 */ CardId.SHISUI_O_S_3 = "24-shisui-o-s-3";
+    /** 《桑畑志水の死に所》 */ CardId.SHISUI_O_S_4 = "24-shisui-o-s-4";
     // 物語セット
     /** 《威風》 */ CardId.STORY_00_A_1 = "story-00-A-1";
     /** 《執着》 */ CardId.STORY_00_A_2 = "story-00-A-2";

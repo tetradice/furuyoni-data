@@ -434,6 +434,19 @@ export namespace CardId {
   /** 《源上安岐那の御明算》 */ export const AKINA_O_S_4: TCardId =
     "23-akina-o-s-4";
 
+  /** 《鋸斬り》 */ export const SHISUI_O_N_1: TCardId = "24-shisui-o-n-1";
+  /** 《刻み刃》 */ export const SHISUI_O_N_2: TCardId = "24-shisui-o-n-2";
+  /** 《反乱撃》 */ export const SHISUI_O_N_3: TCardId = "24-shisui-o-n-3";
+  /** 《徹底抗戦》 */ export const SHISUI_O_N_4: TCardId = "24-shisui-o-n-4";
+  /** 《茨道》 */ export const SHISUI_O_N_5: TCardId = "24-shisui-o-n-5";
+  /** 《金屑纏い》 */ export const SHISUI_O_N_6: TCardId = "24-shisui-o-n-6";
+  /** 《黒き鎧》 */ export const SHISUI_O_N_7: TCardId = "24-shisui-o-n-7";
+  /** 《ハドマギリ》 */ export const SHISUI_O_S_1: TCardId = "24-shisui-o-s-1";
+  /** 《ウバラザキ》 */ export const SHISUI_O_S_2: TCardId = "24-shisui-o-s-2";
+  /** 《アブダグイ》 */ export const SHISUI_O_S_3: TCardId = "24-shisui-o-s-3";
+  /** 《桑畑志水の死に所》 */ export const SHISUI_O_S_4: TCardId =
+    "24-shisui-o-s-4";
+
   // 物語セット
   /** 《威風》 */ export const STORY_00_A_1 = "story-00-A-1";
   /** 《執着》 */ export const STORY_00_A_2 = "story-00-A-2";
@@ -1097,7 +1110,18 @@ export type TCardId =
   | "08-hagane-o-s-b"
   | "08-yukihi-o-n-a"
   | "08-yukihi-o-s-a"
-  | "08-yukihi-o-s-b";
+  | "08-yukihi-o-s-b"
+  | "24-shisui-o-n-1"
+  | "24-shisui-o-n-2"
+  | "24-shisui-o-n-3"
+  | "24-shisui-o-n-4"
+  | "24-shisui-o-n-5"
+  | "24-shisui-o-n-6"
+  | "24-shisui-o-n-7"
+  | "24-shisui-o-s-1"
+  | "24-shisui-o-s-2"
+  | "24-shisui-o-s-3"
+  | "24-shisui-o-s-4";
 
 /** 偽証カードのID */
 export type TLieCardId =
