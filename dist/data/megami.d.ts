@@ -629,28 +629,28 @@ declare const MEGAMI_DATA_BASE: {
     };
     readonly akina: {
         readonly name: "アキナ";
-        readonly nameZh: "";
+        readonly nameZh: "安歧那";
         readonly nameZhG1: "";
-        readonly nameKo: "";
+        readonly nameKo: "아키나";
         readonly nameEn: "";
         readonly symbol: "算盤";
-        readonly symbolZh: "";
+        readonly symbolZh: "算盘";
         readonly symbolZhG1: "";
-        readonly symbolKo: "";
+        readonly symbolKo: "주판";
         readonly symbolEn: "";
         readonly notExistCardSets: CardSet[];
         readonly tarotNo: "23";
     };
     readonly shisui: {
         readonly name: "シスイ";
-        readonly nameZh: "";
+        readonly nameZh: "志水";
         readonly nameZhG1: "";
-        readonly nameKo: "";
+        readonly nameKo: "시스이";
         readonly nameEn: "";
         readonly symbol: "鋸";
-        readonly symbolZh: "";
+        readonly symbolZh: "锯";
         readonly symbolZhG1: "";
-        readonly symbolKo: "";
+        readonly symbolKo: "톱";
         readonly symbolEn: "";
         readonly notExistCardSets: CardSet[];
         readonly tarotNo: "24";

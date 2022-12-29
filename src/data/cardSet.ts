@@ -99,12 +99,13 @@ export const CARD_SET_DATA: { readonly [key in CardSet]: CardSetDataItem } = {
     name: "新幕 シーズン8",
     listName: "新幕 シーズン8 (2022/11/11～ 『新劇拡張：神座桜縁起 前篇』以降)",
     nameZh: "新幕 赛季8",
-    listNameZh: "",
+    listNameZh: "新幕 赛季8（2022/11/11～『新剧扩展：神座樱缘起 前篇』之后）",
     nameKo: "신막 시즌8",
-    listNameKo: "",
+    listNameKo: "신막 시즌8 (2022/11/11～ 『제8확장：신좌앵연기 전편』이후)",
     nameEn: "Shinmaku Season 8",
     listNameEn: "",
   },
+
   "story-0": {
     name: "物語0：神語りのはじまり",
     listName: "物語0：神語りのはじまり",
