@@ -100,7 +100,7 @@ export namespace CardId {
 
   /** 《飛苦無》 */ export const CHIKAGE_O_N_1 = "09-chikage-o-n-1";
   /** 《毒針》 */ export const CHIKAGE_O_N_2 = "09-chikage-o-n-2";
-  /** 《首切り》 */ export const CHIKAGE_O_N_4 = "09-chikage-o-n-4";
+  /** 《暗器》 */ export const CHIKAGE_O_N_4: TCardId = "09-chikage-o-n-4";
   /** 《毒霧》 */ export const CHIKAGE_O_N_5 = "09-chikage-o-n-5";
   /** 《抜き足》 */ export const CHIKAGE_O_N_6 = "09-chikage-o-n-6";
   /** 《泥濘》 */ export const CHIKAGE_O_N_7 = "09-chikage-o-n-7";
@@ -579,6 +579,16 @@ export namespace CardId {
     "08-yukihi-o-n-a";
   /** 《ゆきのいろ》 */ export const YUKIHI_O_S_A: TCardId = "08-yukihi-o-s-a";
   /** 《滅灯淀路》 */ export const YUKIHI_O_S_B: TCardId = "08-yukihi-o-s-b";
+  /** 《欺瞞の霧》 */ export const RENRI_A1_N_2: TCardId = "22-renri-a1-n-2";
+  /** 《神授》 */ export const RENRI_A1_N_5: TCardId = "22-renri-a1-n-5";
+  /** 《偽りの武器》 */ export const RENRI_A1_N_5_EX1 =
+    "22-renri-a1-n-5-ex1" satisfies TCardId;
+  /** 《刃の本質》 */ export const RENRI_A1_N_5_EX2 =
+    "22-renri-a1-n-5-ex2" satisfies TCardId;
+  /** 《最初の桜鈴》 */ export const RENRI_A1_N_5_EX3 =
+    "22-renri-a1-n-5-ex3" satisfies TCardId;
+  /** 《ロルレロラルロ》 */ export const RENRI_A1_S_1: TCardId =
+    "22-renri-a1-s-1" satisfies TCardId;
 }
 
 export type TCardId =
@@ -1121,7 +1131,13 @@ export type TCardId =
   | "24-shisui-o-s-1"
   | "24-shisui-o-s-2"
   | "24-shisui-o-s-3"
-  | "24-shisui-o-s-4";
+  | "24-shisui-o-s-4"
+  | "22-renri-a1-n-2"
+  | "22-renri-a1-n-5"
+  | "22-renri-a1-n-5-ex1"
+  | "22-renri-a1-n-5-ex2"
+  | "22-renri-a1-n-5-ex3"
+  | "22-renri-a1-s-1";
 
 /** 偽証カードのID */
 export type TLieCardId =
@@ -1129,13 +1145,27 @@ export type TLieCardId =
   | "22-renri-o-n-2"
   | "22-renri-o-n-3"
   | "22-renri-o-n-5"
-  | "22-renri-o-n-6";
+  | "22-renri-o-n-6"
+  | "22-renri-a1-n-5-ex1"
+  | "22-renri-a1-n-5-ex2"
+  | "22-renri-a1-n-5-ex3";
 
-/** 偽証カードのIDリスト */
-export const LIE_CARD_IDS: TLieCardId[] = [
+/** 偽証カードのIDリスト（レンリオリジン） */
+export const LIE_CARD_IDS_ORIGIN: TLieCardId[] = [
   CardId.RENRI_O_N_1,
   CardId.RENRI_O_N_2,
   CardId.RENRI_O_N_3,
   CardId.RENRI_O_N_5,
+  CardId.RENRI_O_N_6,
+];
+
+/** 偽証カードのIDリスト（レンリA1） */
+export const LIE_CARD_IDS_A1: TLieCardId[] = [
+  CardId.RENRI_O_N_1,
+  CardId.RENRI_O_N_2,
+  CardId.RENRI_O_N_3,
+  CardId.RENRI_A1_N_5_EX1,
+  CardId.RENRI_A1_N_5_EX2,
+  CardId.RENRI_A1_N_5_EX3,
   CardId.RENRI_O_N_6,
 ];

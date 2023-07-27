@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.LIE_CARD_IDS = exports.CardId = void 0;
+exports.LIE_CARD_IDS_A1 = exports.LIE_CARD_IDS_ORIGIN = exports.CardId = void 0;
 var CardId;
 (function (CardId) {
     /** 《斬》 */ CardId.YURINA_O_N_1 = "01-yurina-o-n-1";
@@ -90,7 +90,7 @@ var CardId;
     /** 《大山脈リスペクト》 */ CardId.HAGANE_O_S_4 = "08-hagane-o-s-4";
     /** 《飛苦無》 */ CardId.CHIKAGE_O_N_1 = "09-chikage-o-n-1";
     /** 《毒針》 */ CardId.CHIKAGE_O_N_2 = "09-chikage-o-n-2";
-    /** 《首切り》 */ CardId.CHIKAGE_O_N_4 = "09-chikage-o-n-4";
+    /** 《暗器》 */ CardId.CHIKAGE_O_N_4 = "09-chikage-o-n-4";
     /** 《毒霧》 */ CardId.CHIKAGE_O_N_5 = "09-chikage-o-n-5";
     /** 《抜き足》 */ CardId.CHIKAGE_O_N_6 = "09-chikage-o-n-6";
     /** 《泥濘》 */ CardId.CHIKAGE_O_N_7 = "09-chikage-o-n-7";
@@ -499,13 +499,29 @@ var CardId;
     /** 《こころがさね》 */ CardId.YUKIHI_O_N_A = "08-yukihi-o-n-a";
     /** 《ゆきのいろ》 */ CardId.YUKIHI_O_S_A = "08-yukihi-o-s-a";
     /** 《滅灯淀路》 */ CardId.YUKIHI_O_S_B = "08-yukihi-o-s-b";
-})(CardId = exports.CardId || (exports.CardId = {}));
-/** 偽証カードのIDリスト */
-exports.LIE_CARD_IDS = [
+    /** 《欺瞞の霧》 */ CardId.RENRI_A1_N_2 = "22-renri-a1-n-2";
+    /** 《神授》 */ CardId.RENRI_A1_N_5 = "22-renri-a1-n-5";
+    /** 《偽りの武器》 */ CardId.RENRI_A1_N_5_EX1 = "22-renri-a1-n-5-ex1";
+    /** 《刃の本質》 */ CardId.RENRI_A1_N_5_EX2 = "22-renri-a1-n-5-ex2";
+    /** 《最初の桜鈴》 */ CardId.RENRI_A1_N_5_EX3 = "22-renri-a1-n-5-ex3";
+    /** 《ロルレロラルロ》 */ CardId.RENRI_A1_S_1 = "22-renri-a1-s-1";
+})(CardId || (exports.CardId = CardId = {}));
+/** 偽証カードのIDリスト（レンリオリジン） */
+exports.LIE_CARD_IDS_ORIGIN = [
     CardId.RENRI_O_N_1,
     CardId.RENRI_O_N_2,
     CardId.RENRI_O_N_3,
     CardId.RENRI_O_N_5,
+    CardId.RENRI_O_N_6,
+];
+/** 偽証カードのIDリスト（レンリA1） */
+exports.LIE_CARD_IDS_A1 = [
+    CardId.RENRI_O_N_1,
+    CardId.RENRI_O_N_2,
+    CardId.RENRI_O_N_3,
+    CardId.RENRI_A1_N_5_EX1,
+    CardId.RENRI_A1_N_5_EX2,
+    CardId.RENRI_A1_N_5_EX3,
     CardId.RENRI_O_N_6,
 ];
 //# sourceMappingURL=cardId.js.map
