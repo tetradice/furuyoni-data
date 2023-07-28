@@ -14,7 +14,7 @@ export interface CardSetDataItem {
 }
 
 /** カードセット情報 */
-export const CARD_SET_DATA: { readonly [key in CardSet]: CardSetDataItem } = {
+export const CARD_SET_DATA = {
   "na-s2": {
     name: "新幕 シーズン2",
     listName: "新幕 シーズン2 (2018/8/17～ 『第壱拡張：神語起譚』以降)",
@@ -105,7 +105,16 @@ export const CARD_SET_DATA: { readonly [key in CardSet]: CardSetDataItem } = {
     nameEn: "Shinmaku Season 8",
     listNameEn: "",
   },
-
+  "na-s8-2": {
+    name: "新幕 シーズン8-2",
+    listName: "新幕 シーズン8-2 (2023/7/10～)",
+    nameZh: "新幕 赛季8-2",
+    listNameZh: "新幕 赛季8-2（2023/7/10～）",
+    nameKo: "신막 시즌8-2",
+    listNameKo: "신막 시즌8-2 (2023/7/10～)",
+    nameEn: "Shinmaku Season 8-2",
+    listNameEn: "Shinmaku Season 8-2 (from 2023/7/10)",
+  },
   "story-0": {
     name: "物語0：神語りのはじまり",
     listName: "物語0：神語りのはじまり",
@@ -386,7 +395,7 @@ export const CARD_SET_DATA: { readonly [key in CardSet]: CardSetDataItem } = {
     nameEn: "",
     listNameEn: "",
   },
-};
+} as const satisfies { readonly [key in CardSet]: CardSetDataItem };
 
 /** 全カードセット一覧 */
 export const CARD_SETS: readonly CardSet[] = typedObjectKeys(CARD_SET_DATA);

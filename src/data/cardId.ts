@@ -447,6 +447,17 @@ export namespace CardId {
   /** 《桑畑志水の死に所》 */ export const SHISUI_O_S_4: TCardId =
     "24-shisui-o-s-4";
 
+  /** 《欺瞞の霧》 */ export const RENRI_A1_N_2: TCardId = "22-renri-a1-n-2";
+  /** 《神授》 */ export const RENRI_A1_N_5: TCardId = "22-renri-a1-n-5";
+  /** 《偽りの武器》 */ export const RENRI_A1_N_5_EX1 =
+    "22-renri-a1-n-5-ex1" satisfies TCardId;
+  /** 《刃の本質》 */ export const RENRI_A1_N_5_EX2 =
+    "22-renri-a1-n-5-ex2" satisfies TCardId;
+  /** 《最初の桜鈴》 */ export const RENRI_A1_N_5_EX3 =
+    "22-renri-a1-n-5-ex3" satisfies TCardId;
+  /** 《ロルレロラルロ》 */ export const RENRI_A1_S_1: TCardId =
+    "22-renri-a1-s-1" satisfies TCardId;
+
   // 物語セット
   /** 《威風》 */ export const STORY_00_A_1 = "story-00-A-1";
   /** 《執着》 */ export const STORY_00_A_2 = "story-00-A-2";
@@ -579,16 +590,6 @@ export namespace CardId {
     "08-yukihi-o-n-a";
   /** 《ゆきのいろ》 */ export const YUKIHI_O_S_A: TCardId = "08-yukihi-o-s-a";
   /** 《滅灯淀路》 */ export const YUKIHI_O_S_B: TCardId = "08-yukihi-o-s-b";
-  /** 《欺瞞の霧》 */ export const RENRI_A1_N_2: TCardId = "22-renri-a1-n-2";
-  /** 《神授》 */ export const RENRI_A1_N_5: TCardId = "22-renri-a1-n-5";
-  /** 《偽りの武器》 */ export const RENRI_A1_N_5_EX1 =
-    "22-renri-a1-n-5-ex1" satisfies TCardId;
-  /** 《刃の本質》 */ export const RENRI_A1_N_5_EX2 =
-    "22-renri-a1-n-5-ex2" satisfies TCardId;
-  /** 《最初の桜鈴》 */ export const RENRI_A1_N_5_EX3 =
-    "22-renri-a1-n-5-ex3" satisfies TCardId;
-  /** 《ロルレロラルロ》 */ export const RENRI_A1_S_1: TCardId =
-    "22-renri-a1-s-1" satisfies TCardId;
 }
 
 export type TCardId =

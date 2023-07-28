@@ -94,6 +94,16 @@ exports.CARD_SET_DATA = {
         nameEn: "Shinmaku Season 8",
         listNameEn: "",
     },
+    "na-s8-2": {
+        name: "新幕 シーズン8-2",
+        listName: "新幕 シーズン8-2 (2023/7/10～)",
+        nameZh: "新幕 赛季8-2",
+        listNameZh: "新幕 赛季8-2（2023/7/10～）",
+        nameKo: "신막 시즌8-2",
+        listNameKo: "신막 시즌8-2 (2023/7/10～)",
+        nameEn: "Shinmaku Season 8-2",
+        listNameEn: "Shinmaku Season 8-2 (from 2023/7/10)",
+    },
     "story-0": {
         name: "物語0：神語りのはじまり",
         listName: "物語0：神語りのはじまり",
