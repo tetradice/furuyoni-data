@@ -39,7 +39,7 @@ export declare const S8_2_UPDATED_CARD_DATA: {
     readonly "22-renri-a1-n-2": {
         readonly megami: "renri";
         readonly anotherID: "A1";
-        readonly replace: "";
+        readonly replace: "22-renri-o-n-2";
         readonly name: "欺瞞の霧";
         readonly nameEn: "";
         readonly nameZh: "";
@@ -58,7 +58,7 @@ export declare const S8_2_UPDATED_CARD_DATA: {
     readonly "22-renri-a1-n-5": {
         readonly megami: "renri";
         readonly anotherID: "A1";
-        readonly replace: "";
+        readonly replace: "22-renri-o-n-5";
         readonly name: "神授";
         readonly nameEn: "";
         readonly nameZh: "";
@@ -86,6 +86,7 @@ export declare const S8_2_UPDATED_CARD_DATA: {
         readonly ruby: "いつわりのぶき";
         readonly rubyEn: "";
         readonly baseType: "normal";
+        readonly extra: true;
         readonly type: "attack";
         readonly range: "2-4";
         readonly damage: "1/1";
@@ -94,6 +95,7 @@ export declare const S8_2_UPDATED_CARD_DATA: {
         readonly textZhG1: "";
         readonly textKo: "";
         readonly textEn: "";
+        readonly lie: true;
     };
     readonly "22-renri-a1-n-5-ex2": {
         readonly megami: "renri";
@@ -107,6 +109,7 @@ export declare const S8_2_UPDATED_CARD_DATA: {
         readonly ruby: "やいばのほんしつ";
         readonly rubyEn: "";
         readonly baseType: "normal";
+        readonly extra: true;
         readonly type: "attack";
         readonly range: "3-4";
         readonly damage: "3/1";
@@ -115,6 +118,7 @@ export declare const S8_2_UPDATED_CARD_DATA: {
         readonly textZhG1: "";
         readonly textKo: "";
         readonly textEn: "";
+        readonly lie: true;
     };
     readonly "22-renri-a1-n-5-ex3": {
         readonly megami: "renri";
@@ -128,17 +132,19 @@ export declare const S8_2_UPDATED_CARD_DATA: {
         readonly ruby: "さいしょのさくらすず";
         readonly rubyEn: "";
         readonly baseType: "normal";
+        readonly extra: true;
         readonly type: "action";
         readonly text: "偽証　回帰\n基本動作を1回行う。 このカードが反証されていないならば、さらにもう1回行う。\n光輝―ダストが5以下ならば伏せ札からカードを1枚選び、山札の一番下に置く。\n【常時】このカードが回帰した時、ダスト→自ライフ：1\n（このカードはヲウカのカードとして扱う）";
         readonly textZh: "";
         readonly textZhG1: "";
         readonly textKo: "";
         readonly textEn: "";
+        readonly lie: true;
     };
     readonly "22-renri-a1-s-1": {
         readonly megami: "renri";
         readonly anotherID: "A1";
-        readonly replace: "";
+        readonly replace: "22-renri-o-s-1";
         readonly name: "ロルレロラルロ";
         readonly nameEn: "";
         readonly nameZh: "";

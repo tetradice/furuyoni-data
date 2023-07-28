@@ -388,6 +388,12 @@ var CardId;
     /** 《ウバラザキ》 */ CardId.SHISUI_O_S_2 = "24-shisui-o-s-2";
     /** 《アブダグイ》 */ CardId.SHISUI_O_S_3 = "24-shisui-o-s-3";
     /** 《桑畑志水の死に所》 */ CardId.SHISUI_O_S_4 = "24-shisui-o-s-4";
+    /** 《欺瞞の霧》 */ CardId.RENRI_A1_N_2 = "22-renri-a1-n-2";
+    /** 《神授》 */ CardId.RENRI_A1_N_5 = "22-renri-a1-n-5";
+    /** 《偽りの武器》 */ CardId.RENRI_A1_N_5_EX1 = "22-renri-a1-n-5-ex1";
+    /** 《刃の本質》 */ CardId.RENRI_A1_N_5_EX2 = "22-renri-a1-n-5-ex2";
+    /** 《最初の桜鈴》 */ CardId.RENRI_A1_N_5_EX3 = "22-renri-a1-n-5-ex3";
+    /** 《ロルレロラルロ》 */ CardId.RENRI_A1_S_1 = "22-renri-a1-s-1";
     // 物語セット
     /** 《威風》 */ CardId.STORY_00_A_1 = "story-00-A-1";
     /** 《執着》 */ CardId.STORY_00_A_2 = "story-00-A-2";
@@ -499,12 +505,6 @@ var CardId;
     /** 《こころがさね》 */ CardId.YUKIHI_O_N_A = "08-yukihi-o-n-a";
     /** 《ゆきのいろ》 */ CardId.YUKIHI_O_S_A = "08-yukihi-o-s-a";
     /** 《滅灯淀路》 */ CardId.YUKIHI_O_S_B = "08-yukihi-o-s-b";
-    /** 《欺瞞の霧》 */ CardId.RENRI_A1_N_2 = "22-renri-a1-n-2";
-    /** 《神授》 */ CardId.RENRI_A1_N_5 = "22-renri-a1-n-5";
-    /** 《偽りの武器》 */ CardId.RENRI_A1_N_5_EX1 = "22-renri-a1-n-5-ex1";
-    /** 《刃の本質》 */ CardId.RENRI_A1_N_5_EX2 = "22-renri-a1-n-5-ex2";
-    /** 《最初の桜鈴》 */ CardId.RENRI_A1_N_5_EX3 = "22-renri-a1-n-5-ex3";
-    /** 《ロルレロラルロ》 */ CardId.RENRI_A1_S_1 = "22-renri-a1-s-1";
 })(CardId || (exports.CardId = CardId = {}));
 /** 偽証カードのIDリスト（レンリオリジン） */
 exports.LIE_CARD_IDS_ORIGIN = [

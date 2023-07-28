@@ -9454,7 +9454,7 @@ exports.S8_2_UPDATED_CARD_DATA = {
     "22-renri-a1-n-2": {
         megami: "renri",
         anotherID: "A1",
-        replace: "",
+        replace: "22-renri-o-n-2",
         name: "欺瞞の霧",
         nameEn: "",
         nameZh: "",
@@ -9473,7 +9473,7 @@ exports.S8_2_UPDATED_CARD_DATA = {
     "22-renri-a1-n-5": {
         megami: "renri",
         anotherID: "A1",
-        replace: "",
+        replace: "22-renri-o-n-5",
         name: "神授",
         nameEn: "",
         nameZh: "",
@@ -9501,6 +9501,7 @@ exports.S8_2_UPDATED_CARD_DATA = {
         ruby: "いつわりのぶき",
         rubyEn: "",
         baseType: "normal",
+        extra: true,
         type: "attack",
         range: "2-4",
         damage: "1/1",
@@ -9509,6 +9510,7 @@ exports.S8_2_UPDATED_CARD_DATA = {
         textZhG1: "",
         textKo: "",
         textEn: "",
+        lie: true,
     },
     "22-renri-a1-n-5-ex2": {
         megami: "renri",
@@ -9522,6 +9524,7 @@ exports.S8_2_UPDATED_CARD_DATA = {
         ruby: "やいばのほんしつ",
         rubyEn: "",
         baseType: "normal",
+        extra: true,
         type: "attack",
         range: "3-4",
         damage: "3/1",
@@ -9530,6 +9533,7 @@ exports.S8_2_UPDATED_CARD_DATA = {
         textZhG1: "",
         textKo: "",
         textEn: "",
+        lie: true,
     },
     "22-renri-a1-n-5-ex3": {
         megami: "renri",
@@ -9543,17 +9547,19 @@ exports.S8_2_UPDATED_CARD_DATA = {
         ruby: "さいしょのさくらすず",
         rubyEn: "",
         baseType: "normal",
+        extra: true,
         type: "action",
         text: "偽証　回帰\n基本動作を1回行う。 このカードが反証されていないならば、さらにもう1回行う。\n光輝―ダストが5以下ならば伏せ札からカードを1枚選び、山札の一番下に置く。\n【常時】このカードが回帰した時、ダスト→自ライフ：1\n（このカードはヲウカのカードとして扱う）",
         textZh: "",
         textZhG1: "",
         textKo: "",
         textEn: "",
+        lie: true,
     },
     "22-renri-a1-s-1": {
         megami: "renri",
         anotherID: "A1",
-        replace: "",
+        replace: "22-renri-o-s-1",
         name: "ロルレロラルロ",
         nameEn: "",
         nameZh: "",
@@ -11743,6 +11749,16 @@ for (let key of (0, typedObjectKeys_js_1.typedObjectKeys)(exports.S8_UPDATED_CAR
     }
     else {
         exports.CARD_DATA["na-s8"][key] = data;
+    }
+}
+exports.CARD_DATA["na-s8-2"] = Object.assign({}, exports.CARD_DATA["na-s8"]);
+for (let key of (0, typedObjectKeys_js_1.typedObjectKeys)(exports.S8_2_UPDATED_CARD_DATA)) {
+    let data = exports.S8_2_UPDATED_CARD_DATA[key];
+    if (data === null || data === undefined) {
+        delete exports.CARD_DATA["na-s8-2"][key];
+    }
+    else {
+        exports.CARD_DATA["na-s8-2"][key] = data;
     }
 }
 // 物語セットで使用するカード (シーズン5を基本とし、物語セットのカードを追加する)

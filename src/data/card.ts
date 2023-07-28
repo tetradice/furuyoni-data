@@ -10977,7 +10977,7 @@ export const S8_2_UPDATED_CARD_DATA = {
   "22-renri-a1-n-2": {
     megami: "renri",
     anotherID: "A1",
-    replace: "",
+    replace: "22-renri-o-n-2",
     name: "欺瞞の霧",
     nameEn: "",
     nameZh: "",
@@ -10996,7 +10996,7 @@ export const S8_2_UPDATED_CARD_DATA = {
   "22-renri-a1-n-5": {
     megami: "renri",
     anotherID: "A1",
-    replace: "",
+    replace: "22-renri-o-n-5",
     name: "神授",
     nameEn: "",
     nameZh: "",
@@ -11024,6 +11024,7 @@ export const S8_2_UPDATED_CARD_DATA = {
     ruby: "いつわりのぶき",
     rubyEn: "",
     baseType: "normal",
+    extra: true,
     type: "attack",
     range: "2-4",
     damage: "1/1",
@@ -11032,6 +11033,7 @@ export const S8_2_UPDATED_CARD_DATA = {
     textZhG1: "",
     textKo: "",
     textEn: "",
+    lie: true,
   },
   "22-renri-a1-n-5-ex2": {
     megami: "renri",
@@ -11045,6 +11047,7 @@ export const S8_2_UPDATED_CARD_DATA = {
     ruby: "やいばのほんしつ",
     rubyEn: "",
     baseType: "normal",
+    extra: true,
     type: "attack",
     range: "3-4",
     damage: "3/1",
@@ -11053,6 +11056,7 @@ export const S8_2_UPDATED_CARD_DATA = {
     textZhG1: "",
     textKo: "",
     textEn: "",
+    lie: true,
   },
   "22-renri-a1-n-5-ex3": {
     megami: "renri",
@@ -11066,17 +11070,19 @@ export const S8_2_UPDATED_CARD_DATA = {
     ruby: "さいしょのさくらすず",
     rubyEn: "",
     baseType: "normal",
+    extra: true,
     type: "action",
     text: "偽証　回帰\n基本動作を1回行う。 このカードが反証されていないならば、さらにもう1回行う。\n光輝―ダストが5以下ならば伏せ札からカードを1枚選び、山札の一番下に置く。\n【常時】このカードが回帰した時、ダスト→自ライフ：1\n（このカードはヲウカのカードとして扱う）",
     textZh: "",
     textZhG1: "",
     textKo: "",
     textEn: "",
+    lie: true,
   },
   "22-renri-a1-s-1": {
     megami: "renri",
     anotherID: "A1",
-    replace: "",
+    replace: "22-renri-o-s-1",
     name: "ロルレロラルロ",
     nameEn: "",
     nameZh: "",
@@ -13495,9 +13501,12 @@ for (let cardSet of typedObjectKeys(CARD_DATA)) {
     if (
       cardId === CardId.KIRIKO_O_S_1 ||
       cardId === CardId.HATSUMI_A1_D_1 ||
-      cardId === CardId.HATSUMI_A1_D_2
+      cardId === CardId.HATSUMI_A1_D_2 ||
+      cardId === CardId.RENRI_A1_N_5_EX1 ||
+      cardId === CardId.RENRI_A1_N_5_EX2 ||
+      cardId === CardId.RENRI_A1_N_5_EX3
     ) {
-      // 《御剱桐子の巫女神楽》《潜水前進》《潜水後退》は特殊（カード一覧で最後に並べるため）
+      // 《御剱桐子の巫女神楽》《潜水前進》《潜水後退》、遺物カードは特殊（カード一覧で最後に並べるため）
     } else if (cardId === CardId.YATSUHA_AA1_N_7) {
       // 《見知らぬ世界》
       card.sortKey = CardId.YATSUHA_O_N_7;
