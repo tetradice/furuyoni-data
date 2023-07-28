@@ -13403,6 +13403,15 @@ for (let key of typedObjectKeys(S8_UPDATED_CARD_DATA) as TCardId[]) {
     CARD_DATA["na-s8"][key] = data;
   }
 }
+CARD_DATA["na-s8-2"] = { ...CARD_DATA["na-s8"] };
+for (let key of typedObjectKeys(S8_2_UPDATED_CARD_DATA)) {
+  let data = S8_2_UPDATED_CARD_DATA[key];
+  if (data === null || data === undefined) {
+    delete CARD_DATA["na-s8-2"][key];
+  } else {
+    CARD_DATA["na-s8-2"][key] = data;
+  }
+}
 // 物語セットで使用するカード (シーズン5を基本とし、物語セットのカードを追加する)
 CARD_DATA["story-0"] = { ...CARD_DATA["na-s5"] };
 for (let key of typedObjectKeys(STORY_CARD_DATA) as TCardId[]) {
