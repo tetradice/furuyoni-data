@@ -9563,7 +9563,6 @@ export const S7_UPDATED_CARD_DATA: Partial<{ [id in TCardId]: CardDataItem }> =
         "위증\n【상시】이 위증이 반증되지 않았다면, 이 카드를\n공개해도 된다. 그것이 거짓이었다면, 상대는 오라 데미지를 선택할 수 없다.\n(공개했다면 해결한 후에 버림패가 된다.)",
       textEn:
         "Falsehood\n\nForced: If this Falsehood was not refuted, you may reveal this card. If it was a fake, your opponent cannot choose to take damage to Aura.\n(Put it into your played pile if it was revealed.)",
-      removable: true,
       lie: true,
     },
     "22-renri-o-n-2": {
@@ -9589,7 +9588,6 @@ export const S7_UPDATED_CARD_DATA: Partial<{ [id in TCardId]: CardDataItem }> =
         "위증\n【상시】당신의 버림패 및 부여패 영역에 통상패가\n합계 3장 이상 있다면, 이 《공격》은 +1/+0 된다.",
       textEn:
         "Falsehood\n\nForced: If there are 3 or more Normal cards among your played pile and Enhancements in play, this attack gains +1/+0.",
-      removable: true,
       lie: true,
     },
     "22-renri-o-n-3": {
@@ -9616,7 +9614,6 @@ export const S7_UPDATED_CARD_DATA: Partial<{ [id in TCardId]: CardDataItem }> =
         "위증（위증은 대응으로 사용할 수 없다）\n【공격후】이 턴 중에 더스트로부터 벛꽃결정이 이동한 적이 있다면, 대응한 《공격》에 다음을 수행한다;\n그 《공격》이 오라의 데미지가 3 이상이라면 -1/+0, 그렇지 않다면 +0/-1 된다.",
       textEn:
         "Falsehood (You cannot play cards face-down as a Reaction to an attack.)\n\nAfter Attack: If any Sakura tokens were moved from Shadow this turn:\nIf the attack you played this card as a Reaction to has 3 or more Damage to Aura, it gets -1/+0. Otherwise, it gets +0/-1.",
-      removable: true,
       lie: true,
     },
     "22-renri-o-n-4": {
@@ -9662,7 +9659,6 @@ export const S7_UPDATED_CARD_DATA: Partial<{ [id in TCardId]: CardDataItem }> =
         "위증\n당신의 버림패 및 부여패 영역에 통상패가 합계 3장 이상 있다면, 상대는 손패 1장을 덮은패로 만든다.\n덮은패로 보내려 했으나 보낼 수 없었다면 상대를 위축시킨다.\n【상시】이 위증이 반증되었을 때 이 카드가 진짜임이 밝혀지면, 상대는 초조 데미지를 1번이 아닌 2번을 받는다.",
       textEn:
         "Falsehood\n\nIf there are 3 or more Normal cards among your played pile and Enhancements in play, your opponent discards a card. If they tried to do so but could not, flinch them.\n\nForced: If this Falsehood is unsuccessfully refuted, your opponent takes Burnout damage twice instead of once.",
-      removable: true,
       lie: true,
     },
     "22-renri-o-n-6": {
@@ -9684,7 +9680,6 @@ export const S7_UPDATED_CARD_DATA: Partial<{ [id in TCardId]: CardDataItem }> =
       textKo: "위증（위증은 대응으로 사용할 수 없다）\n간격→더스트：1",
       textEn:
         "Falsehood (You cannot play cards face-down as a Reaction to an attack.)\n\nDistance (1)→ Shadow",
-      removable: true,
       lie: true,
     },
     "22-renri-o-n-7": {

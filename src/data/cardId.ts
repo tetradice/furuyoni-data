@@ -1164,8 +1164,8 @@ export const LIE_CARD_IDS_ORIGIN: TLieCardId[] = [
 export const LIE_CARD_IDS_A1: TLieCardId[] = [
   CardId.RENRI_O_N_1,
   CardId.RENRI_O_N_3,
+  CardId.RENRI_O_N_6,
   CardId.RENRI_A1_N_5_EX1,
   CardId.RENRI_A1_N_5_EX2,
   CardId.RENRI_A1_N_5_EX3,
-  CardId.RENRI_O_N_6,
 ];
