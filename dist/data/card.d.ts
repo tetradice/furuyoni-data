@@ -91,7 +91,8 @@ export declare const S8_2_UPDATED_CARD_DATA: {
         readonly type: "attack";
         readonly range: "2-4";
         readonly damage: "1/1";
-        readonly text: "偽証設置　偽証　回帰\n【攻撃後】偽火―あなたがこのターンで 3枚目に使うカードが 《攻撃》 カード\nならば、その《攻撃》は+0/+1となる。\n";
+        readonly text: "偽証設置　偽証　回帰\n【攻撃後】偽火―あなたがこのターンで3枚目に使うカードが 《攻撃》 カードならば、その《攻撃》は+0/+1となる。\n";
+        readonly textAdditional: "（表向きにした後に右クリックすることで回帰させることが可能）";
         readonly textZh: "";
         readonly textZhG1: "";
         readonly textKo: "";
@@ -115,6 +116,7 @@ export declare const S8_2_UPDATED_CARD_DATA: {
         readonly range: "3-4";
         readonly damage: "3/1";
         readonly text: "偽証　回帰\n【常時】奉納―「ロルレロラルロ」の上に桜花結晶があるならば、この《攻撃》は+0/+1となる。\n【常時】このカードを回帰した時、相手の集中力は0になる。\n（このカードはザンカのカードとして扱う）";
+        readonly textAdditional: "（表向きにした後に右クリックすることで回帰させることが可能）";
         readonly textZh: "";
         readonly textZhG1: "";
         readonly textKo: "";
@@ -136,6 +138,7 @@ export declare const S8_2_UPDATED_CARD_DATA: {
         readonly extra: true;
         readonly type: "action";
         readonly text: "偽証　回帰\n基本動作を1回行う。 このカードが反証されていないならば、さらにもう1回行う。\n光輝―ダストが5以下ならば伏せ札からカードを1枚選び、山札の一番下に置く。\n【常時】このカードが回帰した時、ダスト→自ライフ：1\n（このカードはヲウカのカードとして扱う）";
+        readonly textAdditional: "（表向きにした後に右クリックすることで回帰させることが可能）";
         readonly textZh: "";
         readonly textZhG1: "";
         readonly textKo: "";
