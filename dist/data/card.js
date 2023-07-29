@@ -8233,7 +8233,6 @@ exports.S7_UPDATED_CARD_DATA = {
         textZhG1: "伪证\n【常时】若此伪证未被反证，则你可以展示用于伪证的牌。若该牌并非此牌，则对手不能选择由装承受此《攻击》的伤害。若你展示了该牌，则结算完毕后，不将该牌移至盖牌区，而改为移至弃牌区。",
         textKo: "위증\n【상시】이 위증이 반증되지 않았다면, 이 카드를\n공개해도 된다. 그것이 거짓이었다면, 상대는 오라 데미지를 선택할 수 없다.\n(공개했다면 해결한 후에 버림패가 된다.)",
         textEn: "Falsehood\n\nForced: If this Falsehood was not refuted, you may reveal this card. If it was a fake, your opponent cannot choose to take damage to Aura.\n(Put it into your played pile if it was revealed.)",
-        removable: true,
         lie: true,
     },
     "22-renri-o-n-2": {
@@ -8255,7 +8254,6 @@ exports.S7_UPDATED_CARD_DATA = {
         textZhG1: "伪证\n【常时】若你的弃牌区与付与区的通常牌的张数之和大于等于3，则此《攻击》获得+1/+0。",
         textKo: "위증\n【상시】당신의 버림패 및 부여패 영역에 통상패가\n합계 3장 이상 있다면, 이 《공격》은 +1/+0 된다.",
         textEn: "Falsehood\n\nForced: If there are 3 or more Normal cards among your played pile and Enhancements in play, this attack gains +1/+0.",
-        removable: true,
         lie: true,
     },
     "22-renri-o-n-3": {
@@ -8278,7 +8276,6 @@ exports.S7_UPDATED_CARD_DATA = {
         textZhG1: "伪证（对应时不能进行伪证）\n【攻击后】若本回合内有樱花结晶移出虚，则被对应的《攻击》结算以下效果。\n若该《攻击》的对装伤害大于等于3则获得-1/+0，否则获得+0/-1。",
         textKo: "위증（위증은 대응으로 사용할 수 없다）\n【공격후】이 턴 중에 더스트로부터 벛꽃결정이 이동한 적이 있다면, 대응한 《공격》에 다음을 수행한다;\n그 《공격》이 오라의 데미지가 3 이상이라면 -1/+0, 그렇지 않다면 +0/-1 된다.",
         textEn: "Falsehood (You cannot play cards face-down as a Reaction to an attack.)\n\nAfter Attack: If any Sakura tokens were moved from Shadow this turn:\nIf the attack you played this card as a Reaction to has 3 or more Damage to Aura, it gets -1/+0. Otherwise, it gets +0/-1.",
-        removable: true,
         lie: true,
     },
     "22-renri-o-n-4": {
@@ -8316,7 +8313,6 @@ exports.S7_UPDATED_CARD_DATA = {
         textZhG1: "伪证\n若你的弃牌区与付与区中的通常牌的张数之和大于等于3，则对手盖伏1张手牌。若对手不能如此做，则对手畏缩。\n【常时】若此伪证被对手反证，且用于伪证的牌为此牌，则对手因反证失败受到的焦躁改为2次。",
         textKo: "위증\n당신의 버림패 및 부여패 영역에 통상패가 합계 3장 이상 있다면, 상대는 손패 1장을 덮은패로 만든다.\n덮은패로 보내려 했으나 보낼 수 없었다면 상대를 위축시킨다.\n【상시】이 위증이 반증되었을 때 이 카드가 진짜임이 밝혀지면, 상대는 초조 데미지를 1번이 아닌 2번을 받는다.",
         textEn: "Falsehood\n\nIf there are 3 or more Normal cards among your played pile and Enhancements in play, your opponent discards a card. If they tried to do so but could not, flinch them.\n\nForced: If this Falsehood is unsuccessfully refuted, your opponent takes Burnout damage twice instead of once.",
-        removable: true,
         lie: true,
     },
     "22-renri-o-n-6": {
@@ -8337,7 +8333,6 @@ exports.S7_UPDATED_CARD_DATA = {
         textZhG1: "伪证（对应时不能进行伪证）\n距（1）→虚",
         textKo: "위증（위증은 대응으로 사용할 수 없다）\n간격→더스트：1",
         textEn: "Falsehood (You cannot play cards face-down as a Reaction to an attack.)\n\nDistance (1)→ Shadow",
-        removable: true,
         lie: true,
     },
     "22-renri-o-n-7": {
@@ -11840,8 +11835,11 @@ for (let cardSet of (0, typedObjectKeys_js_1.typedObjectKeys)(exports.CARD_DATA)
         let card = exports.CARD_DATA[cardSet][cardId];
         if (cardId === cardId_js_1.CardId.KIRIKO_O_S_1 ||
             cardId === cardId_js_1.CardId.HATSUMI_A1_D_1 ||
-            cardId === cardId_js_1.CardId.HATSUMI_A1_D_2) {
-            // 《御剱桐子の巫女神楽》《潜水前進》《潜水後退》は特殊（カード一覧で最後に並べるため）
+            cardId === cardId_js_1.CardId.HATSUMI_A1_D_2 ||
+            cardId === cardId_js_1.CardId.RENRI_A1_N_5_EX1 ||
+            cardId === cardId_js_1.CardId.RENRI_A1_N_5_EX2 ||
+            cardId === cardId_js_1.CardId.RENRI_A1_N_5_EX3) {
+            // 《御剱桐子の巫女神楽》《潜水前進》《潜水後退》、遺物カードは特殊（カード一覧で最後に並べるため）
         }
         else if (cardId === cardId_js_1.CardId.YATSUHA_AA1_N_7) {
             // 《見知らぬ世界》

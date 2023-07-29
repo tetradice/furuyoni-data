@@ -1169,3 +1169,6 @@ export const LIE_CARD_IDS_A1: TLieCardId[] = [
   CardId.RENRI_A1_N_5_EX2,
   CardId.RENRI_A1_N_5_EX3,
 ];
+
+/** 偽証設置カードのIDリスト（レンリA1） */
+export const LIE_SETUP_CARD_IDS_A1: TLieCardId[] = [CardId.RENRI_A1_N_5_EX1];

@@ -508,4 +508,6 @@ export type TLieCardId = "22-renri-o-n-1" | "22-renri-o-n-2" | "22-renri-o-n-3" 
 export declare const LIE_CARD_IDS_ORIGIN: TLieCardId[];
 /** 偽証カードのIDリスト（レンリA1） */
 export declare const LIE_CARD_IDS_A1: TLieCardId[];
+/** 偽証設置カードのIDリスト（レンリA1） */
+export declare const LIE_SETUP_CARD_IDS_A1: TLieCardId[];
 //# sourceMappingURL=cardId.d.ts.map
