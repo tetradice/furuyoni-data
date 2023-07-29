@@ -505,9 +505,13 @@ export type TCardId = "01-yurina-o-n-1" | "01-yurina-A1-n-1" | "01-yurina-o-n-2"
 /** 偽証カードのID */
 export type TLieCardId = "22-renri-o-n-1" | "22-renri-o-n-2" | "22-renri-o-n-3" | "22-renri-o-n-5" | "22-renri-o-n-6" | "22-renri-a1-n-5-ex1" | "22-renri-a1-n-5-ex2" | "22-renri-a1-n-5-ex3";
 /** 偽証カードのIDリスト（レンリオリジン） */
-export declare const LIE_CARD_IDS_ORIGIN: TLieCardId[];
+export declare const LIE_CARD_IDS_ORIGIN: readonly ["22-renri-o-n-1", "22-renri-o-n-2", "22-renri-o-n-3", "22-renri-o-n-5", "22-renri-o-n-6"];
+/** 偽証カードのIDリスト（レンリA1・遺物は含まない。オリレテラレル用） */
+export declare const LIE_CARD_IDS_A1_WITHOUT_RELIC: readonly ["22-renri-o-n-1", "22-renri-o-n-3", "22-renri-o-n-6"];
+/** 遺物カードのIDリスト（レンリA1） */
+export declare const RELIC_CARD_IDS: readonly ["22-renri-a1-n-5-ex1", "22-renri-a1-n-5-ex2", "22-renri-a1-n-5-ex3"];
 /** 偽証カードのIDリスト（レンリA1） */
-export declare const LIE_CARD_IDS_A1: TLieCardId[];
+export declare const LIE_CARD_IDS_A1: readonly ["22-renri-o-n-1", "22-renri-o-n-3", "22-renri-o-n-6", "22-renri-a1-n-5-ex1", "22-renri-a1-n-5-ex2", "22-renri-a1-n-5-ex3"];
 /** 偽証設置カードのIDリスト（レンリA1） */
 export declare const LIE_SETUP_CARD_IDS_A1: TLieCardId[];
 //# sourceMappingURL=cardId.d.ts.map

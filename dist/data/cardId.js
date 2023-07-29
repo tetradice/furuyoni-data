@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.LIE_SETUP_CARD_IDS_A1 = exports.LIE_CARD_IDS_A1 = exports.LIE_CARD_IDS_ORIGIN = exports.CardId = void 0;
+exports.LIE_SETUP_CARD_IDS_A1 = exports.LIE_CARD_IDS_A1 = exports.RELIC_CARD_IDS = exports.LIE_CARD_IDS_A1_WITHOUT_RELIC = exports.LIE_CARD_IDS_ORIGIN = exports.CardId = void 0;
 var CardId;
 (function (CardId) {
     /** 《斬》 */ CardId.YURINA_O_N_1 = "01-yurina-o-n-1";
@@ -514,14 +514,22 @@ exports.LIE_CARD_IDS_ORIGIN = [
     CardId.RENRI_O_N_5,
     CardId.RENRI_O_N_6,
 ];
-/** 偽証カードのIDリスト（レンリA1） */
-exports.LIE_CARD_IDS_A1 = [
+/** 偽証カードのIDリスト（レンリA1・遺物は含まない。オリレテラレル用） */
+exports.LIE_CARD_IDS_A1_WITHOUT_RELIC = [
     CardId.RENRI_O_N_1,
     CardId.RENRI_O_N_3,
     CardId.RENRI_O_N_6,
+];
+/** 遺物カードのIDリスト（レンリA1） */
+exports.RELIC_CARD_IDS = [
     CardId.RENRI_A1_N_5_EX1,
     CardId.RENRI_A1_N_5_EX2,
     CardId.RENRI_A1_N_5_EX3,
+];
+/** 偽証カードのIDリスト（レンリA1） */
+exports.LIE_CARD_IDS_A1 = [
+    ...exports.LIE_CARD_IDS_A1_WITHOUT_RELIC,
+    ...exports.RELIC_CARD_IDS,
 ];
 /** 偽証設置カードのIDリスト（レンリA1） */
 exports.LIE_SETUP_CARD_IDS_A1 = [CardId.RENRI_A1_N_5_EX1];

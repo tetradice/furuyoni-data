@@ -11002,6 +11002,8 @@ export const S8_2_UPDATED_CARD_DATA = {
     baseType: "normal",
     type: "action",
     text: "この「神授」を山札の上に置き、その後に遺物にある通常札1枚と交換する。\n【常時】山札を再構成する直前にこの「神授」 が捨て札にあるならば、 このカードを使用してもよい。\n",
+    textAdditional:
+      "（使用済み領域に出し、右クリックすることで効果を発動可能）",
     textZh: "",
     textZhG1: "",
     textKo: "",
