@@ -627,6 +627,22 @@ declare const MEGAMI_DATA_BASE: {
         readonly notExistCardSets: CardSet[];
         readonly tarotNo: "22";
     };
+    readonly "renri-a1": {
+        readonly name: "歴史家レンリ";
+        readonly nameZh: "";
+        readonly nameZhG1: "";
+        readonly nameKo: "";
+        readonly nameEn: "";
+        readonly symbol: "遺物";
+        readonly symbolZh: "";
+        readonly symbolZhG1: "";
+        readonly symbolKo: "";
+        readonly symbolEn: "";
+        readonly base: "renri";
+        readonly anotherID: "A1";
+        readonly notExistCardSets: CardSet[];
+        readonly tarotNo: "22";
+    };
     readonly akina: {
         readonly name: "アキナ";
         readonly nameZh: "安歧那";
@@ -983,7 +999,7 @@ declare const MEGAMI_DATA_BASE: {
         readonly tarotNo: "06";
     };
 };
-export declare type Megami = keyof typeof MEGAMI_DATA_BASE;
+export type Megami = keyof typeof MEGAMI_DATA_BASE;
 export declare const MEGAMI_DATA: {
     [megami in Megami]: MegamiDataItem;
 };

@@ -12,7 +12,7 @@ export declare const GetMegamiKeyMode: {
     /** カードリスト表示時 */
     readonly CardList: "CardList";
 };
-export declare type TGetMegamiKeyMode = typeof GetMegamiKeyMode[keyof typeof GetMegamiKeyMode];
+export type TGetMegamiKeyMode = typeof GetMegamiKeyMode[keyof typeof GetMegamiKeyMode];
 /** 指定したカードセットに対応するメガミのキー一覧を取得 */
 export declare function getMegamiKeys(mode: TGetMegamiKeyMode, cardSet: CardSet): Megami[];
 //# sourceMappingURL=megami.d.ts.map
