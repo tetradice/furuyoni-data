@@ -375,9 +375,7 @@ export namespace CardId {
   /** 《潜雷》 */ export const HATSUMI_A1_N_4 = "17-hatsumi-A1-n-4";
   /** 《サギリ海域》 */ export const HATSUMI_A1_S_1 = "17-hatsumi-A1-s-1";
   /** 《ワダナカ航路》 */ export const HATSUMI_A1_S_4 = "17-hatsumi-A1-s-4";
-  /** 《《潜水》》 */ export const HATSUMI_A1_D_1H = "17-hatsumi-A1-d-1h";
   /** 《《潜水前進》》 */ export const HATSUMI_A1_D_1 = "17-hatsumi-A1-d-1";
-  /** 《《潜水》》 */ export const HATSUMI_A1_D_2H = "17-hatsumi-A1-d-2h";
   /** 《《潜水後退》》 */ export const HATSUMI_A1_D_2 = "17-hatsumi-A1-d-2";
 
   /** 《紅刃》 */ export const KAMUWI_O_N_1 = "21-kamuwi-o-n-1";
@@ -963,9 +961,7 @@ export type TCardId =
   | "17-hatsumi-A1-n-4"
   | "17-hatsumi-A1-s-1"
   | "17-hatsumi-A1-s-4"
-  | "17-hatsumi-A1-d-1h"
   | "17-hatsumi-A1-d-1"
-  | "17-hatsumi-A1-d-2h"
   | "17-hatsumi-A1-d-2"
   | "21-kamuwi-o-n-1"
   | "21-kamuwi-o-n-2"
