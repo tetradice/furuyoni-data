@@ -748,12 +748,12 @@ const MEGAMI_DATA_BASE = {
     nameZh: "安歧那",
     nameZhG1: "",
     nameKo: "아키나",
-    nameEn: "",
+    nameEn: "Akina",
     symbol: "算盤",
     symbolZh: "算盘",
     symbolZhG1: "",
     symbolKo: "주판",
-    symbolEn: "",
+    symbolEn: "Abacus",
     notExistCardSets: [
       "na-s2",
       "na-s3",
@@ -772,12 +772,12 @@ const MEGAMI_DATA_BASE = {
     nameZh: "志水",
     nameZhG1: "",
     nameKo: "시스이",
-    nameEn: "",
+    nameEn: "Shisui",
     symbol: "鋸",
     symbolZh: "锯",
     symbolZhG1: "",
     symbolKo: "톱",
-    symbolEn: "",
+    symbolEn: "Saw",
     notExistCardSets: [
       "na-s2",
       "na-s3",
@@ -791,7 +791,6 @@ const MEGAMI_DATA_BASE = {
     ] as CardSet[],
     tarotNo: "24",
   },
-
   "yurina-story-0": {
     name: "天音揺波",
     nameZh: "天音摇波",

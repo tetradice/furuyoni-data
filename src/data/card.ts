@@ -10386,7 +10386,8 @@ export const S8_UPDATED_CARD_DATA: Partial<{
     textZhG1: "",
     textKo:
       "원심\n아래에서 1가지를 선택한다. 이번 턴에 당신이 수행하는 다음번 《공격》은 그것을 얻는다.\n・+2/+1\n・대응불가와 거리확대(원1)",
-    textEn: "",
+    textEn:
+      "Centrifuge\n\nChoose one. Your next attack this turn gains the chosen effect:\n・+2/+1\n・No Reactions and increase its Range in the distant direction by 1.",
   },
   "16-yatsuha-A1-s-4": {
     megami: "yatsuha",
@@ -10408,7 +10409,8 @@ export const S8_UPDATED_CARD_DATA: Partial<{
     textZhG1: "",
     textKo:
       "종단 간격제한(0-7)\n【사용시/사용됨】사용시와 당신이 패산을 재구성하기 직전에, 당신의 버림패 또는 손패에 있는 야츠하의 카드를 1장 공개하고, 완전태로 만들어도 된다. 그렇게 했다면, 당신은 위축된다.\n(「별의 손톱」이라면, 「성신의 갈퀴손」을 동일한 영역에 교환한다.)",
-    textEn: "",
+    textEn:
+      'Terminal    Range Restriction (0-7)\n\nPlayed/Devoted: When this card resolves, and immediately before reshuffling your deck, you may reveal a Yatsuha card from your hand or played pile and Perfect it. If you do, flinch yourself. (For example, if you reveal "Astral Claw" from your hand, exchange it for your set aside "Celestial Talon" and add it your hand.)',
   },
   "17-hatsumi-o-n-7": {
     megami: "hatsumi",
@@ -10428,7 +10430,8 @@ export const S8_UPDATED_CARD_DATA: Partial<{
     textZhG1: "",
     textKo:
       "【전개중】 당신의 턴이고 또한 순풍일 때만, 이 카드 위에 놓인 벛꽃결정이 이동한다.\n【전개중/파기시】 당신의 개시 페이즈 시작과 파기시에 덮음패 1장을 골라서 당신의 패산 위에 놓아도 된다.\n【파기시】 기본행동을 1회까지 수행한 다음, 공격 『적정거리 2-7, 1/-』을 수행한다.",
-    textEn: "",
+    textEn:
+      'Ongoing: Sakura tokens cannot leave this card unless it\'s your turn and there is a tailwind.\n\nOngoing/Disenchant: At the beginning of your turn and when this card Disenchants, you may choose a card in your discard pile and put it on top of your deck.\n\nDisenchant: You may perform a basic action. Then, you attack with "Range: 2-7, Damage: 1/-".',
   },
   "19-megumi-o-s-2": {
     megami: "megumi",
@@ -10451,13 +10454,14 @@ export const S8_UPDATED_CARD_DATA: Partial<{
     textZhG1: "",
     textKo:
       "생육 1\n【상시】 X는 《부여》 카드 위에 있는 당신의 씨앗결정 수의 합계와 같다.\n【전개시】 대응한 《공격》은 -X/+0 된다.\n【전개중】 상대의 개시 페이즈 시작에 공격 『적정거리 1-5, 0/1, 【상시】이 공격은 +X/+0 된다.』을 수행한다.",
-    textEn: "",
+    textEn:
+      'Growth 1\n\nForced: X is equal to the number of your Seed tokens on Enhancements in play.\n\nInitialize: The attack this card was played as a Reaction to gets -X/+0.\n\nOngoing: At the beginning of your opponent\'s turn, you attack with "Range: 1-5, Damage: 0/1, Forced: This attack gains +X/+0."',
   },
 
   "23-akina-o-n-1": {
     megami: "akina",
     name: "算盤玉",
-    nameEn: "",
+    nameEn: "Abacus Beads",
     nameZh: "算珠",
     nameZhG1: "",
     nameKo: "주판알",
@@ -10473,12 +10477,13 @@ export const S8_UPDATED_CARD_DATA: Partial<{
     textZhG1: "",
     textKo:
       "【공격후】 아래에서 1가지를 선택한다.\n・당신은 집중력을 1 얻는다.\n・회수를 수행한다.\n・플레어(자신)↔플로우(자신):1",
-    textEn: "",
+    textEn:
+      "After Attack: Choose one:\n・Gain 1 Vigor.\n・Divest.\n・Your Flare (1)↔ Your Flow",
   },
   "23-akina-o-n-2": {
     megami: "akina",
     name: "恫喝",
-    nameEn: "",
+    nameEn: "Browbeat",
     nameZh: "恫吓",
     nameZhG1: "",
     nameKo: "공갈",
@@ -10493,13 +10498,14 @@ export const S8_UPDATED_CARD_DATA: Partial<{
     textZhG1: "",
     textKo:
       " 투자권\n【상시】 당신의 자본이 상대의 자본보다 크다면, 이 《공격》은 +0/+1 된다.",
-    textEn: "",
+    textEn:
+      "Investment\n\nForced: If you have more funds than your opponent, this attack gains +0/+1.",
     investable: true,
   },
   "23-akina-o-n-3": {
     megami: "akina",
     name: "交易",
-    nameEn: "",
+    nameEn: "Barter",
     nameZh: "交易",
     nameZhG1: "",
     nameKo: "교역",
@@ -10515,12 +10521,13 @@ export const S8_UPDATED_CARD_DATA: Partial<{
     textZhG1: "",
     textKo:
       "종단\n【공격후】 당신의 자본이 상대의 자본보다 3 이상 크다면, 버림패에 있는 다른 여신의 카드를 1장까지 선택하고, 손패로 되돌린다.\n【공격후】 당신의 자본이 상대의 자본보다 크다면, 기본동작을 1번까지 수행해도 된다.",
-    textEn: "",
+    textEn:
+      "Terminal\n\nAfter Attack: If you have at least 3 more funds than your opponent, choose up to 1 card from a non-Akina Megami in your played pile and put it in your hand.\n\nAfter Attack: If you have more funds than your opponent, you may perform a basic action.",
   },
   "23-akina-o-n-4": {
     megami: "akina",
     name: "投機",
-    nameEn: "",
+    nameEn: "Speculate",
     nameZh: "投机",
     nameZhG1: "",
     nameKo: "투기",
@@ -10533,12 +10540,12 @@ export const S8_UPDATED_CARD_DATA: Partial<{
     textZhG1: "",
     textKo:
       "아래에서 1가지를 선택한다.\n・오라(자신)→플로우(자신):2\n・더스트→오라(자신):2",
-    textEn: "",
+    textEn: "Choose one:\n・Your Aura (2)→ Your Flow\n・Shadow (2)→ Your Aura",
   },
   "23-akina-o-n-5": {
     megami: "akina",
     name: "算法",
-    nameEn: "",
+    nameEn: "Calculate",
     nameZh: "算法",
     nameZhG1: "",
     nameKo: "산법",
@@ -10553,12 +10560,13 @@ export const S8_UPDATED_CARD_DATA: Partial<{
     textZhG1: "",
     textKo:
       "당신은 집중력을 1 얻는다.\n이번 턴 동안, 《공격》은 모든 적정거리가 1 감소한다.\n(예를 들어 3-4는 2-3이 된다)",
-    textEn: "",
+    textEn:
+      "Gain 1 Vigor.\nFor the rest of the turn, all Range values of attacks are reduced by 1.\n(For example, a Range of 3-4 becomes 2-3.)",
   },
   "23-akina-o-n-6": {
     megami: "akina",
     name: "盤狂わせ",
-    nameEn: "",
+    nameEn: "Contingency",
     nameZh: "不意算盘",
     nameZhG1: "",
     nameKo: "이변",
@@ -10572,12 +10580,13 @@ export const S8_UPDATED_CARD_DATA: Partial<{
     textZhG1: "",
     textKo:
       "간격제한(0-3)\n【전개시】 플레어(상대)→간격:2\n【파기시】 간격→플레어(상대):1",
-    textEn: "",
+    textEn:
+      "Range Restriction (0-3)\n\nInitialize: Opponent's Flare (2)→ Distance\n\nDisenchant: Distance (1)→ Opponent's Flare",
   },
   "23-akina-o-n-7": {
     megami: "akina",
     name: "直接金融",
-    nameEn: "",
+    nameEn: "Direct Financing",
     nameZh: "直接金融",
     nameZhG1: "",
     nameKo: "직접금융",
@@ -10593,13 +10602,14 @@ export const S8_UPDATED_CARD_DATA: Partial<{
     textZhG1: "",
     textKo:
       "투자권\n【전개시】 오라(상대)→오라(자신):2\n【파기시】 공격 『적정거리 2-5, 1/0』을 수행해도 된다.",
-    textEn: "",
+    textEn:
+      'Investment\n\nInitialize: Opponent\'s Aura (2)→ Your Aura\n\nDisenchant: You may attack with "Range: 2-5, Damage: 1/0".',
     investable: true,
   },
   "23-akina-o-s-1": {
     megami: "akina",
     name: "開方冥式切取法",
-    nameEn: "",
+    nameEn: "Hostile Takeover",
     nameZh: "开方冥式切取法",
     nameZhG1: "",
     nameKo: "개방명식절취법",
@@ -10615,12 +10625,13 @@ export const S8_UPDATED_CARD_DATA: Partial<{
     textZhG1: "",
     textKo:
       "공격 『적정거리 0-10, -/1, 【상시】 이 《공격》이 대응되었다면, 이 《공격》은 무효화된다. 【상시】 이 《공격》의 데미지는 변하지 않는다』를 수행한다. 그 후, 당신의 자본이 상대의 자본보다 크다면 이 카드를 사용한다.\n(소모값은 지불하며, 시가 이외의 효과로 변화하지 않는다.)",
-    textEn: "",
+    textEn:
+      'You attack with "Range: 0-10, Damage: -/1, Forced: If a Reaction is made to this attack, cancel this attack., Forced: This attack\'s Damage cannot be modified." Then, if you have more funds than your opponent, play this card (again, paying its cost).',
   },
   "23-akina-o-s-2": {
     megami: "akina",
     name: "大衍算顆手打表",
-    nameEn: "",
+    nameEn: "Count Surfeit",
     nameZh: "大衍算颗手打表",
     nameZhG1: "",
     nameKo: "대연산과수타표",
@@ -10638,12 +10649,13 @@ export const S8_UPDATED_CARD_DATA: Partial<{
     textZhG1: "",
     textKo:
       "【공격후】 플레어(자신)→오라(자신):1\n플로우(자신)→오라(자신):1\n라이프(자신)→오라(자신):1",
-    textEn: "",
+    textEn:
+      "After Attack:\nYour Flare (1)→ Your Aura\nYour Flow (1)→ Your Aura\nYour Life (1)→ Your Aura",
   },
   "23-akina-o-s-3": {
     megami: "akina",
     name: "衰垜逐肘守料術",
-    nameEn: "",
+    nameEn: "Protection Money",
     nameZh: "衰垛逐肘守料术",
     nameZhG1: "",
     nameKo: "쇠타축주수료술",
@@ -10660,13 +10672,14 @@ export const S8_UPDATED_CARD_DATA: Partial<{
     textZhG1: "",
     textKo:
       " 【전개시】 당신의 라이프로부터 플레어로 벛꽃결정을 4개 이동시킨다.\n【전개중】 이 카드의 효과 이외의 방법으로 이 부여패 위에 놓인 벛꽃결정은 이동하지 않는다.\n【전개중】 당신의 라이프가 0이 되어 당신이 패배하려 할 때, 대신 당신의 플레어로부터 라이프로 벛꽃결정을 4개 이동시킨다. 그 후, 이 부여패 위의 벛꽃결정을 모두 더스트로 이동시키고,\n이 카드를 게임에서 제외한다.",
-    textEn: "",
+    textEn:
+      "Initialize: Move 4 Sakura tokens from your Life to your Flare.\n\nOngoing: Sakura tokens cannot leave this card except by this card's effects.\n\nOngoing: If you would lose the game when your Life is 0, instead move 4 Sakura tokens from your Flare to your Life, move all Sakura tokens from this card to Shadow, and remove this card from the game.",
     removable: true,
   },
   "23-akina-o-s-4": {
     megami: "akina",
     name: "源上安岐那の御明算",
-    nameEn: "",
+    nameEn: "Akina's Revelatory Audit",
     nameZh: "源上安歧那的妙算",
     nameZhG1: "",
     nameKo: "미나카미 아키나의 정확한 계산",
@@ -10681,15 +10694,15 @@ export const S8_UPDATED_CARD_DATA: Partial<{
     textZhG1: "",
     textKo:
       " 간격제한(0-7) 투자권\n회수를 수행해도 된다. 그렇게 한 경우, 기본동작 《휘감기》를 2회까지 수행한 후, 이 카드를 게임에서 제외한다.\n【사용됨】 당신의 개시 페이즈 시작에 기본동작 《품기》를 1번 수행해도 된다.",
-    textEn: "",
+    textEn:
+      "Range Restriction (0-7) Investment\n\nYou may Divest. If you do, perform up to 2 Recover basic actions and remove this card from the game.\n\nDevoted: At the beginning of your turn, you may perform a Focus basic action.",
     removable: true,
     investable: true,
   },
-
   "24-shisui-o-n-1": {
     megami: "shisui",
     name: "鋸斬り",
-    nameEn: "",
+    nameEn: "Hack",
     nameZh: "锯斩",
     nameZhG1: "",
     nameKo: "톱날 베기",
@@ -10708,7 +10721,7 @@ export const S8_UPDATED_CARD_DATA: Partial<{
   "24-shisui-o-n-2": {
     megami: "shisui",
     name: "刻み刃",
-    nameEn: "",
+    nameEn: "Carve",
     nameZh: "碎切刃",
     nameZhG1: "",
     nameKo: "파고드는 칼날",
@@ -10724,12 +10737,13 @@ export const S8_UPDATED_CARD_DATA: Partial<{
     textZhG1: "",
     textKo:
       "【공격후】 공격 『적정거리 2-3, {1/2}, 【상시】 상대의 오라에 놓여있는 당신의 열상 토큰의 갯수가 상대의 오라 이상이라면, 상대는 오라 데미지를 선택할 수 없다.』을 수행한다.",
-    textEn: "",
+    textEn:
+      "After Attack: You attack with \"Range: 2-3, Damage: {1/2}, Forced: If the number of your Laceration tokens on your opponent's Aura is greater than or equal to their Aura, your opponent cannot choose to take this attack's damage to Aura.\"",
   },
   "24-shisui-o-n-3": {
     megami: "shisui",
     name: "反乱撃",
-    nameEn: "",
+    nameEn: "Revolt",
     nameZh: "反乱击",
     nameZhG1: "",
     nameKo: "반란격",
@@ -10746,12 +10760,13 @@ export const S8_UPDATED_CARD_DATA: Partial<{
     textZhG1: "",
     textKo:
       "【상시】 이번 턴에 당신이 데미지를 받았다면, 이 《공격》은 +1/+1 된다.\n【공격후】 이번 턴에 당신이 데미지를 2번 이상 받았다면, 기본동작 《휘감기》를 1회 수행한다.",
-    textEn: "",
+    textEn:
+      "Forced: This attack gains +1/+1 if you've taken damage this turn.\n\nAfter Attack: If you've taken damage twice or more this turn, perform a Recover basic action.",
   },
   "24-shisui-o-n-4": {
     megami: "shisui",
     name: "徹底抗戦",
-    nameEn: "",
+    nameEn: "Insurrection",
     nameZh: "彻底抗战",
     nameZhG1: "",
     nameKo: "철저항전",
@@ -10767,12 +10782,13 @@ export const S8_UPDATED_CARD_DATA: Partial<{
     textZhG1: "",
     textKo:
       "대응불가\n【공격후】 상대를 위축시키고, 당신은 오라 또는 플레어 또는 라이프에 열상을 1 받는다.",
-    textEn: "",
+    textEn:
+      "No Reactions\n\nAfter Attack: Flinch your opponent. Lacerate your Aura, Flare, or Life once.",
   },
   "24-shisui-o-n-5": {
     megami: "shisui",
     name: "茨道",
-    nameEn: "",
+    nameEn: "Travail",
     nameZh: "荆路",
     nameZhG1: "",
     nameKo: "가시밭길",
@@ -10786,12 +10802,13 @@ export const S8_UPDATED_CARD_DATA: Partial<{
     textZhG1: "",
     textKo:
       "간격→더스트:2\n당신은 오라 또는 플레어에 열상을 1 받는다. 현재 간격이 0이라면 대신 라이프에 열상을 1 받는다.",
-    textEn: "",
+    textEn:
+      "Distance (2)→ Shadow\n\nLacerate your Aura or Flare once. If the current Distance is 0, instead Lacerate your Life once.",
   },
   "24-shisui-o-n-6": {
     megami: "shisui",
     name: "金屑纏い",
-    nameEn: "",
+    nameEn: "Fragile Mend",
     nameZh: "铁屑缠身",
     nameZhG1: "",
     nameKo: "쇳가루 휘감기",
@@ -10805,12 +10822,13 @@ export const S8_UPDATED_CARD_DATA: Partial<{
     textZhG1: "",
     textKo:
       "기본동작 《휘감기》를 2번 수행한다. 그 후, 아래에서 1가지를 선택한다.\n・당신과 상대의 오라에 열상을 1 준다.\n・당신과 상대의 플레어에 열상을 1 준다.",
-    textEn: "",
+    textEn:
+      "Perform 2 Recover basic actions, then choose one:\n・Lacerate each players' Aura once.\n・Lacerate each players' Flare once.",
   },
   "24-shisui-o-n-7": {
     megami: "shisui",
     name: "黒き鎧",
-    nameEn: "",
+    nameEn: "Ebon Armor",
     nameZh: "黑铠",
     nameZhG1: "",
     nameKo: "검은 갑주",
@@ -10826,12 +10844,13 @@ export const S8_UPDATED_CARD_DATA: Partial<{
     textZhG1: "",
     textKo:
       "【전개시】 더스트에서 벚꽃결정을 X개 가져와 이 카드 위에 놓는다. X는 이번 턴에 당신이 데미지를 받은 횟수의 2배와 같다. X가 4 이상이라면 1개 더 놓는다.\n【전개중】 상대의 《공격》은 +0/-1 되고, 그 공격의 해결 후에 이 카드 위에 놓여진 벛꽃결정을 2개 더스트로 보낸다.",
-    textEn: "",
+    textEn:
+      "Initialize: Move X Sakura tokens from Shadow to this card, where X is twice the number of times you've taken damage this turn. If X is 4 or more, move 1 additional token.\n\nOngoing: Your opponent's attacks get +0/-1. After one resolves, move 2 Sakura tokens from this card to Shadow.",
   },
   "24-shisui-o-s-1": {
     megami: "shisui",
     name: "ハドマギリ",
-    nameEn: "",
+    nameEn: "Seventh Circle - Padma",
     nameZh: "红莲狱斩切",
     nameZhG1: "",
     nameKo: "하도마기리",
@@ -10848,12 +10867,13 @@ export const S8_UPDATED_CARD_DATA: Partial<{
     textZhG1: "",
     textKo:
       " 【상시】 이 카드가 대응하고 있는 《공격》이 있다면, 그 《공격》을 해결한 후에 이 카드의 효과를 해결한다.\n임의의 수의 영역을 고른 뒤 그 곳에 놓인 당신의 열상 토큰을 원하는 순서대로 데미지화 한다. 그 후, 공격 『적정거리 1-4, 2/1, 대응불가(통상패), 【상시】 이 《공격》은 +0/+X 된다. X는 이번 턴에 당신이 데미지를 받은 횟수의 절반(올림)과 같다.』을 수행한다.",
-    textEn: "",
+    textEn:
+      'Forced: If this card was played as a Reaction to an attack, resolve its effects after that attack resolves.\n\nChoose any number of zones. Apply the damage of your Laceration tokens in those zones in the order of your choosing. Then, you attack with "Range: 1-4, Damage: 2/1, No Reactions (Normal), Forced: This attack gains +0/+X, where X is half the number of times you\'ve taken damage this turn, rounded up."',
   },
   "24-shisui-o-s-2": {
     megami: "shisui",
     name: "ウバラザキ",
-    nameEn: "",
+    nameEn: "Sixth Circle - Utpala",
     nameZh: "青莲狱花开",
     nameZhG1: "",
     nameKo: "우바라자키",
@@ -10871,12 +10891,13 @@ export const S8_UPDATED_CARD_DATA: Partial<{
     textZhG1: "",
     textKo:
       "【공격후】 상대가 라이프 데미지를 선택했다면, 이 턴에 당신이 다음에 수행하는 오라 데미지가 2 이하인 《공격》을 열상화한다.\n----\n【재기】 당신의 오라와 플레어의 합계가 6 이하이다.",
-    textEn: "",
+    textEn:
+      "After Attack: If your opponent chose to take damage to Life, the Damage from your next attack this turn that has 2 or less Damage to Aura becomes Lacerated.\n\nResurgence: Your total Aura and Flare is 6 or less.",
   },
   "24-shisui-o-s-3": {
     megami: "shisui",
     name: "アブダグイ",
-    nameEn: "",
+    nameEn: "First Circle - Arbuda",
     nameZh: "寒疱狱尽噬",
     nameZhG1: "",
     nameKo: "아부다구이",
@@ -10893,12 +10914,13 @@ export const S8_UPDATED_CARD_DATA: Partial<{
     textZhG1: "",
     textKo:
       "대응한 《공격》의 데미지를 무효화한다.\n그렇게 했다면, 당신은 열상 {X/Y}을 받는다. X/Y는 무효화한 데미지와 같다.\n----\n【즉재기】 이번 턴에 당신이 3번째 데미지를 받았다.",
-    textEn: "",
+    textEn:
+      "Cancel the damage of the attack you played this card as a Reaction to. If you did, Lacerate yourself for {X/Y}, where X and Y are the Damage values of that attack.\n\nImmediate Resurgence: You take damage for the third time in a turn.",
   },
   "24-shisui-o-s-4": {
     megami: "shisui",
     name: "桑畑志水の死に所",
-    nameEn: "",
+    nameEn: "Shisui's Last Gasp",
     nameZh: "桑畑志水的死所",
     nameZhG1: "",
     nameKo: "쿠와하타 시스이가 죽는 곳",
@@ -10915,7 +10937,8 @@ export const S8_UPDATED_CARD_DATA: Partial<{
     textZhG1: "",
     textKo:
       " 【전개시】 상대의 플레어에서 벚꽃결정을 X개 가져와 이 카드 위에 놓는다. 상대의 플레어가 당신의 플레어보다 많다면, X는 그 차이와 같다. 그렇지 않다면 X는 0이다.\n【전개중】 당신은 패배하지 않는다.\n【전개중】 당신의 라이프가 0이라면, 상대는 집중력을 지불할 수 없다.",
-    textEn: "",
+    textEn:
+      "Initialize: Move X Sakura tokens from your opponent's Flare to this card. If your opponent has more Flare than you, X is equal to the difference. Otherwise, X is 0.\n\nOngoing: You cannot lose the game.\n\nOngoing: As long as your Life is 0, your opponent can't spend Vigor.",
   },
 };
 
