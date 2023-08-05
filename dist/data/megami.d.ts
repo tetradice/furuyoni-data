@@ -629,14 +629,14 @@ declare const MEGAMI_DATA_BASE: {
     };
     readonly "renri-a1": {
         readonly name: "歴史家レンリ";
-        readonly nameZh: "";
+        readonly nameZh: "史学家恋离";
         readonly nameZhG1: "";
-        readonly nameKo: "";
+        readonly nameKo: "역사가 렌리";
         readonly nameEn: "";
         readonly symbol: "遺物";
-        readonly symbolZh: "";
+        readonly symbolZh: "遗物";
         readonly symbolZhG1: "";
-        readonly symbolKo: "";
+        readonly symbolKo: "유물";
         readonly symbolEn: "";
         readonly base: "renri";
         readonly anotherID: "A1";
