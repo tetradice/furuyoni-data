@@ -13834,6 +13834,10 @@ CARD_DATA["story-1"]["01-yurina-o-n-5"] = CARD_DATA["na-s4"]["01-yurina-o-n-5"];
 // 物語セット1では返し刃使用可能
 CARD_DATA["story-1"]["02-saine-o-n-3"] = CARD_DATA["na-s2"]["02-saine-o-n-3"];
 
+// 物語セット9：はじめての代理戦争では、シーズン4時点での「昏い顎」を使う
+CARD_DATA["story-9"][CardId.YATSUHA_O_N_2] =
+  CARD_DATA["na-s4"][CardId.YATSUHA_O_N_2];
+
 // はじまりの決闘で使用するカード
 CARD_DATA["hajimari"] = {};
 for (let key of typedObjectKeys(STORY_CARD_DATA) as TCardId[]) {
