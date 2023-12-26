@@ -722,7 +722,7 @@ const MEGAMI_DATA_BASE = {
         nameZh: "史学家恋离",
         nameZhG1: "",
         nameKo: "역사가 렌리",
-        nameEn: "",
+        nameEn: "Relic",
         symbol: "遺物",
         symbolZh: "遗物",
         symbolZhG1: "",

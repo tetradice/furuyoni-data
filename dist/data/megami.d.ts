@@ -632,7 +632,7 @@ declare const MEGAMI_DATA_BASE: {
         readonly nameZh: "史学家恋离";
         readonly nameZhG1: "";
         readonly nameKo: "역사가 렌리";
-        readonly nameEn: "";
+        readonly nameEn: "Relic";
         readonly symbol: "遺物";
         readonly symbolZh: "遗物";
         readonly symbolZhG1: "";

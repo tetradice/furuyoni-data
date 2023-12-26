@@ -81,7 +81,7 @@ export declare const S8_2_UPDATED_CARD_DATA: {
         readonly textZh: "不可被对应（王牌）\n【常时】进行此《攻击》时若敌装不大于1，交换此《攻击》的对装伤害和对命伤害。";
         readonly textZhG1: "";
         readonly textKo: "대응불가(비장패)\n【상시】 이 《공격》을 수행할 때, 상대의 오라가 1 이하라면, 이 《공격》의 오라 데미지와 라이프 데미지를 서로 바꾼다";
-        readonly textEn: "";
+        readonly textEn: "No Reactions (Special)\n\nForced: When this Attack is launched, if your opponent's Aura is 1 or less, swap this Attack's Aura damage and Life damage values.";
     };
     readonly "05-oboro-o-s-3": {
         readonly megami: "oboro";
@@ -100,7 +100,7 @@ export declare const S8_2_UPDATED_CARD_DATA: {
         readonly textZh: "【展开时】你将任意数量的弃牌盖伏。\n【展开中】你从盖牌中使用的牌的箭头视为双箭头（↔）。\n【展开中/使用后】重铸牌库前可以从盖牌追加使用一张具有设置的非《攻击》的牌。";
         readonly textZhG1: "";
         readonly textKo: "【전개시】 당신은 버림패를 원하는 숫자만큼 덮은패로 보내도 된다.\n【전개중】 당신이 덮은패에서 사용하는 카드의 화살표는 양방향 화살표(↔)가 된다.\n【전개중/사용됨】 패산을 재구성하기 직전에 설치를 가지는 《공격》이 아닌 카드를 추가로 1장 덮은패에서 사용해도 된다.";
-        readonly textEn: "";
+        readonly textEn: "Initialize: You may move any number of cards from your played pile to your discard pile.\n\nOngoing: Arrows on your cards you play from your discard pile become double arrows (⇔).\n\nOngoing/Devoted: You may play 1 extra non-Attack card with Trap from your discard pile just before you reshuffle your deck.";
     };
     readonly "07-shinra-A1-n-7": {
         readonly megami: "shinra";
@@ -121,7 +121,7 @@ export declare const S8_2_UPDATED_CARD_DATA: {
         readonly textZh: "【展开时】可以支付1点集中力来准备计略。\n【展开时/破弃时】实行当前计略，准备下个计略。\n----\n[神算] 进行一次“攻击距离0,2,4 伤害2/1 不可被闪避 【攻击后】对手从手牌中选择1张牌并从弃牌或者盖牌中选择1张牌，将那些牌以任意顺序置于牌库底”的攻击。\n----\n[鬼谋] 进行一次“攻击距离1,3,5 伤害2/2 不可被闪避 【攻击后】对手从牌库顶弃掉1张牌，盖伏1张牌”的攻击。";
         readonly textZhG1: "";
         readonly textKo: "【전개시】 집중력 1을 지불하고, 계략을 준비해도 된다.\n【전개시/파기시】 계략을 실행하고, 다음번 계략을 준비한다.\n「신산」 공격 『 적정거리 0,2,4, 2/1, 불가피, 【공격후】 상대는 손패에서 1장, 버림패나 덮은패에서 1장의 카드를 고른 뒤 그들을 패산 아래에 임의의 순서로 놓는다.』를 수행한다.\n「귀모」 공격 『적정거리 1,3,5, 2/2, 불가피, 【공격후】 상대의 패산 위의 카드 1장을 버림패로, 1장을 덮은패로 보낸다.』를 수행한다.";
-        readonly textEn: "";
+        readonly textEn: "Initialize: You may spend 1 Vigor to prepare a new Plan.\n\nInitialize/Disenchant: Enact your current Plan, then prepare your next one.\n\nDivine - You attack with \"Range: 0, 2, 4, Damage: 2/1, Unavoidable, After Attack: Your opponent chooses 1 card from their hand and 1 card from either their played or discard piles, then puts the chosen cards at the bottom of their deck in any order.\"\n\nDevious - You attack with \"Range: 1, 3, 5, Damage: 2/2, Unavoidable, After Attack: Put 1 card from the top of your opponent's deck into their played pile, then 1 more into their discard pile.\"";
     };
     readonly "09-chikage-o-n-4": {
         readonly megami: "chikage";
@@ -143,7 +143,7 @@ export declare const S8_2_UPDATED_CARD_DATA: {
         readonly textZhG1: "";
         readonly textZhAdditional: "（在毒袋区域右键可以让对手查看毒袋）";
         readonly textKo: "전력화: 【상시】 이 《공격》은 +1/+2 된다.\n전력화: 【공격후】 상대는 당신의 독주머니를 보고 그 중에서 1장을 골라 그것을 상대의 손패에 추가한다.\n【공격후】 상대의 손패에 독 카드가 있다면, 기본동작 《휘감기》를 1회 수행한다.";
-        readonly textEn: "";
+        readonly textEn: "All-Out: Forced: This Attack gains +1/+2.\n\nAll-Out: After Attack: Your opponent looks at your Poison pouch and chooses 1 card from it, then puts it into their hand.\n\nAfter Attack: If your opponent has a Poison card in their hand, perform the Recover basic action once.";
     };
     readonly "11-thallya-o-n-4": {
         readonly megami: "thallya";
@@ -163,7 +163,7 @@ export declare const S8_2_UPDATED_CARD_DATA: {
         readonly textZh: "燃烧\n全力化：【常时】此《攻击》获得距离扩大（近1）和距离扩大（远1），且得+2/+2。\n【攻击后】若非全力化，则回复你2个已燃烧的造花结晶。";
         readonly textZhG1: "";
         readonly textKo: "연소\n전력화: 【상시】 이 《공격》은 거리확대(근1)과 거리확대(원1)을 얻고 +2/+2 된다.\n【공격후】 전력화로 사용하지 않았다면, 당신의 연소상태의 조화결정을 2개 회복한다.";
-        readonly textEn: "";
+        readonly textEn: "Combust\n\nAll-Out: Forced: This Attack gets 1 increased Range in both the near and distant directions, and gains +2/+2.\n\nAfter Attack: If this card was not played as All-Out, recover 2 burned Artificial Sakura tokens.";
     };
     readonly "10-kururu-A1-s-3": {
         readonly megami: "kururu";
@@ -186,7 +186,7 @@ export declare const S8_2_UPDATED_CARD_DATA: {
         readonly textZhG1: "";
         readonly textZhAdditional: "「世纪的大发现」～查看对手的所有王牌。这之后选择你或者对手，将所选玩家寄宿的女神的王牌中在眼前构筑时没有被选上的5张，从游戏外以未使用的状态获得。再将『终极探索』移出游戏并从追加牌区以未使用的状态获得王牌『壮绝旅途』。";
         readonly textKo: "----\n<공> 상대의 덮은패가 0장이라면 상대의 패산 위에서 1장 덮은패로 보낸다. 상대는 덮음패에서 카드를 1장 선택한다. 당신은 카드 이름을 1개 선언하고, 상대는 선택한 카드를 버림패로 만든다. 그 카드의 이름이 일치했다면, 게임 바깥에서 벚꽃결정을 1개 가져와 이 카드 위에 놓는다. 벚꽃결정이 2개가 되었다면, 세기의 대발견을 수행한다.\n----\n【사용됨】 당신이 패산을 재구성했거나 《전력》 카드를 사용했을 때, 그 턴의 종료 페이즈에 이 카드를 소모값을 지불하지 않고 사용해도 된다.";
-        readonly textEn: "";
+        readonly textEn: "Mechanism (ATK) - If your opponent's discard pile has 0 cards in it, put 1 card from the top of your opponent's deck into their discard. Your opponent chooses a card in their discard pile, then you declare a card name. Put your opponent's chosen card into their played pile. If the name matched, move 1 Sakura token from Out-of-Game to this card. If there are 2 Sakura tokens on this card, you make the Discovery of the Century.\n\n----------\n\nDevoted: When you reshuffle your deck or play a Throughout card, at the end of this turn you may play this card ignoring any costs. (This effect can stack for multiple uses)";
     };
     readonly "12-raira-o-n-2": {
         readonly megami: "raira";
@@ -229,7 +229,7 @@ export declare const S8_2_UPDATED_CARD_DATA: {
         readonly textZhG1: "";
         readonly textZhAdditional: "「终焉之影苏醒」～将你手牌、牌库、盖牌区、弃牌区与付与区中的所有非王牌移出游戏（付与牌的破弃时效果不发动），从追加牌区将『万象乖离残灭之影』『灭吾之身静以思』『终焉、降临吧』置入弃牌区，然后重铸牌库。";
         readonly textKo: "종단\n【사용됨】 당신 또는 상대의 종료 페이즈에, 더스트가 13 이상이라면, 종언의 그림자가 되살아난다. 그 후 이 카드를 게임에서 제외하고, 당신의 추가패에서 「망아」를 사용된 상태로 얻고, 카드를 1장 뽑은 뒤, 당신의 라이프가 6 이상이라면, 라이프가 5가 될 때까지 라이프에서 더스트로 벛꽃결정을 이동시킨다.";
-        readonly textEn: "";
+        readonly textEn: "Terminal\n\nDevoted: If Shadow is 13 or more at the end of either player's turn, The End is Nigh. Then, remove this card from the game, add your set aside \"желание\" (Desire) to your Special cards face-up, draw a card, and if your Life is 6 or more move Sakura tokens from it to Shadow until your Life is 5.";
         readonly removable: true;
     };
     readonly "20-kanawe-o-s-1": {
@@ -248,7 +248,7 @@ export declare const S8_2_UPDATED_CARD_DATA: {
         readonly textZh: "从追加牌区或从已达成的构想牌中准备1张构想。从已达成的构想牌中准备的话将此牌移出游戏。\n【使用后】在对手的准备阶段开始时，若你在上个回合没有推进构想的话，将此牌变为未使用的状态。若如此做，对手获得1点集中力。";
         readonly textZhG1: "";
         readonly textKo: "추가패 또는 달성완료에서 구상 카드를 1장 준비한다. 달성완료에서 준비했다면, 이 카드를 게임에서 제외한다.\n【사용됨】 상대의 개시 페이즈 시작에, 당신이 직전 턴에 구상을 진행하지 않았다면, 이 카드를 미사용 상태로 되돌린다. 그렇게 했다면, 상대는 집중력을 1 얻는다.";
-        readonly textEn: "";
+        readonly textEn: "Prepare one of your set-aside or Achieved Plot cards. If it was an Achieved Plot card, remove this card from the game.\n\nDevoted: At the beginning of your opponent's turn, if you did not progress a Plot on your previous turn, turn this card face-down. If you do, your opponent gains 1 Vigor.";
     };
     readonly "21-kamuwi-o-n-2": {
         readonly megami: "kamuwi";
@@ -267,7 +267,7 @@ export declare const S8_2_UPDATED_CARD_DATA: {
         readonly textZh: "(+1) 【常时】此《攻击》得+1/+0。\n----\n(+1) 【攻击后】敌装仅4或以下的话，敌装→1→自装";
         readonly textZhG1: "";
         readonly textKo: "(+1) 【상시】 이 《공격》은 +1/+0 된다.\n----\n(+1) 【공격후】 상대의 오라가 4 이하라면, 오라(상대)→오라(자신): 1";
-        readonly textEn: "";
+        readonly textEn: "(+1): Forced: This Attack gains +1/+0.\n----\n(+1): After Attack: If your opponent's Aura is 4 or less, Opponent's Aura (1)→ Your Aura";
     };
     readonly "21-kamuwi-o-s-4": {
         readonly megami: "kamuwi";
@@ -285,7 +285,7 @@ export declare const S8_2_UPDATED_CARD_DATA: {
         readonly textZh: "选择以下最多3次，可以重复选择：\n·距→1→虚\n·自命不大于8的话，你的禁忌槽上升1。若如此做，自装→1→自命";
         readonly textZhG1: "";
         readonly textKo: "아래에서 3번 선택한다. 같은 것을 여러 번 선택해도 된다.\n・간격→더스트:1\n・당신의 라이프가 8 이하라면, 당신의 금기 게이지를 1 올린다. 그렇게 했다면, 오라(자신)→라이프(자신):1";
-        readonly textEn: "";
+        readonly textEn: "Choose up to 3. You may choose the same option more than once:\n・Distance (1)→ Shadow\n・If your Life is 8 or less, increase your Taboo gauge by 1. If you do, Your Aura (1)→ Your Life";
     };
     readonly "22-renri-o-n-6": {
         readonly megami: "renri";
@@ -324,7 +324,7 @@ export declare const S8_2_UPDATED_CARD_DATA: {
         readonly textZh: "破绽 投资券\n【展开时】敌装→1→自装\n可以支付所有集中力（至少1点），若如此做，重复1次这个箭头效果。\n【破弃时】进行一次“攻击距离2-5、伤害1/0”的攻击。";
         readonly textZhG1: "";
         readonly textKo: "빈틈, 투자권\n【전개시】 오라(상대)→오라(자신):1\n집중력이 1 이상 있다면 전부 지불해도 된다. 그렇게 했다면, 이 화살표 효과를 1회 더 수행한다.\n【파기시】 공격 『적정거리 2-5, 1/0』을 수행해도 된다.";
-        readonly textEn: "";
+        readonly textEn: "Unguarded, Investment\n\nInitialize: Opponent's Aura (1)→ Your Aura. If you have 1 or more Vigor, you may spend all of your Vigor. If you do, perform this arrow effect once more.\n\nDisenchant: You may attack with \"Range: 2-5, Damage: 1/0\".";
         readonly investable: true;
     };
     readonly "23-akina-o-s-4": {
@@ -343,7 +343,7 @@ export declare const S8_2_UPDATED_CARD_DATA: {
         readonly textZh: "距离限制（0-6） 投资券\n可以进行回收。若如此做，进行最多2次基本动作《装附》，将此卡移出游戏。\n【使用后】你的准备阶段开始时，可以进行一次基本动作《聚气》代替使用回收。";
         readonly textZhG1: "";
         readonly textKo: "간격제한(0-6) 투자권\n회수를 수행해도 된다. 그렇게 한 경우, 기본동작 《휘감기》를 2번까지 수행하고, 이 카드를 게임에서 제외한다.\n【사용됨】 당신의 메인 페이즈 시작에, 당신은 회수를 수행하는 대신 기본동작 《품기》를 1번 수행해도 된다.";
-        readonly textEn: "";
+        readonly textEn: "Range Restriction (0-6), Investment\n\nYou may Divest. If you do, perform up to 2 Recover basic actions and remove this card from the game.\n\nDevoted: At the beginning of your main phase, you may perform 1 Focus basic action instead of Divesting.";
         readonly removable: true;
         readonly investable: true;
     };
@@ -363,7 +363,7 @@ export declare const S8_2_UPDATED_CARD_DATA: {
         readonly textZh: "选择以下不同的最多X个，X等于你在本回合受到的伤害次数：\n·被对应的《攻击》得+0/-1；\n·令对手畏缩；\n·对手选择敌装、敌命、敌气中的1个，你给予那个区域1点裂伤。";
         readonly textZhG1: "";
         readonly textKo: "아래에서 서로 다른 X가지를 선택한다. X는 당신이 이번 턴에 데미지를 입은 횟수와 동일하다.\n・대응한 《공격》은 +0/-1 된다.\n・상대를 위축시킨다\n・상대는 상대의 오라, 라이프, 플레어 중 하나를 고른다. 당신은 그곳에 열상 하나를 준다.";
-        readonly textEn: "";
+        readonly textEn: "Choose X different options from the following. X is equal to the number of times you've taken damage this turn.\n・The Attack this reacted to gains +0/-1.\n・Flinch your opponent.\n・Your opponent chooses 1 area from among their Aura, Flare, or Life. Add 1 Laceration to the chosen area.";
     };
     readonly "24-shisui-o-s-1": {
         readonly megami: "shisui";
@@ -383,14 +383,14 @@ export declare const S8_2_UPDATED_CARD_DATA: {
         readonly textZh: "【常时】若此牌对应了一个《攻击》，则在那个《攻击》结算之后结算此牌的效果。\n如同准备阶段一样顺序将你的裂伤指示物全部伤害化。那之后，进行一次“攻击距离1-4 伤害2/1 不可被对应（通常牌） 【常时】此《攻击》得+0/+X，X为本你在本回合受到过的伤害的次数的一半（向下取整）”的攻击。";
         readonly textZhG1: "";
         readonly textKo: "【상시】 이 카드가 대응하고 있는 《공격》이 있다면, 그 《공격》을 해결한 후에 이 카드의 효과를 해결한다.\n개시 페이즈와 동일한 순서로 당신의 열상 토큰을 모두 데미지화 한다. 그 후, 공격 『적정거리 1-4, 2/1, 대응불가(통상패), 【상시】 이 《공격》은 +0/+X 된다. X는 이번 턴 동안 데미지를 받은 횟수의 절반(내림)과 같다.』을 수행한다.";
-        readonly textEn: "";
+        readonly textEn: "Forced: If this card is used as a reaction to an Attack, after that Attack resolves this card's effect activates.\n\nExactly like the process during start of turn, convert all of your Laceration tokens into damage. Afterward, attack with \"Range: 1-4, Damage: 2/1, No Reactions (Normal), Forced: This attack gains +0/+X, where X is equal to half the number of times you've taken damage this turn (rounded down).\"";
     };
     readonly "22-renri-a1-n-2": {
         readonly megami: "renri";
         readonly anotherID: "A1";
         readonly replace: "22-renri-o-n-2";
         readonly name: "欺瞞の霧";
-        readonly nameEn: "";
+        readonly nameEn: "Fog of Deception";
         readonly nameZh: "欺瞒之雾";
         readonly nameZhG1: "";
         readonly nameKo: "기만의 안개";
@@ -402,14 +402,14 @@ export declare const S8_2_UPDATED_CARD_DATA: {
         readonly textZh: "【常时】此卡可以宣言当做，对手在眼前构筑选择的其他女神的非《付于》的通常牌，以正常的方式使用。若如此做，对手可以从其手牌、盖牌、弃牌中将那张牌公开。若公开的话，此牌使用失败并就这样弃掉。";
         readonly textZhG1: "";
         readonly textKo: "【상시】 이 카드를, 상대가 안전구축에서 고를 수 있는 다른 여신의 《부여》가 아닌 통상패로서 통상의 방법으로 사용을 선언해도 된다.\n그렇게 했다면, 상대는 상대의 손패, 덮은패, 버림패로부터 해당 카드를 공개해도 된다. 공개되었다면, 이 카드는 사용되지 않고 버림패가 된다.";
-        readonly textEn: "";
+        readonly textEn: "Forced: You may declare this card as if it were any non-Renri non-Enhancement Normal card that your opponent could have chosen during deck construction, being played within the regular timing rules of that card. When you do, your opponent may reveal the copied card from their hand, discard or played pile. If they reveal it, place this card in your played pile without being played.";
     };
     readonly "22-renri-a1-n-5": {
         readonly megami: "renri";
         readonly anotherID: "A1";
         readonly replace: "22-renri-o-n-5";
         readonly name: "神授";
-        readonly nameEn: "";
+        readonly nameEn: "Divine Gift";
         readonly nameZh: "神授";
         readonly nameZhG1: "";
         readonly nameKo: "신수";
@@ -424,14 +424,15 @@ export declare const S8_2_UPDATED_CARD_DATA: {
         readonly textZhAdditional: "（移动到已使用区域并右键就可以发动效果）";
         readonly textKo: "이「신수」를 패산 위에 놓고, 그 후에 유물에 있는 통상패 한 장과 교환한다.\n【상시】패산을 재구성하기 직전에, 이 「신수」가 버림패에 있다면, 이 카드를 사용해도 된다.";
         readonly textKoAdditional: "（사용됨 영역에서 꺼내서 우클릭으로 효과 발동 가능）";
-        readonly textEn: "";
+        readonly textEn: "Put this \"Divine Gift\" on the top of your deck, then exchange it with a Noral card in your Relic.\n\nForced: You may use this \"Divine Gift\" from played pile just before you reshuffle your deck.";
+        readonly textEnAdditional: "(You can activate the effect by placing it in a used area and right-clicking.)";
     };
     readonly "22-renri-a1-n-5-ex1": {
         readonly megami: "renri";
         readonly anotherID: "A1";
         readonly replace: "";
         readonly name: "偽りの武器";
-        readonly nameEn: "";
+        readonly nameEn: "Fabricated Weapon";
         readonly nameZh: "虚伪的武器";
         readonly nameZhG1: "";
         readonly nameKo: "거짓의 무기";
@@ -449,7 +450,8 @@ export declare const S8_2_UPDATED_CARD_DATA: {
         readonly textZhAdditional: "（正面表示后右键就可以令其回归）";
         readonly textKo: "위증설치 위증 회귀\n【공격후】위화 - 당신이 이번 턴에 3번째로 사용하는 카드가 《공격》카드라면, 그 《공격》은 +0/+1된다.";
         readonly textKoAdditional: "（앞면 표시로 한 뒤에 우클릭으로 회귀시키기 가능）";
-        readonly textEn: "";
+        readonly textEn: "FalseTrap Falsehood Return\n\nAfter Attack: False Inferno - If the third card you play this turn is an attack card, that attack gains +0/+1.";
+        readonly textEnAdditional: "(You can return by right-clicking after turning it face up)";
         readonly lie: true;
     };
     readonly "22-renri-a1-n-5-ex2": {
@@ -457,7 +459,7 @@ export declare const S8_2_UPDATED_CARD_DATA: {
         readonly anotherID: "A1";
         readonly replace: "";
         readonly name: "刃の本質";
-        readonly nameEn: "";
+        readonly nameEn: "Essence of Sword";
         readonly nameZh: "刃之本质";
         readonly nameZhG1: "";
         readonly nameKo: "검의 본질";
@@ -475,7 +477,8 @@ export declare const S8_2_UPDATED_CARD_DATA: {
         readonly textZhAdditional: "（正面表示后右键就可以令其回归）";
         readonly textKo: "위증 회귀\n【상시】봉납 - 「로루레로라루로」위에 벛꽃결정이 놓여 있다면, 이《공격》은 +0/+1 된다.\n【상시】이 카드가 회귀할 때, 상대의 집중력은 0이 된다.\n(이 카드는 여신 '잔카'의 카드로 취급한다.)";
         readonly textKoAdditional: "（앞면 표시로 한 뒤에 우클릭으로 회귀시키기 가능）";
-        readonly textEn: "";
+        readonly textEn: "Falsehood Return\n\nForced: Oblation - If there are Sakura tokens on \"Resolution\", this attack gains +0/+1.\n\nForced: When this card returns, your opponent's vigor becomes 0.\n\n(Treat this card as a Zanka card.)";
+        readonly textEnAdditional: "(You can return by right-clicking after turning it face up)";
         readonly lie: true;
     };
     readonly "22-renri-a1-n-5-ex3": {
@@ -483,7 +486,7 @@ export declare const S8_2_UPDATED_CARD_DATA: {
         readonly anotherID: "A1";
         readonly replace: "";
         readonly name: "最初の桜鈴";
-        readonly nameEn: "";
+        readonly nameEn: "Primal Sakura Bell";
         readonly nameZh: "最初的樱铃";
         readonly nameZhG1: "";
         readonly nameKo: "최초의 벚꽃방울";
@@ -499,7 +502,8 @@ export declare const S8_2_UPDATED_CARD_DATA: {
         readonly textZhAdditional: "（正面表示后右键就可以令其回归）";
         readonly textKo: "위증 회귀\n기본동작을 1번 수행한다. 이 카드가 반증되지 않았다면 1번 더 수행한다.\n광휘 - 더스트가 5개 이하라면, 덮음패에서 카드를 1장 선택하여 패산 아래에 놓는다.\n【상시】이 카드가 회귀할 때, 더스트→라이프(자신):1\n(이 카드는 여신 '오우카'의 카드로 취급한다.)";
         readonly textKoAdditional: "（앞면 표시로 한 뒤에 우클릭으로 회귀시키기 가능）";
-        readonly textEn: "";
+        readonly textEn: "Falsehood Return\n\nPerform a basic action. If this was not refuted, perform one more.\n\nLuminosity - If there are 5 or less Sakura tokens on Shadow, choose a card in your discard pile and put it on bottom of your deck.\n\nForced: When this card returns, Shadow (2)→Your Life.\n\n(Treat this card as a Ouka card.)";
+        readonly textEnAdditional: "(You can return by right-clicking after turning it face up)";
         readonly lie: true;
     };
     readonly "22-renri-a1-s-1": {
@@ -507,7 +511,7 @@ export declare const S8_2_UPDATED_CARD_DATA: {
         readonly anotherID: "A1";
         readonly replace: "22-renri-o-s-1";
         readonly name: "ロルレロラルロ";
-        readonly nameEn: "";
+        readonly nameEn: "Resolution";
         readonly nameZh: "晓丒旳绝雾";
         readonly nameZhG1: "";
         readonly nameKo: "로루레라라리로";
@@ -522,7 +526,7 @@ export declare const S8_2_UPDATED_CARD_DATA: {
         readonly textZh: "【使用后】在你的结束阶段，可以将这张牌当做纳为3且其中1个来自自命的方式使用此牌。\n【展开中】在你的主要阶段开始时可以抽1张牌。\n【展开中】对手受到的焦躁伤害变成2/1。\n【展开中】若你的伪证未被反证，你可以公开之，若那是假的则你获得1点集中力。";
         readonly textZhG1: "";
         readonly textKo: "【사용됨】 당신의 종료 페이즈에 이 카드를 봉납 3으로, 그 중 1개를 라이프에서 봉납하며 사용해도 된다.\n【전개중】 당신의 메인 페이즈의 시작에, 카드를 1장 뽑아도 된다.\n【전개중】 상대가 받는 초조 데미지는 2/1이 된다.\n【전개중】 당신의 위증이 반증되지 않았다면, 이 카드를 공개해도 된다. 그것이 거짓이었다면, 집중력을 1 얻는다.";
-        readonly textEn: "";
+        readonly textEn: "Devoted: At the end of your turn, you may play this card as if its Charge were 3, but you must pay one of its charge from Your Life.\n\nOngoing: At the beginning of your main phase, you may draw a card.\n\nOngoing: The Burnout damage that your opponent takes becomes 2/1.\n\nOngoing: If your Falsehood was not refuted, you may reveal that card. If it was a fake, you gain 1 Vigor.";
     };
 };
 export declare const STORY_CARD_DATA: Partial<{
