@@ -632,12 +632,12 @@ declare const MEGAMI_DATA_BASE: {
         readonly nameZh: "史学家恋离";
         readonly nameZhG1: "";
         readonly nameKo: "역사가 렌리";
-        readonly nameEn: "Relic";
+        readonly nameEn: "Historian Renri";
         readonly symbol: "遺物";
         readonly symbolZh: "遗物";
         readonly symbolZhG1: "";
         readonly symbolKo: "유물";
-        readonly symbolEn: "";
+        readonly symbolEn: "Relic";
         readonly base: "renri";
         readonly anotherID: "A1";
         readonly notExistCardSets: CardSet[];
