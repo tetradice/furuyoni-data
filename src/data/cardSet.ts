@@ -114,7 +114,7 @@ export const CARD_SET_DATA = {
     nameKo: "신막 시즌8",
     listNameKo: "신막 시즌8 (2022/11/11～ 『제8확장：신좌앵연기 전편』이후)",
     nameEn: "Shinmaku Season 8",
-    listNameEn: "",
+    listNameEn: "Shinmaku Season 8 (from 2022/11/11)",
   },
   "na-s8-2": {
     seasonNumber: 11,

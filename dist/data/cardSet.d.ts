@@ -111,7 +111,7 @@ export declare const CARD_SET_DATA: {
         readonly nameKo: "신막 시즌8";
         readonly listNameKo: "신막 시즌8 (2022/11/11～ 『제8확장：신좌앵연기 전편』이후)";
         readonly nameEn: "Shinmaku Season 8";
-        readonly listNameEn: "";
+        readonly listNameEn: "Shinmaku Season 8 (from 2022/11/11)";
     };
     readonly "na-s8-2": {
         readonly seasonNumber: 11;
