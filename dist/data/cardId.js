@@ -387,11 +387,22 @@ var CardId;
     /** 《アブダグイ》 */ CardId.SHISUI_O_S_3 = "24-shisui-o-s-3";
     /** 《桑畑志水の死に所》 */ CardId.SHISUI_O_S_4 = "24-shisui-o-s-4";
     /** 《欺瞞の霧》 */ CardId.RENRI_A1_N_2 = "22-renri-a1-n-2";
-    /** 《神授》 */ CardId.RENRI_A1_N_5 = "22-renri-a1-n-5";
+    /** 《神授》は2種類のカードIDを持つため指定なし */
     /** 《偽りの武器》 */ CardId.RENRI_A1_N_5_EX1 = "22-renri-a1-n-5-ex1";
     /** 《刃の本質》 */ CardId.RENRI_A1_N_5_EX2 = "22-renri-a1-n-5-ex2";
     /** 《最初の桜鈴》 */ CardId.RENRI_A1_N_5_EX3 = "22-renri-a1-n-5-ex3";
     /** 《ロルレロラルロ》 */ CardId.RENRI_A1_S_1 = "22-renri-a1-s-1";
+    /** 《弓流し》 */ CardId.MISORA_O_N_1 = "25-misora-o-n-1";
+    /** 《狙い蹴り》 */ CardId.MISORA_O_N_2 = "25-misora-o-n-2";
+    /** 《風孔》 */ CardId.MISORA_O_N_3 = "25-misora-o-n-3";
+    /** 《甲矢乙矢》 */ CardId.MISORA_O_N_4 = "25-misora-o-n-4";
+    /** 《精密化》 */ CardId.MISORA_O_N_5 = "25-misora-o-n-5";
+    /** 《追尾撃》 */ CardId.MISORA_O_N_6 = "25-misora-o-n-6";
+    /** 《空の翼》 */ CardId.MISORA_O_N_7 = "25-misora-o-n-7";
+    /** 《ミハテヌハテ》 */ CardId.MISORA_O_S_1 = "25-misora-o-s-1";
+    /** 《ツクモノクモ》 */ CardId.MISORA_O_S_2 = "25-misora-o-s-2";
+    /** 《カカゲルカゲ》 */ CardId.MISORA_O_S_3 = "25-misora-o-s-3";
+    /** 《ミソラノソラ》 */ CardId.MISORA_O_S_4 = "25-misora-o-s-4";
     // 物語セット
     /** 《威風》 */ CardId.STORY_00_A_1 = "story-00-A-1";
     /** 《執着》 */ CardId.STORY_00_A_2 = "story-00-A-2";

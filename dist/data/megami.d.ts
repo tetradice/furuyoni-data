@@ -671,6 +671,36 @@ declare const MEGAMI_DATA_BASE: {
         readonly notExistCardSets: CardSet[];
         readonly tarotNo: "24";
     };
+    readonly "oboro-a2": {
+        readonly name: "消失オボロ";
+        readonly nameZh: "";
+        readonly nameZhG1: "";
+        readonly nameKo: "";
+        readonly nameEn: "";
+        readonly symbol: "電子";
+        readonly symbolZh: "";
+        readonly symbolZhG1: "";
+        readonly symbolKo: "";
+        readonly symbolEn: "";
+        readonly base: "oboro";
+        readonly anotherID: "A2";
+        readonly notExistCardSets: CardSet[];
+        readonly tarotNo: "22";
+    };
+    readonly misora: {
+        readonly name: "ミソラ";
+        readonly nameZh: "";
+        readonly nameZhG1: "";
+        readonly nameKo: "";
+        readonly nameEn: "";
+        readonly symbol: "";
+        readonly symbolZh: "";
+        readonly symbolZhG1: "";
+        readonly symbolKo: "";
+        readonly symbolEn: "";
+        readonly notExistCardSets: CardSet[];
+        readonly tarotNo: "25";
+    };
     readonly "yurina-story-0": {
         readonly name: "天音揺波";
         readonly nameZh: "天音摇波";

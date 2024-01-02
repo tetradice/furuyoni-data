@@ -127,6 +127,17 @@ export const CARD_SET_DATA = {
     nameEn: "Shinmaku Season 8-2",
     listNameEn: "Shinmaku Season 8-2 (from 2023/7/10)",
   },
+  "na-s9": {
+    seasonNumber: 12,
+    name: "新幕 シーズン9",
+    listName: "新幕 シーズン9 (2023/12/12～ 『新劇拡張：神座桜縁起 後篇』以降)",
+    nameZh: "新幕 赛季9",
+    listNameZh: "新幕 赛季9（2023/12/12～『新剧扩展：神座樱缘起 後篇』之后）",
+    nameKo: "신막 시즌9",
+    listNameKo: "신막 시즌9 (2023/12/12～ 『제8확장：신좌앵연기 후편』이후)",
+    nameEn: "Shinmaku Season 9",
+    listNameEn: "",
+  },
   "story-0": {
     seasonNumber: null,
     name: "物語0：神語りのはじまり",

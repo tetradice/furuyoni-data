@@ -446,7 +446,7 @@ export namespace CardId {
     "24-shisui-o-s-4";
 
   /** 《欺瞞の霧》 */ export const RENRI_A1_N_2: TCardId = "22-renri-a1-n-2";
-  /** 《神授》 */ export const RENRI_A1_N_5: TCardId = "22-renri-a1-n-5";
+  /** 《神授》は2種類のカードIDを持つため指定なし */
   /** 《偽りの武器》 */ export const RENRI_A1_N_5_EX1 =
     "22-renri-a1-n-5-ex1" satisfies TCardId;
   /** 《刃の本質》 */ export const RENRI_A1_N_5_EX2 =
@@ -455,6 +455,22 @@ export namespace CardId {
     "22-renri-a1-n-5-ex3" satisfies TCardId;
   /** 《ロルレロラルロ》 */ export const RENRI_A1_S_1: TCardId =
     "22-renri-a1-s-1" satisfies TCardId;
+
+  /** 《弓流し》 */ export const MISORA_O_N_1: TCardId = "25-misora-o-n-1";
+  /** 《狙い蹴り》 */ export const MISORA_O_N_2: TCardId = "25-misora-o-n-2";
+  /** 《風孔》 */ export const MISORA_O_N_3: TCardId = "25-misora-o-n-3";
+  /** 《甲矢乙矢》 */ export const MISORA_O_N_4: TCardId = "25-misora-o-n-4";
+  /** 《精密化》 */ export const MISORA_O_N_5: TCardId = "25-misora-o-n-5";
+  /** 《追尾撃》 */ export const MISORA_O_N_6: TCardId = "25-misora-o-n-6";
+  /** 《空の翼》 */ export const MISORA_O_N_7: TCardId = "25-misora-o-n-7";
+  /** 《ミハテヌハテ》 */ export const MISORA_O_S_1: TCardId =
+    "25-misora-o-s-1";
+  /** 《ツクモノクモ》 */ export const MISORA_O_S_2: TCardId =
+    "25-misora-o-s-2";
+  /** 《カカゲルカゲ》 */ export const MISORA_O_S_3: TCardId =
+    "25-misora-o-s-3";
+  /** 《ミソラノソラ》 */ export const MISORA_O_S_4: TCardId =
+    "25-misora-o-s-4";
 
   // 物語セット
   /** 《威風》 */ export const STORY_00_A_1 = "story-00-A-1";
@@ -1131,10 +1147,22 @@ export type TCardId =
   | "24-shisui-o-s-4"
   | "22-renri-a1-n-2"
   | "22-renri-a1-n-5"
+  | "22-renri-a1-n-6"
   | "22-renri-a1-n-5-ex1"
   | "22-renri-a1-n-5-ex2"
   | "22-renri-a1-n-5-ex3"
-  | "22-renri-a1-s-1";
+  | "22-renri-a1-s-1"
+  | "25-misora-o-n-1"
+  | "25-misora-o-n-2"
+  | "25-misora-o-n-3"
+  | "25-misora-o-n-4"
+  | "25-misora-o-n-5"
+  | "25-misora-o-n-6"
+  | "25-misora-o-n-7"
+  | "25-misora-o-s-1"
+  | "25-misora-o-s-2"
+  | "25-misora-o-s-3"
+  | "25-misora-o-s-4";
 
 /** 偽証カードのID */
 export type TLieCardId =
