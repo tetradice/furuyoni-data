@@ -826,7 +826,7 @@ const MEGAMI_DATA_BASE = {
         nameZhG1: "",
         nameKo: "",
         nameEn: "",
-        symbol: "",
+        symbol: "弓",
         symbolZh: "",
         symbolZhG1: "",
         symbolKo: "",

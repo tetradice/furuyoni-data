@@ -11540,7 +11540,8 @@ export const S9_UPDATED_CARD_DATA = {
     damageOpened: "1/1",
     text: "【攻撃後】このカードを手札に戻し、傘の開閉を行う。 ",
     textZh: "【攻击后】将此牌置入你的手牌，进行一次伞的开合操作。",
-    textZhG1: "",
+    textZhG1:
+      "【攻击后】将此牌置入你的手牌，进行一次伞的开合操作。 开伞：（无）",
     textKo: "【공격후】이 카드를 손패로 되돌리고, 우산의 개폐를 행한다.",
     textEn:
       "After Attack: Put this card into your hand. Open your umbrella. If it was already open, close it instead.",
@@ -11612,13 +11613,19 @@ export const S9_UPDATED_CARD_DATA = {
     baseType: "normal",
     type: "action",
     text: "この「神授」を山札の上に置き、その後に遺物にある通常札1枚と交換する。\n【常時】山札を再構成する直前にこの「神授」 が捨て札にあるならば、 このカードを使用してもよい。\n",
+    textAdditional:
+      "（使用済み領域に出し、右クリックすることで効果を発動可能）",
     textZh:
       "将此「神授」置于牌库顶，那之后将其和遗物中的1张通常牌交换。\n【常时】在重铸牌库前弃牌中有这张「神授」的话，可以使用这张牌。",
     textZhG1: "",
+    textZhAdditional: "（移动到已使用区域并右键就可以发动效果）",
     textKo:
       "이「신수」를 패산 위에 놓고, 그 후에 유물에 있는 통상패 한 장과 교환한다.\n【상시】패산을 재구성하기 직전에, 이 「신수」가 버림패에 있다면, 이 카드를 사용해도 된다.",
+    textKoAdditional: "（사용됨 영역에서 꺼내서 우클릭으로 효과 발동 가능）",
     textEn:
       'Put this "Divine Gift" on the top of your deck, then exchange it with a Noral card in your Relic.\n\nForced: You may use this "Divine Gift" from played pile just before you reshuffle your deck.',
+    textEnAdditional:
+      "(You can activate the effect by placing it in a used area and right-clicking.)",
   },
   "23-akina-o-n-7": {
     megami: "akina",
@@ -11641,6 +11648,7 @@ export const S9_UPDATED_CARD_DATA = {
       "빈틈, 투자권\n【전개시】 오라(상대)→오라(자신):1\n○○○○, 이 화살표 효과를 1회 더 수행한다.\n【파기시】 공격 『적정거리 2-5, 1/0』을 수행해도 된다.",
     textEn:
       'Unguarded, Investment\n\nInitialize: Opponent\'s Aura (1)→ Your Aura. ○○○○. If you do, perform this arrow effect once more.\n\nDisenchant: You may attack with "Range: 2-5, Damage: 1/0".',
+    investable: true,
   },
   "23-akina-o-s-4": {
     megami: "akina",
@@ -11653,6 +11661,7 @@ export const S9_UPDATED_CARD_DATA = {
     rubyEn: "",
     baseType: "special",
     type: "action",
+    cost: "時価",
     text: "間合制限（0-7）　投資券\n回収を行ってもよい。そうした場合、基本動作《纏い》を2回まで行い、このカードを取り除く。\n【使用済】あなたのメインフェイズの開始時に、あなたは回収を行う代わりに基本動作《宿し》を1回行ってもよい。",
     textZh:
       "距离限制（0-7） 投资券\n可以进行回收。若如此做，进行最多2次基本动作《装附》，将此卡移出游戏。\n【使用后】你的准备阶段开始时，可以进行一次基本动作《聚气》代替使用回收。",
@@ -11661,6 +11670,8 @@ export const S9_UPDATED_CARD_DATA = {
       "간격제한(0-7) 투자권\n회수를 수행해도 된다. 그렇게 한 경우, 기본동작 《휘감기》를 2번까지 수행하고, 이 카드를 게임에서 제외한다.\n【사용됨】 당신의 메인 페이즈 시작에, 당신은 회수를 수행하는 대신 기본동작 《품기》를 1번 수행해도 된다.",
     textEn:
       "Range Restriction (0-7), Investment\n\nYou may Divest. If you do, perform up to 2 Recover basic actions and remove this card from the game.\n\nDevoted: At the beginning of your main phase, you may perform 1 Focus basic action instead of Divesting.",
+    removable: true,
+    investable: true,
   },
   "24-shisui-o-n-6": {
     megami: "shisui",
@@ -11691,9 +11702,11 @@ export const S9_UPDATED_CARD_DATA = {
     nameKo: "하도마기리",
     ruby: "",
     rubyEn: "",
+    rubyZh: "Padma",
     baseType: "special",
     type: "action",
     subType: "reaction",
+    cost: "3",
     text: "【常時】このカードが対応している《攻撃》があるならば、その《攻撃》の解決後にこのカードの効果を解決する。\n任意の数の領域を選び、それらに置かれたあなたの裂傷トークンを任意の順でダメージ化する。その後、攻撃『適正距離1-4、2/1、対応不可（通常札）、【常時】この《攻撃》は+0/+Xとなる。Xはあなたがこのターン中にダメージを受けた回数の半分（切り上げ）に等しい』を行う。",
     textZh:
       "【常时】若此牌对应了一个《攻击》，则在那个《攻击》结算之后结算此牌的效果。\n选择任意个区域，将这些区域中你放置的裂伤指示物以任意顺序伤害化。那之后，进行一次“攻击距离1-4 伤害2/1 不可被对应（通常牌） 【常时】此《攻击》得+0/+X，X为本你在本回合受到过的伤害的次数的一半（向上取整）”的攻击。",
@@ -11712,10 +11725,12 @@ export const S9_UPDATED_CARD_DATA = {
     nameKo: "우바라자키",
     ruby: "",
     rubyEn: "",
+    rubyZh: "Utpala",
     baseType: "special",
     type: "attack",
     range: "1-4",
     damage: "{2/1}",
+    cost: "{2}",
     text: "【攻撃後】相手がライフへのダメージを選んだならば、このターンにあなたが次に行うオーラへのダメージが2以下の《攻撃》のダメージは裂傷化する。\n----\n【再起】あなたのオーラとフレアの合計が6以下である。",
     textZh:
       "【攻击后】对手选择承受对命伤害的话，本回合中你的对装伤害不大于2的《攻击》造成的伤害裂伤化。\n----\n【再起】自装和自气合计不大于6。",
@@ -11869,6 +11884,7 @@ export const S9_UPDATED_CARD_DATA = {
     type: "attack",
     range: "X",
     damage: "-/1",
+    cost: "2",
     text: "追尾　対応不可\n【常時】Xは3にこのカードの上の桜花結晶の数の2倍を加えた値に等しい。\n【攻撃後】Xが7以上ならば、相手の山札を全て伏せ札にする。\n【使用済】あなたの終了フェイズにこのカードの上にダストから1つ桜花結晶を置き、このカードを未使用に戻す。\n",
     textZh: "",
     textZhG1: "",
@@ -11887,6 +11903,7 @@ export const S9_UPDATED_CARD_DATA = {
     baseType: "special",
     type: "enhance",
     capacity: "1",
+    cost: "1",
     text: "【展開中】照準があるならば、現在の問合は照準に等しくなる。\n【展開中】あなたは基本動作《前進》と《離脱》を行えない。\n",
     textZh: "",
     textZhG1: "",
@@ -11906,6 +11923,7 @@ export const S9_UPDATED_CARD_DATA = {
     type: "enhance",
     subType: "reaction",
     capacity: "3",
+    cost: "2",
     text: "【展開時】対応した通常札による《攻撃》の適正距離があなたの照準を含むならば、対応した《攻撃》を打ち消し、そのカードをこのカードの下に封印する。\n【破棄時】このカードに封印されたカードを相手の捨て札に戻す。\n\n",
     textZh: "",
     textZhG1: "",
@@ -11924,6 +11942,7 @@ export const S9_UPDATED_CARD_DATA = {
     baseType: "special",
     type: "enhance",
     capacity: "2",
+    cost: "5",
     text: "【展開中】現在の間合は5増加する。\n【破棄時】相ライフ→間合：1、相オーラ→間合：1、相フレア→間合：1\n【使用済】このカードは使用できない。\n",
     textZh: "",
     textZhG1: "",

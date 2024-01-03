@@ -383,7 +383,8 @@ export declare namespace CardId {
     /** 《アブダグイ》 */ const SHISUI_O_S_3: TCardId;
     /** 《桑畑志水の死に所》 */ const SHISUI_O_S_4: TCardId;
     /** 《欺瞞の霧》 */ const RENRI_A1_N_2: TCardId;
-    /** 《神授》は2種類のカードIDを持つため指定なし */
+    /** 《神授》(シーズン8-2) */ const RENRI_A1_N_5: TCardId;
+    /** 《神授》(シーズン9)  */ const RENRI_A1_N_6: TCardId;
     /** 《偽りの武器》 */ const RENRI_A1_N_5_EX1 = "22-renri-a1-n-5-ex1";
     /** 《刃の本質》 */ const RENRI_A1_N_5_EX2 = "22-renri-a1-n-5-ex2";
     /** 《最初の桜鈴》 */ const RENRI_A1_N_5_EX3 = "22-renri-a1-n-5-ex3";

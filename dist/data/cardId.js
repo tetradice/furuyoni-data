@@ -387,7 +387,8 @@ var CardId;
     /** 《アブダグイ》 */ CardId.SHISUI_O_S_3 = "24-shisui-o-s-3";
     /** 《桑畑志水の死に所》 */ CardId.SHISUI_O_S_4 = "24-shisui-o-s-4";
     /** 《欺瞞の霧》 */ CardId.RENRI_A1_N_2 = "22-renri-a1-n-2";
-    /** 《神授》は2種類のカードIDを持つため指定なし */
+    /** 《神授》(シーズン8-2) */ CardId.RENRI_A1_N_5 = "22-renri-a1-n-5";
+    /** 《神授》(シーズン9)  */ CardId.RENRI_A1_N_6 = "22-renri-a1-n-6";
     /** 《偽りの武器》 */ CardId.RENRI_A1_N_5_EX1 = "22-renri-a1-n-5-ex1";
     /** 《刃の本質》 */ CardId.RENRI_A1_N_5_EX2 = "22-renri-a1-n-5-ex2";
     /** 《最初の桜鈴》 */ CardId.RENRI_A1_N_5_EX3 = "22-renri-a1-n-5-ex3";

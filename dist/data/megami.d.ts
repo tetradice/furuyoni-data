@@ -693,7 +693,7 @@ declare const MEGAMI_DATA_BASE: {
         readonly nameZhG1: "";
         readonly nameKo: "";
         readonly nameEn: "";
-        readonly symbol: "";
+        readonly symbol: "弓";
         readonly symbolZh: "";
         readonly symbolZhG1: "";
         readonly symbolKo: "";

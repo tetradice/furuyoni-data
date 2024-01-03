@@ -446,7 +446,10 @@ export namespace CardId {
     "24-shisui-o-s-4";
 
   /** 《欺瞞の霧》 */ export const RENRI_A1_N_2: TCardId = "22-renri-a1-n-2";
-  /** 《神授》は2種類のカードIDを持つため指定なし */
+  /** 《神授》(シーズン8-2) */ export const RENRI_A1_N_5: TCardId =
+    "22-renri-a1-n-5";
+  /** 《神授》(シーズン9)  */ export const RENRI_A1_N_6: TCardId =
+    "22-renri-a1-n-6";
   /** 《偽りの武器》 */ export const RENRI_A1_N_5_EX1 =
     "22-renri-a1-n-5-ex1" satisfies TCardId;
   /** 《刃の本質》 */ export const RENRI_A1_N_5_EX2 =
