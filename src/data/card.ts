@@ -11814,10 +11814,16 @@ export const S9_UPDATED_CARD_DATA = {
     range: "5-15",
     damage: "5/1",
     text: "追尾\n【攻撃後】相手は手札から《攻撃》カード1枚を捨て札にする。それが行えない場合、相手は手札を公開し、相手の山札の上から3枚を伏せ札にする。\n",
+    textAdditional:
+      "（自分の手札を右クリックすることで、手札を相手プレイヤーに公開することが可能）",
     textZh: "",
     textZhG1: "",
+    textZhAdditional: "（右键自己的手牌区可以将手牌展示给对方玩家）",
     textKo: "",
+    textKoAdditional:
+      "(자신의 손패를 우클릭해서 손패를 상대 플레이어에게 공개할 수 있음)",
     textEn: "",
+    textEnAdditional: "(To reveal your hand, right-click on the hand area.)",
   },
   "25-misora-o-n-5": {
     megami: "misora",
@@ -11848,6 +11854,8 @@ export const S9_UPDATED_CARD_DATA = {
     baseType: "normal",
     type: "action",
     text: "眼前構築で選んでいない他のメガミのカードまたは伏せ札のカードから、《全力》でない《攻撃》の通常札1枚を選び、それに追尾を与えて使用する。ゲーム外から使用したそのカードが領域を移動するならば、代わりに裏向きで取り除く。(眼前構築で選んでいない状態に戻る)",
+    textAdditional:
+      "（このカードを右クリックすることで、眼前構築で選んでいないカードを取得可能。また、使用したカードを右クリックすることで取り除くことができる）",
     textZh: "",
     textZhG1: "",
     textKo: "",
@@ -11929,6 +11937,7 @@ export const S9_UPDATED_CARD_DATA = {
     textZhG1: "",
     textKo: "",
     textEn: "",
+    sealable: true,
   },
   "25-misora-o-s-4": {
     megami: "misora",
