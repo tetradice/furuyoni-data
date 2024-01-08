@@ -393,6 +393,7 @@ var CardId;
     /** 《刃の本質》 */ CardId.RENRI_A1_N_5_EX2 = "22-renri-a1-n-5-ex2";
     /** 《最初の桜鈴》 */ CardId.RENRI_A1_N_5_EX3 = "22-renri-a1-n-5-ex3";
     /** 《ロルレロラルロ》 */ CardId.RENRI_A1_S_1 = "22-renri-a1-s-1";
+    /** 《合奏》 */ CardId.SAINE_TOKOYO_A1_N_1_4 = "02_04-saine_tokoyo-A1-n-1_4";
     /** 《ホロ苦無》 */ CardId.OBORO_A2_N_1 = "05-oboro-a2-n-1";
     /** 《ギガ介》 */ CardId.OBORO_A2_S_1 = "05-oboro-a2-s-1";
     /** 《朧文書・電子神渉》 */ CardId.OBORO_A2_S_3 = "05-oboro-a2-s-3";

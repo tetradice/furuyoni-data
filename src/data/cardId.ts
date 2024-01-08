@@ -459,6 +459,9 @@ export namespace CardId {
   /** 《ロルレロラルロ》 */ export const RENRI_A1_S_1: TCardId =
     "22-renri-a1-s-1" satisfies TCardId;
 
+  /** 《合奏》 */ export const SAINE_TOKOYO_A1_N_1_4: TCardId =
+    "02_04-saine_tokoyo-A1-n-1_4";
+
   /** 《ホロ苦無》 */ export const OBORO_A2_N_1: TCardId = "05-oboro-a2-n-1";
   /** 《ギガ介》 */ export const OBORO_A2_S_1: TCardId = "05-oboro-a2-s-1";
   /** 《朧文書・電子神渉》 */ export const OBORO_A2_S_3: TCardId =
@@ -1174,6 +1177,7 @@ export type TCardId =
   | "22-renri-a1-n-5-ex2"
   | "22-renri-a1-n-5-ex3"
   | "22-renri-a1-s-1"
+  | "02_04-saine_tokoyo-A1-n-1_4"
   | "05-oboro-a2-n-1"
   | "05-oboro-a2-s-1"
   | "05-oboro-a2-s-3"

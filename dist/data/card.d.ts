@@ -126,7 +126,7 @@ export declare const S8_2_UPDATED_CARD_DATA: {
     readonly "09-chikage-o-n-4": {
         readonly megami: "chikage";
         readonly name: "暗器";
-        readonly nameEn: "";
+        readonly nameEn: "Concealed Weapon";
         readonly nameZh: "暗器";
         readonly nameZhG1: "";
         readonly nameKo: "암기";
@@ -310,7 +310,7 @@ export declare const S8_2_UPDATED_CARD_DATA: {
     readonly "23-akina-o-n-7": {
         readonly megami: "akina";
         readonly name: "直接金融";
-        readonly nameEn: "";
+        readonly nameEn: "Direct Financing";
         readonly nameZh: "直接金融";
         readonly nameZhG1: "";
         readonly nameKo: "직접금융";
@@ -330,7 +330,7 @@ export declare const S8_2_UPDATED_CARD_DATA: {
     readonly "23-akina-o-s-4": {
         readonly megami: "akina";
         readonly name: "源上安岐那の御明算";
-        readonly nameEn: "";
+        readonly nameEn: "Akina's Revelatory Audit";
         readonly nameZh: "源上安歧那的妙算";
         readonly nameZhG1: "";
         readonly nameKo: "미나카미 아키나의 정확한 계산";
@@ -350,7 +350,7 @@ export declare const S8_2_UPDATED_CARD_DATA: {
     readonly "24-shisui-o-n-7": {
         readonly megami: "shisui";
         readonly name: "黒き絆";
-        readonly nameEn: "";
+        readonly nameEn: "Blackened Bonds";
         readonly nameZh: "黑色牵绊";
         readonly nameZhG1: "";
         readonly nameKo: "검은 인연";
@@ -368,7 +368,7 @@ export declare const S8_2_UPDATED_CARD_DATA: {
     readonly "24-shisui-o-s-1": {
         readonly megami: "shisui";
         readonly name: "ハドマギリ";
-        readonly nameEn: "";
+        readonly nameEn: "Seventh Circle - Padma";
         readonly nameZh: "红莲狱斩切";
         readonly nameZhG1: "";
         readonly nameKo: "하도마기리";
@@ -629,7 +629,7 @@ export declare const S9_UPDATED_CARD_DATA: {
     readonly "23-akina-o-n-7": {
         readonly megami: "akina";
         readonly name: "直接金融";
-        readonly nameEn: "";
+        readonly nameEn: "Direct Financing";
         readonly nameZh: "直接金融";
         readonly nameZhG1: "";
         readonly nameKo: "직접금융";
@@ -649,7 +649,7 @@ export declare const S9_UPDATED_CARD_DATA: {
     readonly "23-akina-o-s-4": {
         readonly megami: "akina";
         readonly name: "源上安岐那の御明算";
-        readonly nameEn: "";
+        readonly nameEn: "Akina's Revelatory Audit";
         readonly nameZh: "源上安歧那的妙算";
         readonly nameZhG1: "";
         readonly nameKo: "미나카미 아키나의 정확한 계산";
@@ -677,11 +677,11 @@ export declare const S9_UPDATED_CARD_DATA: {
         readonly rubyEn: "";
         readonly baseType: "normal";
         readonly type: "action";
-        readonly text: "基本動作《纏い》を2回行う。その後、以下から1つを選ぶ。\n・あなたと相手のオーラに裂傷を1与える。\n・あなたと相手のフレアに裂傷を1与える。";
-        readonly textZh: "进行两次基本动作《装附》。那之后，选择一项：\n●对自装和敌装各造成1点裂伤；\n●对自气和敌气各造成1点裂伤。";
+        readonly text: "間合制限 (0-4)\n基本動作《纏い》を2回行う。あなたはあなたのオーラかフレアを選ぶ。相手は相手のオーラかフレアを選ぶ。選ばれた領域に裂傷を1ずつ与える。";
+        readonly textZh: "";
         readonly textZhG1: "";
-        readonly textKo: "기본동작 《휘감기》를 2번 수행한다. 그 후, 아래에서 1가지를 선택한다.\n・당신과 상대의 오라에 열상을 1 준다.\n・당신과 상대의 플레어에 열상을 1 준다.";
-        readonly textEn: "Perform 2 Recover basic actions, then choose one:\n・Lacerate each players' Aura once.\n・Lacerate each players' Flare once.";
+        readonly textKo: "";
+        readonly textEn: "";
     };
     readonly "24-shisui-o-s-1": {
         readonly megami: "shisui";
@@ -715,7 +715,7 @@ export declare const S9_UPDATED_CARD_DATA: {
         readonly rubyZh: "Utpala";
         readonly baseType: "special";
         readonly type: "attack";
-        readonly range: "1-4";
+        readonly range: "3";
         readonly damage: "{2/1}";
         readonly cost: "{2}";
         readonly text: "【攻撃後】相手がライフへのダメージを選んだならば、このターンにあなたが次に行うオーラへのダメージが2以下の《攻撃》のダメージは裂傷化する。\n----\n【再起】あなたのオーラとフレアの合計が6以下である。";
@@ -723,6 +723,109 @@ export declare const S9_UPDATED_CARD_DATA: {
         readonly textZhG1: "";
         readonly textKo: "【공격후】 상대가 라이프 데미지를 선택했다면, 이 턴에 당신이 다음에 수행하는 오라 데미지가 2 이하인 《공격》을 열상화한다.\n----\n【재기】 당신의 오라와 플레어의 합계가 6 이하이다.";
         readonly textEn: "After Attack: If your opponent chose to take damage to Life, the Damage from your next attack this turn that has 2 or less Damage to Aura becomes Lacerated.\n\nResurgence: Your total Aura and Flare is 6 or less.";
+    };
+    readonly "02-saine-A1-n-6": {
+        readonly megami: "saine";
+        readonly anotherID: "A1";
+        readonly replace: "02-saine-o-n-6";
+        readonly name: "伴奏";
+        readonly nameEn: "Accompaniment";
+        readonly nameZh: "伴奏";
+        readonly nameZhG1: "伴奏";
+        readonly nameKo: "반주";
+        readonly ruby: "ばんそう";
+        readonly rubyEn: "";
+        readonly baseType: "normal";
+        readonly type: "enhance";
+        readonly capacity: "3";
+        readonly text: "【展開中】八相―相手が各ターンで初めて 《攻撃》を行った時、あなたのオーラが1以 下または他のメガミの切札が使用済ならば、 その《攻撃》は対応不可を失い、-1/+0となる。\n【展開時/破棄時】 サイネの切札が使用済な らば、このターン中あなたの切札の消費は 1少なくなる。\n";
+        readonly textZh: "";
+        readonly textZhG1: "";
+        readonly textKo: "";
+        readonly textEn: "";
+    };
+    readonly "04-tokoyo-A1-n-1": {
+        readonly megami: "tokoyo";
+        readonly anotherID: "A1";
+        readonly replace: "04-tokoyo-o-n-1";
+        readonly name: "奏流し";
+        readonly nameEn: "Entrancing Strike";
+        readonly nameZh: "奏流乐";
+        readonly nameZhG1: "奏流";
+        readonly nameKo: "흐르는 연주";
+        readonly ruby: "かなでながし";
+        readonly rubyEn: "";
+        readonly baseType: "normal";
+        readonly type: "attack";
+        readonly range: "5";
+        readonly damage: "-/1";
+        readonly text: "【常時】 トコヨの切札が使用済ならば、 この 《攻撃》は対応不可を得る。\n【攻撃後】 境地―あなたの集中力が2ま たは他のメガミの切札が使用済ならば、 このカードを山札の上か底に置く。\n";
+        readonly textZh: "";
+        readonly textZhG1: "";
+        readonly textKo: "";
+        readonly textEn: "";
+    };
+    readonly "02_04-saine_tokoyo-A1-n-1_4": {
+        readonly megami: "saine";
+        readonly anotherID: "A1";
+        readonly replace: "02-saine-o-n-1";
+        readonly name: "合奏";
+        readonly nameEn: "";
+        readonly nameZh: "";
+        readonly nameZhG1: "";
+        readonly nameKo: "";
+        readonly ruby: "がっそう";
+        readonly rubyEn: "";
+        readonly baseType: "normal";
+        readonly type: "attack";
+        readonly subType: "reaction";
+        readonly range: "2-5";
+        readonly damage: "3/0";
+        readonly text: "【攻撃後】 サイネの切札が使用済ならば、相オーラ→ダスト：1\n【攻撃後】八相/境地―あなたのオーラが1以下またはあなたの集中力が2ならば、ダスト→間合：1\n【攻撃後】 トコヨの切札が使用済ならば、ダスト→自オーラ：1\n(このカードはサイネとトコヨのカードである)\n";
+        readonly textZh: "";
+        readonly textZhG1: "";
+        readonly textKo: "";
+        readonly textEn: "";
+    };
+    readonly "02-saine-A1-s-2": {
+        readonly megami: "saine";
+        readonly anotherID: "A1";
+        readonly replace: "02-saine-o-s-2";
+        readonly name: "二重奏:弾奏氷瞑";
+        readonly nameEn: "Duet: Chilling Tranquility";
+        readonly nameZh: "二重奏：弹奏冰瞑";
+        readonly nameZhG1: "二重奏：弹奏冰瞑";
+        readonly nameKo: "이중주:탄주빙명";
+        readonly ruby: "にじゅうそう:だんそうひょうめい";
+        readonly rubyEn: "";
+        readonly baseType: "special";
+        readonly type: "action";
+        readonly cost: "2";
+        readonly text: "【常時】八相―あなたのオーラが1以下な らば、このカードの消費は1少なくなる。\nこのターン中、あなたは 《攻撃》を行えない。 \n【使用済】 あなたの他のメガミによる 《攻撃》 は+0/+1となる。\n----\n【即再起】あなたが《攻撃》によりライフに1以上のダメージを受ける。";
+        readonly textZh: "";
+        readonly textZhG1: "";
+        readonly textKo: "";
+        readonly textEn: "";
+    };
+    readonly "04-tokoyo-A1-s-2": {
+        readonly megami: "tokoyo";
+        readonly anotherID: "A1";
+        readonly replace: "04-tokoyo-o-s-2";
+        readonly name: "二重奏:吹弾陽明";
+        readonly nameEn: "Duet: Radiant Luminosity";
+        readonly nameZh: "二重奏：吹弹阳明";
+        readonly nameZhG1: "二重奏：吹弹阳明";
+        readonly nameKo: "이중주:취탄양명";
+        readonly ruby: "にじゅうそう：すいだんようめい";
+        readonly rubyEn: "";
+        readonly baseType: "special";
+        readonly type: "action";
+        readonly cost: "1";
+        readonly text: "【常時】境地―あなたの集中力が2ならば、この カードの消費は1小さくなる。\nこのターン中、あなたは集中力を支払えない。\n【使用済】 あなたが他のメガミのカードで対応 した時、捨て札か伏せ札のカードを1枚選び、 それを山札の底に置いてもよい。\n----\n【即再起】あなたが《攻撃》によりライフに1以上のダメージを受ける。";
+        readonly textZh: "";
+        readonly textZhG1: "";
+        readonly textKo: "";
+        readonly textEn: "";
     };
     readonly "05-oboro-a2-n-1": {
         readonly megami: "oboro";
