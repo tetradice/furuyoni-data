@@ -459,6 +459,25 @@ export namespace CardId {
   /** 《ロルレロラルロ》 */ export const RENRI_A1_S_1: TCardId =
     "22-renri-a1-s-1" satisfies TCardId;
 
+  /** 《ホロ苦無》 */ export const OBORO_A2_N_1: TCardId = "05-oboro-a2-n-1";
+  /** 《ギガ介》 */ export const OBORO_A2_S_1: TCardId = "05-oboro-a2-s-1";
+  /** 《朧文書・電子神渉》 */ export const OBORO_A2_S_3: TCardId =
+    "05-oboro-a2-s-3";
+  /** 《メインパーツX》 */ export const OBORO_A2_MP_1: TCardId =
+    "05-oboro-a2-mp-1";
+  /** 《メインパーツY》 */ export const OBORO_A2_MP_2: TCardId =
+    "05-oboro-a2-mp-2";
+  /** 《メインパーツZ》 */ export const OBORO_A2_MP_3: TCardId =
+    "05-oboro-a2-mp-3";
+  /** 《カスタムパーツA》 */ export const OBORO_A2_CP_1: TCardId =
+    "05-oboro-a2-cp-1";
+  /** 《カスタムパーツB》 */ export const OBORO_A2_CP_2: TCardId =
+    "05-oboro-a2-cp-2";
+  /** 《カスタムパーツC》 */ export const OBORO_A2_CP_3: TCardId =
+    "05-oboro-a2-cp-3";
+  /** 《カスタムパーツD》 */ export const OBORO_A2_CP_4: TCardId =
+    "05-oboro-a2-cp-4";
+
   /** 《弓流し》 */ export const MISORA_O_N_1: TCardId = "25-misora-o-n-1";
   /** 《狙い蹴り》 */ export const MISORA_O_N_2: TCardId = "25-misora-o-n-2";
   /** 《風孔》 */ export const MISORA_O_N_3: TCardId = "25-misora-o-n-3";
@@ -1155,6 +1174,16 @@ export type TCardId =
   | "22-renri-a1-n-5-ex2"
   | "22-renri-a1-n-5-ex3"
   | "22-renri-a1-s-1"
+  | "05-oboro-a2-n-1"
+  | "05-oboro-a2-s-1"
+  | "05-oboro-a2-s-3"
+  | "05-oboro-a2-mp-1"
+  | "05-oboro-a2-mp-2"
+  | "05-oboro-a2-mp-3"
+  | "05-oboro-a2-cp-1"
+  | "05-oboro-a2-cp-2"
+  | "05-oboro-a2-cp-3"
+  | "05-oboro-a2-cp-4"
   | "25-misora-o-n-1"
   | "25-misora-o-n-2"
   | "25-misora-o-n-3"

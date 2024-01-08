@@ -85,7 +85,9 @@ export interface CardDataItem {
     | "troop"
     | "storm"
     | "plan"
-    | "diving";
+    | "diving"
+    | "mainParts"
+    | "customParts";
   name: string;
   nameZh: string;
   nameZhG1: string;
