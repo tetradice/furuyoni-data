@@ -804,14 +804,11 @@ export declare const S9_UPDATED_CARD_DATA: {
         readonly range: "4-5";
         readonly damage: "2/2";
         readonly text: "デジ設置";
-        readonly textAdditional: "（ダブルクリックまたは右クリックで表向きにする）";
+        readonly textAdditional: "（公開・使用する場合、このカードを「使用済み」領域へ移動）";
         readonly textZh: "";
         readonly textZhG1: "";
-        readonly textZhAdditional: "（双击或者右键来公开此牌）";
         readonly textKo: "";
-        readonly textKoAdditional: "(더블 클릭 또는 우클릭으로 앞면 표시로 한다)";
         readonly textEn: "";
-        readonly textEnAdditional: "(Double-click or right-click to reveal this card.)";
     };
     readonly "05-oboro-a2-mp-2": {
         readonly megami: "oboro";
@@ -829,14 +826,11 @@ export declare const S9_UPDATED_CARD_DATA: {
         readonly range: "3,6";
         readonly damage: "2/1";
         readonly text: "デジ設置";
-        readonly textAdditional: "（ダブルクリックまたは右クリックで表向きにする）";
+        readonly textAdditional: "（公開・使用する場合、このカードを「使用済み」領域へ移動）";
         readonly textZh: "";
         readonly textZhG1: "";
-        readonly textZhAdditional: "（双击或者右键来公开此牌）";
         readonly textKo: "";
-        readonly textKoAdditional: "(더블 클릭 또는 우클릭으로 앞면 표시로 한다)";
         readonly textEn: "";
-        readonly textEnAdditional: "(Double-click or right-click to reveal this card.)";
     };
     readonly "05-oboro-a2-mp-3": {
         readonly megami: "oboro";
@@ -854,14 +848,11 @@ export declare const S9_UPDATED_CARD_DATA: {
         readonly range: "0-2";
         readonly damage: "1/0";
         readonly text: "デジ設置\n【攻撃後】相手がライフへのダメージを選んだならば、相手を畏縮させる。";
-        readonly textAdditional: "（ダブルクリックまたは右クリックで表向きにする）";
+        readonly textAdditional: "（公開・使用する場合、このカードを「使用済み」領域へ移動）";
         readonly textZh: "";
         readonly textZhG1: "";
-        readonly textZhAdditional: "（双击或者右键来公开此牌）";
         readonly textKo: "";
-        readonly textKoAdditional: "(더블 클릭 또는 우클릭으로 앞면 표시로 한다)";
         readonly textEn: "";
-        readonly textEnAdditional: "(Double-click or right-click to reveal this card.)";
     };
     readonly "05-oboro-a2-cp-1": {
         readonly megami: "oboro";
@@ -876,14 +867,11 @@ export declare const S9_UPDATED_CARD_DATA: {
         readonly rubyEn: "";
         readonly baseType: "customParts";
         readonly text: "<壱> 対応不可(《付与》)\n----\n<弐> 対応不可(《攻撃》)\n----\n<参> 対応不可(《行動》)\n----\n<肆> 対応不可(通常札)";
-        readonly textAdditional: "（ダブルクリックまたは右クリックで表向きにする）";
+        readonly textAdditional: "（公開・使用する場合、このカードを「使用済み」領域へ移動）";
         readonly textZh: "";
         readonly textZhG1: "";
-        readonly textZhAdditional: "（双击或者右键来公开此牌）";
         readonly textKo: "";
-        readonly textKoAdditional: "(더블 클릭 또는 우클릭으로 앞면 표시로 한다)";
         readonly textEn: "";
-        readonly textEnAdditional: "(Double-click or right-click to reveal this card.)";
     };
     readonly "05-oboro-a2-cp-2": {
         readonly megami: "oboro";
@@ -898,14 +886,11 @@ export declare const S9_UPDATED_CARD_DATA: {
         readonly rubyEn: "";
         readonly baseType: "customParts";
         readonly text: "<壱> 【常時】この《攻撃》は+0/+0となる。\n----\n<弐> 【常時】この《攻撃》は+0/+1となる。\n----\n<参> 【常時】この《攻撃》は+1/+0となる。\n----\n<肆> 【常時】この《攻撃》は+1/+1となる。";
-        readonly textAdditional: "（ダブルクリックまたは右クリックで表向きにする）";
+        readonly textAdditional: "（公開・使用する場合、このカードを「使用済み」領域へ移動）";
         readonly textZh: "";
         readonly textZhG1: "";
-        readonly textZhAdditional: "（双击或者右键来公开此牌）";
         readonly textKo: "";
-        readonly textKoAdditional: "(더블 클릭 또는 우클릭으로 앞면 표시로 한다)";
         readonly textEn: "";
-        readonly textEnAdditional: "(Double-click or right-click to reveal this card.)";
     };
     readonly "05-oboro-a2-cp-3": {
         readonly megami: "oboro";
@@ -920,14 +905,11 @@ export declare const S9_UPDATED_CARD_DATA: {
         readonly rubyEn: "";
         readonly baseType: "customParts";
         readonly text: "<壱> 【攻撃後】ダスト→間合：1\n----\n<弐> 【攻撃後】ダスト⇔間合：1\n----\n<参> 【攻撃後】ダスト⇔間合：1\n----\n<肆> 【攻撃後】ダスト⇔間合：1\nあなたは集中力を1得る。";
-        readonly textAdditional: "（ダブルクリックまたは右クリックで表向きにする）";
+        readonly textAdditional: "（公開・使用する場合、このカードを「使用済み」領域へ移動）";
         readonly textZh: "";
         readonly textZhG1: "";
-        readonly textZhAdditional: "（双击或者右键来公开此牌）";
         readonly textKo: "";
-        readonly textKoAdditional: "(더블 클릭 또는 우클릭으로 앞면 표시로 한다)";
         readonly textEn: "";
-        readonly textEnAdditional: "(Double-click or right-click to reveal this card.)";
     };
     readonly "05-oboro-a2-cp-4": {
         readonly megami: "oboro";
@@ -942,14 +924,11 @@ export declare const S9_UPDATED_CARD_DATA: {
         readonly rubyEn: "";
         readonly baseType: "customParts";
         readonly text: "<壱> 【攻撃後】捨て札を1枚まで選び、それを伏せ札にする。\n----\n<弐> 【攻撃後】伏せ札からカードを1枚まで選び、それを山札の底に置く。\n----\n<参> 【攻撃後】伏せ札からカードを2枚まで選び、それらを好きな順で山札の底に置く。\n----\n<肆> 【攻撃後】捨て札か伏せ札からカードを2枚まで選び、それらを好きな順で山札の底に置く。\n";
-        readonly textAdditional: "（ダブルクリックまたは右クリックで表向きにする）";
+        readonly textAdditional: "（公開・使用する場合、このカードを「使用済み」領域へ移動）";
         readonly textZh: "";
         readonly textZhG1: "";
-        readonly textZhAdditional: "（双击或者右键来公开此牌）";
         readonly textKo: "";
-        readonly textKoAdditional: "(더블 클릭 또는 우클릭으로 앞면 표시로 한다)";
         readonly textEn: "";
-        readonly textEnAdditional: "(Double-click or right-click to reveal this card.)";
     };
     readonly "25-misora-o-n-1": {
         readonly megami: "misora";
