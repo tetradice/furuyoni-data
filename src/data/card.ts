@@ -14628,7 +14628,7 @@ for (let cardSet of typedObjectKeys(CARD_DATA)) {
     ) {
       // 毒、パーツ (末尾)
       card.sortKey =
-        card.baseType === "customParts" ? `98-${cardId}` : `99-${cardId}`;
+        card.baseType === "mainParts" ? `98-${cardId}` : `99-${cardId}`;
     } else {
       // 上記以外
       card.sortKey = cardId;

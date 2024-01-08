@@ -12836,7 +12836,7 @@ for (let cardSet of (0, typedObjectKeys_js_1.typedObjectKeys)(exports.CARD_DATA)
             card.baseType === "customParts") {
             // 毒、パーツ (末尾)
             card.sortKey =
-                card.baseType === "customParts" ? `98-${cardId}` : `99-${cardId}`;
+                card.baseType === "mainParts" ? `98-${cardId}` : `99-${cardId}`;
         }
         else {
             // 上記以外
