@@ -9971,7 +9971,7 @@ exports.S9_UPDATED_CARD_DATA = {
         textKo: "",
         textEn: "",
     },
-    "22-renri-a1-n-6": {
+    "22-renri-a1-n-5": {
         megami: "renri",
         anotherID: "A1",
         replace: "22-renri-o-n-6",

@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.LIE_SETUP_CARD_IDS_A1 = exports.LIE_CARD_IDS_A1 = exports.RELIC_CARD_IDS = exports.LIE_CARD_IDS_A1_WITHOUT_RELIC = exports.LIE_CARD_IDS_ORIGIN = exports.CardId = void 0;
+exports.LIE_SETUP_CARD_IDS_A1 = exports.LIE_CARD_IDS_A1_AFTER_S9 = exports.LIE_CARD_IDS_A1_FIRST = exports.RELIC_CARD_IDS = exports.LIE_CARD_IDS_A1_AFTER_S9_WITHOUT_RELIC = exports.LIE_CARD_IDS_A1_FIRST_WITHOUT_RELIC = exports.LIE_CARD_IDS_ORIGIN = exports.CardId = void 0;
 var CardId;
 (function (CardId) {
     /** 《斬》 */ CardId.YURINA_O_N_1 = "01-yurina-o-n-1";
@@ -387,8 +387,7 @@ var CardId;
     /** 《アブダグイ》 */ CardId.SHISUI_O_S_3 = "24-shisui-o-s-3";
     /** 《桑畑志水の死に所》 */ CardId.SHISUI_O_S_4 = "24-shisui-o-s-4";
     /** 《欺瞞の霧》 */ CardId.RENRI_A1_N_2 = "22-renri-a1-n-2";
-    /** 《神授》(シーズン8-2) */ CardId.RENRI_A1_N_5 = "22-renri-a1-n-5";
-    /** 《神授》(シーズン9)  */ CardId.RENRI_A1_N_6 = "22-renri-a1-n-6";
+    /** 《神授》*/ CardId.RENRI_A1_N_5 = "22-renri-a1-n-5";
     /** 《偽りの武器》 */ CardId.RENRI_A1_N_5_EX1 = "22-renri-a1-n-5-ex1";
     /** 《刃の本質》 */ CardId.RENRI_A1_N_5_EX2 = "22-renri-a1-n-5-ex2";
     /** 《最初の桜鈴》 */ CardId.RENRI_A1_N_5_EX3 = "22-renri-a1-n-5-ex3";
@@ -535,8 +534,14 @@ exports.LIE_CARD_IDS_ORIGIN = [
     CardId.RENRI_O_N_5,
     CardId.RENRI_O_N_6,
 ];
-/** 偽証カードのIDリスト（レンリA1・遺物は含まない。オリレテラレル用） */
-exports.LIE_CARD_IDS_A1_WITHOUT_RELIC = [
+/** 偽証カードのIDリスト（シーズン8-2のレンリA1・遺物は含まない。オリレテラレル用） */
+exports.LIE_CARD_IDS_A1_FIRST_WITHOUT_RELIC = [
+    CardId.RENRI_O_N_1,
+    CardId.RENRI_O_N_3,
+    CardId.RENRI_O_N_6,
+];
+/** 偽証カードのIDリスト（シーズン9以降のレンリA1・遺物は含まない。オリレテラレル用） */
+exports.LIE_CARD_IDS_A1_AFTER_S9_WITHOUT_RELIC = [
     CardId.RENRI_O_N_1,
     CardId.RENRI_O_N_3,
     CardId.RENRI_O_N_6,
@@ -547,9 +552,14 @@ exports.RELIC_CARD_IDS = [
     CardId.RENRI_A1_N_5_EX2,
     CardId.RENRI_A1_N_5_EX3,
 ];
-/** 偽証カードのIDリスト（レンリA1） */
-exports.LIE_CARD_IDS_A1 = [
-    ...exports.LIE_CARD_IDS_A1_WITHOUT_RELIC,
+/** 偽証カードのIDリスト（シーズン8-2のレンリA1） */
+exports.LIE_CARD_IDS_A1_FIRST = [
+    ...exports.LIE_CARD_IDS_A1_FIRST_WITHOUT_RELIC,
+    ...exports.RELIC_CARD_IDS,
+];
+/** 偽証カードのIDリスト（シーズン9以降のレンリA1） */
+exports.LIE_CARD_IDS_A1_AFTER_S9 = [
+    ...exports.LIE_CARD_IDS_A1_AFTER_S9_WITHOUT_RELIC,
     ...exports.RELIC_CARD_IDS,
 ];
 /** 偽証設置カードのIDリスト（レンリA1） */

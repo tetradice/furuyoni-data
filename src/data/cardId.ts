@@ -446,10 +446,7 @@ export namespace CardId {
     "24-shisui-o-s-4";
 
   /** 《欺瞞の霧》 */ export const RENRI_A1_N_2: TCardId = "22-renri-a1-n-2";
-  /** 《神授》(シーズン8-2) */ export const RENRI_A1_N_5: TCardId =
-    "22-renri-a1-n-5";
-  /** 《神授》(シーズン9)  */ export const RENRI_A1_N_6: TCardId =
-    "22-renri-a1-n-6";
+  /** 《神授》*/ export const RENRI_A1_N_5: TCardId = "22-renri-a1-n-5";
   /** 《偽りの武器》 */ export const RENRI_A1_N_5_EX1 =
     "22-renri-a1-n-5-ex1" satisfies TCardId;
   /** 《刃の本質》 */ export const RENRI_A1_N_5_EX2 =
@@ -1220,11 +1217,18 @@ export const LIE_CARD_IDS_ORIGIN = [
   CardId.RENRI_O_N_6,
 ] as const satisfies readonly TLieCardId[];
 
-/** 偽証カードのIDリスト（レンリA1・遺物は含まない。オリレテラレル用） */
-export const LIE_CARD_IDS_A1_WITHOUT_RELIC = [
+/** 偽証カードのIDリスト（シーズン8-2のレンリA1・遺物は含まない。オリレテラレル用） */
+export const LIE_CARD_IDS_A1_FIRST_WITHOUT_RELIC = [
   CardId.RENRI_O_N_1,
   CardId.RENRI_O_N_3,
   CardId.RENRI_O_N_6,
+] as const satisfies readonly TLieCardId[];
+
+/** 偽証カードのIDリスト（シーズン9以降のレンリA1・遺物は含まない。オリレテラレル用） */
+export const LIE_CARD_IDS_A1_AFTER_S9_WITHOUT_RELIC = [
+  CardId.RENRI_O_N_1,
+  CardId.RENRI_O_N_3,
+  CardId.RENRI_O_N_5,
 ] as const satisfies readonly TLieCardId[];
 
 /** 遺物カードのIDリスト（レンリA1） */
@@ -1234,9 +1238,15 @@ export const RELIC_CARD_IDS = [
   CardId.RENRI_A1_N_5_EX3,
 ] as const satisfies readonly TLieCardId[];
 
-/** 偽証カードのIDリスト（レンリA1） */
-export const LIE_CARD_IDS_A1 = [
-  ...LIE_CARD_IDS_A1_WITHOUT_RELIC,
+/** 偽証カードのIDリスト（シーズン8-2のレンリA1） */
+export const LIE_CARD_IDS_A1_FIRST = [
+  ...LIE_CARD_IDS_A1_FIRST_WITHOUT_RELIC,
+  ...RELIC_CARD_IDS,
+] as const satisfies readonly TLieCardId[];
+
+/** 偽証カードのIDリスト（シーズン9以降のレンリA1） */
+export const LIE_CARD_IDS_A1_AFTER_S9 = [
+  ...LIE_CARD_IDS_A1_AFTER_S9_WITHOUT_RELIC,
   ...RELIC_CARD_IDS,
 ] as const satisfies readonly TLieCardId[];
 

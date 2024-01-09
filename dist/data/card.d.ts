@@ -603,7 +603,7 @@ export declare const S9_UPDATED_CARD_DATA: {
         readonly textKo: "";
         readonly textEn: "";
     };
-    readonly "22-renri-a1-n-6": {
+    readonly "22-renri-a1-n-5": {
         readonly megami: "renri";
         readonly anotherID: "A1";
         readonly replace: "22-renri-o-n-6";

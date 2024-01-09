@@ -383,8 +383,7 @@ export declare namespace CardId {
     /** 《アブダグイ》 */ const SHISUI_O_S_3: TCardId;
     /** 《桑畑志水の死に所》 */ const SHISUI_O_S_4: TCardId;
     /** 《欺瞞の霧》 */ const RENRI_A1_N_2: TCardId;
-    /** 《神授》(シーズン8-2) */ const RENRI_A1_N_5: TCardId;
-    /** 《神授》(シーズン9)  */ const RENRI_A1_N_6: TCardId;
+    /** 《神授》*/ const RENRI_A1_N_5: TCardId;
     /** 《偽りの武器》 */ const RENRI_A1_N_5_EX1 = "22-renri-a1-n-5-ex1";
     /** 《刃の本質》 */ const RENRI_A1_N_5_EX2 = "22-renri-a1-n-5-ex2";
     /** 《最初の桜鈴》 */ const RENRI_A1_N_5_EX3 = "22-renri-a1-n-5-ex3";
@@ -527,12 +526,16 @@ export type TCardId = "01-yurina-o-n-1" | "01-yurina-A1-n-1" | "01-yurina-o-n-2"
 export type TLieCardId = "22-renri-o-n-1" | "22-renri-o-n-2" | "22-renri-o-n-3" | "22-renri-o-n-5" | "22-renri-o-n-6" | "22-renri-a1-n-5-ex1" | "22-renri-a1-n-5-ex2" | "22-renri-a1-n-5-ex3";
 /** 偽証カードのIDリスト（レンリオリジン） */
 export declare const LIE_CARD_IDS_ORIGIN: readonly ["22-renri-o-n-1", "22-renri-o-n-2", "22-renri-o-n-3", "22-renri-o-n-5", "22-renri-o-n-6"];
-/** 偽証カードのIDリスト（レンリA1・遺物は含まない。オリレテラレル用） */
-export declare const LIE_CARD_IDS_A1_WITHOUT_RELIC: readonly ["22-renri-o-n-1", "22-renri-o-n-3", "22-renri-o-n-6"];
+/** 偽証カードのIDリスト（シーズン8-2のレンリA1・遺物は含まない。オリレテラレル用） */
+export declare const LIE_CARD_IDS_A1_FIRST_WITHOUT_RELIC: readonly ["22-renri-o-n-1", "22-renri-o-n-3", "22-renri-o-n-6"];
+/** 偽証カードのIDリスト（シーズン9以降のレンリA1・遺物は含まない。オリレテラレル用） */
+export declare const LIE_CARD_IDS_A1_AFTER_S9_WITHOUT_RELIC: readonly ["22-renri-o-n-1", "22-renri-o-n-3", "22-renri-o-n-6"];
 /** 遺物カードのIDリスト（レンリA1） */
 export declare const RELIC_CARD_IDS: readonly ["22-renri-a1-n-5-ex1", "22-renri-a1-n-5-ex2", "22-renri-a1-n-5-ex3"];
-/** 偽証カードのIDリスト（レンリA1） */
-export declare const LIE_CARD_IDS_A1: readonly ["22-renri-o-n-1", "22-renri-o-n-3", "22-renri-o-n-6", "22-renri-a1-n-5-ex1", "22-renri-a1-n-5-ex2", "22-renri-a1-n-5-ex3"];
+/** 偽証カードのIDリスト（シーズン8-2のレンリA1） */
+export declare const LIE_CARD_IDS_A1_FIRST: readonly ["22-renri-o-n-1", "22-renri-o-n-3", "22-renri-o-n-6", "22-renri-a1-n-5-ex1", "22-renri-a1-n-5-ex2", "22-renri-a1-n-5-ex3"];
+/** 偽証カードのIDリスト（シーズン9以降のレンリA1） */
+export declare const LIE_CARD_IDS_A1_AFTER_S9: readonly ["22-renri-o-n-1", "22-renri-o-n-3", "22-renri-o-n-6", "22-renri-a1-n-5-ex1", "22-renri-a1-n-5-ex2", "22-renri-a1-n-5-ex3"];
 /** 偽証設置カードのIDリスト（レンリA1） */
 export declare const LIE_SETUP_CARD_IDS_A1: TLieCardId[];
 //# sourceMappingURL=cardId.d.ts.map
