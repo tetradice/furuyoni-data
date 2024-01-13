@@ -599,7 +599,7 @@ export declare const S9_UPDATED_CARD_DATA: {
         readonly subType: "fullpower";
         readonly capacity: "2";
         readonly text: "【展開時】集中力を1支払い、計略を準備してもよい。\n【展開時/破棄時】計略を実行し、次の計略を準備する。\n[神算] 攻撃『適正距離1, 3, 5、2/2、不可避、【攻撃後】相手は相手の手札から1枚を選び、山札の底に置く』を行う。\n[鬼謀] 攻撃『適正距離0, 2, 4、2/2、不可避、【攻撃後】相手の山札の上から1枚を捨て札にして、1枚を伏せ札にする』を行う。";
-        readonly textZh: "";
+        readonly textZh: "【展开时】可以支付1点集中力来准备计略。\n【展开时/破弃时】实行当前计略，准备下个计略。\n----\n[神算] 进行一次“攻击距离1,3,5 伤害2/2 不可被闪避 【攻击后】对手从其手牌中选择1张牌置于牌库底”的攻击。\n----\n[鬼谋] 进行一次“攻击距离2,4,6 伤害2/2 不可被闪避 【攻击后】对手从牌库顶弃掉1张牌，盖伏1张牌”的攻击。";
         readonly textZhG1: "";
         readonly textKo: "";
         readonly textEn: "";
@@ -641,7 +641,7 @@ export declare const S9_UPDATED_CARD_DATA: {
         readonly subType: "fullpower";
         readonly capacity: "2";
         readonly text: "隙　投資券\n【展開時】相オーラ→自オーラ：1\n集中力を1支払ってもよい。 そうした場合、この矢印効果をもう1回行う。\n【破棄時】攻撃『適正距離2-5、1/0』を行ってもよい。";
-        readonly textZh: "破绽 投资券\n【展开时】敌装→1→自装\n○○○○，若如此做，重复1次这个箭头效果。\n【破弃时】进行一次“攻击距离2-5、伤害1/0”的攻击。";
+        readonly textZh: "破绽 投资券\n【展开时】敌装→1→自装\n可以支付1集中力，若如此做，重复1次这个箭头效果。\n【破弃时】可以进行一次“攻击距离2-5、伤害1/0”的攻击。";
         readonly textZhG1: "";
         readonly textKo: "빈틈, 투자권\n【전개시】 오라(상대)→오라(자신):1\n○○○○, 이 화살표 효과를 1회 더 수행한다.\n【파기시】 공격 『적정거리 2-5, 1/0』을 수행해도 된다.";
         readonly textEn: "Unguarded, Investment\n\nInitialize: Opponent's Aura (1)→ Your Aura. ○○○○. If you do, perform this arrow effect once more.\n\nDisenchant: You may attack with \"Range: 2-5, Damage: 1/0\".";
@@ -679,7 +679,7 @@ export declare const S9_UPDATED_CARD_DATA: {
         readonly baseType: "normal";
         readonly type: "action";
         readonly text: "間合制限（0-4）\n基本動作《纏い》を2回行う。あなたはあなたのオーラかフレアを選ぶ。相手は相手のオーラかフレアを選ぶ。選ばれた領域に裂傷を1ずつ与える。";
-        readonly textZh: "";
+        readonly textZh: "距离限制（0-4）\n进行2次基本动作《装附》。你选择自装或者自气，对手选择敌装或者敌气。给与所选区域各1点裂伤。";
         readonly textZhG1: "";
         readonly textKo: "";
         readonly textEn: "";
@@ -720,7 +720,7 @@ export declare const S9_UPDATED_CARD_DATA: {
         readonly damage: "{2/1}";
         readonly cost: "{2}";
         readonly text: "【攻撃後】相手がライフへのダメージを選んだならば、このターンにあなたが次に行うオーラへのダメージが2以下の《攻撃》のダメージは裂傷化する。\n----\n【再起】あなたのオーラとフレアの合計が6以下である。";
-        readonly textZh: "【攻击后】对手选择承受对命伤害的话，本回合中你的对装伤害不大于2的《攻击》造成的伤害裂伤化。\n----\n【再起】自装和自气合计不大于6。";
+        readonly textZh: "【攻击后】对手选择承受对命伤害的话，本回合中你的下一次对装伤害不大于2的《攻击》造成的伤害裂伤化。\n----\n【再起】自装和自气合计不大于6。";
         readonly textZhG1: "";
         readonly textKo: "【공격후】 상대가 라이프 데미지를 선택했다면, 이 턴에 당신이 다음에 수행하는 오라 데미지가 2 이하인 《공격》을 열상화한다.\n----\n【재기】 당신의 오라와 플레어의 합계가 6 이하이다.";
         readonly textEn: "After Attack: If your opponent chose to take damage to Life, the Damage from your next attack this turn that has 2 or less Damage to Aura becomes Lacerated.\n\nResurgence: Your total Aura and Flare is 6 or less.";
@@ -740,7 +740,7 @@ export declare const S9_UPDATED_CARD_DATA: {
         readonly type: "enhance";
         readonly capacity: "3";
         readonly text: "【展開中】八相―相手が各ターンで初めて《攻撃》を行った時、あなたのオーラが1以下または他のメガミの切札が使用済ならば、その《攻撃》は対応不可を失い、-1/+0となる。\n【展開時/破棄時】サイネの切札が使用済ならば、このターン中あなたの切札の消費は1少なくなる。\n";
-        readonly textZh: "";
+        readonly textZh: "【展开中】八相～若自装中樱花结晶数仅1个或更少或你有已使用状态的其他女神的王牌，则每回合对手的第一次《攻击》失去不可被对应、得-1/+0。\n【展开时/破弃时】若你有已使用状态的细音的王牌，则在这个回合中你使用王牌的费用减小1。";
         readonly textZhG1: "";
         readonly textKo: "";
         readonly textEn: "";
@@ -761,7 +761,7 @@ export declare const S9_UPDATED_CARD_DATA: {
         readonly range: "5";
         readonly damage: "-/1";
         readonly text: "【常時】トコヨの切札が使用済ならば、この《攻撃》は対応不可を得る。\n【攻撃後】境地―あなたの集中力が2または他のメガミの切札が使用済ならば、このカードを山札の上か底に置く。\n";
-        readonly textZh: "";
+        readonly textZh: "【常时】若你有已使用状态的常世的王牌，则此《攻击》得不可被对应。\n【攻击后】境地～若你的集中力为2，或你有已使用状态的其他女神的王牌，则将此牌置于你的牌库顶或者牌库底。";
         readonly textZhG1: "";
         readonly textKo: "";
         readonly textEn: "";
@@ -772,7 +772,7 @@ export declare const S9_UPDATED_CARD_DATA: {
         readonly replace: "02-saine-o-n-1";
         readonly name: "合奏";
         readonly nameEn: "";
-        readonly nameZh: "";
+        readonly nameZh: "合奏";
         readonly nameZhG1: "";
         readonly nameKo: "";
         readonly ruby: "がっそう";
@@ -783,7 +783,7 @@ export declare const S9_UPDATED_CARD_DATA: {
         readonly range: "2-5";
         readonly damage: "3/0";
         readonly text: "【攻撃後】サイネの切札が使用済ならば、相オーラ→ダスト：1\n【攻撃後】八相/境地―あなたのオーラが1以下またはあなたの集中力が2ならば、ダスト→間合：1\n【攻撃後】トコヨの切札が使用済ならば、ダスト→自オーラ：1\n（このカードはサイネとトコヨのカードである）\n";
-        readonly textZh: "";
+        readonly textZh: "【攻击后】若你有已使用状态的细音的王牌，敌装→1→虚\n【攻击后】八相/境地～若自装中樱花结晶数仅1个或更少或你的集中力为2，虚→1→距\n【攻击后】若你有已使用状态的常世的王牌，虚→1→自装\n（此牌同时视为细音和常世的牌）";
         readonly textZhG1: "";
         readonly textKo: "";
         readonly textEn: "";
@@ -803,7 +803,7 @@ export declare const S9_UPDATED_CARD_DATA: {
         readonly type: "action";
         readonly cost: "2";
         readonly text: "【常時】八相―あなたのオーラが1以下ならば、このカードの消費は1少なくなる。\nこのターン中、あなたは《攻撃》を行えない。\n【使用済】あなたの他のメガミによる《攻撃》は+0/+1となる。\n----\n【即再起】あなたが《攻撃》によりライフに1以上のダメージを受ける。";
-        readonly textZh: "";
+        readonly textZh: "【常时】八相～若自装中樱花结晶数仅1个或更少，此牌的消耗减少1。\n 在本回合中，你不能进行《攻击》。\n 【已使用】你的其他女神的《攻击》得+0/+1。\n ----\n 【即再起】自命因《攻击》受到至少1点的伤害。";
         readonly textZhG1: "";
         readonly textKo: "";
         readonly textEn: "";
@@ -823,7 +823,7 @@ export declare const S9_UPDATED_CARD_DATA: {
         readonly type: "action";
         readonly cost: "1";
         readonly text: "【常時】境地―あなたの集中力が2ならば、このカードの消費は1小さくなる。\nこのターン中、あなたは集中力を支払えない。\n【使用済】あなたが他のメガミのカードで対応した時、捨て札か伏せ札のカードを1枚選び、それを山札の底に置いてもよい。\n----\n【即再起】あなたが《攻撃》によりライフに1以上のダメージを受ける。";
-        readonly textZh: "";
+        readonly textZh: "【常时】境地～若你的集中力为2，此牌的消耗减少1。\n 在本回合中，你不能支付集中力。\n 【已使用】你用其他女神的牌进行对应时，可以从弃牌或盖牌中选择1张牌置于牌库底。\n ----\n 【即再起】自命因《攻击》受到至少1点的伤害。";
         readonly textZhG1: "";
         readonly textKo: "";
         readonly textEn: "";
@@ -834,7 +834,7 @@ export declare const S9_UPDATED_CARD_DATA: {
         readonly replace: "05-oboro-o-n-1";
         readonly name: "ホロ苦無";
         readonly nameEn: "";
-        readonly nameZh: "";
+        readonly nameZh: "全息苦无";
         readonly nameZhG1: "";
         readonly nameKo: "";
         readonly ruby: "ほろくない";
@@ -844,7 +844,7 @@ export declare const S9_UPDATED_CARD_DATA: {
         readonly range: "1,3,5";
         readonly damage: "1/1";
         readonly text: "設置\n【攻撃後】パーツを1つ組み立てる。\n【常時】使用されたこのカードが捨て札になるならば、代わりに伏せ札にしてもよい。\n";
-        readonly textZh: "";
+        readonly textZh: "设置\n【攻击后】组装1个部件。\n【常时】被使用的此牌弃置时，可以改为盖伏。";
         readonly textZhG1: "";
         readonly textKo: "";
         readonly textEn: "";
@@ -855,7 +855,7 @@ export declare const S9_UPDATED_CARD_DATA: {
         readonly replace: "05-oboro-o-s-1";
         readonly name: "ギガ介";
         readonly nameEn: "";
-        readonly nameZh: "";
+        readonly nameZh: "千兆介 ";
         readonly nameZhG1: "";
         readonly nameKo: "";
         readonly ruby: "ギガすけ";
@@ -866,7 +866,7 @@ export declare const S9_UPDATED_CARD_DATA: {
         readonly damage: "2/1";
         readonly cost: "16";
         readonly text: "【常時】このカードの消費はあなたの伏せ札の枚数と組み立てられたパーツの数の合計だけ少なくなる。\n【攻撃後】攻撃『適正距離3-4、2/1』を3回行う。\n\n";
-        readonly textZh: "";
+        readonly textZh: "【常时】此牌的消费会减少你的盖牌和组装的部件数的和。\n【攻击后】进行3次“攻击距离3-4 伤害2/1”的攻击。";
         readonly textZhG1: "";
         readonly textKo: "";
         readonly textEn: "";
@@ -877,7 +877,7 @@ export declare const S9_UPDATED_CARD_DATA: {
         readonly replace: "05-oboro-o-s-3";
         readonly name: "朧文書・電子神渉";
         readonly nameEn: "";
-        readonly nameZh: "";
+        readonly nameZh: "胧文书·电子神涉";
         readonly nameZhG1: "";
         readonly nameKo: "";
         readonly ruby: "おぼろもんじょ　でんしかんしょう";
@@ -887,7 +887,7 @@ export declare const S9_UPDATED_CARD_DATA: {
         readonly subType: "fullpower";
         readonly cost: "0";
         readonly text: "パーツを1つ組み立て、基本動作を1回まで行う。\n【使用済】山札を再構成する直前に、組み立てられているパーツが1つ以下になるように解体してもよい。そうした場合、パーツをX個組み立てる。Xは伏せ札の枚数の半分(切り上げ)に等しい。\n\n";
-        readonly textZh: "";
+        readonly textZh: "组装1个部件，进行最多1次基本动作。\n【已使用】重铸牌库之前，可以解体到只剩最多1个部件。若如此做，组装X个部件。X是盖牌数的一半（向上取整）。";
         readonly textZhG1: "";
         readonly textKo: "";
         readonly textEn: "";
@@ -898,7 +898,7 @@ export declare const S9_UPDATED_CARD_DATA: {
         readonly replace: "";
         readonly name: "メインパーツX";
         readonly nameEn: "";
-        readonly nameZh: "";
+        readonly nameZh: "基础部件X";
         readonly nameZhG1: "";
         readonly nameKo: "";
         readonly ruby: "";
@@ -909,8 +909,9 @@ export declare const S9_UPDATED_CARD_DATA: {
         readonly damage: "2/2";
         readonly text: "デジ設置";
         readonly textAdditional: "（公開・使用する場合、このカードを「使用済み」領域へ移動）";
-        readonly textZh: "";
+        readonly textZh: "数码设置";
         readonly textZhG1: "";
+        readonly textZhAdditional: "（需展示·使用的时候、将此牌移到「已使用」区域）";
         readonly textKo: "";
         readonly textEn: "";
     };
@@ -920,7 +921,7 @@ export declare const S9_UPDATED_CARD_DATA: {
         readonly replace: "";
         readonly name: "メインパーツY";
         readonly nameEn: "";
-        readonly nameZh: "";
+        readonly nameZh: "基础部件Y";
         readonly nameZhG1: "";
         readonly nameKo: "";
         readonly ruby: "";
@@ -931,8 +932,9 @@ export declare const S9_UPDATED_CARD_DATA: {
         readonly damage: "2/1";
         readonly text: "デジ設置";
         readonly textAdditional: "（公開・使用する場合、このカードを「使用済み」領域へ移動）";
-        readonly textZh: "";
+        readonly textZh: "数码设置";
         readonly textZhG1: "";
+        readonly textZhAdditional: "（需展示·使用的时候、将此牌移到「已使用」区域）";
         readonly textKo: "";
         readonly textEn: "";
     };
@@ -942,7 +944,7 @@ export declare const S9_UPDATED_CARD_DATA: {
         readonly replace: "";
         readonly name: "メインパーツZ";
         readonly nameEn: "";
-        readonly nameZh: "";
+        readonly nameZh: "基础部件Z";
         readonly nameZhG1: "";
         readonly nameKo: "";
         readonly ruby: "";
@@ -953,8 +955,9 @@ export declare const S9_UPDATED_CARD_DATA: {
         readonly damage: "1/0";
         readonly text: "デジ設置\n【攻撃後】相手がライフへのダメージを選んだならば、相手を畏縮させる。";
         readonly textAdditional: "（公開・使用する場合、このカードを「使用済み」領域へ移動）";
-        readonly textZh: "";
+        readonly textZh: "数码设置\n【攻击后】对手选择承受对命伤害的话，令对手畏缩。";
         readonly textZhG1: "";
+        readonly textZhAdditional: "（需展示·使用的时候、将此牌移到「已使用」区域）";
         readonly textKo: "";
         readonly textEn: "";
     };
@@ -964,7 +967,7 @@ export declare const S9_UPDATED_CARD_DATA: {
         readonly replace: "";
         readonly name: "カスタムパーツA";
         readonly nameEn: "";
-        readonly nameZh: "";
+        readonly nameZh: "定制部件A";
         readonly nameZhG1: "";
         readonly nameKo: "";
         readonly ruby: "";
@@ -972,8 +975,9 @@ export declare const S9_UPDATED_CARD_DATA: {
         readonly baseType: "customParts";
         readonly text: "<壱> 対応不可（《付与》）\n----\n<弐> 対応不可（《攻撃》）\n----\n<参> 対応不可（《行動》）\n----\n<肆> 対応不可（通常札）";
         readonly textAdditional: "（公開・使用する場合、このカードを「使用済み」領域へ移動）";
-        readonly textZh: "";
+        readonly textZh: "<壹> 不可被对应(《付与》)\n----\n<贰> 不可被对应(《攻击》)\n----\n<叁> 不可被对应(《行动》)\n----\n<肆> 不可被对应(通常牌)";
         readonly textZhG1: "";
+        readonly textZhAdditional: "（需展示·使用的时候、将此牌移到「已使用」区域）";
         readonly textKo: "";
         readonly textEn: "";
     };
@@ -983,7 +987,7 @@ export declare const S9_UPDATED_CARD_DATA: {
         readonly replace: "";
         readonly name: "カスタムパーツB";
         readonly nameEn: "";
-        readonly nameZh: "";
+        readonly nameZh: "定制部件B";
         readonly nameZhG1: "";
         readonly nameKo: "";
         readonly ruby: "";
@@ -991,8 +995,9 @@ export declare const S9_UPDATED_CARD_DATA: {
         readonly baseType: "customParts";
         readonly text: "<壱> 【常時】この《攻撃》は+0/+0となる。\n----\n<弐> 【常時】この《攻撃》は+0/+1となる。\n----\n<参> 【常時】この《攻撃》は+1/+0となる。\n----\n<肆> 【常時】この《攻撃》は+1/+1となる。";
         readonly textAdditional: "（公開・使用する場合、このカードを「使用済み」領域へ移動）";
-        readonly textZh: "";
+        readonly textZh: "<壹> 【常时】此《攻击》得+0/+0。\n----\n<贰> 【常时】此《攻击》得+0/+1。\n----\n<叁> 【常时】此《攻击》得+1/+0。\n----\n<肆> 【常时】此《攻击》得+1/+1。";
         readonly textZhG1: "";
+        readonly textZhAdditional: "（需展示·使用的时候、将此牌移到「已使用」区域）";
         readonly textKo: "";
         readonly textEn: "";
     };
@@ -1002,7 +1007,7 @@ export declare const S9_UPDATED_CARD_DATA: {
         readonly replace: "";
         readonly name: "カスタムパーツC";
         readonly nameEn: "";
-        readonly nameZh: "";
+        readonly nameZh: "定制部件C";
         readonly nameZhG1: "";
         readonly nameKo: "";
         readonly ruby: "";
@@ -1010,8 +1015,9 @@ export declare const S9_UPDATED_CARD_DATA: {
         readonly baseType: "customParts";
         readonly text: "<壱> 【攻撃後】ダスト→間合：1\n----\n<弐> 【攻撃後】ダスト⇔間合：1\n----\n<参> 【攻撃後】ダスト⇔間合：1\n----\n<肆> 【攻撃後】ダスト⇔間合：1\nあなたは集中力を1得る。";
         readonly textAdditional: "（公開・使用する場合、このカードを「使用済み」領域へ移動）";
-        readonly textZh: "";
+        readonly textZh: "<壹> 【攻击后】虚→1→距\n----\n<贰> 【攻击后】虚←1→距\n----\n<叁> 【攻击后】虚←1→距\n----\n<肆> 【攻击后】虚←1→距\n你获得1点集中力。";
         readonly textZhG1: "";
+        readonly textZhAdditional: "（需展示·使用的时候、将此牌移到「已使用」区域）";
         readonly textKo: "";
         readonly textEn: "";
     };
@@ -1021,7 +1027,7 @@ export declare const S9_UPDATED_CARD_DATA: {
         readonly replace: "";
         readonly name: "カスタムパーツD";
         readonly nameEn: "";
-        readonly nameZh: "";
+        readonly nameZh: "定制部件D";
         readonly nameZhG1: "";
         readonly nameKo: "";
         readonly ruby: "";
@@ -1029,8 +1035,9 @@ export declare const S9_UPDATED_CARD_DATA: {
         readonly baseType: "customParts";
         readonly text: "<壱> 【攻撃後】捨て札を1枚まで選び、それを伏せ札にする。\n----\n<弐> 【攻撃後】伏せ札からカードを1枚まで選び、それを山札の底に置く。\n----\n<参> 【攻撃後】伏せ札からカードを2枚まで選び、それらを好きな順で山札の底に置く。\n----\n<肆> 【攻撃後】捨て札か伏せ札からカードを2枚まで選び、それらを好きな順で山札の底に置く。\n";
         readonly textAdditional: "（公開・使用する場合、このカードを「使用済み」領域へ移動）";
-        readonly textZh: "";
+        readonly textZh: "<壹> 【攻击后】选择最多1张弃牌，将其盖伏。\n----\n<贰> 【攻击后】选择最多1张盖牌，将其置入牌库底。\n----\n<叁> 【攻击后】选择最多2张盖牌，将其以任意顺序置入牌库底。\n----\n<肆> 【攻击后】从盖牌和弃牌中选择最多2张牌，将其以任意顺序置入牌库底。";
         readonly textZhG1: "";
+        readonly textZhAdditional: "（需展示·使用的时候、将此牌移到「已使用」区域）";
         readonly textKo: "";
         readonly textEn: "";
     };
@@ -1038,7 +1045,7 @@ export declare const S9_UPDATED_CARD_DATA: {
         readonly megami: "misora";
         readonly name: "弓流し";
         readonly nameEn: "";
-        readonly nameZh: "";
+        readonly nameZh: "弓流";
         readonly nameZhG1: "";
         readonly nameKo: "";
         readonly ruby: "ゆみながし";
@@ -1048,8 +1055,9 @@ export declare const S9_UPDATED_CARD_DATA: {
         readonly range: "4-7";
         readonly damage: "2/1";
         readonly text: "【常時】照準が合っているならば、この《攻撃》のオーラへのダメージは「-」になる。\n【攻撃後】現在の間合と照準が等しいならば、ダスト→自オーラ：1\n";
-        readonly textZh: "";
+        readonly textZh: "【常时】对上瞄准的话，此《攻击》对装伤害变为「-」。\n【攻击后】当前的距等于瞄准的话，虚→1→自装";
         readonly textZhG1: "";
+        readonly textZhAdditional: "（对上瞄准指当前距和瞄准都处于该《攻击》的攻击距离之内）";
         readonly textKo: "";
         readonly textEn: "";
     };
@@ -1057,7 +1065,7 @@ export declare const S9_UPDATED_CARD_DATA: {
         readonly megami: "misora";
         readonly name: "狙い蹴り";
         readonly nameEn: "";
-        readonly nameZh: "";
+        readonly nameZh: "蹴击";
         readonly nameZhG1: "";
         readonly nameKo: "";
         readonly ruby: "ねらいげり";
@@ -1067,7 +1075,7 @@ export declare const S9_UPDATED_CARD_DATA: {
         readonly range: "2-4";
         readonly damage: "2/1";
         readonly text: "【攻撃後】あなたの照準を1増加させるか、1減少させてもよい。";
-        readonly textZh: "";
+        readonly textZh: "【攻击后】可以把你的瞄准增加或者减少1。";
         readonly textZhG1: "";
         readonly textKo: "";
         readonly textEn: "";
@@ -1076,7 +1084,7 @@ export declare const S9_UPDATED_CARD_DATA: {
         readonly megami: "misora";
         readonly name: "風孔";
         readonly nameEn: "";
-        readonly nameZh: "";
+        readonly nameZh: "风穴";
         readonly nameZhG1: "";
         readonly nameKo: "";
         readonly ruby: "かざあな";
@@ -1087,7 +1095,7 @@ export declare const S9_UPDATED_CARD_DATA: {
         readonly range: "2-5";
         readonly damage: "1/1";
         readonly text: "【攻撃後】現在の間合と照準を比べて以下のいずれかを行う。\n・現在の間合＞照準…間合→ダスト：1\n・現在の間合＝照準…ダスト→自オーラ：1\n・現在の間合＜照準…ダスト→間合：1\n";
-        readonly textZh: "";
+        readonly textZh: "【攻击后】比较当前的距和瞄准进行以下一项：\n・当前的距＞瞄准…距→1→虚\n・当前的距＝瞄准…虚→1→自装\n・当前的距＜瞄准…虚→1→距";
         readonly textZhG1: "";
         readonly textKo: "";
         readonly textEn: "";
@@ -1096,7 +1104,7 @@ export declare const S9_UPDATED_CARD_DATA: {
         readonly megami: "misora";
         readonly name: "甲矢乙矢";
         readonly nameEn: "";
-        readonly nameZh: "";
+        readonly nameZh: "甲矢乙矢";
         readonly nameZhG1: "";
         readonly nameKo: "";
         readonly ruby: "はやおとや";
@@ -1108,7 +1116,7 @@ export declare const S9_UPDATED_CARD_DATA: {
         readonly damage: "5/1";
         readonly text: "追尾\n【攻撃後】相手は手札から《攻撃》カード1枚を捨て札にする。それが行えない場合、相手は手札を公開し、相手の山札の上から3枚を伏せ札にする。\n";
         readonly textAdditional: "（自分の手札を右クリックすることで、手札を相手プレイヤーに公開することが可能）";
-        readonly textZh: "";
+        readonly textZh: "追踪\n【攻击后】对手从手牌中弃置1张《攻击》牌。若不能如此做，则公开对手手牌，并将对手牌库顶3张牌盖伏。";
         readonly textZhG1: "";
         readonly textZhAdditional: "（右键自己的手牌区可以将手牌展示给对方玩家）";
         readonly textKo: "";
@@ -1120,7 +1128,7 @@ export declare const S9_UPDATED_CARD_DATA: {
         readonly megami: "misora";
         readonly name: "精密化";
         readonly nameEn: "";
-        readonly nameZh: "";
+        readonly nameZh: "精密化";
         readonly nameZhG1: "";
         readonly nameKo: "";
         readonly ruby: "せいみつか";
@@ -1128,8 +1136,9 @@ export declare const S9_UPDATED_CARD_DATA: {
         readonly baseType: "normal";
         readonly type: "action";
         readonly text: "集中力を1得る。\nこのターンにあなたが次に行う他のメガミの通常札によるオーラへのダメージが「-」でない《攻撃》は、照準が合っているならば+1/+1となる。\n";
-        readonly textZh: "";
+        readonly textZh: "获得1点集中力。\n本回合中你的下一次其他女神的基于通常牌的对装伤害不为「-」的《攻击》，在对上瞄准时得+1/+1。";
         readonly textZhG1: "";
+        readonly textZhAdditional: "（对上瞄准指当前距和瞄准都处于该《攻击》的攻击距离之内）";
         readonly textKo: "";
         readonly textEn: "";
     };
@@ -1137,7 +1146,7 @@ export declare const S9_UPDATED_CARD_DATA: {
         readonly megami: "misora";
         readonly name: "追尾撃";
         readonly nameEn: "";
-        readonly nameZh: "";
+        readonly nameZh: "追踪箭";
         readonly nameZhG1: "";
         readonly nameKo: "";
         readonly ruby: "ついびげき";
@@ -1146,8 +1155,9 @@ export declare const S9_UPDATED_CARD_DATA: {
         readonly type: "action";
         readonly text: "眼前構築で選んでいない他のメガミのカードまたは伏せ札のカードから、《全力》でない《攻撃》の通常札1枚を選び、それに追尾を与えて使用する。ゲーム外から使用したそのカードが領域を移動するならば、代わりに裏向きで取り除く。(眼前構築で選んでいない状態に戻る)";
         readonly textAdditional: "（このカードを右クリックすることで、眼前構築で選んでいないカードを取得可能。また、使用したカードを右クリックすることで取り除くことができる）";
-        readonly textZh: "";
+        readonly textZh: "从盖牌中或者眼前构筑时未选取的其他女神的牌中，选1张非《全力》的《攻击》通常牌，使用之且视其具有追踪。从游戏外使用了的那张牌在区域移动时会改为面朝下移出游戏。（回到眼前构筑时未选取的状态）";
         readonly textZhG1: "";
+        readonly textZhAdditional: "（右键这张牌，以获取眼前构筑时未选取的牌。并且，使用的牌可以被右键移除）";
         readonly textKo: "";
         readonly textEn: "";
     };
@@ -1155,7 +1165,7 @@ export declare const S9_UPDATED_CARD_DATA: {
         readonly megami: "misora";
         readonly name: "空の翼";
         readonly nameEn: "";
-        readonly nameZh: "";
+        readonly nameZh: "碧空翼";
         readonly nameZhG1: "";
         readonly nameKo: "";
         readonly ruby: "そらのつばさ";
@@ -1163,8 +1173,8 @@ export declare const S9_UPDATED_CARD_DATA: {
         readonly baseType: "normal";
         readonly type: "enhance";
         readonly capacity: "2";
-        readonly text: "終端　間合制限（0-3）\n【展開時】相オーラ→間合：2\n【破棄時】このターン中、現在の間合は1増加し、達人の間合は1大きくなる。";
-        readonly textZh: "";
+        readonly text: "終端　間合制限（0-3）\n【展開時】相オーラ→間合：2\n【破棄時】このターン中、現在の間合は1増加し、達人の間合は1大きくなる。\n";
+        readonly textZh: "终端 距离限制(0-3)\n【展开时】敌装→2→距\n【破弃时】在本回合中，当前的距的值增加1，达人距离的值也加1。";
         readonly textZhG1: "";
         readonly textKo: "";
         readonly textEn: "";
@@ -1173,7 +1183,7 @@ export declare const S9_UPDATED_CARD_DATA: {
         readonly megami: "misora";
         readonly name: "ミハテヌハテ";
         readonly nameEn: "";
-        readonly nameZh: "";
+        readonly nameZh: "未竟终末";
         readonly nameZhG1: "";
         readonly nameKo: "";
         readonly ruby: "";
@@ -1184,7 +1194,7 @@ export declare const S9_UPDATED_CARD_DATA: {
         readonly damage: "-/1";
         readonly cost: "2";
         readonly text: "追尾　対応不可\n【常時】Xは3にこのカードの上の桜花結晶の数の2倍を加えた値に等しい。\n【攻撃後】Xが7以上ならば、相手の山札を全て伏せ札にする。\n【使用済】あなたの終了フェイズにこのカードの上にダストから1つ桜花結晶を置き、このカードを未使用に戻す。\n";
-        readonly textZh: "";
+        readonly textZh: "追踪 不可被对应\n【常时】X等于本牌上的樱花结晶数的两倍加3的值。\n【攻击后】X大于等于7的话，盖伏对手的全部牌库。\n【已使用】在你的结束步骤，从虚将1个樱花结晶置于此牌上，将此牌返回未使用的状态。";
         readonly textZhG1: "";
         readonly textKo: "";
         readonly textEn: "";
@@ -1193,7 +1203,7 @@ export declare const S9_UPDATED_CARD_DATA: {
         readonly megami: "misora";
         readonly name: "ツクモノクモ";
         readonly nameEn: "";
-        readonly nameZh: "";
+        readonly nameZh: "作祟妖云";
         readonly nameZhG1: "";
         readonly nameKo: "";
         readonly ruby: "";
@@ -1203,7 +1213,7 @@ export declare const S9_UPDATED_CARD_DATA: {
         readonly capacity: "1";
         readonly cost: "1";
         readonly text: "【展開中】照準があるならば、現在の問合は照準に等しくなる。\n【展開中】あなたは基本動作《前進》と《離脱》を行えない。\n";
-        readonly textZh: "";
+        readonly textZh: "【展开中】有瞄准的话，当前的距等于瞄准。\n【展开中】你不能进行基本动作《前进》或《离脱》。";
         readonly textZhG1: "";
         readonly textKo: "";
         readonly textEn: "";
@@ -1212,7 +1222,7 @@ export declare const S9_UPDATED_CARD_DATA: {
         readonly megami: "misora";
         readonly name: "カカゲルカゲ";
         readonly nameEn: "";
-        readonly nameZh: "";
+        readonly nameZh: "揭帘悬影";
         readonly nameZhG1: "";
         readonly nameKo: "";
         readonly ruby: "";
@@ -1223,7 +1233,7 @@ export declare const S9_UPDATED_CARD_DATA: {
         readonly capacity: "3";
         readonly cost: "2";
         readonly text: "【展開時】対応した通常札による《攻撃》の適正距離があなたの照準を含むならば、対応した《攻撃》を打ち消し、そのカードをこのカードの下に封印する。\n【破棄時】このカードに封印されたカードを相手の捨て札に戻す。\n\n";
-        readonly textZh: "";
+        readonly textZh: "【展开时】被对应的基于通常牌的《攻击》的攻击距离包含瞄准的话，打消被对应的《攻击》，并将其封印在此牌下。\n【破弃时】将封印在此牌下的牌返回对手的弃牌。";
         readonly textZhG1: "";
         readonly textKo: "";
         readonly textEn: "";
@@ -1233,7 +1243,7 @@ export declare const S9_UPDATED_CARD_DATA: {
         readonly megami: "misora";
         readonly name: "ミソラノソラ";
         readonly nameEn: "";
-        readonly nameZh: "";
+        readonly nameZh: "碧落御空";
         readonly nameZhG1: "";
         readonly nameKo: "";
         readonly ruby: "";
@@ -1244,7 +1254,7 @@ export declare const S9_UPDATED_CARD_DATA: {
         readonly capacity: "2";
         readonly cost: "5";
         readonly text: "【展開中】現在の間合は5増加する。\n【破棄時】相ライフ→間合：1、相オーラ→間合：1、相フレア→間合：1\n【使用済】このカードは使用できない。\n";
-        readonly textZh: "";
+        readonly textZh: "【展开中】当前的距的值增加5。\n【破弃时】敌命→1→距、敌装→1→距、敌气→1→距\n【已使用】此牌不能被使用。";
         readonly textZhG1: "";
         readonly textKo: "";
         readonly textEn: "";

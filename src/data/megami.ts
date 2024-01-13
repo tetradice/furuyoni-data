@@ -207,12 +207,12 @@ const MEGAMI_DATA_BASE = {
   },
   "oboro-a2": {
     name: "消失オボロ",
-    nameZh: "",
+    nameZh: "消失胧",
     nameZhG1: "",
     nameKo: "",
     nameEn: "",
     symbol: "電子",
-    symbolZh: "",
+    symbolZh: "电子",
     symbolZhG1: "",
     symbolKo: "",
     symbolEn: "",
@@ -233,7 +233,6 @@ const MEGAMI_DATA_BASE = {
     ] as CardSet[],
     tarotNo: "05",
   },
-
   yukihi: {
     name: "ユキヒ",
     nameZh: "雪灯",
@@ -822,12 +821,12 @@ const MEGAMI_DATA_BASE = {
   },
   misora: {
     name: "ミソラ",
-    nameZh: "",
+    nameZh: "御空",
     nameZhG1: "",
     nameKo: "",
     nameEn: "",
     symbol: "弓",
-    symbolZh: "",
+    symbolZh: "弓",
     symbolZhG1: "",
     symbolKo: "",
     symbolEn: "",
@@ -846,7 +845,6 @@ const MEGAMI_DATA_BASE = {
     ] as CardSet[],
     tarotNo: "25",
   },
-
   "yurina-story-0": {
     name: "天音揺波",
     nameZh: "天音摇波",

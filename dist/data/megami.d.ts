@@ -191,12 +191,12 @@ declare const MEGAMI_DATA_BASE: {
     };
     readonly "oboro-a2": {
         readonly name: "消失オボロ";
-        readonly nameZh: "";
+        readonly nameZh: "消失胧";
         readonly nameZhG1: "";
         readonly nameKo: "";
         readonly nameEn: "";
         readonly symbol: "電子";
-        readonly symbolZh: "";
+        readonly symbolZh: "电子";
         readonly symbolZhG1: "";
         readonly symbolKo: "";
         readonly symbolEn: "";
@@ -689,12 +689,12 @@ declare const MEGAMI_DATA_BASE: {
     };
     readonly misora: {
         readonly name: "ミソラ";
-        readonly nameZh: "";
+        readonly nameZh: "御空";
         readonly nameZhG1: "";
         readonly nameKo: "";
         readonly nameEn: "";
         readonly symbol: "弓";
-        readonly symbolZh: "";
+        readonly symbolZh: "弓";
         readonly symbolZhG1: "";
         readonly symbolKo: "";
         readonly symbolEn: "";
