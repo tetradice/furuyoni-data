@@ -544,7 +544,7 @@ exports.LIE_CARD_IDS_A1_FIRST_WITHOUT_RELIC = [
 exports.LIE_CARD_IDS_A1_AFTER_S9_WITHOUT_RELIC = [
     CardId.RENRI_O_N_1,
     CardId.RENRI_O_N_3,
-    CardId.RENRI_O_N_6,
+    CardId.RENRI_O_N_5,
 ];
 /** 遺物カードのIDリスト（レンリA1） */
 exports.RELIC_CARD_IDS = [

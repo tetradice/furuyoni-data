@@ -97,7 +97,7 @@ export declare const S8_2_UPDATED_CARD_DATA: {
         readonly capacity: "3";
         readonly cost: "2";
         readonly text: "【展開時】あなたは捨て札を好きな枚数だけ伏せ札にする。\n【展開中】あなたが伏せ札から使用するカードの矢印は両矢印（⇔）になる。\n【展開中/使用済】山札を再構成する直前に設置を持つ《攻撃》でないカードを追加で1枚伏せ札から使用できる。";
-        readonly textZh: "【展开时】你将任意数量的弃牌盖伏。\n【展开中】你从盖牌中使用的牌的箭头视为双箭头（↔）。\n【展开中/使用后】重铸牌库前可以从盖牌追加使用一张具有设置的非《攻击》的牌。";
+        readonly textZh: "【展开时】你将任意数量的弃牌盖伏。\n【展开中】你从盖牌中使用的牌的箭头视为双箭头（↔）。\n【展开中/已使用】重铸牌库前可以从盖牌追加使用一张具有设置的非《攻击》的牌。";
         readonly textZhG1: "";
         readonly textKo: "【전개시】 당신은 버림패를 원하는 숫자만큼 덮은패로 보내도 된다.\n【전개중】 당신이 덮은패에서 사용하는 카드의 화살표는 양방향 화살표(↔)가 된다.\n【전개중/사용됨】 패산을 재구성하기 직전에 설치를 가지는 《공격》이 아닌 카드를 추가로 1장 덮은패에서 사용해도 된다.";
         readonly textEn: "Initialize: You may move any number of cards from your played pile to your discard pile.\n\nOngoing: Arrows on your cards you play from your discard pile become double arrows (⇔).\n\nOngoing/Devoted: You may play 1 extra non-Attack card with Trap from your discard pile just before you reshuffle your deck.";
@@ -182,7 +182,7 @@ export declare const S8_2_UPDATED_CARD_DATA: {
         readonly cost: "2";
         readonly text: "----\n<攻> 相手の伏せ札が0枚ならば相手の山札の上から1枚を伏せ札にする。相手は伏せ札から1枚を選ぶ。あなたはカード名を1つ宣言し、相手は選んだカードを捨て札にする。そのカード名が一致したらこのカードの上にゲーム外から桜花結晶を1つ置く。2つになったら世紀の大発見を行う。\n----\n【使用済】あなたが山札を再構成した時ならびに《全力》カードを使用した時、このターンの終了フェイズにこのカードをコストを支払わずに使用してもよい。";
         readonly textAdditional: "「世紀の大発見」- 相手の切札を全て見る。その後、あなたか対戦相手のどちらかを選び、そのプレイヤーが宿しているメガミの切札の内、眼前構築で選ばれていない切札5枚をゲーム外から未使用状態で得る。 さらに、使用したあなたの「らすとりさーち」を取り除き、追加札領域にある「ぐらんがりばー」を未使用状態で得る。\n（条件を満たした状態で、このカードを右クリックすることにより発動可能）";
-        readonly textZh: "----\n<攻> 若对手盖牌为0张则盖伏对手牌库顶1张牌。对手选择其盖牌区中的1张牌。你宣言1个牌名，并弃置所选择的牌。若你宣言的牌名与所选择牌的牌名一致，则从游戏外将1个樱花结晶移至此牌上。达到2个后，进行世纪的大发现。\n----\n【使用后】你重铸牌库时或者使用《全力》牌时，那个回合的结束阶段可以免费使用此牌。";
+        readonly textZh: "----\n<攻> 若对手盖牌为0张则盖伏对手牌库顶1张牌。对手选择其盖牌区中的1张牌。你宣言1个牌名，并弃置所选择的牌。若你宣言的牌名与所选择牌的牌名一致，则从游戏外将1个樱花结晶移至此牌上。达到2个后，进行世纪的大发现。\n----\n【已使用】你重铸牌库时或者使用《全力》牌时，那个回合的结束阶段可以免费使用此牌。";
         readonly textZhG1: "";
         readonly textZhAdditional: "「世纪的大发现」～查看对手的所有王牌。这之后选择你或者对手，将所选玩家寄宿的女神的王牌中在眼前构筑时没有被选上的5张，从游戏外以未使用的状态获得。再将『终极探索』移出游戏并从追加牌区以未使用的状态获得王牌『壮绝旅途』。";
         readonly textKo: "----\n<공> 상대의 덮은패가 0장이라면 상대의 패산 위에서 1장 덮은패로 보낸다. 상대는 덮음패에서 카드를 1장 선택한다. 당신은 카드 이름을 1개 선언하고, 상대는 선택한 카드를 버림패로 만든다. 그 카드의 이름이 일치했다면, 게임 바깥에서 벚꽃결정을 1개 가져와 이 카드 위에 놓는다. 벚꽃결정이 2개가 되었다면, 세기의 대발견을 수행한다.\n----\n【사용됨】 당신이 패산을 재구성했거나 《전력》 카드를 사용했을 때, 그 턴의 종료 페이즈에 이 카드를 소모값을 지불하지 않고 사용해도 된다.";
@@ -225,7 +225,7 @@ export declare const S8_2_UPDATED_CARD_DATA: {
         readonly cost: "2";
         readonly text: "終端\n【使用済】あなたか相手の終了フェイズにダストが13以上ならば、終焉の影が蘇る。その後、このカードを取り除き、あなたの追加札から「望我」を使用済で得て、カードを1枚引き、あなたのライフが6以上ならば、ライフが5になるように桜花結晶をダストに移動させる。";
         readonly textAdditional: "「終焉の影が蘇る」- 山札、手札、伏せ札、捨て札、付与札にある切札でないカードをすべて取り除き、代わりに「万象乖ク殲滅ノ影」「我ヲ亡クシテ静寂ヲ往ク」「終焉、来タレ」の3枚を捨て札に置き、その後山札を再構成する。\n（条件を満たした状態で、このカードを右クリックすることにより発動可能）";
-        readonly textZh: "终端\n【已使用】若在你或者对手的结束阶段虚有13或以上的话，则终焉之影苏醒。然后将此牌移出游戏，从追加牌区以使用后状态获得王牌『夙愿』，并抓1张牌。自命有6或更多的话，留下其中5个其他全部移至虚。";
+        readonly textZh: "终端\n【已使用】若在你或者对手的结束阶段虚有13或以上的话，则终焉之影苏醒。然后将此牌移出游戏，从追加牌区以已使用状态获得王牌『夙愿』，并抓1张牌。自命有6或更多的话，留下其中5个其他全部移至虚。";
         readonly textZhG1: "";
         readonly textZhAdditional: "「终焉之影苏醒」～将你手牌、牌库、盖牌区、弃牌区与付与区中的所有非王牌移出游戏（付与牌的破弃时效果不发动），从追加牌区将『万象乖离残灭之影』『灭吾之身静以思』『终焉、降临吧』置入弃牌区，然后重铸牌库。";
         readonly textKo: "종단\n【사용됨】 당신 또는 상대의 종료 페이즈에, 더스트가 13 이상이라면, 종언의 그림자가 되살아난다. 그 후 이 카드를 게임에서 제외하고, 당신의 추가패에서 「망아」를 사용된 상태로 얻고, 카드를 1장 뽑은 뒤, 당신의 라이프가 6 이상이라면, 라이프가 5가 될 때까지 라이프에서 더스트로 벛꽃결정을 이동시킨다.";
@@ -245,7 +245,7 @@ export declare const S8_2_UPDATED_CARD_DATA: {
         readonly type: "action";
         readonly cost: "1";
         readonly text: "追加札または達成済から構想カードを1枚準備する。達成済から準備したらこのカードを取り除く。\n【使用済】相手の開始フェイズの開始時に、あなたが直前のターンに構想を進めていないならば、このカードを未使用に戻す。そうした場合、相手は集中力を1得る。\n";
-        readonly textZh: "从追加牌区或从已达成的构想牌中准备1张构想。从已达成的构想牌中准备的话将此牌移出游戏。\n【使用后】在对手的准备阶段开始时，若你在上个回合没有推进构想的话，将此牌变为未使用的状态。若如此做，对手获得1点集中力。";
+        readonly textZh: "从追加牌区或从已达成的构想牌中准备1张构想。从已达成的构想牌中准备的话将此牌移出游戏。\n【已使用】在对手的准备阶段开始时，若你在上个回合没有推进构想的话，将此牌变为未使用的状态。若如此做，对手获得1点集中力。";
         readonly textZhG1: "";
         readonly textKo: "추가패 또는 달성완료에서 구상 카드를 1장 준비한다. 달성완료에서 준비했다면, 이 카드를 게임에서 제외한다.\n【사용됨】 상대의 개시 페이즈 시작에, 당신이 직전 턴에 구상을 진행하지 않았다면, 이 카드를 미사용 상태로 되돌린다. 그렇게 했다면, 상대는 집중력을 1 얻는다.";
         readonly textEn: "Prepare one of your set-aside or Achieved Plot cards. If it was an Achieved Plot card, remove this card from the game.\n\nDevoted: At the beginning of your opponent's turn, if you did not progress a Plot on your previous turn, turn this card face-down. If you do, your opponent gains 1 Vigor.";
@@ -340,7 +340,7 @@ export declare const S8_2_UPDATED_CARD_DATA: {
         readonly type: "action";
         readonly cost: "時価";
         readonly text: "間合制限（0-6）　投資券\n回収を行ってもよい。そうした場合、基本動作《纏い》を2回まで行い、このカードを取り除く。\n【使用済】あなたのメインフェイズの開始時に、あなたは回収を行う代わりに基本動作《宿し》を1回行ってもよい。";
-        readonly textZh: "距离限制（0-6） 投资券\n可以进行回收。若如此做，进行最多2次基本动作《装附》，将此卡移出游戏。\n【使用后】你的准备阶段开始时，可以进行一次基本动作《聚气》代替使用回收。";
+        readonly textZh: "距离限制（0-6） 投资券\n可以进行回收。若如此做，进行最多2次基本动作《装附》，将此卡移出游戏。\n【已使用】你的准备阶段开始时，可以进行一次基本动作《聚气》代替使用回收。";
         readonly textZhG1: "";
         readonly textKo: "간격제한(0-6) 투자권\n회수를 수행해도 된다. 그렇게 한 경우, 기본동작 《휘감기》를 2번까지 수행하고, 이 카드를 게임에서 제외한다.\n【사용됨】 당신의 메인 페이즈 시작에, 당신은 회수를 수행하는 대신 기본동작 《품기》를 1번 수행해도 된다.";
         readonly textEn: "Range Restriction (0-6), Investment\n\nYou may Divest. If you do, perform up to 2 Recover basic actions and remove this card from the game.\n\nDevoted: At the beginning of your main phase, you may perform 1 Focus basic action instead of Divesting.";
@@ -523,7 +523,7 @@ export declare const S8_2_UPDATED_CARD_DATA: {
         readonly capacity: "0";
         readonly cost: "0";
         readonly text: "【使用済】あなたの終了フェイズに納3として、そのうちの1つをライフから納める形でこのカードを使用してもよい。\n【展開中】あなたのメインフェイズの開始時にカード を1枚引いてもよい。\n【展開中】相手が焦燥で受けるダメージが2/1になる。\n【展開中】あなたの偽証が反証されなかったならば、 そのカードを公開してもよい。それが偽物だったならば、集中力を1得る。\n";
-        readonly textZh: "【使用后】在你的结束阶段，可以将这张牌当做纳为3且其中1个来自自命的方式使用此牌。\n【展开中】在你的主要阶段开始时可以抽1张牌。\n【展开中】对手受到的焦躁伤害变成2/1。\n【展开中】若你的伪证未被反证，你可以公开之，若那是假的则你获得1点集中力。";
+        readonly textZh: "【已使用】在你的结束阶段，可以将这张牌当做纳为3且其中1个来自自命的方式使用此牌。\n【展开中】在你的主要阶段开始时可以抽1张牌。\n【展开中】对手受到的焦躁伤害变成2/1。\n【展开中】若你的伪证未被反证，你可以公开之，若那是假的则你获得1点集中力。";
         readonly textZhG1: "";
         readonly textKo: "【사용됨】 당신의 종료 페이즈에 이 카드를 봉납 3으로, 그 중 1개를 라이프에서 봉납하며 사용해도 된다.\n【전개중】 당신의 메인 페이즈의 시작에, 카드를 1장 뽑아도 된다.\n【전개중】 상대가 받는 초조 데미지는 2/1이 된다.\n【전개중】 당신의 위증이 반증되지 않았다면, 이 카드를 공개해도 된다. 그것이 거짓이었다면, 집중력을 1 얻는다.";
         readonly textEn: "Devoted: At the end of your turn, you may play this card as if its Charge were 3, but you must pay one of its charge from Your Life.\n\nOngoing: At the beginning of your main phase, you may draw a card.\n\nOngoing: The Burnout damage that your opponent takes becomes 2/1.\n\nOngoing: If your Falsehood was not refuted, you may reveal that card. If it was a fake, you gain 1 Vigor.";
@@ -547,7 +547,7 @@ export declare const S9_UPDATED_CARD_DATA: {
         readonly damageOpened: "1/1";
         readonly text: "【攻撃後】このカードを手札に戻し、傘の開閉を行う。 ";
         readonly textZh: "【攻击后】将此牌置入你的手牌，进行一次伞的开合操作。";
-        readonly textZhG1: "【攻击后】将此牌置入你的手牌，进行一次伞的开合操作。 开伞：（无）";
+        readonly textZhG1: "";
         readonly textKo: "【공격후】이 카드를 손패로 되돌리고, 우산의 개폐를 행한다.";
         readonly textEn: "After Attack: Put this card into your hand. Open your umbrella. If it was already open, close it instead.";
         readonly textOpened: "";
@@ -571,6 +571,7 @@ export declare const S9_UPDATED_CARD_DATA: {
         readonly rangeOpened: "0-2";
         readonly damage: "3/1";
         readonly damageOpened: "0/0";
+        readonly cost: "2";
         readonly text: "【攻撃後】あなたは集中力を1得る。";
         readonly textZh: "【攻击后】你获得1点集中力。";
         readonly textZhG1: "【攻击后】你获得1点集中力。";
@@ -659,7 +660,7 @@ export declare const S9_UPDATED_CARD_DATA: {
         readonly type: "action";
         readonly cost: "時価";
         readonly text: "間合制限（0-7）　投資券\n回収を行ってもよい。そうした場合、基本動作《纏い》を2回まで行い、このカードを取り除く。\n【使用済】あなたのメインフェイズの開始時に、あなたは回収を行う代わりに基本動作《宿し》を1回行ってもよい。";
-        readonly textZh: "距离限制（0-7） 投资券\n可以进行回收。若如此做，进行最多2次基本动作《装附》，将此卡移出游戏。\n【使用后】你的准备阶段开始时，可以进行一次基本动作《聚气》代替使用回收。";
+        readonly textZh: "距离限制（0-7） 投资券\n可以进行回收。若如此做，进行最多2次基本动作《装附》，将此卡移出游戏。\n【已使用】你的准备阶段开始时，可以进行一次基本动作《聚气》代替使用回收。";
         readonly textZhG1: "";
         readonly textKo: "간격제한(0-7) 투자권\n회수를 수행해도 된다. 그렇게 한 경우, 기본동작 《휘감기》를 2번까지 수행하고, 이 카드를 게임에서 제외한다.\n【사용됨】 당신의 메인 페이즈 시작에, 당신은 회수를 수행하는 대신 기본동작 《품기》를 1번 수행해도 된다.";
         readonly textEn: "Range Restriction (0-7), Investment\n\nYou may Divest. If you do, perform up to 2 Recover basic actions and remove this card from the game.\n\nDevoted: At the beginning of your main phase, you may perform 1 Focus basic action instead of Divesting.";
@@ -677,7 +678,7 @@ export declare const S9_UPDATED_CARD_DATA: {
         readonly rubyEn: "";
         readonly baseType: "normal";
         readonly type: "action";
-        readonly text: "間合制限 (0-4)\n基本動作《纏い》を2回行う。あなたはあなたのオーラかフレアを選ぶ。相手は相手のオーラかフレアを選ぶ。選ばれた領域に裂傷を1ずつ与える。";
+        readonly text: "間合制限（0-4）\n基本動作《纏い》を2回行う。あなたはあなたのオーラかフレアを選ぶ。相手は相手のオーラかフレアを選ぶ。選ばれた領域に裂傷を1ずつ与える。";
         readonly textZh: "";
         readonly textZhG1: "";
         readonly textKo: "";
@@ -738,7 +739,7 @@ export declare const S9_UPDATED_CARD_DATA: {
         readonly baseType: "normal";
         readonly type: "enhance";
         readonly capacity: "3";
-        readonly text: "【展開中】八相―相手が各ターンで初めて 《攻撃》を行った時、あなたのオーラが1以 下または他のメガミの切札が使用済ならば、 その《攻撃》は対応不可を失い、-1/+0となる。\n【展開時/破棄時】 サイネの切札が使用済な らば、このターン中あなたの切札の消費は 1少なくなる。\n";
+        readonly text: "【展開中】八相―相手が各ターンで初めて《攻撃》を行った時、あなたのオーラが1以下または他のメガミの切札が使用済ならば、その《攻撃》は対応不可を失い、-1/+0となる。\n【展開時/破棄時】サイネの切札が使用済ならば、このターン中あなたの切札の消費は1少なくなる。\n";
         readonly textZh: "";
         readonly textZhG1: "";
         readonly textKo: "";
@@ -759,7 +760,7 @@ export declare const S9_UPDATED_CARD_DATA: {
         readonly type: "attack";
         readonly range: "5";
         readonly damage: "-/1";
-        readonly text: "【常時】 トコヨの切札が使用済ならば、 この 《攻撃》は対応不可を得る。\n【攻撃後】 境地―あなたの集中力が2ま たは他のメガミの切札が使用済ならば、 このカードを山札の上か底に置く。\n";
+        readonly text: "【常時】トコヨの切札が使用済ならば、この《攻撃》は対応不可を得る。\n【攻撃後】境地―あなたの集中力が2または他のメガミの切札が使用済ならば、このカードを山札の上か底に置く。\n";
         readonly textZh: "";
         readonly textZhG1: "";
         readonly textKo: "";
@@ -781,7 +782,7 @@ export declare const S9_UPDATED_CARD_DATA: {
         readonly subType: "reaction";
         readonly range: "2-5";
         readonly damage: "3/0";
-        readonly text: "【攻撃後】 サイネの切札が使用済ならば、相オーラ→ダスト：1\n【攻撃後】八相/境地―あなたのオーラが1以下またはあなたの集中力が2ならば、ダスト→間合：1\n【攻撃後】 トコヨの切札が使用済ならば、ダスト→自オーラ：1\n(このカードはサイネとトコヨのカードである)\n";
+        readonly text: "【攻撃後】サイネの切札が使用済ならば、相オーラ→ダスト：1\n【攻撃後】八相/境地―あなたのオーラが1以下またはあなたの集中力が2ならば、ダスト→間合：1\n【攻撃後】トコヨの切札が使用済ならば、ダスト→自オーラ：1\n（このカードはサイネとトコヨのカードである）\n";
         readonly textZh: "";
         readonly textZhG1: "";
         readonly textKo: "";
@@ -796,12 +797,12 @@ export declare const S9_UPDATED_CARD_DATA: {
         readonly nameZh: "二重奏：弹奏冰瞑";
         readonly nameZhG1: "二重奏：弹奏冰瞑";
         readonly nameKo: "이중주:탄주빙명";
-        readonly ruby: "にじゅうそう:だんそうひょうめい";
+        readonly ruby: "にじゅうそう だんそうひょうめい";
         readonly rubyEn: "";
         readonly baseType: "special";
         readonly type: "action";
         readonly cost: "2";
-        readonly text: "【常時】八相―あなたのオーラが1以下な らば、このカードの消費は1少なくなる。\nこのターン中、あなたは 《攻撃》を行えない。 \n【使用済】 あなたの他のメガミによる 《攻撃》 は+0/+1となる。\n----\n【即再起】あなたが《攻撃》によりライフに1以上のダメージを受ける。";
+        readonly text: "【常時】八相―あなたのオーラが1以下ならば、このカードの消費は1少なくなる。\nこのターン中、あなたは《攻撃》を行えない。\n【使用済】あなたの他のメガミによる《攻撃》は+0/+1となる。\n----\n【即再起】あなたが《攻撃》によりライフに1以上のダメージを受ける。";
         readonly textZh: "";
         readonly textZhG1: "";
         readonly textKo: "";
@@ -816,12 +817,12 @@ export declare const S9_UPDATED_CARD_DATA: {
         readonly nameZh: "二重奏：吹弹阳明";
         readonly nameZhG1: "二重奏：吹弹阳明";
         readonly nameKo: "이중주:취탄양명";
-        readonly ruby: "にじゅうそう：すいだんようめい";
+        readonly ruby: "にじゅうそう すいだんようめい";
         readonly rubyEn: "";
         readonly baseType: "special";
         readonly type: "action";
         readonly cost: "1";
-        readonly text: "【常時】境地―あなたの集中力が2ならば、この カードの消費は1小さくなる。\nこのターン中、あなたは集中力を支払えない。\n【使用済】 あなたが他のメガミのカードで対応 した時、捨て札か伏せ札のカードを1枚選び、 それを山札の底に置いてもよい。\n----\n【即再起】あなたが《攻撃》によりライフに1以上のダメージを受ける。";
+        readonly text: "【常時】境地―あなたの集中力が2ならば、このカードの消費は1小さくなる。\nこのターン中、あなたは集中力を支払えない。\n【使用済】あなたが他のメガミのカードで対応した時、捨て札か伏せ札のカードを1枚選び、それを山札の底に置いてもよい。\n----\n【即再起】あなたが《攻撃》によりライフに1以上のダメージを受ける。";
         readonly textZh: "";
         readonly textZhG1: "";
         readonly textKo: "";
@@ -969,7 +970,7 @@ export declare const S9_UPDATED_CARD_DATA: {
         readonly ruby: "";
         readonly rubyEn: "";
         readonly baseType: "customParts";
-        readonly text: "<壱> 対応不可(《付与》)\n----\n<弐> 対応不可(《攻撃》)\n----\n<参> 対応不可(《行動》)\n----\n<肆> 対応不可(通常札)";
+        readonly text: "<壱> 対応不可（《付与》）\n----\n<弐> 対応不可（《攻撃》）\n----\n<参> 対応不可（《行動》）\n----\n<肆> 対応不可（通常札）";
         readonly textAdditional: "（公開・使用する場合、このカードを「使用済み」領域へ移動）";
         readonly textZh: "";
         readonly textZhG1: "";
@@ -1162,7 +1163,7 @@ export declare const S9_UPDATED_CARD_DATA: {
         readonly baseType: "normal";
         readonly type: "enhance";
         readonly capacity: "2";
-        readonly text: "終端　間合制限(0-3)\n【展開時】相オーラ→間合：2\n【破棄時】このターン中、現在の間合は1増加し、達人の間合は1大きくなる。\n";
+        readonly text: "終端　間合制限（0-3）\n【展開時】相オーラ→間合：2\n【破棄時】このターン中、現在の間合は1増加し、達人の間合は1大きくなる。";
         readonly textZh: "";
         readonly textZhG1: "";
         readonly textKo: "";
@@ -1239,6 +1240,7 @@ export declare const S9_UPDATED_CARD_DATA: {
         readonly rubyEn: "";
         readonly baseType: "special";
         readonly type: "enhance";
+        readonly subType: "fullpower";
         readonly capacity: "2";
         readonly cost: "5";
         readonly text: "【展開中】現在の間合は5増加する。\n【破棄時】相ライフ→間合：1、相オーラ→間合：1、相フレア→間合：1\n【使用済】このカードは使用できない。\n";
