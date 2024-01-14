@@ -10181,7 +10181,7 @@ exports.S9_UPDATED_CARD_DATA = {
     "04-tokoyo-A1-s-2": {
         megami: "tokoyo",
         anotherID: "A1",
-        replace: "04-tokoyo-o-s-2",
+        replace: "04-tokoyo-o-s-3",
         name: "二重奏:吹弾陽明",
         nameEn: "Duet: Radiant Luminosity",
         nameZh: "二重奏：吹弹阳明",

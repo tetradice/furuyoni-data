@@ -813,7 +813,7 @@ export declare const S9_UPDATED_CARD_DATA: {
     readonly "04-tokoyo-A1-s-2": {
         readonly megami: "tokoyo";
         readonly anotherID: "A1";
-        readonly replace: "04-tokoyo-o-s-2";
+        readonly replace: "04-tokoyo-o-s-3";
         readonly name: "二重奏:吹弾陽明";
         readonly nameEn: "Duet: Radiant Luminosity";
         readonly nameZh: "二重奏：吹弹阳明";
