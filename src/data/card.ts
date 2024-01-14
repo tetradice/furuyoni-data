@@ -11739,6 +11739,8 @@ export const S9_UPDATED_CARD_DATA = {
     textEn:
       "After Attack: If your opponent chose to take damage to Life, the Damage from your next attack this turn that has 2 or less Damage to Aura becomes Lacerated.\n\nResurgence: Your total Aura and Flare is 6 or less.",
   },
+  "02-saine-A1-n-3": null,
+  "04-tokoyo-A1-n-5": null,
   "02-saine-A1-n-6": {
     megami: "saine",
     anotherID: "A1",
@@ -12311,7 +12313,7 @@ export const S9_UPDATED_CARD_DATA = {
     textEn: "",
   },
 } as const satisfies Partial<{
-  [id in TCardId]: CardDataItem;
+  [id in TCardId]: CardDataItem | null;
 }>;
 
 // 物語セットのオリジナルカードデータ

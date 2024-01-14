@@ -725,6 +725,8 @@ export declare const S9_UPDATED_CARD_DATA: {
         readonly textKo: "【공격후】 상대가 라이프 데미지를 선택했다면, 이 턴에 당신이 다음에 수행하는 오라 데미지가 2 이하인 《공격》을 열상화한다.\n----\n【재기】 당신의 오라와 플레어의 합계가 6 이하이다.";
         readonly textEn: "After Attack: If your opponent chose to take damage to Life, the Damage from your next attack this turn that has 2 or less Damage to Aura becomes Lacerated.\n\nResurgence: Your total Aura and Flare is 6 or less.";
     };
+    readonly "02-saine-A1-n-3": null;
+    readonly "04-tokoyo-A1-n-5": null;
     readonly "02-saine-A1-n-6": {
         readonly megami: "saine";
         readonly anotherID: "A1";
