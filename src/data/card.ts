@@ -11572,7 +11572,7 @@ export const S9_UPDATED_CARD_DATA = {
     textKo: "【공격후】당신은 집중력을 1 얻는다.",
     textEn: "After Attack: Gain 1 Vigor.",
     textOpened: "----\n【即再起】あなたが傘の開閉を行う。 ",
-    textOpenedZh: "----\n【即再起】进行一次伞的开合操作。",
+    textOpenedZh: "----\n【即再起】进行了伞的开合操作。",
     textOpenedZhG1: "无 \n----\n【即再起】进行伞的开合操作",
     textOpenedKo: "----\n【즉재기】당신이 우산의 개폐를 행한다.",
     textOpenedEn:
@@ -11597,7 +11597,8 @@ export const S9_UPDATED_CARD_DATA = {
     textZh:
       "【展开时】可以支付1点集中力来准备计略。\n【展开时/破弃时】实行当前计略，准备下个计略。\n----\n[神算] 进行一次“攻击距离1,3,5 伤害2/2 不可被闪避 【攻击后】对手从其手牌中选择1张牌置于牌库底”的攻击。\n----\n[鬼谋] 进行一次“攻击距离2,4,6 伤害2/2 不可被闪避 【攻击后】对手从牌库顶弃掉1张牌，盖伏1张牌”的攻击。",
     textZhG1: "",
-    textKo: "",
+    textKo:
+      "【전개시】집중력 1을 지불하면서 계략을 준비해도 좋다.\n【전개시/파기시】계략을 실행하고, 다음 계략을 준비한다.\n----\n[신산] 공격 『 적정거리 1,3,5, 2/2, 불가피, 【공격후】 상대는 손패에서 1장과 버림패 또는 덮은패에서 1장의 선택하고, 그들을 패산 아래에 원하는 순서로 놓는다.』를 수행한다.\n----\n[귀모] 공격 『적정거리 2.4.6, 2/2, 불가피, 【공격후】 상대의 패산 위의 카드 1장을 버림패로 만들고, 1장을 덮은패로 만든다.』를 수행한다.",
     textEn: "",
   },
   "22-renri-a1-n-5": {
@@ -11646,7 +11647,7 @@ export const S9_UPDATED_CARD_DATA = {
       "破绽 投资券\n【展开时】敌装→1→自装\n可以支付1集中力，若如此做，重复1次这个箭头效果。\n【破弃时】可以进行一次“攻击距离2-5、伤害1/0”的攻击。",
     textZhG1: "",
     textKo:
-      "빈틈, 투자권\n【전개시】 오라(상대)→오라(자신):1\n○○○○, 이 화살표 효과를 1회 더 수행한다.\n【파기시】 공격 『적정거리 2-5, 1/0』을 수행해도 된다.",
+      "빈틈, 투자권\n【전개시】 오라(상대)→오라(자신):1\n집중력 1을 지불해도 된다. 그렇게 한 경우, 이 화살표 효과를 1번 더 수행한다.\n【파기시】 공격 『적정거리 2-5, 1/0』을 수행해도 된다.",
     textEn:
       'Unguarded, Investment\n\nInitialize: Opponent\'s Aura (1)→ Your Aura. ○○○○. If you do, perform this arrow effect once more.\n\nDisenchant: You may attack with "Range: 2-5, Damage: 1/0".',
     investable: true,
@@ -11689,7 +11690,8 @@ export const S9_UPDATED_CARD_DATA = {
     textZh:
       "距离限制（0-4）\n进行2次基本动作《装附》。你选择自装或者自气，对手选择敌装或者敌气。给与所选区域各1点裂伤。",
     textZhG1: "",
-    textKo: "",
+    textKo:
+      "간격제한 (0-4)\n기본동작 《휘감기》를 2번 수행한다.\n당신은 당신의 오라와 플레어 중 하나의 영역을 선택한다.\n상대는 상대의 오라와 플레어 중 하나의 영역을 선택한다.\n선택한 각 영역에 열상을 1씩 준다.",
     textEn: "",
   },
   "24-shisui-o-s-1": {
@@ -11759,7 +11761,8 @@ export const S9_UPDATED_CARD_DATA = {
     textZh:
       "【展开中】八相～若自装中樱花结晶数仅1个或更少或你有已使用状态的其他女神的王牌，则每回合对手的第一次《攻击》失去不可被对应、得-1/+0。\n【展开时/破弃时】若你有已使用状态的细音的王牌，则在这个回合中你使用王牌的费用减小1。",
     textZhG1: "",
-    textKo: "",
+    textKo:
+      "【전개중】팔상- 상대가 각 턴에 처음으로 《공격》을 수행할 때, 당신의 오라가 1 이하 또는 다른 여신의 비장패가 사용됨 상태라면, 그 《공격》은 대응불가를 잃고, -1/+0 된다.\n【전개시/파기시】사이네의 비장패가 사용됨 상태라면, 이 턴 중에 당신의 비장패의 소모값은 1 감소한다.\n(0 미만이 되지는 않는다)",
     textEn: "",
   },
   "04-tokoyo-A1-n-1": {
@@ -11781,7 +11784,8 @@ export const S9_UPDATED_CARD_DATA = {
     textZh:
       "【常时】若你有已使用状态的常世的王牌，则此《攻击》得不可被对应。\n【攻击后】境地～若你的集中力为2，或你有已使用状态的其他女神的王牌，则将此牌置于你的牌库顶或者牌库底。",
     textZhG1: "",
-    textKo: "",
+    textKo:
+      "【상시】 토코요의 비장패가 사용됨 상태라면, 이 《공격》은 대응불가를 얻는다.\n【공격후】 경지-당신의 집중력이 2이거나, 또는 다른 여신의 비장패가 사용됨 상태라면, 이 카드를 패산 위 또는 아래에 놓는다.",
     textEn: "",
   },
   "02_04-saine_tokoyo-A1-n-1_4": {
@@ -11792,7 +11796,7 @@ export const S9_UPDATED_CARD_DATA = {
     nameEn: "",
     nameZh: "合奏",
     nameZhG1: "",
-    nameKo: "",
+    nameKo: "합주",
     ruby: "がっそう",
     rubyEn: "",
     baseType: "normal",
@@ -11804,7 +11808,8 @@ export const S9_UPDATED_CARD_DATA = {
     textZh:
       "【攻击后】若你有已使用状态的细音的王牌，敌装→1→虚\n【攻击后】八相/境地～若自装中樱花结晶数仅1个或更少或你的集中力为2，虚→1→距\n【攻击后】若你有已使用状态的常世的王牌，虚→1→自装\n（此牌同时视为细音和常世的牌）",
     textZhG1: "",
-    textKo: "",
+    textKo:
+      "【공격후】사이네의 비장패가 사용됨 상태라면, 오라(상대)→더스트:1\n【공격후】팔상/경지-당신의 오라가 1 이하 또는 당신의 집중력이 2라면, 더스트→간격:1\n【공격후】토코요의 비장패가 사용됨 상태라면, 더스트→오라(자신):1\n(이 카드는 사이네와 토코요의 카드이다)",
     textEn: "",
   },
   "02-saine-A1-s-2": {
@@ -11825,7 +11830,8 @@ export const S9_UPDATED_CARD_DATA = {
     textZh:
       "【常时】八相～若自装中樱花结晶数仅1个或更少，此牌的消耗减少1。\n 在本回合中，你不能进行《攻击》。\n 【已使用】你的其他女神的《攻击》得+0/+1。\n ----\n 【即再起】自命因《攻击》受到至少1点的伤害。",
     textZhG1: "",
-    textKo: "",
+    textKo:
+      "\n【상시】 팔상 - 당신의 오라가 1 이하라면, 이 카드의 소모값이 1 감소한다. 이 턴 동안, 당신은 공격할 수 없다.\n【사용됨】 당신의 다른 여신에 의한 《공격》은 +0/+1 된다.\n【즉재기】 당신이 《공격》으로 인해 라이프 데미지를 1 이상 받는다.",
     textEn: "",
   },
   "04-tokoyo-A1-s-2": {
@@ -11846,7 +11852,8 @@ export const S9_UPDATED_CARD_DATA = {
     textZh:
       "【常时】境地～若你的集中力为2，此牌的消耗减少1。\n 在本回合中，你不能支付集中力。\n 【已使用】你用其他女神的牌进行对应时，可以从弃牌或盖牌中选择1张牌置于牌库底。\n ----\n 【即再起】自命因《攻击》受到至少1点的伤害。",
     textZhG1: "",
-    textKo: "",
+    textKo:
+      "【상시】경지- 당신의 집중력이 2라면, 이 카드의 소비값은 1 감소한다.\n이 턴 중에, 당신은 집중력을 지불할 수 없다.\n【사용됨】 당신이 다른 여신의 카드로 대응했을 때, 당신의 버림패나 덮은패에서 카드를 한 장 선택해, 패산 아래에 놓아도 된다.\n【즉재기】 당신이 《공격》으로 인해 라이프에 데미지를 1 이상 받는다.",
     textEn: "",
   },
 
@@ -11858,7 +11865,7 @@ export const S9_UPDATED_CARD_DATA = {
     nameEn: "",
     nameZh: "全息苦无",
     nameZhG1: "",
-    nameKo: "",
+    nameKo: "홀로 쿠나이",
     ruby: "ほろくない",
     rubyEn: "",
     baseType: "normal",
@@ -11869,7 +11876,8 @@ export const S9_UPDATED_CARD_DATA = {
     textZh:
       "设置\n【攻击后】组装1个部件。\n【常时】被使用的此牌弃置时，可以改为盖伏。",
     textZhG1: "",
-    textKo: "",
+    textKo:
+      "설치\n【공격후】파츠를 1개 조립한다\n【상시】사용된 이 카드가 버림패로 보내진다면, 대신 덮음패로 보내도 된다.",
     textEn: "",
   },
   "05-oboro-a2-s-1": {
@@ -11880,7 +11888,7 @@ export const S9_UPDATED_CARD_DATA = {
     nameEn: "",
     nameZh: "千兆介 ",
     nameZhG1: "",
-    nameKo: "",
+    nameKo: "기가스케",
     ruby: "ギガすけ",
     rubyEn: "",
     baseType: "special",
@@ -11892,7 +11900,8 @@ export const S9_UPDATED_CARD_DATA = {
     textZh:
       "【常时】此牌的消费会减少你的盖牌和组装的部件数的和。\n【攻击后】进行3次“攻击距离3-4 伤害2/1”的攻击。",
     textZhG1: "",
-    textKo: "",
+    textKo:
+      "【상시】이 카드의 소비값은 당신의 덮은패 숫자와 조립한 파츠의 숫자의 합계만큼 감소한다.\n【공격후】 공격 『적정거리 3-4, 2/1』을 3번 수행한다.",
     textEn: "",
   },
   "05-oboro-a2-s-3": {
@@ -11903,7 +11912,7 @@ export const S9_UPDATED_CARD_DATA = {
     nameEn: "",
     nameZh: "胧文书·电子神涉",
     nameZhG1: "",
-    nameKo: "",
+    nameKo: "흐릿한 문서: 전자신섭",
     ruby: "おぼろもんじょ　でんしかんしょう",
     rubyEn: "",
     baseType: "special",
@@ -11914,7 +11923,8 @@ export const S9_UPDATED_CARD_DATA = {
     textZh:
       "组装1个部件，进行最多1次基本动作。\n【已使用】重铸牌库之前，可以解体到只剩最多1个部件。若如此做，组装X个部件。X是盖牌数的一半（向上取整）。",
     textZhG1: "",
-    textKo: "",
+    textKo:
+      "파츠를 1개 조립한 후, 기본행동을 1회까지 수행한다.\n【사용됨】패산을 재구성하기 전에, 조립된 파츠가 1개 이하가 될 때까지 해체해도 된다. 그렇게 했다면, 파츠를 X개 조립한다. X는 덮은패의 장수의 절반(소숫점 이하 올림)과 동일하다.",
     textEn: "",
   },
   "05-oboro-a2-mp-1": {
@@ -11925,7 +11935,7 @@ export const S9_UPDATED_CARD_DATA = {
     nameEn: "",
     nameZh: "基础部件X",
     nameZhG1: "",
-    nameKo: "",
+    nameKo: "메인 파츠 X",
     ruby: "",
     rubyEn: "",
     baseType: "mainParts",
@@ -11938,7 +11948,9 @@ export const S9_UPDATED_CARD_DATA = {
     textZh: "数码设置",
     textZhG1: "",
     textZhAdditional: "（需展示·使用的时候、将此牌移到「已使用」区域）",
-    textKo: "",
+    textKo: "디지설치",
+    textKoAdditional:
+      "（공개 및 사용하는 경우, 이 카드를 「사용됨」 영역으로 이동)",
     textEn: "",
   },
   "05-oboro-a2-mp-2": {
@@ -11949,7 +11961,7 @@ export const S9_UPDATED_CARD_DATA = {
     nameEn: "",
     nameZh: "基础部件Y",
     nameZhG1: "",
-    nameKo: "",
+    nameKo: "메인 파츠 Y",
     ruby: "",
     rubyEn: "",
     baseType: "mainParts",
@@ -11962,7 +11974,9 @@ export const S9_UPDATED_CARD_DATA = {
     textZh: "数码设置",
     textZhG1: "",
     textZhAdditional: "（需展示·使用的时候、将此牌移到「已使用」区域）",
-    textKo: "",
+    textKo: "디지설치",
+    textKoAdditional:
+      "（공개 및 사용하는 경우, 이 카드를 「사용됨」 영역으로 이동)",
     textEn: "",
   },
   "05-oboro-a2-mp-3": {
@@ -11973,7 +11987,7 @@ export const S9_UPDATED_CARD_DATA = {
     nameEn: "",
     nameZh: "基础部件Z",
     nameZhG1: "",
-    nameKo: "",
+    nameKo: "메인 파츠 Z",
     ruby: "",
     rubyEn: "",
     baseType: "mainParts",
@@ -11986,7 +12000,10 @@ export const S9_UPDATED_CARD_DATA = {
     textZh: "数码设置\n【攻击后】对手选择承受对命伤害的话，令对手畏缩。",
     textZhG1: "",
     textZhAdditional: "（需展示·使用的时候、将此牌移到「已使用」区域）",
-    textKo: "",
+    textKo:
+      "디지설치\n【공격후】상대가 라이프 데미지를 선택했다면, 상대를 위축시킨다.",
+    textKoAdditional:
+      "（공개 및 사용하는 경우, 이 카드를 「사용됨」 영역으로 이동)",
     textEn: "",
   },
   "05-oboro-a2-cp-1": {
@@ -11997,7 +12014,7 @@ export const S9_UPDATED_CARD_DATA = {
     nameEn: "",
     nameZh: "定制部件A",
     nameZhG1: "",
-    nameKo: "",
+    nameKo: "커스텀 파츠 A",
     ruby: "",
     rubyEn: "",
     baseType: "customParts",
@@ -12008,7 +12025,8 @@ export const S9_UPDATED_CARD_DATA = {
       "<壹> 不可被对应(《付与》)\n----\n<贰> 不可被对应(《攻击》)\n----\n<叁> 不可被对应(《行动》)\n----\n<肆> 不可被对应(通常牌)",
     textZhG1: "",
     textZhAdditional: "（需展示·使用的时候、将此牌移到「已使用」区域）",
-    textKo: "",
+    textKo:
+      "<1단계> 대응불가(《부여》)\n----\n<2단계> 대응불가(《공격》)\n----\n<3단계> 대응불가(《행동》)\n----\n<4단계> 대응불가(통상패)",
     textEn: "",
   },
   "05-oboro-a2-cp-2": {
@@ -12019,7 +12037,7 @@ export const S9_UPDATED_CARD_DATA = {
     nameEn: "",
     nameZh: "定制部件B",
     nameZhG1: "",
-    nameKo: "",
+    nameKo: "커스텀 파츠 B",
     ruby: "",
     rubyEn: "",
     baseType: "customParts",
@@ -12030,7 +12048,10 @@ export const S9_UPDATED_CARD_DATA = {
       "<壹> 【常时】此《攻击》得+0/+0。\n----\n<贰> 【常时】此《攻击》得+0/+1。\n----\n<叁> 【常时】此《攻击》得+1/+0。\n----\n<肆> 【常时】此《攻击》得+1/+1。",
     textZhG1: "",
     textZhAdditional: "（需展示·使用的时候、将此牌移到「已使用」区域）",
-    textKo: "",
+    textKo:
+      "<1단계> 【상시】 이 《공격》은 +0/+0 된다.\n----\n<2단계> 【상시】 이 《공격》은 +0/+1 된다.\n----\n<3단계> 【상시】 이 《공격》은 +1/+0 된다.\n----\n<4단계> 【상시】 이 《공격》은 +1/+1 된다.",
+    textKoAdditional:
+      "（공개 및 사용하는 경우, 이 카드를 「사용됨」 영역으로 이동)",
     textEn: "",
   },
   "05-oboro-a2-cp-3": {
@@ -12041,7 +12062,7 @@ export const S9_UPDATED_CARD_DATA = {
     nameEn: "",
     nameZh: "定制部件C",
     nameZhG1: "",
-    nameKo: "",
+    nameKo: "커스텀 파츠 C",
     ruby: "",
     rubyEn: "",
     baseType: "customParts",
@@ -12052,7 +12073,10 @@ export const S9_UPDATED_CARD_DATA = {
       "<壹> 【攻击后】虚→1→距\n----\n<贰> 【攻击后】虚←1→距\n----\n<叁> 【攻击后】虚←1→距\n----\n<肆> 【攻击后】虚←1→距\n你获得1点集中力。",
     textZhG1: "",
     textZhAdditional: "（需展示·使用的时候、将此牌移到「已使用」区域）",
-    textKo: "",
+    textKo:
+      "<1단계> 【공격후】 더스트→간격:1\n----\n<2단계> 【공격후】 더스트→간격:1\n----\n<3단계> 【공격후】 더스트→간격:1\n----\n<4단계> 【공격후】 더스트→간격:1\n당신은 집중력을 1 얻는다.",
+    textKoAdditional:
+      "（공개 및 사용하는 경우, 이 카드를 「사용됨」 영역으로 이동)",
     textEn: "",
   },
   "05-oboro-a2-cp-4": {
@@ -12063,7 +12087,7 @@ export const S9_UPDATED_CARD_DATA = {
     nameEn: "",
     nameZh: "定制部件D",
     nameZhG1: "",
-    nameKo: "",
+    nameKo: "커스텀 파츠 D",
     ruby: "",
     rubyEn: "",
     baseType: "customParts",
@@ -12074,7 +12098,10 @@ export const S9_UPDATED_CARD_DATA = {
       "<壹> 【攻击后】选择最多1张弃牌，将其盖伏。\n----\n<贰> 【攻击后】选择最多1张盖牌，将其置入牌库底。\n----\n<叁> 【攻击后】选择最多2张盖牌，将其以任意顺序置入牌库底。\n----\n<肆> 【攻击后】从盖牌和弃牌中选择最多2张牌，将其以任意顺序置入牌库底。",
     textZhG1: "",
     textZhAdditional: "（需展示·使用的时候、将此牌移到「已使用」区域）",
-    textKo: "",
+    textKo:
+      "<1단계> 【공격후】버림패를 1장까지 고른 뒤, 그것을 덮은패로 보낸다.\n----\n<2단계> 덮은패에서 카드를 1장까지 고른 뒤, 그것을 패산의 아래에 넣는다.\n----\n<3단계> 덮은패에서 카드를 2장까지 고른 뒤, 그것을 원하는 순서대로 패산의 아래에 넣는다.\n----\n<4단계> 버림패와 덮은패에서 카드를 2장까지 고른 뒤, 그것을 원하는 순서대로 패산의 아래에 넣는다.",
+    textKoAdditional:
+      "（공개 및 사용하는 경우, 이 카드를 「사용됨」 영역으로 이동)",
     textEn: "",
   },
 
@@ -12084,7 +12111,7 @@ export const S9_UPDATED_CARD_DATA = {
     nameEn: "",
     nameZh: "弓流",
     nameZhG1: "",
-    nameKo: "",
+    nameKo: "활 흘리기",
     ruby: "ゆみながし",
     rubyEn: "",
     baseType: "normal",
@@ -12097,7 +12124,8 @@ export const S9_UPDATED_CARD_DATA = {
     textZhG1: "",
     textZhAdditional:
       "（对上瞄准指当前距和瞄准都处于该《攻击》的攻击距离之内）",
-    textKo: "",
+    textKo:
+      "【상시】조준이 맞았다면, 이 《공격》의 오라 데미지는 「-」이 된다\n【공격후】현재 간격과 조준이 동일하다면\n더스트→오라(자신):1",
     textEn: "",
   },
   "25-misora-o-n-2": {
@@ -12106,7 +12134,7 @@ export const S9_UPDATED_CARD_DATA = {
     nameEn: "",
     nameZh: "蹴击",
     nameZhG1: "",
-    nameKo: "",
+    nameKo: "노려차기",
     ruby: "ねらいげり",
     rubyEn: "",
     baseType: "normal",
@@ -12116,7 +12144,7 @@ export const S9_UPDATED_CARD_DATA = {
     text: "【攻撃後】あなたの照準を1増加させるか、1減少させてもよい。",
     textZh: "【攻击后】可以把你的瞄准增加或者减少1。",
     textZhG1: "",
-    textKo: "",
+    textKo: "【공격후】당신의 조준을 1 증가시키거나 1 감소시켜도 된다.",
     textEn: "",
   },
   "25-misora-o-n-3": {
@@ -12125,7 +12153,7 @@ export const S9_UPDATED_CARD_DATA = {
     nameEn: "",
     nameZh: "风穴",
     nameZhG1: "",
-    nameKo: "",
+    nameKo: "바람구멍",
     ruby: "かざあな",
     rubyEn: "",
     baseType: "normal",
@@ -12137,7 +12165,8 @@ export const S9_UPDATED_CARD_DATA = {
     textZh:
       "【攻击后】比较当前的距和瞄准进行以下一项：\n・当前的距＞瞄准…距→1→虚\n・当前的距＝瞄准…虚→1→自装\n・当前的距＜瞄准…虚→1→距",
     textZhG1: "",
-    textKo: "",
+    textKo:
+      "【공격후】현재 간격과 조준을 비교하여 다음 중 하나를 수행한다.\n현재 간격 > 조준: 간격→더스트:1\n현재 간격 = 조준: 더스트→오라(자신):1\n현재 간격 < 조준: 더스트→간격:1",
     textEn: "",
   },
   "25-misora-o-n-4": {
@@ -12146,7 +12175,7 @@ export const S9_UPDATED_CARD_DATA = {
     nameEn: "",
     nameZh: "甲矢乙矢",
     nameZhG1: "",
-    nameKo: "",
+    nameKo: "갑시을시",
     ruby: "はやおとや",
     rubyEn: "",
     baseType: "normal",
@@ -12161,7 +12190,8 @@ export const S9_UPDATED_CARD_DATA = {
       "追踪\n【攻击后】对手从手牌中弃置1张《攻击》牌。若不能如此做，则公开对手手牌，并将对手牌库顶3张牌盖伏。",
     textZhG1: "",
     textZhAdditional: "（右键自己的手牌区可以将手牌展示给对方玩家）",
-    textKo: "",
+    textKo:
+      "추미\n【공격후】상대는 손패에서 《공격》카드 1장을 덮은패로 만든다.\n그렇게 하지 못한다면, 상대는 손패를 공개한 뒤 상대의 패산 위에서 3장을 덮음패로 만든다.",
     textKoAdditional:
       "(자신의 손패를 우클릭해서 손패를 상대 플레이어에게 공개할 수 있음)",
     textEn: "",
@@ -12173,7 +12203,7 @@ export const S9_UPDATED_CARD_DATA = {
     nameEn: "",
     nameZh: "精密化",
     nameZhG1: "",
-    nameKo: "",
+    nameKo: "정밀화",
     ruby: "せいみつか",
     rubyEn: "",
     baseType: "normal",
@@ -12184,7 +12214,8 @@ export const S9_UPDATED_CARD_DATA = {
     textZhG1: "",
     textZhAdditional:
       "（对上瞄准指当前距和瞄准都处于该《攻击》的攻击距离之内）",
-    textKo: "",
+    textKo:
+      "집중력을 1 얻는다.\n이 턴에 당신이 다음에 수행하는 다른 여신의 통상패에 의한 오라 데미지가 「-」가 아닌 《공격》은, 조준이 맞다면 +1/+1된다.",
     textEn: "",
   },
   "25-misora-o-n-6": {
@@ -12193,7 +12224,7 @@ export const S9_UPDATED_CARD_DATA = {
     nameEn: "",
     nameZh: "追踪箭",
     nameZhG1: "",
-    nameKo: "",
+    nameKo: "추미격",
     ruby: "ついびげき",
     rubyEn: "",
     baseType: "normal",
@@ -12206,7 +12237,10 @@ export const S9_UPDATED_CARD_DATA = {
     textZhG1: "",
     textZhAdditional:
       "（右键这张牌，以获取眼前构筑时未选取的牌。并且，使用的牌可以被右键移除）",
-    textKo: "",
+    textKo:
+      "안전구축에서 선택하지 않은 다른 여신의 카드, 또는 덮은패로부터 《전력》이 아닌 《공격》을 하나 선택한 뒤, 그것을 추미를 부여하여 사용한다. 게임 외에서 사용한 카드가 다른 영역으로 이동할 때는 대신 그 카드를 뒷면으로 제거한다.\n(안전구축에서 선택되지 않은 상태로 되돌린다.)",
+    textKoAdditional:
+      "(이 카드를 우클릭해서 안전구축에서 고르지 않은 카드를 획득할 수 있음. 그리고 사용한 카드를 우클릭해서 제거할 수 있음)",
     textEn: "",
   },
   "25-misora-o-n-7": {
@@ -12215,7 +12249,7 @@ export const S9_UPDATED_CARD_DATA = {
     nameEn: "",
     nameZh: "碧空翼",
     nameZhG1: "",
-    nameKo: "",
+    nameKo: "하늘의 날개",
     ruby: "そらのつばさ",
     rubyEn: "",
     baseType: "normal",
@@ -12225,7 +12259,8 @@ export const S9_UPDATED_CARD_DATA = {
     textZh:
       "终端 距离限制(0-3)\n【展开时】敌装→2→距\n【破弃时】在本回合中，当前的距的值增加1，达人距离的值也加1。",
     textZhG1: "",
-    textKo: "",
+    textKo:
+      "종단, 간격제한(0-3)\n【전개시】오라(상대)→간격:2\n【파기시】이 턴 중 현재 간격이 1 증가하고, 달인의 간격이 1 증가한다.",
     textEn: "",
   },
   "25-misora-o-s-1": {
@@ -12234,7 +12269,7 @@ export const S9_UPDATED_CARD_DATA = {
     nameEn: "",
     nameZh: "未竟终末",
     nameZhG1: "",
-    nameKo: "",
+    nameKo: "끝 없는 끝",
     ruby: "",
     rubyEn: "",
     baseType: "special",
@@ -12246,7 +12281,8 @@ export const S9_UPDATED_CARD_DATA = {
     textZh:
       "追踪 不可被对应\n【常时】X等于本牌上的樱花结晶数的两倍加3的值。\n【攻击后】X大于等于7的话，盖伏对手的全部牌库。\n【已使用】在你的结束步骤，从虚将1个樱花结晶置于此牌上，将此牌返回未使用的状态。",
     textZhG1: "",
-    textKo: "",
+    textKo:
+      "추미, 대응불가\n【상시】X는 3에 이 카드 위의 벛꽃결정 수의 2배를 더한 숫자와 동일하다.\n【공격후】X가 7 이상이라면, 상대의 패산을 모두 덮은 패로 만든다.\n【사용됨】당신의 종료 페이즈에 이 카드 위에 더스트로부터 벛꽃결정을 1개 놓은 뒤, 이 카드를 미사용으로 되돌린다.",
     textEn: "",
   },
   "25-misora-o-s-2": {
@@ -12255,7 +12291,7 @@ export const S9_UPDATED_CARD_DATA = {
     nameEn: "",
     nameZh: "作祟妖云",
     nameZhG1: "",
-    nameKo: "",
+    nameKo: "구름 수 놓은 구름",
     ruby: "",
     rubyEn: "",
     baseType: "special",
@@ -12266,7 +12302,8 @@ export const S9_UPDATED_CARD_DATA = {
     textZh:
       "【展开中】有瞄准的话，当前的距等于瞄准。\n【展开中】你不能进行基本动作《前进》或《离脱》。",
     textZhG1: "",
-    textKo: "",
+    textKo:
+      "【전개중】조준이 있다면 현재 간격은 조준과 동일한 것으로 취급한다.\n【전개중】당신은 기본동작 《전진》과 《이탈》을 수행할 수 없다.",
     textEn: "",
   },
   "25-misora-o-s-3": {
@@ -12275,7 +12312,7 @@ export const S9_UPDATED_CARD_DATA = {
     nameEn: "",
     nameZh: "揭帘悬影",
     nameZhG1: "",
-    nameKo: "",
+    nameKo: "그늘 드리운 그늘",
     ruby: "",
     rubyEn: "",
     baseType: "special",
@@ -12287,7 +12324,8 @@ export const S9_UPDATED_CARD_DATA = {
     textZh:
       "【展开时】被对应的基于通常牌的《攻击》的攻击距离包含瞄准的话，打消被对应的《攻击》，并将其封印在此牌下。\n【破弃时】将封印在此牌下的牌返回对手的弃牌。",
     textZhG1: "",
-    textKo: "",
+    textKo:
+      "【전개시】대응한 통상패에 의한 《공격》의 적정거리에 당신의 조준이 포함되어 있다면, 대응한 《공격》을 무효화한 뒤, 그 카드를 이 카드의 아래에 봉인한다.\n【파기시】 이 카드에 봉인된 카드를 상대의 버림패로 되돌린다.",
     textEn: "",
     sealable: true,
   },
@@ -12297,7 +12335,7 @@ export const S9_UPDATED_CARD_DATA = {
     nameEn: "",
     nameZh: "碧落御空",
     nameZhG1: "",
-    nameKo: "",
+    nameKo: "하늘 너머 하늘",
     ruby: "",
     rubyEn: "",
     baseType: "special",
@@ -12309,7 +12347,8 @@ export const S9_UPDATED_CARD_DATA = {
     textZh:
       "【展开中】当前的距的值增加5。\n【破弃时】敌命→1→距、敌装→1→距、敌气→1→距\n【已使用】此牌不能被使用。",
     textZhG1: "",
-    textKo: "",
+    textKo:
+      "【전개중】현재의 간격이 5 증가한다.\n【파기시】라이프(상대)→간격:1\n오라(상대)→간격:1\n플레어(상대)→간격:1\n【사용됨】이 카드는 사용할 수 없다.",
     textEn: "",
   },
 } as const satisfies Partial<{
