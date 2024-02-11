@@ -8712,6 +8712,7 @@ export const S6_2_UPDATED_CARD_DATA: Partial<{
       "집중력을 1 지불할 수 있다. 그렇게 했다면, 추가패 또는 달선된 상태인 구상 카드를 1장 준비한다. 달성된 상태인 구상 카드를 준비했다면, 이 카드를 게임에서 제외한다.\n【사용됨】상대의 개시 페이즈가 시작될 때, 당신이 직전 턴에 구상을 진행하지 않았다면, 이 카드를 미사용으로 되돌린다.",
     textEn:
       "You may spend 1 Vigor. If you do, prepare one of your set aside or completed Plot cards. If it was a completed Plot card, remove this card from the game.\n\nDevoted: At the beginning of your opponent's turn, if you did not progress a Plot on your previous turn, turn this card face-down.",
+    removable: true,
   },
 };
 
@@ -11192,6 +11193,7 @@ export const S8_2_UPDATED_CARD_DATA = {
       "추가패 또는 달성완료에서 구상 카드를 1장 준비한다. 달성완료에서 준비했다면, 이 카드를 게임에서 제외한다.\n【사용됨】 상대의 개시 페이즈 시작에, 당신이 직전 턴에 구상을 진행하지 않았다면, 이 카드를 미사용 상태로 되돌린다. 그렇게 했다면, 상대는 집중력을 1 얻는다.",
     textEn:
       "Prepare one of your set-aside or Achieved Plot cards. If it was an Achieved Plot card, remove this card from the game.\n\nDevoted: At the beginning of your opponent's turn, if you did not progress a Plot on your previous turn, turn this card face-down. If you do, your opponent gains 1 Vigor.",
+    removable: true,
   },
   "21-kamuwi-o-n-2": {
     megami: "kamuwi",
