@@ -5728,1314 +5728,1312 @@ export const S4_PRE_UPDATED_CARD_DATA: Partial<{
 };
 
 // シーズン5
-export const S5_UPDATED_CARD_DATA: Partial<{ [id in TCardId]: CardDataItem }> =
-  {
-    "01-yurina-o-n-5": {
-      megami: "yurina",
-      name: "気迫",
-      nameEn: "Vivacity",
-      nameZh: "气魄",
-      nameZhG1: "气迫",
-      nameKo: "기백",
-      ruby: "きはく",
-      rubyEn: "",
-      baseType: "normal",
-      type: "action",
-      text: "あなたは集中力を1得る。\nこのターンにあなたが次に行う他のメガミによる切札でない《攻撃》は対応不可（通常札）と距離拡大（近1）を得る。",
-      textZh:
-        "你获得1点集中力。\n本回合你的下一次其他女神的非王牌的《攻击》获得不可被对应（通常牌）和距离扩大（近1）。",
-      textZhG1:
-        "你获得1点集中力。\n本回合你的下一次其他女神的非王牌的《攻击》获得不可被对应（通常牌）和距离扩大（近1）。",
-      textKo:
-        "당신은 집중력을 1얻는다.\n이 턴에 당신이 다음에 하는 다른 여신의 비장패가 아닌 《공격》은 대응불가(통상패)와 거리 확대(근1)을 얻는다.",
-      textEn:
-        "Gain 1 Vigor.\n\nIncrease the Range of your next non-Special attack from a non-Yurina Megami this turn by 1 in the close direction, and it gains No Reactions (Normal).",
-    },
-    "01-yurina-o-s-2": {
-      megami: "yurina",
-      name: "浦波嵐",
-      nameEn: "Uranami Storm",
-      nameZh: "浦波岚",
-      nameZhG1: "浦波岚",
-      nameKo: "해안에 파랑 일며",
-      ruby: "うらなみあらし",
-      rubyEn: "",
-      baseType: "special",
-      type: "attack",
-      subType: "reaction",
-      range: "0-10",
-      damage: "2/-",
-      cost: "3",
-      text: "終端\n【攻撃後】対応した《攻撃》は-2/+0となる。",
-      textZh: "终端\n【攻击后】被对应的《攻击》得-2/+0。",
-      textZhG1: "终端\n【攻击后】被对应的《攻击》获得-2/+0。",
-      textKo: "종단\n【공격후】대응한 《공격》은 -2/+0이 된다.",
-      textEn:
-        "Terminal\n\nAfter Attack: The attack this card was played as a Reaction to gets -2/+0.",
-    },
-    "01-yurina-A1-s-2": {
-      megami: "yurina",
-      anotherID: "A1",
-      replace: "01-yurina-o-s-2",
-      name: "不完全浦波嵐",
-      nameEn: "Imperfect Uranami Storm",
-      nameZh: "不完全浦波岚",
-      nameZhG1: "不完全浦波岚",
-      nameKo: "불완전 해안에 파랑 일며",
-      ruby: "ふかんぜんうらなみあらし",
-      rubyEn: "",
-      baseType: "special",
-      type: "attack",
-      subType: "reaction",
-      range: "0-10",
-      damage: "3/-",
-      cost: "5",
-      text: "終端\n【攻撃後】対応した《攻撃》は-3/+0となる。",
-      textZh: "终端\n【攻击后】被对应的《攻击》得-3/+0。",
-      textZhG1: "终端\n【攻击后】被对应的《攻击》获得-3/+0。",
-      textKo: "종단\n【공격후】대응한 《공격》은 -3/+0이 된다.",
-      textEn:
-        "Terminal\n\nAfter Attack: The attack this card was played as a Reaction to gets -3/+0.",
-    },
-    "02-saine-o-n-5": {
-      megami: "saine",
-      name: "圏域",
-      nameEn: "Space for Master",
-      nameZh: "圈域",
-      nameZhG1: "圈域",
-      nameKo: "권역",
-      ruby: "けんいき",
-      rubyEn: "",
-      baseType: "normal",
-      type: "enhance",
-      capacity: "2",
-      text: "【展開中】この付与札の上の桜花結晶がダストへと送られるならば、それは代わりに間合へと移動する。\n【展開中】達人の間合は1大きくなる。",
-      textZh:
-        "【展开中】若此牌上的樱花结晶将被移至虚，则改为将其移至距。\n【展开中】达人距离的值增大1。",
-      textZhG1:
-        "【展开中】若此牌上的樱花结晶将被移至虚，则改为将其移至距。\n【展开中】达人距离的值增大1。",
-      textKo:
-        "【전개중】이 부여패 위에 있는 벚꽃 결정이 더스트로 움직일 때, 그 대신에 간격으로 이동한다.\n【전개중】달인의 간격이 1늘어난다.",
-      textEn:
-        "Ongoing: If a Sakura token would be moved from this card to Shadow, instead move it to Distance.\n\nOngoing: Increase the size of the Mastery Zone by 1.",
-    },
-    "03-himika-o-n-6": {
-      megami: "himika",
-      name: "バックドラフト",
-      nameEn: "Backdraft",
-      nameZh: "回燃",
-      nameZhG1: "回燃",
-      nameKo: "백드래프트",
-      ruby: "",
-      rubyEn: "",
-      rubyZh: "Backdraft",
-      baseType: "normal",
-      type: "action",
-      text: "相手を畏縮させる。\n連火―このカードがこのターンに使用した3枚目以降のカードならば、このターンにあなたが次に行う他のメガミによるオーラへのダメージが「-」でない《攻撃》を+1/+1する。",
-      textZh:
-        "令对手畏缩。\n连火～若此牌是本回合你使用的第3张或更多的牌，则本回合你的下一次其他女神的对装伤害不为「-」的《攻击》得+1/+1。",
-      textZhG1:
-        "对手畏缩。\n连火～若本回合内你已使用至少2张牌，则本回合内你的其他女神的下一次对装伤害不为“-”的《攻击》获得+1/+1。",
-      textKo:
-        "상대를 위축시킨다。\n 연화-이 카드가 이 턴에 사용한 3장째 이후의 카드라면, 이 턴 당신이 다음에 행하는 다른 여신에 의한 오라 데미지가 「-」이 아닌 《공격》을 +1/+1 한다.",
-      textEn:
-        'Flinch your opponent.\n\nInferno - If this is the third or later card you\'ve played this turn, your next attack this turn from a non-Himika Megami that does not have "-" Damage to Aura gains +1/+1.',
-    },
-    "05-oboro-A1-n-3": {
-      megami: "oboro",
-      anotherID: "A1",
-      replace: "05-oboro-o-n-3",
-      name: "不意打ち",
-      nameEn: "Sneak Attack",
-      nameZh: "突袭",
-      nameZhG1: "突袭",
-      nameKo: "기습",
-      ruby: "ふいうち",
-      rubyEn: "",
-      baseType: "normal",
-      type: "attack",
-      subType: "fullpower",
-      range: "1-3",
-      damage: "4/3",
-      text: "対応不可（通常札） \n【常時】この《攻撃》は-X/-Xとなる。Xは相手の伏せ札の枚数に等しい。",
-      textZh:
-        "不可被对应（通常牌）\n【常时】此《攻击》得-X/-X，X等于对手盖牌区中的牌张数。",
-      textZhG1:
-        "不可被对应（通常牌）\n【常时】此《攻击》获得-X/-X，X等于对手盖牌区中的牌张数。",
-      textKo:
-        "대응불가（통상패） \n【상시】이 《공격》은 -X/-X 가 된다. X는 상대 덮임패의 장수와 같다.",
-      textEn:
-        "No Reactions (Normal)\n\nForced: This attack gets -X/-X. X is the number of cards in your opponent's discard pile.",
-    },
-    "05-oboro-A1-s-4-ex1": {
-      megami: "oboro",
-      anotherID: "A1",
-      name: "最後の結晶",
-      nameEn: "The Final Petal",
-      nameZh: "最后的结晶",
-      nameZhG1: "最后的结晶",
-      nameKo: "최후의 결정",
-      ruby: "さいごのけっしょう",
-      rubyEn: "",
-      baseType: "special",
-      extra: true,
-      extraFrom: "05-oboro-A1-s-4",
-      type: "action",
-      cost: "3",
-      text: "【常時】このカードはこの効果でのみ使用できる。あなたが初めて敗北するならば、代わりにあなたのライフ全てをダストに送り、このカードを使用してもよい(消費は支払う)。 \n手札を1枚伏せ札にし、ダスト→自ライフ：1",
-      textZh:
-        "【常时】这张牌不能以正常方法使用。仅当你第一次将要输掉本局游戏时，作为失败的代替，可以改为将自命全部移至虚并使用此牌（仍需支付费用）。\n盖伏一张手牌，然后：虚→1→自命",
-      textZhG1:
-        "【常时】这张牌不能以正常方法使用。仅当你第一次将要输掉本局游戏时，作为失败的代替，可以将自命中的所有樱花结晶移至虚，并立即使用此牌（仍需支付费用）。\n盖伏1张手牌，虚（1）→自命",
-      textKo:
-        "【상시】이 카드는 이 효과로만 사용할 수 있다. 당신이 최초로 패배했다면, 대신에 당신의 모든 라이프를 더스트로 옮기고 이 카드를 사용해도 좋다(코스트는 지불한다).\n손패를 1장 덮임패로 하고,\n더스트→자신 라이프：1",
-      textEn:
-        "Forced: This card cannot be played except by this effect. When you would lose the game for the first time, instead you may move all Sakura tokens from your Life to Shadow and play this card (paying its cost).\n\nDiscard a card.\n\nShadow (1)→ Your Life",
-    },
-    "08-hagane-o-s-1": {
-      megami: "hagane",
-      name: "大天空クラッシュ",
-      nameEn: "Grand Firmament Crash",
-      nameZh: "大天空CRASH",
-      nameZhG1: "大天空·破限",
-      nameKo: "대천공 크래시",
-      ruby: "だいてんくうクラッシュ",
-      rubyEn: "",
-      baseType: "special",
-      type: "attack",
-      range: "0-10",
-      damage: "X/Y",
-      cost: "4",
-      text: "超克 \n【常時】Xは現在の間合がターン開始時の間合からどれだけ変化しているかに等しい。YはXの半分（切り上げ）に等しい。",
-      textZh:
-        "超克 \n【常时】X为当前距离与本回合开始时距离之差的绝对值，Y为X的一半（向上取整）。",
-      textZhG1:
-        "超克 \n【常时】X为当前距离与本回合开始时距离之差的绝对值，Y为X的一半（向上取整）。",
-      textKo:
-        "초극 \n 【상시】X는 현재 간격이 턴 시작시의 간격에서 변화한 값과 같다. Y는 X의 절반(올림)과 같다.",
-      textEn:
-        "Overwhelm\n\nForced: X is the difference between the current Distance and the Distance at the beginning of this turn. Y is half of X, rounded up.",
-    },
-    "09-chikage-o-n-3": {
-      megami: "chikage",
-      name: "遁術",
-      nameEn: "Concealment",
-      nameZh: "遁术",
-      nameZhG1: "遁术",
-      nameKo: "둔술",
-      ruby: "とんじゅつ",
-      rubyEn: "",
-      baseType: "normal",
-      type: "attack",
-      subType: "reaction",
-      range: "1-3",
-      damage: "1/-",
-      text: "【攻撃後】自オーラ→間合：1　ダスト→間合：1 \n【攻撃後】このターン中、相手は基本動作《前進》を行えない。",
-      textZh:
-        "【攻击后】自装→1→距 虚→1→距\n【攻击后】本回合内对手不能执行基本动作《前进》。",
-      textZhG1:
-        "【攻击后】自装（1）→距，虚（1）→距\n【攻击后】本回合内对手不能执行基本动作《前进》。",
-      textKo:
-        "【공격후】자신 오라→간격：1　더스트→간격：1 \n【공격후】이 턴 동안, 상대는 기본 동작 《전진》을 할 수 없다.",
-      textEn:
-        "After Attack:\nYour Aura (1)→ Distance\nShadow (1)→ Distance\n\nAfter Attack: Your opponent cannot perform the Forward Movement basic action for the rest of the turn.",
-    },
-    "10-kururu-o-s-3": {
-      megami: "kururu",
-      name: "いんだすとりあ",
-      nameEn: "Industria",
-      nameZh: "工业量产",
-      nameZhG1: "复自黏贴",
-      nameKo: "인더스트리아",
-      ruby: "",
-      rubyEn: "",
-      rubyZh: "Industria",
-      baseType: "special",
-      type: "action",
-      cost: "1",
-      text: "このカードがあなたのカードで、カードが封印されていないならば、手札または捨て札から《付与》でないカードを1枚選び、このカードの下に表向きで封印してもよい。 \nあなたの追加札から「でゅーぷりぎあ」を山札の底に1枚置く(最大で合計3枚)。 \n----\n【即再起】あなたが山札を再構成する（再構成の後に未使用に戻る）。",
-      textZh:
-        "若此牌是你的牌且其下没有封印牌，则从你的手牌或弃牌中选择1张非《付与》的牌，封印在此牌下。\n从追加牌区中将1张『复制品齿轮』置于你的牌库底。\n----\n【即再起】你重铸牌库后。",
-      textZhG1:
-        "若此牌是你的牌且其下没有封印牌，则从你的手牌或弃牌中选择1张非《付与》的牌，封印在此牌下。（最多3张）\n从追加牌区中将1张『复制品齿轮』置于你的牌库底。\n----\n【即再起】你重铸牌库后。",
-      textKo:
-        "이 카드에 카드가 봉인되어 있지 않다면, 당신의 손패 또는 버림패에서 《부여》가 아닌 카드 한 장을 골라, 그 카드를 이 카드 밑에 앞면으로 봉인해도 좋다.\n 당신의 추가패에서 「듀~플리기어」를 패산의 밑에 1장 둔다(최대 합계 3장). \n ----\n 【즉재기】당신이 패산을 재구성한다(재구성 후에 미사용으로 되돌린다).",
-      textEn:
-        'If you own this card and no card is sealed under it, you may choose a non-Enhancement card in your hand or played pile and seal it under this card, face-up.\n\nPut one of your set aside "Dupligear" on the bottom of your deck.\n\nImmediate Resurgence: You reshuffle your deck. (Turn this card face-down after completing the reshuffle.)',
-      sealable: true,
-    },
-    "12-raira-o-s-4": {
-      megami: "raira",
-      name: "円環輪廻旋",
-      nameEn: "Death and Rebirth",
-      nameZh: "圆环轮回旋",
-      nameZhG1: "圆环轮回旋",
-      nameKo: "원환륜회선",
-      ruby: "えんかんりんかいせん",
-      rubyEn: "",
-      baseType: "special",
-      type: "enhance",
-      subType: "reaction",
-      capacity: "3",
-      cost: "2",
-      text: "【展開中】相手の《攻撃》の解決後に以下を全て行ってもよい。\n・間合⇔ダスト：1\n・風神ゲージか雷神ゲージを1上げる。",
-      textZh:
-        "【展开中】对手的攻击结算完毕时，你可以选择最多两项：\n●距↔1↔虚\n●选择风神槽或雷神槽，其值增加1。",
-      textZhG1:
-        "【展开中】每当对手进行的《攻击》结算完毕时，你可以依次执行：\n距（1）⇔ 虚 \n选择风神槽或雷神槽，其值增加1。",
-      textKo:
-        "【전개중】상대의 《공격》 해결 후에 아래를 전부 처리해도 좋다.\n・간격⇔더스트：1\n・풍신 게이지 또는 뇌신 게이지를 1올린다.",
-      textEn:
-        "Ongoing: After one of your opponent's attacks resolves, perform neither or both:\n・Distance (1)⇔ Shadow\n・Increase your Wind or Thunder Gauge by 1.",
-    },
-    "13-utsuro-o-s-4": {
-      megami: "utsuro",
-      name: "魔食",
-      nameEn: "Эрозия",
-      nameZh: "魔食",
-      nameZhG1: "魔食",
-      nameKo: "마식",
-      ruby: "エロージヤ",
-      rubyEn: "",
-      rubyZh: "Эрозия",
-      baseType: "special",
-      type: "action",
-      cost: "4",
-      text: "【使用済】あなたの開始フェイズの開始時に相手は以下のどちらかを選ぶ。\n・相オーラ→ダスト：1\n・相フレア→ダスト：2",
-      textZh:
-        "【已使用】每当你的准备阶段开始时，对手选择一项：\n●敌装→1→虚\n●敌气→2→虚",
-      textZhG1:
-        "【已使用】每当你的准备阶段开始时，对手选择一项：\n1.敌装（1）→虚\n2.敌气（2）→虚",
-      textKo:
-        "【사용완료】당신의 개시 페이즈 시작시에 상대는 이하에서 하나를 고른다.\n ・상대 오라→더스트：1\n ・상대 플레어→더스트：2",
-      textEn:
-        "Devoted: At the beginning of your turn, your opponent chooses one:\n・Opponent's Aura (1)→ Shadow\n・Opponent's Flare (2)→ Shadow",
-    },
-    "14-honoka-o-n-2": {
-      megami: "honoka",
-      name: "桜吹雪",
-      nameEn: "Petal Storm",
-      nameZh: "樱吹雪",
-      nameZhG1: "樱吹雪",
-      nameKo: "벚꽃보라",
-      ruby: "さくらふぶき",
-      rubyEn: "",
-      baseType: "normal",
-      type: "attack",
-      range: "3-5",
-      damage: "2/1",
-      text: "【攻撃後】相手は以下のどちらかを選ぶ。\n・間合→自オーラ：1\n・相オーラ→間合：1",
-      textZh: "【攻击后】对手选择一项：\n●距→1→自装；\n●敌装→1→距。",
-      textZhG1: "【攻击后】对手选择一项：\n1.距（1）→自装；\n2.敌装（1）→距。",
-      textKo:
-        "【공격후】상대는 아래에서 하나를 고른다.\n・간격→자신 오라：1\n・상대 오라→간격：1",
-      textEn:
-        "After Attack: Your opponent chooses one:\n・Distance (1)→ Your Aura\n・Opponent's Aura (1)→ Distance",
-    },
-    "14-honoka-o-s-1-ex1": {
-      megami: "honoka",
-      name: "両手に華を",
-      nameEn: "Flowers in Your Hands",
-      nameZh: "樱结手弦",
-      nameZhG1: "结樱于手",
-      nameKo: "양손에 꽃을",
-      ruby: "りょうてにはなを",
-      rubyEn: "",
-      baseType: "special",
-      extra: true,
-      extraFrom: "14-honoka-o-s-1",
-      exchangableTo: "14-honoka-o-s-1-ex2",
-      type: "action",
-      subType: "fullpower",
-      cost: "0",
-      text: "基本動作《纏い》を1回行う。\n【使用済】あなたの終了フェイズに基本動作《纏い》を1回行う。\n【使用済】開花―あなたが基本動作《纏い》を行うならば、代わりにダストまたはあなたのオーラからこのカードの上に桜花結晶1つを置いてもよい。その結果、5つになったならば、それらの桜花結晶をあなたのフレアへと移動させ、この「両手に華を」を追加札の「そして新たな幕開けを」に交換し、未使用に戻す。",
-      textZh:
-        "进行1次基本动作《装附》。\n【已使用】在你的结束阶段进行1次基本动作《装附》。\n【已使用】开花～当你进行基本动作《装附》的时候，可以改为从虚或者自装把1个樱花结晶移至此牌上。若因此放置了5个樱花结晶，则将它们移入自气，将这张『樱结手弦』与追加牌区的『旋即旌招幕展』交换，将『旋即旌招幕展』变为未使用状态。",
-      textZhG1:
-        "执行1次基本动作《装附》。（此次《装附》不会触发此牌的替代效果）\n【已使用】每当你的结束阶段开始时，执行1次基本动作《装附》。\n【已使用】开花～你可以将你的基本动作《装附》的效果改为将1个樱花结晶从虚或自装移至此牌上。若此牌上的樱花结晶的数目因此恰好变为5，则将它们移至自气，将这张『结樱于手』与追加牌中的『旋即旌招幕展』交换，将『旋即旌招幕展』变为未使用状态。",
-      textKo:
-        "기본 동작 《휘감기》를 1번 한다.\n【사용됨】당신의 종료 페이즈에 기본 동작 《휘감기》를 1번 한다.\n【사용됨】개화―당신이 기본 동작 《휘감기》를 한다면, 대신에 더스트 또는 당신의 오라에서 이 카드 위에 벚꽃 결정을 1개 올려도 좋다. 그 결과로 5개가 되었다면 이 카드 위의 벚꽃 결정을 전부 당신의 플레어로 이동시키고 이 「양손에 꽃을」을 추가패의 「그리고 새로운 개막을」으로 교환하고 미사용으로 되돌린다.",
-      textEn:
-        'Perform a Recover basic action.\n\nDevoted: At the end of your turn, perform a Recover basic action.\n\nDevoted: Bloom - Whenever you would perform a Recover basic action, you may instead move a Sakura token from Shadow or your Aura to this card. Then if there are exactly 5 Sakura tokens on this card, move them all to your Flare, exchange this card with your set aside "And So Begins the Rising of a New Curtain", and turn that card face-down.',
-    },
-    "16-yatsuha-o-n-1": {
-      megami: "yatsuha",
-      name: "星の爪",
-      nameEn: "Astral Claw",
-      nameZh: "星之爪",
-      nameZhG1: "星之爪",
-      nameKo: "별의 손톱",
-      ruby: "ほしのつめ",
-      rubyEn: "",
-      baseType: "normal",
-      exchangableTo: "16-yatsuha-A1-n-1-ex1",
-      type: "attack",
-      range: "3-4",
-      damage: "3/2",
-      text: "対応不可（通常札）\n【攻撃後】自オーラ→相フレア：1",
-      textZh: "不可被对应（通常牌）\n【攻击后】自装→1→敌气",
-      textZhG1: "不可被对应（通常牌）\n【攻击后】自装（1）→敌气",
-      textKo: "대응불가(통상패)\n【공격후】자신 오라→상대 플레어：1 ",
-      textEn:
-        "No Reactions (Normal)\n\nAfter Attack: Your Aura (1)→ Opponent's Flare",
-    },
-    "16-yatsuha-o-n-2": {
-      megami: "yatsuha",
-      name: "昏い咢",
-      nameEn: "Grim Edict",
-      nameZh: "昏之颚",
-      nameZhG1: "暗之颚",
-      nameKo: "어둠의 아가리",
-      ruby: "くらいあぎと",
-      rubyEn: "",
-      baseType: "normal",
-      exchangableTo: "16-yatsuha-A1-n-2-ex1",
-      type: "attack",
-      range: "4",
-      damage: "3/1",
-      text: "対応不可（通常札）\n【常時】この《攻撃》は+0/+Xとなる。Xは鏡映数に等しい。\n【攻撃後】あなたは畏縮する。",
-      textZh:
-        "不可被对应（通常牌）\n【常时】此攻击得+0/+X。X等于镜映数。\n【攻击后】令你畏缩。",
-      textZhG1:
-        "不可被对应（通常牌）\n【常时】此《攻击》获得+0/+X。X等于镜映数。\n【攻击后】你畏缩。",
-      textKo:
-        "대응불가(통상패)\n【상시】이 《공격》은 +0/+X된다. X는 거울 수에 해당된다.\n【공격후】당신은 위축된다.",
-      textEn:
-        "No Reactions (Normal)\n\nForced: This attack gains +0/+X, where X is the number of Reflections.\n\nAfter Attack: Flinch yourself.",
-    },
-    "06-yukihi-A1-n-2": {
-      megami: "yukihi",
-      anotherID: "A1",
-      replace: "06-yukihi-o-n-2",
-      name: "ちからぞえ / おどしつけ",
-      nameEn: "Cooperate / Coerce",
-      nameZh: "援助 / 威胁",
-      nameZhG1: "援助/舞踏",
-      nameKo: "조력하기 / 위협하기",
-      ruby: "",
-      rubyEn: "",
-      baseType: "normal",
-      type: "attack",
-      range: "3-5",
-      rangeOpened: "1-2",
-      damage: "2/1",
-      damageOpened: "1/2",
-      text: "【常時】あなたの付与札に合計4つ以上の桜花結晶があるならば、この《攻撃》は+0/+1となる。",
-      textZh:
-        "【常时】你的付与区总共有4个或者更多樱花结晶的话，此《攻击》得+0/+1。",
-      textZhG1:
-        "【常时】若你展开中的付与牌上樱花结晶的数目之和大于等于4，则此攻击获得+0/+1。",
-      textKo:
-        "【상시】당신의 부여패에 합계 4개 이상의 벚꽃 결정이 있다면, 이 《공격》은 +0/+1된다.",
-      textEn:
-        " Forced: If there are 4 or more Sakura tokens on your Enhancements in play, this attack gains +0/+1.",
-      textOpened:
-        "【常時】あなたの付与札に合計4つ以上の桜花結晶があるならば、この《攻撃》は+1/+0となる。",
-      textOpenedZh:
-        "【常时】你的付与区总共有4个或者更多樱花结晶的话，此《攻击》得+1/+0。",
-      textOpenedZhG1:
-        "【常时】若你展开中的付与牌上樱花结晶的数目之和大于等于4，则此攻击获得+1/+0。",
-      textOpenedKo:
-        "【상시】당신의 부여패에 합계 4개 이상의 벚꽃 결정이 있다면, 이 《공격》은 +1/+0된다.",
-      textOpenedEn:
-        "Forced: If there are 4 or more Sakura tokens on your Enhancements in play, this attack gains +1/+0.",
-    },
-    "06-yukihi-A1-n-4": {
-      megami: "yukihi",
-      anotherID: "A1",
-      replace: "06-yukihi-o-n-4",
-      name: "よこいと / たていと",
-      nameEn: "Weft / Warp",
-      nameZh: "纬线 / 经线",
-      nameZhG1: "纬丝/经纱",
-      nameKo: "씨실 / 날실",
-      ruby: "",
-      rubyEn: "",
-      baseType: "normal",
-      type: "attack",
-      range: "2-8",
-      rangeOpened: "0-4",
-      damage: "1/1",
-      damageOpened: "0/0",
-      text: "【攻撃後】このターンにあなたが次に行う他のメガミによる《攻撃》は距離拡大（遠1）と距離拡大（近1）を得る。このカードを山札の底に置く。",
-      textZh:
-        "【攻击后】本回合你的下一次其他女神的《攻击》获得距离扩大（远1）和距离扩大（近1）。将此牌置于牌库底。",
-      textZhG1:
-        "【攻击后】本回合内你的下一次其他女武神的攻击获得距离扩大（近1、远1）。将此牌置于你的牌库底。",
-      textKo:
-        "【공격후】이 턴에 당신이 다음에 하는 다른 여신의 《공격》은 거리 확대（원1）와 거리 확대（근1）을 얻는다. 이 카드를 패산 아래에 둔다.",
-      textEn:
-        "After Attack: Increase the Range of the next attack from a non-Yukihi Megami that you make this turn by 1 in both the close and distant directions. Put this card on the bottom of your deck.",
-      textOpened:
-        "【攻撃後】このターン中にあなたが他のカードを使用していないならば、あなたの捨て札にある他のメガミの《全力》でないカード1枚を使用する。",
-      textOpenedZh:
-        "【攻击后】本回合中若你没有用过其他牌，则从你的弃牌中使用一张其他女神的非《全力》的牌。",
-      textOpenedZhG1:
-        "【攻击后】若本回合内你没有使用过其他女神的牌，则你可以从弃牌区中使用1张其他女神的不具《全力》副类别的牌。",
-      textOpenedKo:
-        "【공격후】이 턴 동안 당신이 다른 카드를 사용하지 않았다면, 당신의 버림패에 있는 다른 여신의 《전력》이 아닌 카드를 1장 사용한다.",
-      textOpenedEn:
-        "After Attack: If this is the first card you've played this turn, choose a non-Throughout card from a non-Yukihi Megami in your played pile and play it.",
-    },
-    "06-yukihi-A1-s-2": {
-      megami: "yukihi",
-      anotherID: "A1",
-      replace: "06-yukihi-o-s-2",
-      name: "ひらりおり",
-      nameEn: "Graceful Weave",
-      nameZh: "轻灵如织",
-      nameZhG1: "翩然如织",
-      nameKo: "살랑이는 옷깃",
-      ruby: "",
-      rubyEn: "",
-      baseType: "special",
-      type: "enhance",
-      capacity: "1",
-      cost: "4",
-      text: "【展開中】あなたが他のメガミの通常札をあなたの各ターンに初めて使用した時、その解決後にあなたは集中力を1得て、ダストからこのカードの上に桜花結晶を3つ置いてもよい。",
-      textZh:
-        "【展开中】你的每个回合中第一次使用你的其他女神的通常牌的时候，在结算后你获得1点集中力，从虚中把3个樱花结晶移至此牌上。",
-      textZhG1:
-        "【展开中】你的回合内，每当你第一次使用的其他女神的通常牌时，该牌结算完毕后你可以获得1点集中力，并将虚中的3个樱花结晶移至此牌上。",
-      textKo:
-        "【전개중】당신이 다른 여신의 통상패를 당신의 각 턴에 처음 사용할 때, 그것을 해결하고 당신은 집중력을 1얻고 더스트에서 이 카드 위에 벚꽃 결정을 3개 올려도 좋다.",
-      textEn:
-        "Ongoing: The first time you play a card from a non-Yukihi Megami on each of your turns, after it resolves, you may gain 1 Vigor and move 3 Sakura tokens from Shadow to this card.",
-      textOpened:
-        "【展開中】あなたの開始フェイズの開始時に攻撃「適正距離0-5、2/2」を行う。",
-      textOpenedZh:
-        "【展开中】每当你的准备阶段开始时，进行一次“攻击距离0-5 伤害2/2”的攻击。",
-      textOpenedZhG1:
-        "【展开中】每当你的准备阶段开始时，进行一次“攻击距离0-5 伤害2/2”的攻击。",
-      textOpenedKo:
-        "【전개중】당신의 개시 페이즈의 개시 시에 공격 「적정 거리0-5, 2/2」를 한다.",
-      textOpenedEn:
-        'Ongoing: At the beginning of your turn, you attack with "Range: 0-5, Damage: 2/2".',
-    },
-    "11-thallya-A1-n-5": {
-      megami: "thallya",
-      anotherID: "A1",
-      replace: "11-thallya-o-n-5",
-      name: "Quick Change",
-      nameEn: "Quick Change",
-      nameZh: "Quick Change",
-      nameZhG1: "Quick Change",
-      nameKo: "Quick Change",
-      ruby: "クイックチェンジ",
-      rubyEn: "",
-      rubyZh: "快速变换",
-      baseType: "normal",
-      type: "enhance",
-      capacity: "3",
-      text: "【展開時】あなたの燃焼済の造花結晶を1つ回復する。その後、追加札にあるTransFormカードを1枚選び、このカードの下に封印する（変形時効果は解決されない）。\n【展開中】このカードに封印されたカードの追加基本動作、常時を有効にする。\n【破棄時】このカードに封印されたカードを追加札に戻す。",
-      textZh:
-        "【展开时】回复你的1个已燃烧的造花结晶。之后，从追加牌处选择1张TransForm牌，封印在此牌下（变形时效果不结算）。\n【展开中】此牌下封印的牌的追加基本动作和常时将起效。\n【破弃时】将此牌下封印的牌移回追加牌处。",
-      textZhG1:
-        "【展开时】回复1个处于燃尽状态的造花结晶。然后从追加牌中选择1张变形牌，封印于此牌下（不结算变形时效果）。\n【展开中】此牌所封印的牌的追加基本动作与常时效果生效。\n【破弃时】将此牌所封印的牌移至追加牌。",
-      textKo:
-        "【전개시】당신의 연소 완료된 조화결정을 1개 회복한다.\n그 후, 추가패에 있는 TransForm 카드를 1장 골라 이 카드 아래에 봉인한다\n(변형시 효과는 해결하지 않는다).\n【전개중】이 카드에 봉인된 카드의 추가기본동작, 상시 효과를 유효화 한다.\n【파기시】이 카드에 봉인된 카드를 추가패로 되돌린다.",
-      textEn:
-        "Initialize: Recover 1 burned Artificial Sakura token. Then, choose one of your set aside TransForm cards and seal it under this card. (Do not resolve its TransForm effect.)\n\nOngoing: The Forced and Additional basic action effects of the sealed card are active.\n\nDisenchant: Return the sealed card to your set aside cards.",
-      sealable: true,
-    },
-    "11-thallya-A1-s-1": {
-      megami: "thallya",
-      anotherID: "A1",
-      replace: "11-thallya-o-s-1",
-      name: "BlackBox NEO",
-      nameEn: "BlackBox NEO",
-      nameZh: "BlackBox NEO",
-      nameZhG1: "BlackBox NEO",
-      nameKo: "BlackBox NEO",
-      ruby: "ブラックボックスネオ",
-      rubyEn: "",
-      rubyZh: "新型黑箱",
-      baseType: "special",
-      type: "action",
-      cost: "1",
-      text: "終端\nあなたの燃焼済の造花結晶を1つ回復する。その後、あなたのマシンが燃焼済の造花結晶を持たないならば、このカードの上にダストから桜花結晶を1つ置く。2つになったらこのカードの上の桜花結晶をダストに送るとともに、あなたのマシンはTransFormする。\n----\n【再起】あなたのマシンにある造花結晶が3個以下である。または、このターンにあなたのマシンがTransFormしている。",
-      textZh:
-        "终端\n回复你的1个已燃烧的造花结晶。之后，若你的引擎里没有已燃烧的造花结晶，从虚中把1个樱花结晶移至此牌上。达到2个后，则再将其上所有樱花结晶移至虚，你进行TransForm。\n----\n【再起】你的引擎里的造花结晶数小于等于3个；或者你在这个回合里进行了TransForm。",
-      textZhG1:
-        "终端\n回复1个处于燃尽状态的造花结晶。然后若你处于燃尽状态的造花结晶的数目等于0，则将1个樱花结晶从虚移至此牌上。若此牌上的樱花结晶的数目变为2，则将它们移至虚，然后TRANSFORM你的引擎。\n----\n【再起】你的引擎中造花结晶的数目小于等于3。或者本回合内你的引擎进行了TRANSFORM。",
-      textKo:
-        "종단\n당신의 연소된 조화 결정을 1개 회복한다. 그 다음 당신의 머신에 연소된 벚꽃 결정이 없다면 이 카드 위에 더스트에서 벚꽃 결정을 1개 올린다. 2개가 되었다면 이 카드 위의 벚꽃 결정을 더스트로 보내는 것과 함께 당신의 머신은 TransForm한다.\n----\n【재기】당신의 머신에 있는 조화 결정이 3개이하다. 또는 이 턴에 당신의 머신이 TransForm했다.",
-      textEn:
-        "Terminal\n\nRecover 1 burned Artificial Sakura token. Then, if you have no burned Artificial Sakura tokens, move 1 Sakura token from Shadow to this card. If there are 2 Sakura tokens on this card, move them all to Shadow and TransForm your machine.\n\nResurgence: There are 3 or fewer Artificial Sakura tokens on your machine, or your machine TransFormed this turn.",
-    },
-    "11-thallya-A1-s-2": {
-      megami: "thallya",
-      anotherID: "A1",
-      replace: "11-thallya-o-s-2",
-      name: "OMNIS-Blaster",
-      nameEn: "OMNIS-Blaster",
-      nameZh: "OMNIS-Blaster",
-      nameZhG1: "OMNIS-Blaster",
-      nameKo: "OMNIS-Blaster",
-      ruby: "オムニスブラスター",
-      rubyEn: "",
-      rubyZh: "光炮齐射",
-      baseType: "special",
-      type: "attack",
-      range: "3-10",
-      damage: "X/X",
-      cost: "X",
-      text: "【常時】XはあなたのマシンがこのゲームでTransFormした回数に等しい。",
-      textZh: "【常时】X的值等于你在这场游戏里进行TransForm的次数。",
-      textZhG1: "【常时】X等于本局游戏中你的引擎进行TRANSFORM的次数。",
-      textKo: "【상시】X는 당신의 머신이 이 게임에서 TransForm한 회수와 같다.",
-      textEn:
-        "Forced: X is equal the number of times your machine has TransFormed this game.",
-    },
-    "transform-A1-01": {
-      megami: "thallya",
-      anotherID: "A1",
-      replace: "transform-01",
-      name: "Form: KINNARI",
-      nameEn: "Form: KINNARI",
-      nameZh: "Form: KINNARI",
-      nameZhG1: "紧那罗形态",
-      nameKo: "Form: KINNARI",
-      ruby: "フォルム:キンナリー",
-      rubyEn: "",
-      rubyZh: "紧那罗形态",
-      baseType: "transform",
-      type: undefined,
-      text: "【変形時】相手は山札をすべて伏せ札にする。\n----\n【常時：Zeta-Voice】\n相手が山札を再構成したとき、その解決後に攻撃「適正距離2, 4, 6、2/2」を行ってもよい。",
-      textZh:
-        "【变形时】对手将其牌库全部盖伏。\n----\n【常时：Zeta-Voice】\n对手牌库再构成时，在其结算后你可以进行一次“攻击距离2,4,6 伤害2/2”的攻击。",
-      textZhG1:
-        "【变形时】盖伏对手的牌库。\n----\n【常时】Zeta-Voice：对手重铸牌库后，你可以进行一次“攻击距离2,4,6 伤害2/2”的攻击。",
-      textKo:
-        "【변형시】상대는 패산을 전부 덮임패로 한다.\n----\n【상시：Zeta-Voice】\n상대가 패산을 재구성할 때마다 그 해결 후에 공격 「적정 거리 2, 4, 6, 2/2」을 해도 좋다.",
-      textEn:
-        'TransForm: Discard your opponent\'s deck.\n----\nForced ("Zeta-Voice"): After your opponent reshuffles their deck, you attack with "Range: 2, 4, 6, Damage: 2/2".',
-    },
-    "transform-A1-03": {
-      megami: "thallya",
-      anotherID: "A1",
-      replace: "transform-03",
-      name: "Form: ASURA",
-      nameEn: "Form: ASURA",
-      nameZh: "Form: ASURA",
-      nameZhG1: "阿修罗形态",
-      nameKo: "Form: ASURA",
-      ruby: "フォルム:アスラ",
-      rubyEn: "",
-      rubyZh: "阿修罗形态",
-      baseType: "transform",
-      type: undefined,
-      text: "【変形時】相手は手札を1枚捨て札にし、相手の山札の上から1枚を捨て札にする。\n----\n【追加基本動作：Sigma-Drive】\n攻撃『適正距離1, 3, 5、3/2　【攻撃後】あなたは畏縮する。』を行う。\nこの基本動作は1ターンに1回だけ行える。",
-      textZh:
-        "【变形时】对手弃一张手牌，对手弃掉其牌库顶牌。\n----\n【追加基本动作：Sigma-Drive】\n进行一次“攻击距离1,3,5 伤害3/2 【攻击后】令你畏缩。”的攻击。\n这个基本动作一回合只能进行一次。",
-      textZhG1:
-        "【变形时】对手弃置1张手牌和牌库顶的1张牌。\n----\n【追加基本动作】Sigma-Drive：进行一次“攻击距离1,3,5 伤害3/2 【攻击后】你畏缩”的攻击。此基本动作每回合至多执行一次。",
-      textKo:
-        "【변형시】상대는 손패를 1장 버림패로 하고, 상대의 패산 위에서 1장을 버림패로 한다.\n----\n【추가 기본 동작：Sigma-Drive】\n공격 『적정 거리 1, 3, 5, 3/2　【공격후】당신은 위축한다.』를 한다.\n이 기본 동작은 1턴에 1번만 할 수 있다.",
-      textEn:
-        'TransForm: Your opponent puts a card from their hand, and the top card of their deck, into their played pile.\n----\nAdditional basic action ("Sigma-Drive"): You attack with "Range: 1, 3, 5, Damage: 3/2, After Attack: Flinch yourself." This action can only be performed once a turn.',
-    },
-    "transform-A1-04": {
-      megami: "thallya",
-      anotherID: "A1",
-      replace: "",
-      name: "Form: DEVA",
-      nameEn: "Form: DEVA",
-      nameZh: "Form: DEVA",
-      nameZhG1: "缇婆形态",
-      nameKo: "Form: DEVA",
-      ruby: "フォルム:デーヴァ",
-      rubyEn: "",
-      rubyZh: "天神形态",
-      baseType: "transform",
-      type: undefined,
-      text: "【変形時】あなたの燃焼済の造花結晶を2つ回復し、基本動作《纏い》を2回行う。\n----\n【常時：Phi-Cycle】\n相手の捨て札の枚数が0でない2の倍数になるたびに、あなたは集中力を1得る。",
-      textZh:
-        "【变形时】回复你的2个已燃烧的造花结晶，进行2次基本动作《装附》。\n----\n【常时：Phi-Cycle】\n对手的弃牌数变成0以外的2的倍数的时候，你获得1点集中力。",
-      textZhG1:
-        "【变形时】回复2个处于燃尽状态的造花结晶。执行2次基本动作《装附》。\n----\n【常时】Phi-Cycle：对手的弃牌张数变为除0以外的偶数时，你获得1点集中力。",
-      textKo:
-        "【변형시】당신의 연소된 조화 결정을 2개 회복하고 기본 동작 《휘감기》를 2번 한다.\n----\n【상시：Phi-Cycle】\n상대의 버림패의 수가 0이 아닌 2의 배수가 될 때마다 당신은 집중력을 1얻는다.",
-      textEn:
-        'TransForm: Recover 2 burned Artificial Sakura tokens. Perform 2 Recover basic actions.\n----\nForced ("Phi-Cycle"): Whenever the number of your cards in your opponent\'s played pile becomes an even number other than 0, gain 1 Vigor.',
-    },
-    "12-raira-a1-n-2": {
-      megami: "raira",
-      anotherID: "A1",
-      replace: "12-raira-o-n-2",
-      name: "暴風",
-      nameEn: "Gale Winds",
-      nameZh: "暴风",
-      nameZhG1: "暴风",
-      nameKo: "폭풍",
-      ruby: "ぼうふう",
-      rubyEn: "",
-      baseType: "normal",
-      type: "attack",
-      range: "2-4",
-      damage: "2/1",
-      text: "【攻撃後】風神ゲージを1上げる。その後、嵐の力を1回使用してもよい。",
-      textZh: "【攻击后】风神槽的值增加1。然后，你可以使用一次风暴之力。",
-      textZhG1: "【攻击后】风神槽的值增加1。然后你可以使用1次岚之力。",
-      textKo:
-        "【공격후】풍신 게이지를 1올린다. 그 후에 태풍의 힘을 1번 사용해도 좋다.",
-      textEn:
-        "After Attack: Increase your Wind Gauge by 1, then you may harness the storm once.",
-    },
-    "12-raira-a1-n-6": {
-      megami: "raira",
-      anotherID: "A1",
-      replace: "12-raira-o-n-6",
-      name: "大嵐",
-      nameEn: "Tempest",
-      nameZh: "大风暴",
-      nameZhG1: "大风暴",
-      nameKo: "대폭풍우",
-      ruby: "おおあらし",
-      rubyEn: "",
-      baseType: "normal",
-      type: "enhance",
-      subType: "fullpower",
-      capacity: "0",
-      text: "【展開時】以下を3回選ぶ。同じものを複数回選んでもよい。\n・風神ゲージか雷神ゲージを１上げる。\n・このカードの上にダストから桜花結晶を1つ置く。\n【展開中】あなたと相手の終了フェイズに攻撃『適正距離0-4、1/1、対応不可』を行う。\n【展開中】各ターンにおける相手の最初の《攻撃》は+0/-1となる。",
-      textZh:
-        "【展开时】选择以下选项3次，且同样的选项可以重复选择：\n●选择风神槽或雷神槽，其值增加1。\n●从虚中把1个樱花结晶移至此牌上。\n【展开中】在你和对手的结束阶段，进行一次“攻击距离0-4 伤害1/1 不可被对应”的攻击。\n【展开中】每个回合里对手的第一次《攻击》得+0/-1。",
-      textZhG1:
-        "【展开时】选择3次。你可以多次选择同一个选项。\n1.选择风神槽或雷神槽，其值增加1；\n2..将1个樱花结晶从虚移至此牌上。\n【展开中】每当你和对手的结束阶段开始时，进行一次“攻击距离0-4 伤害1/1 不可被对应”的攻击。\n【展开中】每回合内对手进行的第一次《攻击》获得+0/-1。",
-      textKo:
-        "【전개시】아래를 3번 고른다. 같은 것을 여러 선택해도 좋다.\n・풍신 게이지 또는 뇌신 게이지를 1올린다.\n・이 카드 위에 더스트에서 벚꽃 결정을 1개 올린다.\n【전개중】당신과 상대의 종료 페이즈에 공격 『적정 거리0-4, 1/1, 대응불가』를 한다.\\n【전개중】각 턴마다 상대의 최초의 《공격》은 +0/-1된다.",
-      textEn:
-        'Initialize: Choose three. You may choose the same option more than once:\n・Increase your Wind or Thunder Gauge by 1.\n・Move a Sakura token from Shadow to this card.\n\nOngoing: At the end of each turn, you attack with "Range: 0-4, Damage: 1/1, No Reactions".\n\nOngoing: The first attack your opponent makes each turn gets +0/-1.',
-    },
-    "12-raira-a1-s-3": {
-      megami: "raira",
-      anotherID: "A1",
-      replace: "12-raira-o-s-3",
-      name: "陣風祭天儀",
-      nameEn: "Liturgy of the Storm",
-      nameZh: "阵风祭天仪",
-      nameZhG1: "阵风祭天式",
-      nameKo: "진풍제천의",
-      ruby: "じんぷうさいてんぎ",
-      rubyEn: "",
-      baseType: "special",
-      type: "action",
-      cost: "2",
-      text: "風神ゲージと雷神ゲージを1ずつ上げ、相手を畏縮させる。\n【使用済】あなたが使用したカードは帯電しない。\n【使用済】あなたのメインフェイズの開始時に、あなたが標準行動を選択したならば、嵐の力を2回まで使用してもよい。ただし、同じ力は選べない。",
-      textZh:
-        "风神槽和雷神槽的值各增加1，令对手畏缩。\n【已使用】你使用的牌不会带电（无法增长风雷槽）。\n【已使用】你的行动阶段开始时，如果你选择进行标准行动，则你可以进行最多两次风暴之力，但是不能重复选择同一个。",
-      textZhG1:
-        "风神槽和雷神槽各增加1，对手畏缩。\n【已使用】你使用的牌不会带电。\n【已使用】每当你的主要阶段开始时，若你选择执行标准行动，则你可以使用至多2次岚之力，但不能使用同一种岚之力2次。",
-      textKo:
-        "풍신 게이지와 뇌신 게이지를 1개씩 올리고 상대를 위축시킨다.\n【사용됨】당신이 사용한 카드는 대전되지 않는다.\n【사용됨】당신의 페인 페이즈 개시 시에 당신이 표준 행동을 선택했다면, 태풍의 힘을 2번까지 사용해도 좋다. 하지만 같은 힘은 선택할 수 없다.",
-      textEn:
-        "Increase your Wind and Thunder Gauges by 1 each. Flinch your opponent.\n\nDevoted: Your played cards do not become electrified.\n\nDevoted: At the beginning of your main phase, if you chose to perform normal (non-Throughout) actions, you may harness the storm up to two times. You may not choose the same ability twice this way.",
-    },
-    "12-raira-storm": {
-      megami: "raira",
-      anotherID: "A1",
-      name: "【嵐の力】",
-      nameEn: "[Storm]",
-      nameZh: "【风暴之力】",
-      nameZhG1: "【岚之力】",
-      nameKo: "【폭풍의 힘】",
-      ruby: "",
-      rubyEn: "",
-      baseType: "storm",
-      type: undefined,
-      text: "【風1】間合⇔ダスト：1\n【風2】あなたは集中力を1得て、相手は集中力を1失う。\n【風3】カードを1枚引く。\n----\n【雷1】このターンにあなたが次に行う《攻撃》は+1/+0となる。\n【雷2】このターンにあなたが次に行うオーラへのダメージが「-」でない《攻撃》は+0/+1となる。\n【雷3】攻撃『適正距離0-4、2/2』を行う。",
-      textZh:
-        "<风1>距↔1↔虚\n<风2>你获得1点集中力，对手失去1点集中力。\n<风3>抓1张牌。\n\n<雷1>本回合你的下次《攻击》得+1/+0。\n<雷2>本回合你的下次对装伤害不为「-」的《攻击》得+0/+1。\n<雷3>进行一次“攻击距离0-4、伤害2/2”的攻击。",
-      textZhG1:
-        "风1：距（1）⇔虚\n风2：你获得1点集中力，对手失去1点集中力。\n风3：抽1张牌。\n雷1：本回合内你进行的下一次《攻击》得+1/+0。\n雷2：本回合内你进行的下一次对装的伤害不是“-”的攻击得+0/+1。\n雷3：进行一次“攻击距离0-4 伤害2/2”的攻击。",
-      textKo:
-        "【풍1】간격⇔더스트：1\n【풍2】당신은 집중력을 1얻고 상대는 집중력을 1잃는다.\n【풍3】카드를 1장 뽑는다.\n----\n【뇌1】이 턴에 당신이 다음에 하는 《공격》은 +1/+0된다.\n【뇌2】이 턴에 당신이 다음에 하는 오라 데미지가 「-」이 아닌 《공격》은 +0/+1된다.\n【뇌3】공격 『적정 거리0-4, 2/2』를 한다.",
-      textEn:
-        '(When you harness the storm, choose an ability from this list. Decrease its corresponding Gauge by the appropriate amount to get its effect.)\n\nWind 1: Shadow (1)⇔ Distance\nWind 2: Gain 1 Vigor. Your opponent loses 1 Vigor.\nWind 3: Draw a card.\n\nThunder 1: The next attack you make this turn gains +1/+0.\nThunder 2: The next attack you make this turn that doesn\'t have "-" Damage to Aura gains +0/+1.\nThunder 3: You attack with "Range: 0-4, Damage: 2/2".',
-    },
-    "17-hatsumi-o-n-1": {
-      megami: "hatsumi",
-      name: "水雷球",
-      nameEn: "Torpedo",
-      nameZh: "水雷球",
-      nameZhG1: "水雷球",
-      nameKo: "수뢰구",
-      ruby: "すいらいきゅう",
-      rubyEn: "",
-      baseType: "normal",
-      type: "attack",
-      range: "3-5",
-      damage: "0/0",
-      text: "【常時】順風ならば、この《攻撃》は+2/+2となる。\n【攻撃後】逆風ならば、間合⇔ダスト：2 ",
-      textZh:
-        "【常时】若顺风，此《攻击》得+2/+2。\n【攻击后】若逆风，则：距↔2↔虚",
-      textZhG1:
-        "【常时】若你处于顺风状态，则此《攻击》得+2/+2。\n【攻击后】若你处于逆风状态，则距（2） ⇔ 虚",
-      textKo:
-        "【상시】순풍이라면, 이 《공격》은 +2/+2된다.\n【공격후】역풍이라면, 간격⇔더스트：2 ",
-      textEn:
-        "Forced: If there is a tailwind, this attack gains +2/+2.\n\nAfter Attack: If there is a headwind, Distance (2)⇔ Shadow.",
-    },
-    "17-hatsumi-o-n-2": {
-      megami: "hatsumi",
-      name: "水流",
-      nameEn: "Torrent",
-      nameZh: "水流",
-      nameZhG1: "水流",
-      nameKo: "수류",
-      ruby: "すいりゅう",
-      rubyEn: "",
-      baseType: "normal",
-      type: "attack",
-      range: "4-5",
-      damage: "2/1",
-      text: "【常時】順風ならば、この《攻撃》は+1/+1となる。\n全力化：【常時】この《攻撃》は対応不可（通常札）を得るとともに、そのダメージにより移動する桜花結晶はダストやフレアでなく間合に動かす。",
-      textZh:
-        "【常时】若顺风，此《攻击》得+1/+1。\n全力化：【常时】此《攻击》得不可被对应（通常牌），且因此《攻击》造成的伤害将移动的樱花结晶改为移动至距。",
-      textZhG1:
-        "【常时】若你处于顺风状态，则此《攻击》获得+1/+1。\n全力化（主要阶段，若你选择执行全力行动，则你可以如使用《全力》牌一样使用此牌。若如此做，则此牌额外获得以下效果）：【常时】此《攻击》获得不可被对应（通常牌），若此《攻击》对对手造成了伤害，则不将因结算伤害移动的樱花结晶移至气或虚，而改为移至距。",
-      textKo:
-        "【상시】순풍이라면, 이 《공격》은 +1/+1된다.\n전력화：【상시】이 《공격》은 대응불가(통상패)를 얻고, 이 데미지에 의해서 이동하는 벚꽃 결정은 더스트나 플레어가 아닌 간격으로 옮겨진다.",
-      textEn:
-        'Forced: If there is a tailwind, this attack gains +1/+1.\n\nAll-Out - Forced: This attack gains "No Reactions (Normal)". Damage dealt by this attack moves Sakura tokens to Distance instead of to Shadow or to Flare.',
-    },
-    "17-hatsumi-o-n-3": {
-      megami: "hatsumi",
-      name: "強酸",
-      nameEn: "Acid Spray",
-      nameZh: "强酸",
-      nameZhG1: "强酸",
-      nameKo: "강산",
-      ruby: "きょうさん",
-      rubyEn: "",
-      baseType: "normal",
-      type: "attack",
-      range: "5-6",
-      damage: "3/1",
-      text: "【常時】逆風ならば、この《攻撃》のライフへのダメージにより移動する桜花結晶はフレアでなくダストに動かす。",
-      textZh:
-        "【常时】若逆风，因此《攻击》造成的对命伤害将移动的樱花结晶改为移动至虚。",
-      textZhG1:
-        "【常时】若你处于逆风状态，且此《攻击》对敌命造成了伤害，则不将因结算伤害移动的樱花结晶移至气，而改为移至虚。",
-      textKo:
-        "【상시】역풍이라면, 이 《공격》의 라이프에 대한 데미지에 의해서 이동하는 벚꽃 결정은 플레어가 아닌 더스트로 옮겨진다.",
-      textEn:
-        "Forced: If there is a headwind, damage dealt by this attack to Life moves Sakura tokens to Shadow instead of to Flare.",
-    },
-    "17-hatsumi-o-n-4": {
-      megami: "hatsumi",
-      name: "海嘯",
-      nameEn: "Tsunami",
-      nameZh: "海啸",
-      nameZhG1: "海啸",
-      nameKo: "해일",
-      ruby: "かいしょう",
-      rubyEn: "",
-      baseType: "normal",
-      type: "action",
-      subType: "reaction",
-      text: "現在の間合が4以下ならば、ダスト→間合：1\n逆風ならば、この矢印効果の左側を相手のフレアに変更する。",
-      textZh:
-        "现在的距离小于等于4的话：虚→1→距\n若逆风，箭头的左边变为敌气（而不是虚）。",
-      textZhG1:
-        "若当前距离小于等于4，则虚（1）→距。\n【常时】若你处于逆风状态，则此箭头效果左侧的区域改为敌气。",
-      textKo:
-        "현재의 간격이 4이하라면, 더스트→간격：1\n역풍이라면, 이 화살표의 왼쪽을 상대의 플레어로 변경한다.",
-      textEn:
-        "If the current Distance is 4 or less:\nShadow (1)→ Distance\n\nIf there is a headwind, the left side of this arrow effect is your opponent's Flare instead.",
-    },
-    "17-hatsumi-o-n-5": {
-      megami: "hatsumi",
-      name: "準備万端",
-      nameEn: "Batten Down",
-      nameZh: "万事俱备",
-      nameZhG1: "准备万全",
-      nameKo: "준비만전",
-      ruby: "じゅんびばんたん",
-      rubyEn: "",
-      baseType: "normal",
-      type: "action",
-      subType: "fullpower",
-      text: "ダスト→自オーラ：3\nあなたは手札を1枚選び、それを山札の一番上に置いてもよい。",
-      textZh: "虚→3→自装\n你将一张手牌置于牌库顶。",
-      textZhG1: "虚（3）→自装\n你可以从手牌中选择1张牌，将其置于你的牌库顶。",
-      textKo:
-        "더스트→자신 오라：3\n당신은 손패를 1장 고르고, 그것을 패산 가장 위에 올려두어도 좋다.",
-      textEn:
-        "Shadow (3)→ Your Aura\n\nYou may choose a card in your hand and put it on top of your deck.",
-    },
-    "17-hatsumi-o-n-6": {
-      megami: "hatsumi",
-      name: "羅針盤",
-      nameEn: "Compass",
-      nameZh: "罗盘",
-      nameZhG1: "罗盘",
-      nameKo: "나침반",
-      ruby: "らしんばん",
-      rubyEn: "",
-      baseType: "normal",
-      type: "enhance",
-      capacity: "3",
-      text: "【展開中】あなたの《攻撃》に適正距離5を追加し、相手の《攻撃》から適正距離5を取り除く。この効果が重複したら相殺する。\n（距離拡大、距離縮小より先に適用する）\n【破棄時】ダスト→自オーラ：1",
-      textAdditional:
-        "（「この効果が重複したら相殺する」：この類のテキストを持つ効果のうち、同様のものが複数有効になっているならば、それらすべての効果は失われる。）",
-      textZh:
-        "【展开中】你的《攻击》追加攻击距离5，对手的《攻击》移除攻击距离5。此效果重复时互相抵消。\n（比距离扩大、距离缩小的计算要优先）\n【破弃时】虚→1→自装",
-      textZhG1:
-        "【展开中】你的《攻击》额外获得攻击距离5，对手的《攻击》失去攻击距离5。若游戏中存在多个此效果，则此效果相互抵消。（此效果先于距离扩大与距离缩小结算）\n【破弃时】虚（1）→自装",
-      textKo:
-        "【전개중】당신의 《공격》에 적정 거리5를 추가하고, 상대의 《공격》에서 적정 거리5를 제거한다. 이 효과는 중첩되면 상쇄된다.\n（거리 확대, 거리 축소보다 먼저 적용된다）\n【파기시】더스트→자신 오라：1",
-      textEn:
-        "Your attacks gain Range: 5 (in addition to their normal Range). Your opponent's attacks lose Range: 5. If there are multiple copies of this effect in play, they cancel each other out.\n(This additional Range is added or removed before other effects that increase or decrease Range are applied.)\n\nDisenchant: Shadow (1)→ Your Aura",
-    },
-    "17-hatsumi-o-n-7": {
-      megami: "hatsumi",
-      name: "波呼び",
-      nameEn: "Wavecall",
-      nameZh: "唤浪",
-      nameZhG1: "唤潮",
-      nameKo: "파도 부르기",
-      ruby: "なみよび",
-      rubyEn: "",
-      baseType: "normal",
-      type: "enhance",
-      capacity: "1",
-      text: "隙\n【展開中】あなたのターンかつ順風である場合のみ、このカードの上の桜花結晶は移動する。\n【破棄時】攻撃『適正距離2-7、1/-、【攻撃後】相手は山札をすべて伏せ札にする。』を行う。",
-      textZh:
-        "破绽\n【展开中】仅在你的回合中且为顺风时，才可以移动此牌上的樱花结晶。\n【破弃时】进行一次“攻击距离2-7 伤害1/- 【攻击后】盖伏对手的牌库”的攻击。",
-      textZhG1:
-        "破绽\n【展开中】仅当你的回合内你处于顺风状态时可以移除此牌上的樱花结晶。\n【破弃时】进行一次“攻击距离2-7 伤害1/- 【攻击后】盖伏对手的牌库。”的攻击。",
-      textKo:
-        "틈\n【전개중】당신의 턴 및 순풍일 때에만, 이 카드 위의 벚꽃 결정이 이동한다.\n【파기시】공격 『적정 거리2-7, 1/-, 【공격후】상대는 패산을 전부 덮임패로 한다.』를 한다.",
-      textEn:
-        "Unguarded\n\nForced: Sakura tokens cannot leave this card unless it's your turn and there is a tailwind.\n\nDisenchant: You attack with \"Range: 2-7, Damage: 1/-, After Attack: Put your opponent's deck into their discard pile.\"",
-    },
-    "17-hatsumi-o-s-1": {
-      megami: "hatsumi",
-      name: "イサナ海域",
-      nameEn: "Cetacean Ocean",
-      nameZh: "鲸鱼海域",
-      nameZhG1: "鲸鱼海域",
-      nameKo: "이사나 해역",
-      ruby: "いさなかいいき",
-      rubyEn: "",
-      baseType: "special",
-      type: "attack",
-      range: "3-5",
-      damage: "3/1",
-      cost: "4",
-      text: "【常時】順風ならば、この《攻撃》は+0/+2となる。\n【攻撃後】逆風ならば、\nダスト→間合：2\nを行い、このカードを未使用に戻す。",
-      textZh:
-        "【常时】若顺风，此《攻击》得+0/+2。\n【攻击后】若逆风，则：虚→2→距。\n然后将此牌变为未使用的状态。",
-      textZhG1:
-        "【常时】若你处于顺风状态，则此《攻击》获得+0/+2。\n【攻击后】若你处于逆风状态，则虚（2）→距，然后将此牌变为未使用状态。",
-      textKo:
-        "【상시】순풍이라면, 이 《공격》은 +0/+2된다.\n【공격시】역풍이라면,\n더스트→간격：2\n을 하고, 이 카드를 미사용으로 되돌린다.",
-      textEn:
-        "Forced: If there is a tailwind, this attack gains +0/+2.\n\nAfter Attack: If there is a headwind, Shadow (2)→ Distance, then turn this card face-down.",
-    },
-    "17-hatsumi-o-s-2": {
-      megami: "hatsumi",
-      name: "オヨギビ砲火",
-      nameEn: "Aquiform Salvo",
-      nameZh: "鱼雷炮火",
-      nameZhG1: "鱼雷炮击",
-      nameKo: "오요기비 포화",
-      ruby: "およぎびほうか",
-      rubyEn: "",
-      baseType: "special",
-      type: "attack",
-      range: "5-6",
-      damage: "2/2",
-      cost: "2",
-      text: "【常時】このカードが未使用に戻った時、基本動作を1回行ってもよい。\n----\n【即再起】相手のターンに現在の間合がターン開始時の間合から2以上近付く。",
-      textZh:
-        "【常时】此牌变为未使用的状态时，你可以进行一次基本动作。\n----\n【即再起】对手的回合中当前的距比起回合开始时要近2或更多时。",
-      textZhG1:
-        "【常时】每当此牌变为未使用状态时，你可以执行1次基本动作。\n----\n【即再起】对手的回合内，当前距离比回合开始时的距离近2及以上。",
-      textKo:
-        "【상시】이 카드가 미사용으로 되돌아갔을 때, 기본 동작을 1번 해도 좋다.\n----\n【즉재기】상대의 턴에 현재의 간격이 턴 개시 시의 간격보다 2이상 가까워진다.",
-      textEn:
-        "Forced: When this card would be turned face-down, you may perform a basic action immediately before doing so.\n\nImmediate Resurgence: On your opponent's turn, the current Distance becomes at least 2 lesser than it was at the beginning of the turn.",
-    },
-    "17-hatsumi-o-s-3": {
-      megami: "hatsumi",
-      name: "カラハリ灯台",
-      nameEn: "Phaneritic Lighthouse",
-      nameZh: "指引灯塔",
-      nameZhG1: "子午灯塔",
-      nameKo: "카라하리 등대",
-      ruby: "からはりとうだい",
-      rubyEn: "",
-      baseType: "special",
-      type: "action",
-      cost: "1",
-      text: "逆風でないならば、あなたは畏縮する。\n【使用済】達人の間合は1大きくなる。\n【使用済】相手のターンに相手が《攻撃》でないカードを手札から使用したならば、それを解決する代わりに捨て札に置き、このカードを未使用に戻す。",
-      textZh:
-        "若不为逆风，则令你畏缩。\n【已使用】达人距离的值增大1。\n【已使用】对手的回合中，若对手使用了一张非《攻击》的手牌，则将结算该牌改为将其弃置，并将此卡变为未使用的状态。",
-      textZhG1:
-        "若你不处于逆风状态，则你畏缩。\n【已使用】达人距离增大1。\n【已使用】对手的回合内，每当对手使用非《攻击》的牌时，不结算该牌的效果，而改为将该牌置入弃牌区，然后将此牌变为未使用状态。",
-      textKo:
-        "역풍이 아니라면 당신은 위축된다.\n【사용됨】달인의 간격이 1커진다.\n【사용됨】상대의 턴에 상대가 《공격》이 아닌 카드를 손패에서 사용했다면, 그것을 해결하는 대신에 버림패로 옮기고, 이 카드를 미사용으로 되돌린다.",
-      textEn:
-        "Flinch yourself unless there is a headwind.\n\nDevoted: Increase the size of the Mastery Zone by 1.\n\nDevoted: On your opponent's turn, when your opponent plays a non-Attack card from their hand, instead of resolving that card's effects, place it in its owner's played pile and turn this card face-down.",
-    },
-    "17-hatsumi-o-s-4": {
-      megami: "hatsumi",
-      name: "ミオビキ航路",
-      nameEn: "Coxswained Strait",
-      nameZh: "向导航路",
-      nameZhG1: "引水航道",
-      nameKo: "미오비키 항로",
-      ruby: "みおびきこうろ",
-      rubyEn: "",
-      baseType: "special",
-      type: "action",
-      cost: "2",
-      text: "逆風ならば、相手を畏縮させ、相手の山札の上から1枚を公開する。それが《攻撃》カードならば捨て札にする。\n【使用済】あなたの開始フェイズの開始時に逆風ならば、このカードを消費を支払わずに使用してもよい。",
-      textZh:
-        "若逆风，则令对手畏缩，展示对手的牌库顶牌。若其为《攻击》牌则弃置之。\n【已使用】每当你的准备阶段开始时为逆风，你可以使用此牌，而不需支付其费用。",
-      textZhG1:
-        "若你处于逆风状态，则对手畏缩，展示对手牌库顶的1张牌。若该牌为《攻击》牌，则将其置入弃牌区。\n【已使用】每当你的准备阶段开始时，若你处于逆风状态，则你可以使用此牌，而不需支付其费用。",
-      textKo:
-        "역풍이라면, 상대를 위축시키고 상대의 패산 가장 위에서 1장을 공개한다. 그것이 《공격》 카드라면 버림패로 한다.\n【사용됨】당신의 개시 페이즈의 개시 시에 역풍이라면, 이 카드를 코스트를 지불하지 않고 사용해도 좋다.",
-      textEn:
-        "If there is a headwind, flinch your opponent and reveal the top card of their deck. If it's an Attack card, put it into their played pile.\n\nDevoted: At the beginning of your turn, if there is a headwind, you may play this card without paying its cost.",
-    },
-    "18-mizuki-o-n-1": {
-      megami: "mizuki",
-      name: "陣頭",
-      nameEn: "Lead the Charge",
-      nameZh: "头阵",
-      nameZhG1: "头阵",
-      nameKo: "진두",
-      ruby: "じんとう",
-      rubyEn: "",
-      baseType: "normal",
-      type: "attack",
-      range: "1-2",
-      damage: "1/1",
-      text: "【攻撃後】徴兵を1回行う。",
-      textZh: "【攻击后】进行1次征兵。",
-      textZhG1: "【攻击后】进行1次征兵。",
-      textKo: "【공격후】징병을 1번 한다.",
-      textEn: "After Attack: Conscript a Unit.",
-    },
-    "18-mizuki-o-n-2": {
-      megami: "mizuki",
-      name: "反攻",
-      nameEn: "Counteroffensive",
-      nameZh: "反攻",
-      nameZhG1: "反攻",
-      nameKo: "반공",
-      ruby: "はんこう",
-      rubyEn: "",
-      baseType: "normal",
-      type: "attack",
-      range: "2-3",
-      damage: "1/1",
-      text: "【常時】あなたが直前のターンに対応しているならば、この《攻撃》は+2/+0となる。\n全力化：【常時】この《攻撃》は+0/+2となる。",
-      textZh:
-        "【常时】若你在上个回合进行了对应，此《攻击》得+2/+0。\n全力化：【常时】此《攻击》得+0/+2。",
-      textZhG1:
-        "【常时】若上一回合内你进行过对应，则此《攻击》得+2/+0。\n全力化（主要阶段，若你选择执行全力行动，则你可以如使用《全力》牌一样使用此牌。若如此做，则此牌额外获得以下效果）：【常时】此《攻击》获得+0/+2。",
-      textKo:
-        "【상시】당신이 직전 턴에 대응을 했다면, 이 《공격》은 +2/+0된다.\n전력화：【상시】이 《공격》은 +0/+2된다.",
-      textEn:
-        "Forced: If you reacted to an attack last turn, this attack gains +2/+0.\n\nAll-Out: This attack gains +0/+2.",
-    },
-    "18-mizuki-o-n-3": {
-      megami: "mizuki",
-      name: "撃ち落とし",
-      nameEn: "Quash",
-      nameZh: "击落",
-      nameZhG1: "击落",
-      nameKo: "쏘아떨구기",
-      ruby: "うちおとし",
-      rubyEn: "",
-      baseType: "normal",
-      type: "attack",
-      subType: "reaction",
-      range: "1-5",
-      damage: "1/1",
-      text: "【攻撃後】不動―このターン中に現在の間合が変化していないならば、対応した《全力》でも切札でもない《攻撃》を打ち消す。\n（このカードはコダマのカードとして扱う）",
-      textZh:
-        "【攻击后】不动～若本回合的距没有发生变化，打消被对应的非《全力》也非王牌的《攻击》。\n（将此牌视为木灵的牌）",
-      textZhG1:
-        "【攻击后】不动～若本回合内当前距离的值没有发生过变化，则打消被对应的非《全力》且非王牌的《攻击》。（此牌视为木灵的牌）",
-      textKo:
-        "【공격후】부동―이 턴 중에 현재의 간격이 변화하지 않았다면, 대응한 《전력》도 비장패도 아닌 《공격》을 무효화한다.\n（이 카드는 코다마의 카드로 취급한다）",
-      textEn:
-        "After Attack: Unwavering - Cancel the non-Special, non-Throughout attack you played this card as a Reaction to if the Distance hasn't changed this turn.\n\n(Treat this card as a Kodama card.)",
-    },
-    "18-mizuki-o-n-4": {
-      megami: "mizuki",
-      name: "号令",
-      nameEn: "Command",
-      nameZh: "号令",
-      nameZhG1: "号令",
-      nameKo: "호령",
-      ruby: "ごうれい",
-      rubyEn: "",
-      baseType: "normal",
-      type: "action",
-      text: "徴兵を1回行う。\nあなたが直前のターンに対応しているならば、集中力を1得る。",
-      textZh: "进行1次征兵。\n若你在上个回合进行了对应，获得1点集中力。",
-      textZhG1: "进行1次征兵。若上一回合内你进行过对应，则获得1点集中力。",
-      textKo:
-        "징병을 1번 한다.\n당신이 직전 턴에 대응했다면, 집중력을 1얻는다.",
-      textEn:
-        "Conscript a Unit.\n\nIf you reacted to an attack last turn, gain 1 Vigor.",
-    },
-    "18-mizuki-o-n-5": {
-      megami: "mizuki",
-      name: "防壁",
-      nameEn: "Bulwark",
-      nameZh: "屏障",
-      nameZhG1: "防壁",
-      nameKo: "방벽",
-      ruby: "ぼうへき",
-      rubyEn: "",
-      baseType: "normal",
-      type: "action",
-      subType: "reaction",
-      text: "終端\nこのカードがこのターンであなたが行う最初の対応ならば、対応した切札でも《全力》でもない《攻撃》を打ち消す。",
-      textZh:
-        "终端\n若此牌为此回合你进行的第一次对应，则打消被对应的非《全力》也非王牌的《攻击》。",
-      textZhG1:
-        "终端\n若此牌为本回合内你进行的第一次对应，则打消被对应的非《全力》且非王牌的《攻击》。",
-      textKo:
-        "종단\n이 카드가 이 턴에서의 당신이 최초로 행하는 대응이라면, 대응한 비장패도 《전력》도 아닌 《공격》을 무효화한다.",
-      textEn:
-        "Terminal\n\nCancel the non-Special, non-Throughout attack you played this card as a Reaction to if this is the first time you are reacting to an attack this turn.",
-    },
-    "18-mizuki-o-n-6": {
-      megami: "mizuki",
-      name: "制圧前進",
-      nameEn: "Steady Advance",
-      nameZh: "前进压制",
-      nameZhG1: "压制前进",
-      nameKo: "제압전진",
-      ruby: "せいあつぜんしん",
-      rubyEn: "",
-      baseType: "normal",
-      type: "action",
-      subType: "fullpower",
-      text: "徴兵を1回行い、相手を畏縮させる。\n現在の間合が3以上ならば　間合→自オーラ：1",
-      textZh: "进行1次征兵，令对手畏缩。\n现在的距离大于等于3的话：距→1→自装",
-      textZhG1: "进行1次征兵，对手畏缩。\n若当前距离大于等于3，则距（1）→自装",
-      textKo:
-        "징병을 1번 하고, 상대를 위축시킨다.\n현재의 간격이 3이상이라면, 간격→자신 오라：1",
-      textEn:
-        "Conscript a Unit. Flinch your opponent.\n\nIf the current Distance is 3 or more:\nDistance (1)→ Your Aura",
-    },
-    "18-mizuki-o-n-7": {
-      megami: "mizuki",
-      name: "戦場",
-      nameEn: "Front Line",
-      nameZh: "战场",
-      nameZhG1: "战场",
-      nameKo: "전장",
-      ruby: "いくさば",
-      rubyEn: "",
-      baseType: "normal",
-      type: "enhance",
-      capacity: "3",
-      text: "【展開中】不動―あなたがこのターンで初めて切札でない《攻撃》を行った時、このターン中に現在の間合が変化していないならば、その《攻撃》は+1/+1となる。\n（このカードはコダマのカードとして扱う）",
-      textZh:
-        "【展开中】不动～你进行本回合第一次非王牌的《攻击》的时候，若本回合的距没有发生变化，则该《攻击》得+1/+1。\n（将此牌视为木灵的牌）",
-      textZhG1:
-        "【展开中】不动～每个回合内，每当你进行第一次非王牌的《攻击》时，若本回合内当前距离的值没有发生过变化，则该《攻击》获得+1/+1。（此牌视为木灵的牌）",
-      textKo:
-        "【전개중】부동―당신이 이 턴에서 처음으로 비장패가 아닌 《공격》을 했을 때, 이 턴 동안 현재의 간격이 변화하지 않았다면, 그 《공격》은 +1/+1된다.\n（이 카드는 코다마의 카드로 취급한다）",
-      textEn:
-        "Ongoing: Unwavering - Whenever you make your first non-Special attack each turn, if the Distance hasn't changed this turn, that attack gains +1/+1.\n\n(Treat this card as a Kodama card.)",
-    },
-    "18-mizuki-o-s-1": {
-      megami: "mizuki",
-      name: "天主八龍閣",
-      nameEn: 'Tenshu Keep "Hachiryou"',
-      nameZh: "天主八龙阁",
-      nameZhG1: "天主八龙阁",
-      nameKo: "하치류 천주각",
-      ruby: "てんしゅはちりょうかく",
-      rubyEn: "",
-      baseType: "special",
-      type: "enhance",
-      subType: "reaction",
-      capacity: "3",
-      cost: "5",
-      text: "終端\n【展開時】対応した《攻撃》を打ち消す。\n【展開中】あなたの他のメガミまたは兵員の《攻撃》は+0/+1となる。",
-      textZh:
-        "终端\n【展开时】打消被对应的《攻击》。\n【展开中】你的其他女神以及兵员的《攻击》得+0/+1。",
-      textZhG1:
-        "终端\n【展开时】打消被对应的《攻击》。\n【展开中】你的兵员和其他女神的《攻击》得+0/+1。",
-      textKo:
-        "종단\n【전개시】대응한 《공격》을 무효화한다.\n【전개중】당신의 다른 여신 또는 병사의 《공격》은 +0/+1된다.",
-      textEn:
-        "Terminal\n\nInitialize: Cancel the attack you played this card as a Reaction to.\n\nOngoing: Your attacks from Units and non-Mizuki Megami gain +0/+1.",
-    },
-    "18-mizuki-o-s-2": {
-      megami: "mizuki",
-      name: "三重膝丸櫓",
-      nameEn: 'Mie Turret "Hizamaru"',
-      nameZh: "三重膝丸橹",
-      nameZhG1: "三重膝丸橹",
-      nameKo: "히자마루 삼중루",
-      ruby: "みえひざまるやぐら",
-      rubyEn: "",
-      baseType: "special",
-      type: "attack",
-      range: "3-4",
-      damage: "3/1",
-      cost: "2",
-      text: "【常時】あなたがこのターン中に攻撃しているならば、このカードは使用できない。\n----\n【即再起】あなたが終端を持つカードを使用する。\n（解決より前に再起する）",
-      textZh:
-        "【常时】你在该回合中进行过攻击的话则不能使用此牌。\n----\n【即再起】你使用带终端的牌时。（在结算前再起）",
-      textZhG1:
-        "【常时】若本回合内你进行过《攻击》，则你不能使用此牌。\n----\n【即再起】你使用具终端关键字的牌。（该牌结算前再起）",
-      textKo:
-        "【상시】당신이 이 턴 중에 공격했다면, 이 카드는 사용할 수 없다.\n----\n【즉재기】당신이 종단을 가진 카드를 사용했다.\n（해결하기 전에 재기한다）",
-      textEn:
-        "Forced: You cannot play this card if you have made an attack this turn.\n\nImmediate Resurgence: You play a card with Terminal. (Turn this card face-down before that card resolves.)",
-    },
-    "18-mizuki-o-s-3": {
-      megami: "mizuki",
-      name: "大手楯無門",
-      nameEn: 'Ōte Gate "Tatenashi"',
-      nameZh: "大手楯无门",
-      nameZhG1: "大手楯无门",
-      nameKo: "타테나시 대수문",
-      ruby: "おおてたてなしもん",
-      rubyEn: "",
-      baseType: "special",
-      type: "action",
-      cost: "4",
-      text: "終端\nあなたの手札1枚と追加札の「闘神」を兵舎に徴兵済で置く。",
-      textZh: "终端\n将你的1张手牌和追加牌处的『斗神』以已征兵的状态置入兵营。",
-      textZhG1: "终端\n将你的1张手牌与追加牌中的『斗神』以已征兵状态置于兵舍。",
-      textKo:
-        "종단\n당신의 손패 1장과 추가패의 「투신」을 병영에 징집 상태로 둔다.",
-      textEn:
-        'Terminal\n\nPut your set aside "Divinity of War" and a card from your hand into your Barracks, conscripted.',
-    },
-    "18-mizuki-o-s-3-ex1": {
-      megami: "mizuki",
-      name: "闘神",
-      nameEn: "Divinity of War",
-      nameZh: "斗神",
-      nameZhG1: "斗神",
-      nameKo: "투신",
-      ruby: "とうしん",
-      rubyEn: "",
-      baseType: "normal",
-      extra: true,
-      extraFrom: "18-mizuki-o-s-3",
-      type: "attack",
-      range: "1-2",
-      damage: "2/1",
-      text: "【常時】不動―このターン中に現在の間合が変化していないならば、この《攻撃》は+0/+1となる。\n【攻撃後】このカードを追加札に戻す。\n（このカードはコダマのカードとして扱う）",
-      textZh:
-        "【常时】不动～若本回合的距没有发生变化，则此《攻击》得+0/+1。\n【攻击后】将此牌移回追加牌处。\n（将此牌视为木灵的牌）",
-      textZhG1:
-        "【常时】不动～若本回合内当前距离的值没有发生过变化，则此《攻击》获得+1/+0。\n【攻击后】将此牌移回追加牌。\n（此牌视为木灵的牌）",
-      textKo:
-        "【상시】부동―이 턴 동안 현재의 간격이 변화하지 않았다면, 이 《공격》은 +0/+1된다.\n【공격후】이 카드를 추가패로 되돌린다.\n（이 카드는 코다마의 카드로 취급한다.）",
-      textEn:
-        "Forced: Unwavering - This attack gains +0/+1 if the Distance hasn't changed this turn.\n\nAfter Attack: Return this card to your set aside cards.\n\n(Treat this card as a Kodama card.)",
-    },
-    "18-mizuki-o-s-4": {
-      megami: "mizuki",
-      name: "山城水津城の鬨の声",
-      nameEn: "Mizuki's Roaring Warcry",
-      nameZh: "山城水津城的战吼声",
-      nameZhG1: "山城水津城的喧天号角",
-      nameKo: "야마시로 미즈키의 전투의 함성",
-      ruby: "やましろみずきのときのこえ",
-      rubyEn: "",
-      baseType: "special",
-      type: "enhance",
-      subType: "fullpower",
-      capacity: "5",
-      cost: "5",
-      text: "【展開中】元々終端を持つあなたの通常札と兵員は終端を失う。\n【展開中】元々が《全力》であるあなたの通常札は《全力》を失い、終端を得る。",
-      textZh:
-        "【展开中】你原本就具备终端的通常牌和兵员失去终端。\n【展开中】你原本就具备《全力》的通常牌失去《全力》并获得终端。",
-      textZhG1:
-        "【展开中】你的原本具终端关键字的通常牌和兵员牌失去终端。\n【展开中】你的原本具《全力》副类别的通常牌失去《全力》副类别，并获得终端。",
-      textKo:
-        "【전개중】원래 종단을 가진 당신의 통상패와 병사는 종단을 잃는다.\n【전개중】원래 《전력》을 가진 당신의 통상패는 《전력》을 잃고, 종단을 얻는다.",
-      textEn:
-        "Ongoing: Your Normal and Unit cards with printed Terminal lose Terminal.\n\nOngoing: Your Normal cards with the printed Throughout subtype lose that subtype and gain Terminal.",
-    },
-    "18-mizuki-o-t-1": {
-      megami: "mizuki",
-      name: "槍兵",
-      nameEn: "Spearman",
-      nameZh: "枪兵",
-      nameZhG1: "枪兵",
-      nameKo: "창병",
-      ruby: "やりへい",
-      rubyEn: "",
-      baseType: "troop",
-      type: "attack",
-      range: "3",
-      damage: "1/1",
-      text: "兵員（兵舎、使用中、付与札以外の領域に移動するならば、代わりに兵舎に戻る）\n----\n終端\n【常時】あなたが直前のターンに対応しているならば、この《攻撃》は+1/+0となる。",
-      textZh:
-        "兵员（移动到兵营、使用中、付与区之外的区域的时候，改为移回兵营）\n----\n终端\n【常时】若你在上个回合进行了对应，则此《攻击》得+1/+0。",
-      textZhG1:
-        "兵员（移动到兵营、使用中、付与区之外的区域的时候，改为移回兵营）\n----\n终端\n【常时】若上一回合内你进行过对应，则此《攻击》获得+1/+0。",
-      textKo:
-        "병사（병영, 사용중, 부여패 이외의 영역에서 이동한다면, 대신에 병영으로 되돌린다）\n----\n종단\n【상시】당신이 직전 턴에 대응했다면, 이 공격은 +1/+0된다.",
-      textEn:
-        "Unit (If you move to an area other than the barracks, in use, or enhancements, return to the barracks instead)\n----\nTerminal\n\nForced: If you reacted to an attack last turn, this attack gains +1/+0.",
-    },
-    "18-mizuki-o-t-2": {
-      megami: "mizuki",
-      name: "盾兵",
-      nameEn: "Shieldbearer",
-      nameZh: "盾兵",
-      nameZhG1: "盾兵",
-      nameKo: "방패병",
-      ruby: "たてへい",
-      rubyEn: "",
-      baseType: "troop",
-      type: "action",
-      subType: "reaction",
-      text: "兵員（兵舎、使用中、付与札以外の領域に移動するならば、代わりに兵舎に戻る）\n----\n終端\n対応した《全力》でない《攻撃》は-1/+0となる。",
-      textZh:
-        "兵员（移动到兵营、使用中、付与区之外的区域的时候，改为移回兵营）\n----\n终端\n被对应的非《全力》的《攻击》得-1/+0。",
-      textZhG1:
-        "兵员（移动到兵营、使用中、付与区之外的区域的时候，改为移回兵营）\n----\n终端\n被对应的非《全力》的《攻击》获得-1/+0。",
-      textKo:
-        "병사（병영, 사용중, 부여패 이외의 영역에서 이동한다면, 대신에 병영으로 되돌린다）\n----\n종단\n대응한 《전력》이 아닌 《공격》은 -1/+0된다.",
-      textEn:
-        "Unit (If you move to an area other than the barracks, in use, or enhancements, return to the barracks instead)\n----\nTerminal\n\nThe non-Throughout attack you played this card as a Reaction to gets -1/+0.",
-    },
-    "18-mizuki-o-t-3": {
-      megami: "mizuki",
-      name: "騎兵",
-      nameEn: "Cavalry",
-      nameZh: "骑兵",
-      nameZhG1: "骑兵",
-      nameKo: "기병",
-      ruby: "きへい",
-      rubyEn: "",
-      baseType: "troop",
-      type: "enhance",
-      capacity: "2",
-      text: "兵員（兵舎、使用中、付与札以外の領域に移動するならば、代わりに兵舎に戻る）\n----\n終端　隙\n【破棄時】あなたは集中力を1得る。",
-      textZh:
-        "兵员（移动到兵营、使用中、付与区之外的区域的时候，改为移回兵营）\n----\n终端 破绽\n【破弃时】你获得1点集中力。",
-      textZhG1:
-        "兵员（移动到兵营、使用中、付与区之外的区域的时候，改为移回兵营）\n----\n终端 破绽\n【破弃时】你获得1点集中力。",
-      textKo:
-        "병사（병영, 사용중, 부여패 이외의 영역에서 이동한다면, 대신에 병영으로 되돌린다）\n----\n종단 틈\n【파기시】당신은 집중력을 1얻는다.",
-      textEn:
-        "Unit (If you move to an area other than the barracks, in use, or enhancements, return to the barracks instead)\n----\nTerminal Unguarded\n\nDisenchant: Gain 1 Vigor.",
-    },
-  };
+export const S5_UPDATED_CARD_DATA: Partial<{ [id in TCardId]: CardDataItem }> = {
+  "01-yurina-o-n-5": {
+    megami: "yurina",
+    name: "気迫",
+    nameEn: "Vivacity",
+    nameZh: "气魄",
+    nameZhG1: "气迫",
+    nameKo: "기백",
+    ruby: "きはく",
+    rubyEn: "",
+    baseType: "normal",
+    type: "action",
+    text: "あなたは集中力を1得る。\nこのターンにあなたが次に行う他のメガミによる切札でない《攻撃》は対応不可（通常札）と距離拡大（近1）を得る。",
+    textZh:
+      "你获得1点集中力。\n本回合你的下一次其他女神的非王牌的《攻击》获得不可被对应（通常牌）和距离扩大（近1）。",
+    textZhG1:
+      "你获得1点集中力。\n本回合你的下一次其他女神的非王牌的《攻击》获得不可被对应（通常牌）和距离扩大（近1）。",
+    textKo:
+      "당신은 집중력을 1얻는다.\n이 턴에 당신이 다음에 하는 다른 여신의 비장패가 아닌 《공격》은 대응불가(통상패)와 거리 확대(근1)을 얻는다.",
+    textEn:
+      "Gain 1 Vigor.\n\nIncrease the Range of your next non-Special attack from a non-Yurina Megami this turn by 1 in the close direction, and it gains No Reactions (Normal).",
+  },
+  "01-yurina-o-s-2": {
+    megami: "yurina",
+    name: "浦波嵐",
+    nameEn: "Uranami Storm",
+    nameZh: "浦波岚",
+    nameZhG1: "浦波岚",
+    nameKo: "해안에 파랑 일며",
+    ruby: "うらなみあらし",
+    rubyEn: "",
+    baseType: "special",
+    type: "attack",
+    subType: "reaction",
+    range: "0-10",
+    damage: "2/-",
+    cost: "3",
+    text: "終端\n【攻撃後】対応した《攻撃》は-2/+0となる。",
+    textZh: "终端\n【攻击后】被对应的《攻击》得-2/+0。",
+    textZhG1: "终端\n【攻击后】被对应的《攻击》获得-2/+0。",
+    textKo: "종단\n【공격후】대응한 《공격》은 -2/+0이 된다.",
+    textEn:
+      "Terminal\n\nAfter Attack: The attack this card was played as a Reaction to gets -2/+0.",
+  },
+  "01-yurina-A1-s-2": {
+    megami: "yurina",
+    anotherID: "A1",
+    replace: "01-yurina-o-s-2",
+    name: "不完全浦波嵐",
+    nameEn: "Imperfect Uranami Storm",
+    nameZh: "不完全浦波岚",
+    nameZhG1: "不完全浦波岚",
+    nameKo: "불완전 해안에 파랑 일며",
+    ruby: "ふかんぜんうらなみあらし",
+    rubyEn: "",
+    baseType: "special",
+    type: "attack",
+    subType: "reaction",
+    range: "0-10",
+    damage: "3/-",
+    cost: "5",
+    text: "終端\n【攻撃後】対応した《攻撃》は-3/+0となる。",
+    textZh: "终端\n【攻击后】被对应的《攻击》得-3/+0。",
+    textZhG1: "终端\n【攻击后】被对应的《攻击》获得-3/+0。",
+    textKo: "종단\n【공격후】대응한 《공격》은 -3/+0이 된다.",
+    textEn:
+      "Terminal\n\nAfter Attack: The attack this card was played as a Reaction to gets -3/+0.",
+  },
+  "02-saine-o-n-5": {
+    megami: "saine",
+    name: "圏域",
+    nameEn: "Space for Master",
+    nameZh: "圈域",
+    nameZhG1: "圈域",
+    nameKo: "권역",
+    ruby: "けんいき",
+    rubyEn: "",
+    baseType: "normal",
+    type: "enhance",
+    capacity: "2",
+    text: "【展開中】この付与札の上の桜花結晶がダストへと送られるならば、それは代わりに間合へと移動する。\n【展開中】達人の間合は1大きくなる。",
+    textZh:
+      "【展开中】若此牌上的樱花结晶将被移至虚，则改为将其移至距。\n【展开中】达人距离的值增大1。",
+    textZhG1:
+      "【展开中】若此牌上的樱花结晶将被移至虚，则改为将其移至距。\n【展开中】达人距离的值增大1。",
+    textKo:
+      "【전개중】이 부여패 위에 있는 벚꽃 결정이 더스트로 움직일 때, 그 대신에 간격으로 이동한다.\n【전개중】달인의 간격이 1늘어난다.",
+    textEn:
+      "Ongoing: If a Sakura token would be moved from this card to Shadow, instead move it to Distance.\n\nOngoing: Increase the size of the Mastery Zone by 1.",
+  },
+  "03-himika-o-n-6": {
+    megami: "himika",
+    name: "バックドラフト",
+    nameEn: "Backdraft",
+    nameZh: "回燃",
+    nameZhG1: "回燃",
+    nameKo: "백드래프트",
+    ruby: "",
+    rubyEn: "",
+    rubyZh: "Backdraft",
+    baseType: "normal",
+    type: "action",
+    text: "相手を畏縮させる。\n連火―このカードがこのターンに使用した3枚目以降のカードならば、このターンにあなたが次に行う他のメガミによるオーラへのダメージが「-」でない《攻撃》を+1/+1する。",
+    textZh:
+      "令对手畏缩。\n连火～若此牌是本回合你使用的第3张或更多的牌，则本回合你的下一次其他女神的对装伤害不为「-」的《攻击》得+1/+1。",
+    textZhG1:
+      "对手畏缩。\n连火～若本回合内你已使用至少2张牌，则本回合内你的其他女神的下一次对装伤害不为“-”的《攻击》获得+1/+1。",
+    textKo:
+      "상대를 위축시킨다。\n 연화-이 카드가 이 턴에 사용한 3장째 이후의 카드라면, 이 턴 당신이 다음에 행하는 다른 여신에 의한 오라 데미지가 「-」이 아닌 《공격》을 +1/+1 한다.",
+    textEn:
+      'Flinch your opponent.\n\nInferno - If this is the third or later card you\'ve played this turn, your next attack this turn from a non-Himika Megami that does not have "-" Damage to Aura gains +1/+1.',
+  },
+  "05-oboro-A1-n-3": {
+    megami: "oboro",
+    anotherID: "A1",
+    replace: "05-oboro-o-n-3",
+    name: "不意打ち",
+    nameEn: "Sneak Attack",
+    nameZh: "突袭",
+    nameZhG1: "突袭",
+    nameKo: "기습",
+    ruby: "ふいうち",
+    rubyEn: "",
+    baseType: "normal",
+    type: "attack",
+    subType: "fullpower",
+    range: "1-3",
+    damage: "4/3",
+    text: "対応不可（通常札） \n【常時】この《攻撃》は-X/-Xとなる。Xは相手の伏せ札の枚数に等しい。",
+    textZh:
+      "不可被对应（通常牌）\n【常时】此《攻击》得-X/-X，X等于对手盖牌区中的牌张数。",
+    textZhG1:
+      "不可被对应（通常牌）\n【常时】此《攻击》获得-X/-X，X等于对手盖牌区中的牌张数。",
+    textKo:
+      "대응불가（통상패） \n【상시】이 《공격》은 -X/-X 가 된다. X는 상대 덮임패의 장수와 같다.",
+    textEn:
+      "No Reactions (Normal)\n\nForced: This attack gets -X/-X. X is the number of cards in your opponent's discard pile.",
+  },
+  "05-oboro-A1-s-4-ex1": {
+    megami: "oboro",
+    anotherID: "A1",
+    name: "最後の結晶",
+    nameEn: "The Final Petal",
+    nameZh: "最后的结晶",
+    nameZhG1: "最后的结晶",
+    nameKo: "최후의 결정",
+    ruby: "さいごのけっしょう",
+    rubyEn: "",
+    baseType: "special",
+    extra: true,
+    extraFrom: "05-oboro-A1-s-4",
+    type: "action",
+    cost: "3",
+    text: "【常時】このカードはこの効果でのみ使用できる。あなたが初めて敗北するならば、代わりにあなたのライフ全てをダストに送り、このカードを使用してもよい(消費は支払う)。 \n手札を1枚伏せ札にし、ダスト→自ライフ：1",
+    textZh:
+      "【常时】这张牌不能以正常方法使用。仅当你第一次将要输掉本局游戏时，作为失败的代替，可以改为将自命全部移至虚并使用此牌（仍需支付费用）。\n盖伏一张手牌，然后：虚→1→自命",
+    textZhG1:
+      "【常时】这张牌不能以正常方法使用。仅当你第一次将要输掉本局游戏时，作为失败的代替，可以将自命中的所有樱花结晶移至虚，并立即使用此牌（仍需支付费用）。\n盖伏1张手牌，虚（1）→自命",
+    textKo:
+      "【상시】이 카드는 이 효과로만 사용할 수 있다. 당신이 최초로 패배했다면, 대신에 당신의 모든 라이프를 더스트로 옮기고 이 카드를 사용해도 좋다(코스트는 지불한다).\n손패를 1장 덮임패로 하고,\n더스트→자신 라이프：1",
+    textEn:
+      "Forced: This card cannot be played except by this effect. When you would lose the game for the first time, instead you may move all Sakura tokens from your Life to Shadow and play this card (paying its cost).\n\nDiscard a card.\n\nShadow (1)→ Your Life",
+  },
+  "08-hagane-o-s-1": {
+    megami: "hagane",
+    name: "大天空クラッシュ",
+    nameEn: "Grand Firmament Crash",
+    nameZh: "大天空CRASH",
+    nameZhG1: "大天空·破限",
+    nameKo: "대천공 크래시",
+    ruby: "だいてんくうクラッシュ",
+    rubyEn: "",
+    baseType: "special",
+    type: "attack",
+    range: "0-10",
+    damage: "X/Y",
+    cost: "4",
+    text: "超克 \n【常時】Xは現在の間合がターン開始時の間合からどれだけ変化しているかに等しい。YはXの半分（切り上げ）に等しい。",
+    textZh:
+      "超克 \n【常时】X为当前距离与本回合开始时距离之差的绝对值，Y为X的一半（向上取整）。",
+    textZhG1:
+      "超克 \n【常时】X为当前距离与本回合开始时距离之差的绝对值，Y为X的一半（向上取整）。",
+    textKo:
+      "초극 \n 【상시】X는 현재 간격이 턴 시작시의 간격에서 변화한 값과 같다. Y는 X의 절반(올림)과 같다.",
+    textEn:
+      "Overwhelm\n\nForced: X is the difference between the current Distance and the Distance at the beginning of this turn. Y is half of X, rounded up.",
+  },
+  "09-chikage-o-n-3": {
+    megami: "chikage",
+    name: "遁術",
+    nameEn: "Concealment",
+    nameZh: "遁术",
+    nameZhG1: "遁术",
+    nameKo: "둔술",
+    ruby: "とんじゅつ",
+    rubyEn: "",
+    baseType: "normal",
+    type: "attack",
+    subType: "reaction",
+    range: "1-3",
+    damage: "1/-",
+    text: "【攻撃後】自オーラ→間合：1　ダスト→間合：1 \n【攻撃後】このターン中、相手は基本動作《前進》を行えない。",
+    textZh:
+      "【攻击后】自装→1→距 虚→1→距\n【攻击后】本回合内对手不能执行基本动作《前进》。",
+    textZhG1:
+      "【攻击后】自装（1）→距，虚（1）→距\n【攻击后】本回合内对手不能执行基本动作《前进》。",
+    textKo:
+      "【공격후】자신 오라→간격：1　더스트→간격：1 \n【공격후】이 턴 동안, 상대는 기본 동작 《전진》을 할 수 없다.",
+    textEn:
+      "After Attack:\nYour Aura (1)→ Distance\nShadow (1)→ Distance\n\nAfter Attack: Your opponent cannot perform the Forward Movement basic action for the rest of the turn.",
+  },
+  "10-kururu-o-s-3": {
+    megami: "kururu",
+    name: "いんだすとりあ",
+    nameEn: "Industria",
+    nameZh: "工业量产",
+    nameZhG1: "复自黏贴",
+    nameKo: "인더스트리아",
+    ruby: "",
+    rubyEn: "",
+    rubyZh: "Industria",
+    baseType: "special",
+    type: "action",
+    cost: "1",
+    text: "このカードがあなたのカードで、カードが封印されていないならば、手札または捨て札から《付与》でないカードを1枚選び、このカードの下に表向きで封印してもよい。 \nあなたの追加札から「でゅーぷりぎあ」を山札の底に1枚置く(最大で合計3枚)。 \n----\n【即再起】あなたが山札を再構成する（再構成の後に未使用に戻る）。",
+    textZh:
+      "若此牌是你的牌且其下没有封印牌，则从你的手牌或弃牌中选择1张非《付与》的牌，封印在此牌下。\n从追加牌区中将1张『复制品齿轮』置于你的牌库底。\n----\n【即再起】你重铸牌库后。",
+    textZhG1:
+      "若此牌是你的牌且其下没有封印牌，则从你的手牌或弃牌中选择1张非《付与》的牌，封印在此牌下。（最多3张）\n从追加牌区中将1张『复制品齿轮』置于你的牌库底。\n----\n【即再起】你重铸牌库后。",
+    textKo:
+      "이 카드에 카드가 봉인되어 있지 않다면, 당신의 손패 또는 버림패에서 《부여》가 아닌 카드 한 장을 골라, 그 카드를 이 카드 밑에 앞면으로 봉인해도 좋다.\n 당신의 추가패에서 「듀~플리기어」를 패산의 밑에 1장 둔다(최대 합계 3장). \n ----\n 【즉재기】당신이 패산을 재구성한다(재구성 후에 미사용으로 되돌린다).",
+    textEn:
+      'If you own this card and no card is sealed under it, you may choose a non-Enhancement card in your hand or played pile and seal it under this card, face-up.\n\nPut one of your set aside "Dupligear" on the bottom of your deck.\n\nImmediate Resurgence: You reshuffle your deck. (Turn this card face-down after completing the reshuffle.)',
+    sealable: true,
+  },
+  "12-raira-o-s-4": {
+    megami: "raira",
+    name: "円環輪廻旋",
+    nameEn: "Death and Rebirth",
+    nameZh: "圆环轮回旋",
+    nameZhG1: "圆环轮回旋",
+    nameKo: "원환륜회선",
+    ruby: "えんかんりんかいせん",
+    rubyEn: "",
+    baseType: "special",
+    type: "enhance",
+    subType: "reaction",
+    capacity: "3",
+    cost: "2",
+    text: "【展開中】相手の《攻撃》の解決後に以下を全て行ってもよい。\n・間合⇔ダスト：1\n・風神ゲージか雷神ゲージを1上げる。",
+    textZh:
+      "【展开中】对手的《攻击》结算完毕时，你可以依次结算下述效果：\n●距↔1↔虚\n●选择风神槽或雷神槽，其值增加1。",
+    textZhG1:
+      "【展开中】每当对手进行的《攻击》结算完毕时，你可以依次执行：\n距（1）⇔ 虚 \n选择风神槽或雷神槽，其值增加1。",
+    textKo:
+      "【전개중】상대의 《공격》 해결 후에 아래를 전부 처리해도 좋다.\n・간격⇔더스트：1\n・풍신 게이지 또는 뇌신 게이지를 1올린다.",
+    textEn:
+      "Ongoing: After one of your opponent's attacks resolves, perform neither or both:\n・Distance (1)⇔ Shadow\n・Increase your Wind or Thunder Gauge by 1.",
+  },
+  "13-utsuro-o-s-4": {
+    megami: "utsuro",
+    name: "魔食",
+    nameEn: "Эрозия",
+    nameZh: "魔食",
+    nameZhG1: "魔食",
+    nameKo: "마식",
+    ruby: "エロージヤ",
+    rubyEn: "",
+    rubyZh: "Эрозия",
+    baseType: "special",
+    type: "action",
+    cost: "4",
+    text: "【使用済】あなたの開始フェイズの開始時に相手は以下のどちらかを選ぶ。\n・相オーラ→ダスト：1\n・相フレア→ダスト：2",
+    textZh:
+      "【已使用】每当你的准备阶段开始时，对手选择一项：\n●敌装→1→虚\n●敌气→2→虚",
+    textZhG1:
+      "【已使用】每当你的准备阶段开始时，对手选择一项：\n1.敌装（1）→虚\n2.敌气（2）→虚",
+    textKo:
+      "【사용완료】당신의 개시 페이즈 시작시에 상대는 이하에서 하나를 고른다.\n ・상대 오라→더스트：1\n ・상대 플레어→더스트：2",
+    textEn:
+      "Devoted: At the beginning of your turn, your opponent chooses one:\n・Opponent's Aura (1)→ Shadow\n・Opponent's Flare (2)→ Shadow",
+  },
+  "14-honoka-o-n-2": {
+    megami: "honoka",
+    name: "桜吹雪",
+    nameEn: "Petal Storm",
+    nameZh: "樱吹雪",
+    nameZhG1: "樱吹雪",
+    nameKo: "벚꽃보라",
+    ruby: "さくらふぶき",
+    rubyEn: "",
+    baseType: "normal",
+    type: "attack",
+    range: "3-5",
+    damage: "2/1",
+    text: "【攻撃後】相手は以下のどちらかを選ぶ。\n・間合→自オーラ：1\n・相オーラ→間合：1",
+    textZh: "【攻击后】对手选择一项：\n●距→1→自装；\n●敌装→1→距。",
+    textZhG1: "【攻击后】对手选择一项：\n1.距（1）→自装；\n2.敌装（1）→距。",
+    textKo:
+      "【공격후】상대는 아래에서 하나를 고른다.\n・간격→자신 오라：1\n・상대 오라→간격：1",
+    textEn:
+      "After Attack: Your opponent chooses one:\n・Distance (1)→ Your Aura\n・Opponent's Aura (1)→ Distance",
+  },
+  "14-honoka-o-s-1-ex1": {
+    megami: "honoka",
+    name: "両手に華を",
+    nameEn: "Flowers in Your Hands",
+    nameZh: "樱结手弦",
+    nameZhG1: "结樱于手",
+    nameKo: "양손에 꽃을",
+    ruby: "りょうてにはなを",
+    rubyEn: "",
+    baseType: "special",
+    extra: true,
+    extraFrom: "14-honoka-o-s-1",
+    exchangableTo: "14-honoka-o-s-1-ex2",
+    type: "action",
+    subType: "fullpower",
+    cost: "0",
+    text: "基本動作《纏い》を1回行う。\n【使用済】あなたの終了フェイズに基本動作《纏い》を1回行う。\n【使用済】開花―あなたが基本動作《纏い》を行うならば、代わりにダストまたはあなたのオーラからこのカードの上に桜花結晶1つを置いてもよい。その結果、5つになったならば、それらの桜花結晶をあなたのフレアへと移動させ、この「両手に華を」を追加札の「そして新たな幕開けを」に交換し、未使用に戻す。",
+    textZh:
+      "进行1次基本动作《装附》。\n【已使用】在你的结束阶段进行1次基本动作《装附》。\n【已使用】开花～当你进行基本动作《装附》的时候，可以改为从虚或者自装把1个樱花结晶移至此牌上。若因此放置了5个樱花结晶，则将它们移入自气，将这张『樱结手弦』与追加牌区的『旋即旌招幕展』交换，将『旋即旌招幕展』变为未使用状态。",
+    textZhG1:
+      "执行1次基本动作《装附》。（此次《装附》不会触发此牌的替代效果）\n【已使用】每当你的结束阶段开始时，执行1次基本动作《装附》。\n【已使用】开花～你可以将你的基本动作《装附》的效果改为将1个樱花结晶从虚或自装移至此牌上。若此牌上的樱花结晶的数目因此恰好变为5，则将它们移至自气，将这张『结樱于手』与追加牌中的『旋即旌招幕展』交换，将『旋即旌招幕展』变为未使用状态。",
+    textKo:
+      "기본 동작 《휘감기》를 1번 한다.\n【사용됨】당신의 종료 페이즈에 기본 동작 《휘감기》를 1번 한다.\n【사용됨】개화―당신이 기본 동작 《휘감기》를 한다면, 대신에 더스트 또는 당신의 오라에서 이 카드 위에 벚꽃 결정을 1개 올려도 좋다. 그 결과로 5개가 되었다면 이 카드 위의 벚꽃 결정을 전부 당신의 플레어로 이동시키고 이 「양손에 꽃을」을 추가패의 「그리고 새로운 개막을」으로 교환하고 미사용으로 되돌린다.",
+    textEn:
+      'Perform a Recover basic action.\n\nDevoted: At the end of your turn, perform a Recover basic action.\n\nDevoted: Bloom - Whenever you would perform a Recover basic action, you may instead move a Sakura token from Shadow or your Aura to this card. Then if there are exactly 5 Sakura tokens on this card, move them all to your Flare, exchange this card with your set aside "And So Begins the Rising of a New Curtain", and turn that card face-down.',
+  },
+  "16-yatsuha-o-n-1": {
+    megami: "yatsuha",
+    name: "星の爪",
+    nameEn: "Astral Claw",
+    nameZh: "星之爪",
+    nameZhG1: "星之爪",
+    nameKo: "별의 손톱",
+    ruby: "ほしのつめ",
+    rubyEn: "",
+    baseType: "normal",
+    exchangableTo: "16-yatsuha-A1-n-1-ex1",
+    type: "attack",
+    range: "3-4",
+    damage: "3/2",
+    text: "対応不可（通常札）\n【攻撃後】自オーラ→相フレア：1",
+    textZh: "不可被对应（通常牌）\n【攻击后】自装→1→敌气",
+    textZhG1: "不可被对应（通常牌）\n【攻击后】自装（1）→敌气",
+    textKo: "대응불가(통상패)\n【공격후】자신 오라→상대 플레어：1 ",
+    textEn:
+      "No Reactions (Normal)\n\nAfter Attack: Your Aura (1)→ Opponent's Flare",
+  },
+  "16-yatsuha-o-n-2": {
+    megami: "yatsuha",
+    name: "昏い咢",
+    nameEn: "Grim Edict",
+    nameZh: "昏之颚",
+    nameZhG1: "暗之颚",
+    nameKo: "어둠의 아가리",
+    ruby: "くらいあぎと",
+    rubyEn: "",
+    baseType: "normal",
+    exchangableTo: "16-yatsuha-A1-n-2-ex1",
+    type: "attack",
+    range: "4",
+    damage: "3/1",
+    text: "対応不可（通常札）\n【常時】この《攻撃》は+0/+Xとなる。Xは鏡映数に等しい。\n【攻撃後】あなたは畏縮する。",
+    textZh:
+      "不可被对应（通常牌）\n【常时】此攻击得+0/+X。X等于镜映数。\n【攻击后】令你畏缩。",
+    textZhG1:
+      "不可被对应（通常牌）\n【常时】此《攻击》获得+0/+X。X等于镜映数。\n【攻击后】你畏缩。",
+    textKo:
+      "대응불가(통상패)\n【상시】이 《공격》은 +0/+X된다. X는 거울 수에 해당된다.\n【공격후】당신은 위축된다.",
+    textEn:
+      "No Reactions (Normal)\n\nForced: This attack gains +0/+X, where X is the number of Reflections.\n\nAfter Attack: Flinch yourself.",
+  },
+  "06-yukihi-A1-n-2": {
+    megami: "yukihi",
+    anotherID: "A1",
+    replace: "06-yukihi-o-n-2",
+    name: "ちからぞえ / おどしつけ",
+    nameEn: "Cooperate / Coerce",
+    nameZh: "援助 / 威胁",
+    nameZhG1: "援助/舞踏",
+    nameKo: "조력하기 / 위협하기",
+    ruby: "",
+    rubyEn: "",
+    baseType: "normal",
+    type: "attack",
+    range: "3-5",
+    rangeOpened: "1-2",
+    damage: "2/1",
+    damageOpened: "1/2",
+    text: "【常時】あなたの付与札に合計4つ以上の桜花結晶があるならば、この《攻撃》は+0/+1となる。",
+    textZh:
+      "【常时】你的付与区总共有4个或者更多樱花结晶的话，此《攻击》得+0/+1。",
+    textZhG1:
+      "【常时】若你展开中的付与牌上樱花结晶的数目之和大于等于4，则此攻击获得+0/+1。",
+    textKo:
+      "【상시】당신의 부여패에 합계 4개 이상의 벚꽃 결정이 있다면, 이 《공격》은 +0/+1된다.",
+    textEn:
+      " Forced: If there are 4 or more Sakura tokens on your Enhancements in play, this attack gains +0/+1.",
+    textOpened:
+      "【常時】あなたの付与札に合計4つ以上の桜花結晶があるならば、この《攻撃》は+1/+0となる。",
+    textOpenedZh:
+      "【常时】你的付与区总共有4个或者更多樱花结晶的话，此《攻击》得+1/+0。",
+    textOpenedZhG1:
+      "【常时】若你展开中的付与牌上樱花结晶的数目之和大于等于4，则此攻击获得+1/+0。",
+    textOpenedKo:
+      "【상시】당신의 부여패에 합계 4개 이상의 벚꽃 결정이 있다면, 이 《공격》은 +1/+0된다.",
+    textOpenedEn:
+      "Forced: If there are 4 or more Sakura tokens on your Enhancements in play, this attack gains +1/+0.",
+  },
+  "06-yukihi-A1-n-4": {
+    megami: "yukihi",
+    anotherID: "A1",
+    replace: "06-yukihi-o-n-4",
+    name: "よこいと / たていと",
+    nameEn: "Weft / Warp",
+    nameZh: "纬线 / 经线",
+    nameZhG1: "纬丝/经纱",
+    nameKo: "씨실 / 날실",
+    ruby: "",
+    rubyEn: "",
+    baseType: "normal",
+    type: "attack",
+    range: "2-8",
+    rangeOpened: "0-4",
+    damage: "1/1",
+    damageOpened: "0/0",
+    text: "【攻撃後】このターンにあなたが次に行う他のメガミによる《攻撃》は距離拡大（遠1）と距離拡大（近1）を得る。このカードを山札の底に置く。",
+    textZh:
+      "【攻击后】本回合你的下一次其他女神的《攻击》获得距离扩大（远1）和距离扩大（近1）。将此牌置于牌库底。",
+    textZhG1:
+      "【攻击后】本回合内你的下一次其他女武神的攻击获得距离扩大（近1、远1）。将此牌置于你的牌库底。",
+    textKo:
+      "【공격후】이 턴에 당신이 다음에 하는 다른 여신의 《공격》은 거리 확대（원1）와 거리 확대（근1）을 얻는다. 이 카드를 패산 아래에 둔다.",
+    textEn:
+      "After Attack: Increase the Range of the next attack from a non-Yukihi Megami that you make this turn by 1 in both the close and distant directions. Put this card on the bottom of your deck.",
+    textOpened:
+      "【攻撃後】このターン中にあなたが他のカードを使用していないならば、あなたの捨て札にある他のメガミの《全力》でないカード1枚を使用する。",
+    textOpenedZh:
+      "【攻击后】本回合中若你没有用过其他牌，则从你的弃牌中使用一张其他女神的非《全力》的牌。",
+    textOpenedZhG1:
+      "【攻击后】若本回合内你没有使用过其他女神的牌，则你可以从弃牌区中使用1张其他女神的不具《全力》副类别的牌。",
+    textOpenedKo:
+      "【공격후】이 턴 동안 당신이 다른 카드를 사용하지 않았다면, 당신의 버림패에 있는 다른 여신의 《전력》이 아닌 카드를 1장 사용한다.",
+    textOpenedEn:
+      "After Attack: If this is the first card you've played this turn, choose a non-Throughout card from a non-Yukihi Megami in your played pile and play it.",
+  },
+  "06-yukihi-A1-s-2": {
+    megami: "yukihi",
+    anotherID: "A1",
+    replace: "06-yukihi-o-s-2",
+    name: "ひらりおり",
+    nameEn: "Graceful Weave",
+    nameZh: "轻灵如织",
+    nameZhG1: "翩然如织",
+    nameKo: "살랑이는 옷깃",
+    ruby: "",
+    rubyEn: "",
+    baseType: "special",
+    type: "enhance",
+    capacity: "1",
+    cost: "4",
+    text: "【展開中】あなたが他のメガミの通常札をあなたの各ターンに初めて使用した時、その解決後にあなたは集中力を1得て、ダストからこのカードの上に桜花結晶を3つ置いてもよい。",
+    textZh:
+      "【展开中】你的每个回合中第一次使用你的其他女神的通常牌的时候，在结算后你获得1点集中力，从虚中把3个樱花结晶移至此牌上。",
+    textZhG1:
+      "【展开中】你的回合内，每当你第一次使用的其他女神的通常牌时，该牌结算完毕后你可以获得1点集中力，并将虚中的3个樱花结晶移至此牌上。",
+    textKo:
+      "【전개중】당신이 다른 여신의 통상패를 당신의 각 턴에 처음 사용할 때, 그것을 해결하고 당신은 집중력을 1얻고 더스트에서 이 카드 위에 벚꽃 결정을 3개 올려도 좋다.",
+    textEn:
+      "Ongoing: The first time you play a card from a non-Yukihi Megami on each of your turns, after it resolves, you may gain 1 Vigor and move 3 Sakura tokens from Shadow to this card.",
+    textOpened:
+      "【展開中】あなたの開始フェイズの開始時に攻撃「適正距離0-5、2/2」を行う。",
+    textOpenedZh:
+      "【展开中】每当你的准备阶段开始时，进行一次“攻击距离0-5 伤害2/2”的攻击。",
+    textOpenedZhG1:
+      "【展开中】每当你的准备阶段开始时，进行一次“攻击距离0-5 伤害2/2”的攻击。",
+    textOpenedKo:
+      "【전개중】당신의 개시 페이즈의 개시 시에 공격 「적정 거리0-5, 2/2」를 한다.",
+    textOpenedEn:
+      'Ongoing: At the beginning of your turn, you attack with "Range: 0-5, Damage: 2/2".',
+  },
+  "11-thallya-A1-n-5": {
+    megami: "thallya",
+    anotherID: "A1",
+    replace: "11-thallya-o-n-5",
+    name: "Quick Change",
+    nameEn: "Quick Change",
+    nameZh: "Quick Change",
+    nameZhG1: "Quick Change",
+    nameKo: "Quick Change",
+    ruby: "クイックチェンジ",
+    rubyEn: "",
+    rubyZh: "快速变换",
+    baseType: "normal",
+    type: "enhance",
+    capacity: "3",
+    text: "【展開時】あなたの燃焼済の造花結晶を1つ回復する。その後、追加札にあるTransFormカードを1枚選び、このカードの下に封印する（変形時効果は解決されない）。\n【展開中】このカードに封印されたカードの追加基本動作、常時を有効にする。\n【破棄時】このカードに封印されたカードを追加札に戻す。",
+    textZh:
+      "【展开时】回复你的1个已燃烧的造花结晶。之后，从追加牌处选择1张TransForm牌，封印在此牌下（变形时效果不结算）。\n【展开中】此牌下封印的牌的追加基本动作和常时将起效。\n【破弃时】将此牌下封印的牌移回追加牌处。",
+    textZhG1:
+      "【展开时】回复1个处于燃尽状态的造花结晶。然后从追加牌中选择1张变形牌，封印于此牌下（不结算变形时效果）。\n【展开中】此牌所封印的牌的追加基本动作与常时效果生效。\n【破弃时】将此牌所封印的牌移至追加牌。",
+    textKo:
+      "【전개시】당신의 연소 완료된 조화결정을 1개 회복한다.\n그 후, 추가패에 있는 TransForm 카드를 1장 골라 이 카드 아래에 봉인한다\n(변형시 효과는 해결하지 않는다).\n【전개중】이 카드에 봉인된 카드의 추가기본동작, 상시 효과를 유효화 한다.\n【파기시】이 카드에 봉인된 카드를 추가패로 되돌린다.",
+    textEn:
+      "Initialize: Recover 1 burned Artificial Sakura token. Then, choose one of your set aside TransForm cards and seal it under this card. (Do not resolve its TransForm effect.)\n\nOngoing: The Forced and Additional basic action effects of the sealed card are active.\n\nDisenchant: Return the sealed card to your set aside cards.",
+    sealable: true,
+  },
+  "11-thallya-A1-s-1": {
+    megami: "thallya",
+    anotherID: "A1",
+    replace: "11-thallya-o-s-1",
+    name: "BlackBox NEO",
+    nameEn: "BlackBox NEO",
+    nameZh: "BlackBox NEO",
+    nameZhG1: "BlackBox NEO",
+    nameKo: "BlackBox NEO",
+    ruby: "ブラックボックスネオ",
+    rubyEn: "",
+    rubyZh: "新型黑箱",
+    baseType: "special",
+    type: "action",
+    cost: "1",
+    text: "終端\nあなたの燃焼済の造花結晶を1つ回復する。その後、あなたのマシンが燃焼済の造花結晶を持たないならば、このカードの上にダストから桜花結晶を1つ置く。2つになったらこのカードの上の桜花結晶をダストに送るとともに、あなたのマシンはTransFormする。\n----\n【再起】あなたのマシンにある造花結晶が3個以下である。または、このターンにあなたのマシンがTransFormしている。",
+    textZh:
+      "终端\n回复你的1个已燃烧的造花结晶。之后，若你的引擎里没有已燃烧的造花结晶，从虚中把1个樱花结晶移至此牌上。达到2个后，则再将其上所有樱花结晶移至虚，你进行TransForm。\n----\n【再起】你的引擎里的造花结晶数小于等于3个；或者你在这个回合里进行了TransForm。",
+    textZhG1:
+      "终端\n回复1个处于燃尽状态的造花结晶。然后若你处于燃尽状态的造花结晶的数目等于0，则将1个樱花结晶从虚移至此牌上。若此牌上的樱花结晶的数目变为2，则将它们移至虚，然后TRANSFORM你的引擎。\n----\n【再起】你的引擎中造花结晶的数目小于等于3。或者本回合内你的引擎进行了TRANSFORM。",
+    textKo:
+      "종단\n당신의 연소된 조화 결정을 1개 회복한다. 그 다음 당신의 머신에 연소된 벚꽃 결정이 없다면 이 카드 위에 더스트에서 벚꽃 결정을 1개 올린다. 2개가 되었다면 이 카드 위의 벚꽃 결정을 더스트로 보내는 것과 함께 당신의 머신은 TransForm한다.\n----\n【재기】당신의 머신에 있는 조화 결정이 3개이하다. 또는 이 턴에 당신의 머신이 TransForm했다.",
+    textEn:
+      "Terminal\n\nRecover 1 burned Artificial Sakura token. Then, if you have no burned Artificial Sakura tokens, move 1 Sakura token from Shadow to this card. If there are 2 Sakura tokens on this card, move them all to Shadow and TransForm your machine.\n\nResurgence: There are 3 or fewer Artificial Sakura tokens on your machine, or your machine TransFormed this turn.",
+  },
+  "11-thallya-A1-s-2": {
+    megami: "thallya",
+    anotherID: "A1",
+    replace: "11-thallya-o-s-2",
+    name: "OMNIS-Blaster",
+    nameEn: "OMNIS-Blaster",
+    nameZh: "OMNIS-Blaster",
+    nameZhG1: "OMNIS-Blaster",
+    nameKo: "OMNIS-Blaster",
+    ruby: "オムニスブラスター",
+    rubyEn: "",
+    rubyZh: "光炮齐射",
+    baseType: "special",
+    type: "attack",
+    range: "3-10",
+    damage: "X/X",
+    cost: "X",
+    text: "【常時】XはあなたのマシンがこのゲームでTransFormした回数に等しい。",
+    textZh: "【常时】X的值等于你在这场游戏里进行TransForm的次数。",
+    textZhG1: "【常时】X等于本局游戏中你的引擎进行TRANSFORM的次数。",
+    textKo: "【상시】X는 당신의 머신이 이 게임에서 TransForm한 회수와 같다.",
+    textEn:
+      "Forced: X is equal the number of times your machine has TransFormed this game.",
+  },
+  "transform-A1-01": {
+    megami: "thallya",
+    anotherID: "A1",
+    replace: "transform-01",
+    name: "Form: KINNARI",
+    nameEn: "Form: KINNARI",
+    nameZh: "Form: KINNARI",
+    nameZhG1: "紧那罗形态",
+    nameKo: "Form: KINNARI",
+    ruby: "フォルム:キンナリー",
+    rubyEn: "",
+    rubyZh: "紧那罗形态",
+    baseType: "transform",
+    type: undefined,
+    text: "【変形時】相手は山札をすべて伏せ札にする。\n----\n【常時：Zeta-Voice】\n相手が山札を再構成したとき、その解決後に攻撃「適正距離2, 4, 6、2/2」を行ってもよい。",
+    textZh:
+      "【变形时】对手将其牌库全部盖伏。\n----\n【常时：Zeta-Voice】\n对手牌库再构成时，在其结算后你可以进行一次“攻击距离2,4,6 伤害2/2”的攻击。",
+    textZhG1:
+      "【变形时】盖伏对手的牌库。\n----\n【常时】Zeta-Voice：对手重铸牌库后，你可以进行一次“攻击距离2,4,6 伤害2/2”的攻击。",
+    textKo:
+      "【변형시】상대는 패산을 전부 덮임패로 한다.\n----\n【상시：Zeta-Voice】\n상대가 패산을 재구성할 때마다 그 해결 후에 공격 「적정 거리 2, 4, 6, 2/2」을 해도 좋다.",
+    textEn:
+      'TransForm: Discard your opponent\'s deck.\n----\nForced ("Zeta-Voice"): After your opponent reshuffles their deck, you attack with "Range: 2, 4, 6, Damage: 2/2".',
+  },
+  "transform-A1-03": {
+    megami: "thallya",
+    anotherID: "A1",
+    replace: "transform-03",
+    name: "Form: ASURA",
+    nameEn: "Form: ASURA",
+    nameZh: "Form: ASURA",
+    nameZhG1: "阿修罗形态",
+    nameKo: "Form: ASURA",
+    ruby: "フォルム:アスラ",
+    rubyEn: "",
+    rubyZh: "阿修罗形态",
+    baseType: "transform",
+    type: undefined,
+    text: "【変形時】相手は手札を1枚捨て札にし、相手の山札の上から1枚を捨て札にする。\n----\n【追加基本動作：Sigma-Drive】\n攻撃『適正距離1, 3, 5、3/2　【攻撃後】あなたは畏縮する。』を行う。\nこの基本動作は1ターンに1回だけ行える。",
+    textZh:
+      "【变形时】对手弃一张手牌，对手弃掉其牌库顶牌。\n----\n【追加基本动作：Sigma-Drive】\n进行一次“攻击距离1,3,5 伤害3/2 【攻击后】令你畏缩。”的攻击。\n这个基本动作一回合只能进行一次。",
+    textZhG1:
+      "【变形时】对手弃置1张手牌和牌库顶的1张牌。\n----\n【追加基本动作】Sigma-Drive：进行一次“攻击距离1,3,5 伤害3/2 【攻击后】你畏缩”的攻击。此基本动作每回合至多执行一次。",
+    textKo:
+      "【변형시】상대는 손패를 1장 버림패로 하고, 상대의 패산 위에서 1장을 버림패로 한다.\n----\n【추가 기본 동작：Sigma-Drive】\n공격 『적정 거리 1, 3, 5, 3/2　【공격후】당신은 위축한다.』를 한다.\n이 기본 동작은 1턴에 1번만 할 수 있다.",
+    textEn:
+      'TransForm: Your opponent puts a card from their hand, and the top card of their deck, into their played pile.\n----\nAdditional basic action ("Sigma-Drive"): You attack with "Range: 1, 3, 5, Damage: 3/2, After Attack: Flinch yourself." This action can only be performed once a turn.',
+  },
+  "transform-A1-04": {
+    megami: "thallya",
+    anotherID: "A1",
+    replace: "",
+    name: "Form: DEVA",
+    nameEn: "Form: DEVA",
+    nameZh: "Form: DEVA",
+    nameZhG1: "缇婆形态",
+    nameKo: "Form: DEVA",
+    ruby: "フォルム:デーヴァ",
+    rubyEn: "",
+    rubyZh: "天神形态",
+    baseType: "transform",
+    type: undefined,
+    text: "【変形時】あなたの燃焼済の造花結晶を2つ回復し、基本動作《纏い》を2回行う。\n----\n【常時：Phi-Cycle】\n相手の捨て札の枚数が0でない2の倍数になるたびに、あなたは集中力を1得る。",
+    textZh:
+      "【变形时】回复你的2个已燃烧的造花结晶，进行2次基本动作《装附》。\n----\n【常时：Phi-Cycle】\n对手的弃牌数变成0以外的2的倍数的时候，你获得1点集中力。",
+    textZhG1:
+      "【变形时】回复2个处于燃尽状态的造花结晶。执行2次基本动作《装附》。\n----\n【常时】Phi-Cycle：对手的弃牌张数变为除0以外的偶数时，你获得1点集中力。",
+    textKo:
+      "【변형시】당신의 연소된 조화 결정을 2개 회복하고 기본 동작 《휘감기》를 2번 한다.\n----\n【상시：Phi-Cycle】\n상대의 버림패의 수가 0이 아닌 2의 배수가 될 때마다 당신은 집중력을 1얻는다.",
+    textEn:
+      'TransForm: Recover 2 burned Artificial Sakura tokens. Perform 2 Recover basic actions.\n----\nForced ("Phi-Cycle"): Whenever the number of your cards in your opponent\'s played pile becomes an even number other than 0, gain 1 Vigor.',
+  },
+  "12-raira-a1-n-2": {
+    megami: "raira",
+    anotherID: "A1",
+    replace: "12-raira-o-n-2",
+    name: "暴風",
+    nameEn: "Gale Winds",
+    nameZh: "暴风",
+    nameZhG1: "暴风",
+    nameKo: "폭풍",
+    ruby: "ぼうふう",
+    rubyEn: "",
+    baseType: "normal",
+    type: "attack",
+    range: "2-4",
+    damage: "2/1",
+    text: "【攻撃後】風神ゲージを1上げる。その後、嵐の力を1回使用してもよい。",
+    textZh: "【攻击后】风神槽的值增加1。然后，你可以使用一次风暴之力。",
+    textZhG1: "【攻击后】风神槽的值增加1。然后你可以使用1次岚之力。",
+    textKo:
+      "【공격후】풍신 게이지를 1올린다. 그 후에 태풍의 힘을 1번 사용해도 좋다.",
+    textEn:
+      "After Attack: Increase your Wind Gauge by 1, then you may harness the storm once.",
+  },
+  "12-raira-a1-n-6": {
+    megami: "raira",
+    anotherID: "A1",
+    replace: "12-raira-o-n-6",
+    name: "大嵐",
+    nameEn: "Tempest",
+    nameZh: "大风暴",
+    nameZhG1: "大风暴",
+    nameKo: "대폭풍우",
+    ruby: "おおあらし",
+    rubyEn: "",
+    baseType: "normal",
+    type: "enhance",
+    subType: "fullpower",
+    capacity: "0",
+    text: "【展開時】以下を3回選ぶ。同じものを複数回選んでもよい。\n・風神ゲージか雷神ゲージを１上げる。\n・このカードの上にダストから桜花結晶を1つ置く。\n【展開中】あなたと相手の終了フェイズに攻撃『適正距離0-4、1/1、対応不可』を行う。\n【展開中】各ターンにおける相手の最初の《攻撃》は+0/-1となる。",
+    textZh:
+      "【展开时】选择以下选项3次，且同样的选项可以重复选择：\n●选择风神槽或雷神槽，其值增加1。\n●从虚中把1个樱花结晶移至此牌上。\n【展开中】在你和对手的结束阶段，进行一次“攻击距离0-4 伤害1/1 不可被对应”的攻击。\n【展开中】每个回合里对手的第一次《攻击》得+0/-1。",
+    textZhG1:
+      "【展开时】选择3次。你可以多次选择同一个选项。\n1.选择风神槽或雷神槽，其值增加1；\n2..将1个樱花结晶从虚移至此牌上。\n【展开中】每当你和对手的结束阶段开始时，进行一次“攻击距离0-4 伤害1/1 不可被对应”的攻击。\n【展开中】每回合内对手进行的第一次《攻击》获得+0/-1。",
+    textKo:
+      "【전개시】아래를 3번 고른다. 같은 것을 여러 선택해도 좋다.\n・풍신 게이지 또는 뇌신 게이지를 1올린다.\n・이 카드 위에 더스트에서 벚꽃 결정을 1개 올린다.\n【전개중】당신과 상대의 종료 페이즈에 공격 『적정 거리0-4, 1/1, 대응불가』를 한다.\\n【전개중】각 턴마다 상대의 최초의 《공격》은 +0/-1된다.",
+    textEn:
+      'Initialize: Choose three. You may choose the same option more than once:\n・Increase your Wind or Thunder Gauge by 1.\n・Move a Sakura token from Shadow to this card.\n\nOngoing: At the end of each turn, you attack with "Range: 0-4, Damage: 1/1, No Reactions".\n\nOngoing: The first attack your opponent makes each turn gets +0/-1.',
+  },
+  "12-raira-a1-s-3": {
+    megami: "raira",
+    anotherID: "A1",
+    replace: "12-raira-o-s-3",
+    name: "陣風祭天儀",
+    nameEn: "Liturgy of the Storm",
+    nameZh: "阵风祭天仪",
+    nameZhG1: "阵风祭天式",
+    nameKo: "진풍제천의",
+    ruby: "じんぷうさいてんぎ",
+    rubyEn: "",
+    baseType: "special",
+    type: "action",
+    cost: "2",
+    text: "風神ゲージと雷神ゲージを1ずつ上げ、相手を畏縮させる。\n【使用済】あなたが使用したカードは帯電しない。\n【使用済】あなたのメインフェイズの開始時に、あなたが標準行動を選択したならば、嵐の力を2回まで使用してもよい。ただし、同じ力は選べない。",
+    textZh:
+      "风神槽和雷神槽的值各增加1，令对手畏缩。\n【已使用】你使用的牌不会带电（无法增长风雷槽）。\n【已使用】你的行动阶段开始时，如果你选择进行标准行动，则你可以进行最多两次风暴之力，但是不能重复选择同一个。",
+    textZhG1:
+      "风神槽和雷神槽各增加1，对手畏缩。\n【已使用】你使用的牌不会带电。\n【已使用】每当你的主要阶段开始时，若你选择执行标准行动，则你可以使用至多2次岚之力，但不能使用同一种岚之力2次。",
+    textKo:
+      "풍신 게이지와 뇌신 게이지를 1개씩 올리고 상대를 위축시킨다.\n【사용됨】당신이 사용한 카드는 대전되지 않는다.\n【사용됨】당신의 페인 페이즈 개시 시에 당신이 표준 행동을 선택했다면, 태풍의 힘을 2번까지 사용해도 좋다. 하지만 같은 힘은 선택할 수 없다.",
+    textEn:
+      "Increase your Wind and Thunder Gauges by 1 each. Flinch your opponent.\n\nDevoted: Your played cards do not become electrified.\n\nDevoted: At the beginning of your main phase, if you chose to perform normal (non-Throughout) actions, you may harness the storm up to two times. You may not choose the same ability twice this way.",
+  },
+  "12-raira-storm": {
+    megami: "raira",
+    anotherID: "A1",
+    name: "【嵐の力】",
+    nameEn: "[Storm]",
+    nameZh: "【风暴之力】",
+    nameZhG1: "【岚之力】",
+    nameKo: "【폭풍의 힘】",
+    ruby: "",
+    rubyEn: "",
+    baseType: "storm",
+    type: undefined,
+    text: "【風1】間合⇔ダスト：1\n【風2】あなたは集中力を1得て、相手は集中力を1失う。\n【風3】カードを1枚引く。\n----\n【雷1】このターンにあなたが次に行う《攻撃》は+1/+0となる。\n【雷2】このターンにあなたが次に行うオーラへのダメージが「-」でない《攻撃》は+0/+1となる。\n【雷3】攻撃『適正距離0-4、2/2』を行う。",
+    textZh:
+      "<风1>距↔1↔虚\n<风2>你获得1点集中力，对手失去1点集中力。\n<风3>抓1张牌。\n\n<雷1>本回合你的下次《攻击》得+1/+0。\n<雷2>本回合你的下次对装伤害不为「-」的《攻击》得+0/+1。\n<雷3>进行一次“攻击距离0-4、伤害2/2”的攻击。",
+    textZhG1:
+      "风1：距（1）⇔虚\n风2：你获得1点集中力，对手失去1点集中力。\n风3：抽1张牌。\n雷1：本回合内你进行的下一次《攻击》得+1/+0。\n雷2：本回合内你进行的下一次对装的伤害不是“-”的攻击得+0/+1。\n雷3：进行一次“攻击距离0-4 伤害2/2”的攻击。",
+    textKo:
+      "【풍1】간격⇔더스트：1\n【풍2】당신은 집중력을 1얻고 상대는 집중력을 1잃는다.\n【풍3】카드를 1장 뽑는다.\n----\n【뇌1】이 턴에 당신이 다음에 하는 《공격》은 +1/+0된다.\n【뇌2】이 턴에 당신이 다음에 하는 오라 데미지가 「-」이 아닌 《공격》은 +0/+1된다.\n【뇌3】공격 『적정 거리0-4, 2/2』를 한다.",
+    textEn:
+      '(When you harness the storm, choose an ability from this list. Decrease its corresponding Gauge by the appropriate amount to get its effect.)\n\nWind 1: Shadow (1)⇔ Distance\nWind 2: Gain 1 Vigor. Your opponent loses 1 Vigor.\nWind 3: Draw a card.\n\nThunder 1: The next attack you make this turn gains +1/+0.\nThunder 2: The next attack you make this turn that doesn\'t have "-" Damage to Aura gains +0/+1.\nThunder 3: You attack with "Range: 0-4, Damage: 2/2".',
+  },
+  "17-hatsumi-o-n-1": {
+    megami: "hatsumi",
+    name: "水雷球",
+    nameEn: "Torpedo",
+    nameZh: "水雷球",
+    nameZhG1: "水雷球",
+    nameKo: "수뢰구",
+    ruby: "すいらいきゅう",
+    rubyEn: "",
+    baseType: "normal",
+    type: "attack",
+    range: "3-5",
+    damage: "0/0",
+    text: "【常時】順風ならば、この《攻撃》は+2/+2となる。\n【攻撃後】逆風ならば、間合⇔ダスト：2 ",
+    textZh:
+      "【常时】若顺风，此《攻击》得+2/+2。\n【攻击后】若逆风，则：距↔2↔虚",
+    textZhG1:
+      "【常时】若你处于顺风状态，则此《攻击》得+2/+2。\n【攻击后】若你处于逆风状态，则距（2） ⇔ 虚",
+    textKo:
+      "【상시】순풍이라면, 이 《공격》은 +2/+2된다.\n【공격후】역풍이라면, 간격⇔더스트：2 ",
+    textEn:
+      "Forced: If there is a tailwind, this attack gains +2/+2.\n\nAfter Attack: If there is a headwind, Distance (2)⇔ Shadow.",
+  },
+  "17-hatsumi-o-n-2": {
+    megami: "hatsumi",
+    name: "水流",
+    nameEn: "Torrent",
+    nameZh: "水流",
+    nameZhG1: "水流",
+    nameKo: "수류",
+    ruby: "すいりゅう",
+    rubyEn: "",
+    baseType: "normal",
+    type: "attack",
+    range: "4-5",
+    damage: "2/1",
+    text: "【常時】順風ならば、この《攻撃》は+1/+1となる。\n全力化：【常時】この《攻撃》は対応不可（通常札）を得るとともに、そのダメージにより移動する桜花結晶はダストやフレアでなく間合に動かす。",
+    textZh:
+      "【常时】若顺风，此《攻击》得+1/+1。\n全力化：【常时】此《攻击》得不可被对应（通常牌），且因此《攻击》造成的伤害将移动的樱花结晶改为移动至距。",
+    textZhG1:
+      "【常时】若你处于顺风状态，则此《攻击》获得+1/+1。\n全力化（主要阶段，若你选择执行全力行动，则你可以如使用《全力》牌一样使用此牌。若如此做，则此牌额外获得以下效果）：【常时】此《攻击》获得不可被对应（通常牌），若此《攻击》对对手造成了伤害，则不将因结算伤害移动的樱花结晶移至气或虚，而改为移至距。",
+    textKo:
+      "【상시】순풍이라면, 이 《공격》은 +1/+1된다.\n전력화：【상시】이 《공격》은 대응불가(통상패)를 얻고, 이 데미지에 의해서 이동하는 벚꽃 결정은 더스트나 플레어가 아닌 간격으로 옮겨진다.",
+    textEn:
+      'Forced: If there is a tailwind, this attack gains +1/+1.\n\nAll-Out - Forced: This attack gains "No Reactions (Normal)". Damage dealt by this attack moves Sakura tokens to Distance instead of to Shadow or to Flare.',
+  },
+  "17-hatsumi-o-n-3": {
+    megami: "hatsumi",
+    name: "強酸",
+    nameEn: "Acid Spray",
+    nameZh: "强酸",
+    nameZhG1: "强酸",
+    nameKo: "강산",
+    ruby: "きょうさん",
+    rubyEn: "",
+    baseType: "normal",
+    type: "attack",
+    range: "5-6",
+    damage: "3/1",
+    text: "【常時】逆風ならば、この《攻撃》のライフへのダメージにより移動する桜花結晶はフレアでなくダストに動かす。",
+    textZh:
+      "【常时】若逆风，因此《攻击》造成的对命伤害将移动的樱花结晶改为移动至虚。",
+    textZhG1:
+      "【常时】若你处于逆风状态，且此《攻击》对敌命造成了伤害，则不将因结算伤害移动的樱花结晶移至气，而改为移至虚。",
+    textKo:
+      "【상시】역풍이라면, 이 《공격》의 라이프에 대한 데미지에 의해서 이동하는 벚꽃 결정은 플레어가 아닌 더스트로 옮겨진다.",
+    textEn:
+      "Forced: If there is a headwind, damage dealt by this attack to Life moves Sakura tokens to Shadow instead of to Flare.",
+  },
+  "17-hatsumi-o-n-4": {
+    megami: "hatsumi",
+    name: "海嘯",
+    nameEn: "Tsunami",
+    nameZh: "海啸",
+    nameZhG1: "海啸",
+    nameKo: "해일",
+    ruby: "かいしょう",
+    rubyEn: "",
+    baseType: "normal",
+    type: "action",
+    subType: "reaction",
+    text: "現在の間合が4以下ならば、ダスト→間合：1\n逆風ならば、この矢印効果の左側を相手のフレアに変更する。",
+    textZh:
+      "现在的距离小于等于4的话：虚→1→距\n若逆风，箭头的左边变为敌气（而不是虚）。",
+    textZhG1:
+      "若当前距离小于等于4，则虚（1）→距。\n【常时】若你处于逆风状态，则此箭头效果左侧的区域改为敌气。",
+    textKo:
+      "현재의 간격이 4이하라면, 더스트→간격：1\n역풍이라면, 이 화살표의 왼쪽을 상대의 플레어로 변경한다.",
+    textEn:
+      "If the current Distance is 4 or less:\nShadow (1)→ Distance\n\nIf there is a headwind, the left side of this arrow effect is your opponent's Flare instead.",
+  },
+  "17-hatsumi-o-n-5": {
+    megami: "hatsumi",
+    name: "準備万端",
+    nameEn: "Batten Down",
+    nameZh: "万事俱备",
+    nameZhG1: "准备万全",
+    nameKo: "준비만전",
+    ruby: "じゅんびばんたん",
+    rubyEn: "",
+    baseType: "normal",
+    type: "action",
+    subType: "fullpower",
+    text: "ダスト→自オーラ：3\nあなたは手札を1枚選び、それを山札の一番上に置いてもよい。",
+    textZh: "虚→3→自装\n你将一张手牌置于牌库顶。",
+    textZhG1: "虚（3）→自装\n你可以从手牌中选择1张牌，将其置于你的牌库顶。",
+    textKo:
+      "더스트→자신 오라：3\n당신은 손패를 1장 고르고, 그것을 패산 가장 위에 올려두어도 좋다.",
+    textEn:
+      "Shadow (3)→ Your Aura\n\nYou may choose a card in your hand and put it on top of your deck.",
+  },
+  "17-hatsumi-o-n-6": {
+    megami: "hatsumi",
+    name: "羅針盤",
+    nameEn: "Compass",
+    nameZh: "罗盘",
+    nameZhG1: "罗盘",
+    nameKo: "나침반",
+    ruby: "らしんばん",
+    rubyEn: "",
+    baseType: "normal",
+    type: "enhance",
+    capacity: "3",
+    text: "【展開中】あなたの《攻撃》に適正距離5を追加し、相手の《攻撃》から適正距離5を取り除く。この効果が重複したら相殺する。\n（距離拡大、距離縮小より先に適用する）\n【破棄時】ダスト→自オーラ：1",
+    textAdditional:
+      "（「この効果が重複したら相殺する」：この類のテキストを持つ効果のうち、同様のものが複数有効になっているならば、それらすべての効果は失われる。）",
+    textZh:
+      "【展开中】你的《攻击》追加攻击距离5，对手的《攻击》移除攻击距离5。此效果重复时互相抵消。\n（比距离扩大、距离缩小的计算要优先）\n【破弃时】虚→1→自装",
+    textZhG1:
+      "【展开中】你的《攻击》额外获得攻击距离5，对手的《攻击》失去攻击距离5。若游戏中存在多个此效果，则此效果相互抵消。（此效果先于距离扩大与距离缩小结算）\n【破弃时】虚（1）→自装",
+    textKo:
+      "【전개중】당신의 《공격》에 적정 거리5를 추가하고, 상대의 《공격》에서 적정 거리5를 제거한다. 이 효과는 중첩되면 상쇄된다.\n（거리 확대, 거리 축소보다 먼저 적용된다）\n【파기시】더스트→자신 오라：1",
+    textEn:
+      "Your attacks gain Range: 5 (in addition to their normal Range). Your opponent's attacks lose Range: 5. If there are multiple copies of this effect in play, they cancel each other out.\n(This additional Range is added or removed before other effects that increase or decrease Range are applied.)\n\nDisenchant: Shadow (1)→ Your Aura",
+  },
+  "17-hatsumi-o-n-7": {
+    megami: "hatsumi",
+    name: "波呼び",
+    nameEn: "Wavecall",
+    nameZh: "唤浪",
+    nameZhG1: "唤潮",
+    nameKo: "파도 부르기",
+    ruby: "なみよび",
+    rubyEn: "",
+    baseType: "normal",
+    type: "enhance",
+    capacity: "1",
+    text: "隙\n【展開中】あなたのターンかつ順風である場合のみ、このカードの上の桜花結晶は移動する。\n【破棄時】攻撃『適正距離2-7、1/-、【攻撃後】相手は山札をすべて伏せ札にする。』を行う。",
+    textZh:
+      "破绽\n【展开中】仅在你的回合中且为顺风时，才可以移动此牌上的樱花结晶。\n【破弃时】进行一次“攻击距离2-7 伤害1/- 【攻击后】盖伏对手的牌库”的攻击。",
+    textZhG1:
+      "破绽\n【展开中】仅当你的回合内你处于顺风状态时可以移除此牌上的樱花结晶。\n【破弃时】进行一次“攻击距离2-7 伤害1/- 【攻击后】盖伏对手的牌库。”的攻击。",
+    textKo:
+      "틈\n【전개중】당신의 턴 및 순풍일 때에만, 이 카드 위의 벚꽃 결정이 이동한다.\n【파기시】공격 『적정 거리2-7, 1/-, 【공격후】상대는 패산을 전부 덮임패로 한다.』를 한다.",
+    textEn:
+      "Unguarded\n\nForced: Sakura tokens cannot leave this card unless it's your turn and there is a tailwind.\n\nDisenchant: You attack with \"Range: 2-7, Damage: 1/-, After Attack: Put your opponent's deck into their discard pile.\"",
+  },
+  "17-hatsumi-o-s-1": {
+    megami: "hatsumi",
+    name: "イサナ海域",
+    nameEn: "Cetacean Ocean",
+    nameZh: "鲸鱼海域",
+    nameZhG1: "鲸鱼海域",
+    nameKo: "이사나 해역",
+    ruby: "いさなかいいき",
+    rubyEn: "",
+    baseType: "special",
+    type: "attack",
+    range: "3-5",
+    damage: "3/1",
+    cost: "4",
+    text: "【常時】順風ならば、この《攻撃》は+0/+2となる。\n【攻撃後】逆風ならば、\nダスト→間合：2\nを行い、このカードを未使用に戻す。",
+    textZh:
+      "【常时】若顺风，此《攻击》得+0/+2。\n【攻击后】若逆风，则：虚→2→距。\n然后将此牌变为未使用的状态。",
+    textZhG1:
+      "【常时】若你处于顺风状态，则此《攻击》获得+0/+2。\n【攻击后】若你处于逆风状态，则虚（2）→距，然后将此牌变为未使用状态。",
+    textKo:
+      "【상시】순풍이라면, 이 《공격》은 +0/+2된다.\n【공격시】역풍이라면,\n더스트→간격：2\n을 하고, 이 카드를 미사용으로 되돌린다.",
+    textEn:
+      "Forced: If there is a tailwind, this attack gains +0/+2.\n\nAfter Attack: If there is a headwind, Shadow (2)→ Distance, then turn this card face-down.",
+  },
+  "17-hatsumi-o-s-2": {
+    megami: "hatsumi",
+    name: "オヨギビ砲火",
+    nameEn: "Aquiform Salvo",
+    nameZh: "鱼雷炮火",
+    nameZhG1: "鱼雷炮击",
+    nameKo: "오요기비 포화",
+    ruby: "およぎびほうか",
+    rubyEn: "",
+    baseType: "special",
+    type: "attack",
+    range: "5-6",
+    damage: "2/2",
+    cost: "2",
+    text: "【常時】このカードが未使用に戻った時、基本動作を1回行ってもよい。\n----\n【即再起】相手のターンに現在の間合がターン開始時の間合から2以上近付く。",
+    textZh:
+      "【常时】此牌变为未使用的状态时，你可以进行一次基本动作。\n----\n【即再起】对手的回合中当前的距比起回合开始时要近2或更多时。",
+    textZhG1:
+      "【常时】每当此牌变为未使用状态时，你可以执行1次基本动作。\n----\n【即再起】对手的回合内，当前距离比回合开始时的距离近2及以上。",
+    textKo:
+      "【상시】이 카드가 미사용으로 되돌아갔을 때, 기본 동작을 1번 해도 좋다.\n----\n【즉재기】상대의 턴에 현재의 간격이 턴 개시 시의 간격보다 2이상 가까워진다.",
+    textEn:
+      "Forced: When this card would be turned face-down, you may perform a basic action immediately before doing so.\n\nImmediate Resurgence: On your opponent's turn, the current Distance becomes at least 2 lesser than it was at the beginning of the turn.",
+  },
+  "17-hatsumi-o-s-3": {
+    megami: "hatsumi",
+    name: "カラハリ灯台",
+    nameEn: "Phaneritic Lighthouse",
+    nameZh: "指引灯塔",
+    nameZhG1: "子午灯塔",
+    nameKo: "카라하리 등대",
+    ruby: "からはりとうだい",
+    rubyEn: "",
+    baseType: "special",
+    type: "action",
+    cost: "1",
+    text: "逆風でないならば、あなたは畏縮する。\n【使用済】達人の間合は1大きくなる。\n【使用済】相手のターンに相手が《攻撃》でないカードを手札から使用したならば、それを解決する代わりに捨て札に置き、このカードを未使用に戻す。",
+    textZh:
+      "若不为逆风，则令你畏缩。\n【已使用】达人距离的值增大1。\n【已使用】对手的回合中，若对手使用了一张非《攻击》的手牌，则将结算该牌改为将其弃置，并将此卡变为未使用的状态。",
+    textZhG1:
+      "若你不处于逆风状态，则你畏缩。\n【已使用】达人距离增大1。\n【已使用】对手的回合内，每当对手使用非《攻击》的牌时，不结算该牌的效果，而改为将该牌置入弃牌区，然后将此牌变为未使用状态。",
+    textKo:
+      "역풍이 아니라면 당신은 위축된다.\n【사용됨】달인의 간격이 1커진다.\n【사용됨】상대의 턴에 상대가 《공격》이 아닌 카드를 손패에서 사용했다면, 그것을 해결하는 대신에 버림패로 옮기고, 이 카드를 미사용으로 되돌린다.",
+    textEn:
+      "Flinch yourself unless there is a headwind.\n\nDevoted: Increase the size of the Mastery Zone by 1.\n\nDevoted: On your opponent's turn, when your opponent plays a non-Attack card from their hand, instead of resolving that card's effects, place it in its owner's played pile and turn this card face-down.",
+  },
+  "17-hatsumi-o-s-4": {
+    megami: "hatsumi",
+    name: "ミオビキ航路",
+    nameEn: "Coxswained Strait",
+    nameZh: "向导航路",
+    nameZhG1: "引水航道",
+    nameKo: "미오비키 항로",
+    ruby: "みおびきこうろ",
+    rubyEn: "",
+    baseType: "special",
+    type: "action",
+    cost: "2",
+    text: "逆風ならば、相手を畏縮させ、相手の山札の上から1枚を公開する。それが《攻撃》カードならば捨て札にする。\n【使用済】あなたの開始フェイズの開始時に逆風ならば、このカードを消費を支払わずに使用してもよい。",
+    textZh:
+      "若逆风，则令对手畏缩，展示对手的牌库顶牌。若其为《攻击》牌则弃置之。\n【已使用】每当你的准备阶段开始时为逆风，你可以使用此牌，而不需支付其费用。",
+    textZhG1:
+      "若你处于逆风状态，则对手畏缩，展示对手牌库顶的1张牌。若该牌为《攻击》牌，则将其置入弃牌区。\n【已使用】每当你的准备阶段开始时，若你处于逆风状态，则你可以使用此牌，而不需支付其费用。",
+    textKo:
+      "역풍이라면, 상대를 위축시키고 상대의 패산 가장 위에서 1장을 공개한다. 그것이 《공격》 카드라면 버림패로 한다.\n【사용됨】당신의 개시 페이즈의 개시 시에 역풍이라면, 이 카드를 코스트를 지불하지 않고 사용해도 좋다.",
+    textEn:
+      "If there is a headwind, flinch your opponent and reveal the top card of their deck. If it's an Attack card, put it into their played pile.\n\nDevoted: At the beginning of your turn, if there is a headwind, you may play this card without paying its cost.",
+  },
+  "18-mizuki-o-n-1": {
+    megami: "mizuki",
+    name: "陣頭",
+    nameEn: "Lead the Charge",
+    nameZh: "头阵",
+    nameZhG1: "头阵",
+    nameKo: "진두",
+    ruby: "じんとう",
+    rubyEn: "",
+    baseType: "normal",
+    type: "attack",
+    range: "1-2",
+    damage: "1/1",
+    text: "【攻撃後】徴兵を1回行う。",
+    textZh: "【攻击后】进行1次征兵。",
+    textZhG1: "【攻击后】进行1次征兵。",
+    textKo: "【공격후】징병을 1번 한다.",
+    textEn: "After Attack: Conscript a Unit.",
+  },
+  "18-mizuki-o-n-2": {
+    megami: "mizuki",
+    name: "反攻",
+    nameEn: "Counteroffensive",
+    nameZh: "反攻",
+    nameZhG1: "反攻",
+    nameKo: "반공",
+    ruby: "はんこう",
+    rubyEn: "",
+    baseType: "normal",
+    type: "attack",
+    range: "2-3",
+    damage: "1/1",
+    text: "【常時】あなたが直前のターンに対応しているならば、この《攻撃》は+2/+0となる。\n全力化：【常時】この《攻撃》は+0/+2となる。",
+    textZh:
+      "【常时】若你在上个回合进行了对应，此《攻击》得+2/+0。\n全力化：【常时】此《攻击》得+0/+2。",
+    textZhG1:
+      "【常时】若上一回合内你进行过对应，则此《攻击》得+2/+0。\n全力化（主要阶段，若你选择执行全力行动，则你可以如使用《全力》牌一样使用此牌。若如此做，则此牌额外获得以下效果）：【常时】此《攻击》获得+0/+2。",
+    textKo:
+      "【상시】당신이 직전 턴에 대응을 했다면, 이 《공격》은 +2/+0된다.\n전력화：【상시】이 《공격》은 +0/+2된다.",
+    textEn:
+      "Forced: If you reacted to an attack last turn, this attack gains +2/+0.\n\nAll-Out: This attack gains +0/+2.",
+  },
+  "18-mizuki-o-n-3": {
+    megami: "mizuki",
+    name: "撃ち落とし",
+    nameEn: "Quash",
+    nameZh: "击落",
+    nameZhG1: "击落",
+    nameKo: "쏘아떨구기",
+    ruby: "うちおとし",
+    rubyEn: "",
+    baseType: "normal",
+    type: "attack",
+    subType: "reaction",
+    range: "1-5",
+    damage: "1/1",
+    text: "【攻撃後】不動―このターン中に現在の間合が変化していないならば、対応した《全力》でも切札でもない《攻撃》を打ち消す。\n（このカードはコダマのカードとして扱う）",
+    textZh:
+      "【攻击后】不动～若本回合的距没有发生变化，打消被对应的非《全力》也非王牌的《攻击》。\n（将此牌视为木灵的牌）",
+    textZhG1:
+      "【攻击后】不动～若本回合内当前距离的值没有发生过变化，则打消被对应的非《全力》且非王牌的《攻击》。（此牌视为木灵的牌）",
+    textKo:
+      "【공격후】부동―이 턴 중에 현재의 간격이 변화하지 않았다면, 대응한 《전력》도 비장패도 아닌 《공격》을 무효화한다.\n（이 카드는 코다마의 카드로 취급한다）",
+    textEn:
+      "After Attack: Unwavering - Cancel the non-Special, non-Throughout attack you played this card as a Reaction to if the Distance hasn't changed this turn.\n\n(Treat this card as a Kodama card.)",
+  },
+  "18-mizuki-o-n-4": {
+    megami: "mizuki",
+    name: "号令",
+    nameEn: "Command",
+    nameZh: "号令",
+    nameZhG1: "号令",
+    nameKo: "호령",
+    ruby: "ごうれい",
+    rubyEn: "",
+    baseType: "normal",
+    type: "action",
+    text: "徴兵を1回行う。\nあなたが直前のターンに対応しているならば、集中力を1得る。",
+    textZh: "进行1次征兵。\n若你在上个回合进行了对应，获得1点集中力。",
+    textZhG1: "进行1次征兵。若上一回合内你进行过对应，则获得1点集中力。",
+    textKo: "징병을 1번 한다.\n당신이 직전 턴에 대응했다면, 집중력을 1얻는다.",
+    textEn:
+      "Conscript a Unit.\n\nIf you reacted to an attack last turn, gain 1 Vigor.",
+  },
+  "18-mizuki-o-n-5": {
+    megami: "mizuki",
+    name: "防壁",
+    nameEn: "Bulwark",
+    nameZh: "屏障",
+    nameZhG1: "防壁",
+    nameKo: "방벽",
+    ruby: "ぼうへき",
+    rubyEn: "",
+    baseType: "normal",
+    type: "action",
+    subType: "reaction",
+    text: "終端\nこのカードがこのターンであなたが行う最初の対応ならば、対応した切札でも《全力》でもない《攻撃》を打ち消す。",
+    textZh:
+      "终端\n若此牌为此回合你进行的第一次对应，则打消被对应的非《全力》也非王牌的《攻击》。",
+    textZhG1:
+      "终端\n若此牌为本回合内你进行的第一次对应，则打消被对应的非《全力》且非王牌的《攻击》。",
+    textKo:
+      "종단\n이 카드가 이 턴에서의 당신이 최초로 행하는 대응이라면, 대응한 비장패도 《전력》도 아닌 《공격》을 무효화한다.",
+    textEn:
+      "Terminal\n\nCancel the non-Special, non-Throughout attack you played this card as a Reaction to if this is the first time you are reacting to an attack this turn.",
+  },
+  "18-mizuki-o-n-6": {
+    megami: "mizuki",
+    name: "制圧前進",
+    nameEn: "Steady Advance",
+    nameZh: "前进压制",
+    nameZhG1: "压制前进",
+    nameKo: "제압전진",
+    ruby: "せいあつぜんしん",
+    rubyEn: "",
+    baseType: "normal",
+    type: "action",
+    subType: "fullpower",
+    text: "徴兵を1回行い、相手を畏縮させる。\n現在の間合が3以上ならば　間合→自オーラ：1",
+    textZh: "进行1次征兵，令对手畏缩。\n现在的距离大于等于3的话：距→1→自装",
+    textZhG1: "进行1次征兵，对手畏缩。\n若当前距离大于等于3，则距（1）→自装",
+    textKo:
+      "징병을 1번 하고, 상대를 위축시킨다.\n현재의 간격이 3이상이라면, 간격→자신 오라：1",
+    textEn:
+      "Conscript a Unit. Flinch your opponent.\n\nIf the current Distance is 3 or more:\nDistance (1)→ Your Aura",
+  },
+  "18-mizuki-o-n-7": {
+    megami: "mizuki",
+    name: "戦場",
+    nameEn: "Front Line",
+    nameZh: "战场",
+    nameZhG1: "战场",
+    nameKo: "전장",
+    ruby: "いくさば",
+    rubyEn: "",
+    baseType: "normal",
+    type: "enhance",
+    capacity: "3",
+    text: "【展開中】不動―あなたがこのターンで初めて切札でない《攻撃》を行った時、このターン中に現在の間合が変化していないならば、その《攻撃》は+1/+1となる。\n（このカードはコダマのカードとして扱う）",
+    textZh:
+      "【展开中】不动～你进行本回合第一次非王牌的《攻击》的时候，若本回合的距没有发生变化，则该《攻击》得+1/+1。\n（将此牌视为木灵的牌）",
+    textZhG1:
+      "【展开中】不动～每个回合内，每当你进行第一次非王牌的《攻击》时，若本回合内当前距离的值没有发生过变化，则该《攻击》获得+1/+1。（此牌视为木灵的牌）",
+    textKo:
+      "【전개중】부동―당신이 이 턴에서 처음으로 비장패가 아닌 《공격》을 했을 때, 이 턴 동안 현재의 간격이 변화하지 않았다면, 그 《공격》은 +1/+1된다.\n（이 카드는 코다마의 카드로 취급한다）",
+    textEn:
+      "Ongoing: Unwavering - Whenever you make your first non-Special attack each turn, if the Distance hasn't changed this turn, that attack gains +1/+1.\n\n(Treat this card as a Kodama card.)",
+  },
+  "18-mizuki-o-s-1": {
+    megami: "mizuki",
+    name: "天主八龍閣",
+    nameEn: 'Tenshu Keep "Hachiryou"',
+    nameZh: "天主八龙阁",
+    nameZhG1: "天主八龙阁",
+    nameKo: "하치류 천주각",
+    ruby: "てんしゅはちりょうかく",
+    rubyEn: "",
+    baseType: "special",
+    type: "enhance",
+    subType: "reaction",
+    capacity: "3",
+    cost: "5",
+    text: "終端\n【展開時】対応した《攻撃》を打ち消す。\n【展開中】あなたの他のメガミまたは兵員の《攻撃》は+0/+1となる。",
+    textZh:
+      "终端\n【展开时】打消被对应的《攻击》。\n【展开中】你的其他女神以及兵员的《攻击》得+0/+1。",
+    textZhG1:
+      "终端\n【展开时】打消被对应的《攻击》。\n【展开中】你的兵员和其他女神的《攻击》得+0/+1。",
+    textKo:
+      "종단\n【전개시】대응한 《공격》을 무효화한다.\n【전개중】당신의 다른 여신 또는 병사의 《공격》은 +0/+1된다.",
+    textEn:
+      "Terminal\n\nInitialize: Cancel the attack you played this card as a Reaction to.\n\nOngoing: Your attacks from Units and non-Mizuki Megami gain +0/+1.",
+  },
+  "18-mizuki-o-s-2": {
+    megami: "mizuki",
+    name: "三重膝丸櫓",
+    nameEn: 'Mie Turret "Hizamaru"',
+    nameZh: "三重膝丸橹",
+    nameZhG1: "三重膝丸橹",
+    nameKo: "히자마루 삼중루",
+    ruby: "みえひざまるやぐら",
+    rubyEn: "",
+    baseType: "special",
+    type: "attack",
+    range: "3-4",
+    damage: "3/1",
+    cost: "2",
+    text: "【常時】あなたがこのターン中に攻撃しているならば、このカードは使用できない。\n----\n【即再起】あなたが終端を持つカードを使用する。\n（解決より前に再起する）",
+    textZh:
+      "【常时】你在该回合中进行过攻击的话则不能使用此牌。\n----\n【即再起】你使用带终端的牌时。（在结算前再起）",
+    textZhG1:
+      "【常时】若本回合内你进行过《攻击》，则你不能使用此牌。\n----\n【即再起】你使用具终端关键字的牌。（该牌结算前再起）",
+    textKo:
+      "【상시】당신이 이 턴 중에 공격했다면, 이 카드는 사용할 수 없다.\n----\n【즉재기】당신이 종단을 가진 카드를 사용했다.\n（해결하기 전에 재기한다）",
+    textEn:
+      "Forced: You cannot play this card if you have made an attack this turn.\n\nImmediate Resurgence: You play a card with Terminal. (Turn this card face-down before that card resolves.)",
+  },
+  "18-mizuki-o-s-3": {
+    megami: "mizuki",
+    name: "大手楯無門",
+    nameEn: 'Ōte Gate "Tatenashi"',
+    nameZh: "大手楯无门",
+    nameZhG1: "大手楯无门",
+    nameKo: "타테나시 대수문",
+    ruby: "おおてたてなしもん",
+    rubyEn: "",
+    baseType: "special",
+    type: "action",
+    cost: "4",
+    text: "終端\nあなたの手札1枚と追加札の「闘神」を兵舎に徴兵済で置く。",
+    textZh: "终端\n将你的1张手牌和追加牌处的『斗神』以已征兵的状态置入兵营。",
+    textZhG1: "终端\n将你的1张手牌与追加牌中的『斗神』以已征兵状态置于兵舍。",
+    textKo:
+      "종단\n당신의 손패 1장과 추가패의 「투신」을 병영에 징집 상태로 둔다.",
+    textEn:
+      'Terminal\n\nPut your set aside "Divinity of War" and a card from your hand into your Barracks, conscripted.',
+  },
+  "18-mizuki-o-s-3-ex1": {
+    megami: "mizuki",
+    name: "闘神",
+    nameEn: "Divinity of War",
+    nameZh: "斗神",
+    nameZhG1: "斗神",
+    nameKo: "투신",
+    ruby: "とうしん",
+    rubyEn: "",
+    baseType: "normal",
+    extra: true,
+    extraFrom: "18-mizuki-o-s-3",
+    type: "attack",
+    range: "1-2",
+    damage: "2/1",
+    text: "【常時】不動―このターン中に現在の間合が変化していないならば、この《攻撃》は+0/+1となる。\n【攻撃後】このカードを追加札に戻す。\n（このカードはコダマのカードとして扱う）",
+    textZh:
+      "【常时】不动～若本回合的距没有发生变化，则此《攻击》得+0/+1。\n【攻击后】将此牌移回追加牌处。\n（将此牌视为木灵的牌）",
+    textZhG1:
+      "【常时】不动～若本回合内当前距离的值没有发生过变化，则此《攻击》获得+1/+0。\n【攻击后】将此牌移回追加牌。\n（此牌视为木灵的牌）",
+    textKo:
+      "【상시】부동―이 턴 동안 현재의 간격이 변화하지 않았다면, 이 《공격》은 +0/+1된다.\n【공격후】이 카드를 추가패로 되돌린다.\n（이 카드는 코다마의 카드로 취급한다.）",
+    textEn:
+      "Forced: Unwavering - This attack gains +0/+1 if the Distance hasn't changed this turn.\n\nAfter Attack: Return this card to your set aside cards.\n\n(Treat this card as a Kodama card.)",
+  },
+  "18-mizuki-o-s-4": {
+    megami: "mizuki",
+    name: "山城水津城の鬨の声",
+    nameEn: "Mizuki's Roaring Warcry",
+    nameZh: "山城水津城的战吼声",
+    nameZhG1: "山城水津城的喧天号角",
+    nameKo: "야마시로 미즈키의 전투의 함성",
+    ruby: "やましろみずきのときのこえ",
+    rubyEn: "",
+    baseType: "special",
+    type: "enhance",
+    subType: "fullpower",
+    capacity: "5",
+    cost: "5",
+    text: "【展開中】元々終端を持つあなたの通常札と兵員は終端を失う。\n【展開中】元々が《全力》であるあなたの通常札は《全力》を失い、終端を得る。",
+    textZh:
+      "【展开中】你原本就具备终端的通常牌和兵员失去终端。\n【展开中】你原本就具备《全力》的通常牌失去《全力》并获得终端。",
+    textZhG1:
+      "【展开中】你的原本具终端关键字的通常牌和兵员牌失去终端。\n【展开中】你的原本具《全力》副类别的通常牌失去《全力》副类别，并获得终端。",
+    textKo:
+      "【전개중】원래 종단을 가진 당신의 통상패와 병사는 종단을 잃는다.\n【전개중】원래 《전력》을 가진 당신의 통상패는 《전력》을 잃고, 종단을 얻는다.",
+    textEn:
+      "Ongoing: Your Normal and Unit cards with printed Terminal lose Terminal.\n\nOngoing: Your Normal cards with the printed Throughout subtype lose that subtype and gain Terminal.",
+  },
+  "18-mizuki-o-t-1": {
+    megami: "mizuki",
+    name: "槍兵",
+    nameEn: "Spearman",
+    nameZh: "枪兵",
+    nameZhG1: "枪兵",
+    nameKo: "창병",
+    ruby: "やりへい",
+    rubyEn: "",
+    baseType: "troop",
+    type: "attack",
+    range: "3",
+    damage: "1/1",
+    text: "兵員（兵舎、使用中、付与札以外の領域に移動するならば、代わりに兵舎に戻る）\n----\n終端\n【常時】あなたが直前のターンに対応しているならば、この《攻撃》は+1/+0となる。",
+    textZh:
+      "兵员（移动到兵营、使用中、付与区之外的区域的时候，改为移回兵营）\n----\n终端\n【常时】若你在上个回合进行了对应，则此《攻击》得+1/+0。",
+    textZhG1:
+      "兵员（移动到兵营、使用中、付与区之外的区域的时候，改为移回兵营）\n----\n终端\n【常时】若上一回合内你进行过对应，则此《攻击》获得+1/+0。",
+    textKo:
+      "병사（병영, 사용중, 부여패 이외의 영역에서 이동한다면, 대신에 병영으로 되돌린다）\n----\n종단\n【상시】당신이 직전 턴에 대응했다면, 이 공격은 +1/+0된다.",
+    textEn:
+      "Unit (If you move to an area other than the barracks, in use, or enhancements, return to the barracks instead)\n----\nTerminal\n\nForced: If you reacted to an attack last turn, this attack gains +1/+0.",
+  },
+  "18-mizuki-o-t-2": {
+    megami: "mizuki",
+    name: "盾兵",
+    nameEn: "Shieldbearer",
+    nameZh: "盾兵",
+    nameZhG1: "盾兵",
+    nameKo: "방패병",
+    ruby: "たてへい",
+    rubyEn: "",
+    baseType: "troop",
+    type: "action",
+    subType: "reaction",
+    text: "兵員（兵舎、使用中、付与札以外の領域に移動するならば、代わりに兵舎に戻る）\n----\n終端\n対応した《全力》でない《攻撃》は-1/+0となる。",
+    textZh:
+      "兵员（移动到兵营、使用中、付与区之外的区域的时候，改为移回兵营）\n----\n终端\n被对应的非《全力》的《攻击》得-1/+0。",
+    textZhG1:
+      "兵员（移动到兵营、使用中、付与区之外的区域的时候，改为移回兵营）\n----\n终端\n被对应的非《全力》的《攻击》获得-1/+0。",
+    textKo:
+      "병사（병영, 사용중, 부여패 이외의 영역에서 이동한다면, 대신에 병영으로 되돌린다）\n----\n종단\n대응한 《전력》이 아닌 《공격》은 -1/+0된다.",
+    textEn:
+      "Unit (If you move to an area other than the barracks, in use, or enhancements, return to the barracks instead)\n----\nTerminal\n\nThe non-Throughout attack you played this card as a Reaction to gets -1/+0.",
+  },
+  "18-mizuki-o-t-3": {
+    megami: "mizuki",
+    name: "騎兵",
+    nameEn: "Cavalry",
+    nameZh: "骑兵",
+    nameZhG1: "骑兵",
+    nameKo: "기병",
+    ruby: "きへい",
+    rubyEn: "",
+    baseType: "troop",
+    type: "enhance",
+    capacity: "2",
+    text: "兵員（兵舎、使用中、付与札以外の領域に移動するならば、代わりに兵舎に戻る）\n----\n終端　隙\n【破棄時】あなたは集中力を1得る。",
+    textZh:
+      "兵员（移动到兵营、使用中、付与区之外的区域的时候，改为移回兵营）\n----\n终端 破绽\n【破弃时】你获得1点集中力。",
+    textZhG1:
+      "兵员（移动到兵营、使用中、付与区之外的区域的时候，改为移回兵营）\n----\n终端 破绽\n【破弃时】你获得1点集中力。",
+    textKo:
+      "병사（병영, 사용중, 부여패 이외의 영역에서 이동한다면, 대신에 병영으로 되돌린다）\n----\n종단 틈\n【파기시】당신은 집중력을 1얻는다.",
+    textEn:
+      "Unit (If you move to an area other than the barracks, in use, or enhancements, return to the barracks instead)\n----\nTerminal Unguarded\n\nDisenchant: Gain 1 Vigor.",
+  },
+};
 // シーズン6
 export const S6_UPDATED_CARD_DATA: Partial<{ [id in TCardId]: CardDataItem }> =
   {

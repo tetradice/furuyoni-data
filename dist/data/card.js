@@ -5200,7 +5200,7 @@ exports.S5_UPDATED_CARD_DATA = {
         capacity: "3",
         cost: "2",
         text: "【展開中】相手の《攻撃》の解決後に以下を全て行ってもよい。\n・間合⇔ダスト：1\n・風神ゲージか雷神ゲージを1上げる。",
-        textZh: "【展开中】对手的攻击结算完毕时，你可以选择最多两项：\n●距↔1↔虚\n●选择风神槽或雷神槽，其值增加1。",
+        textZh: "【展开中】对手的《攻击》结算完毕时，你可以依次结算下述效果：\n●距↔1↔虚\n●选择风神槽或雷神槽，其值增加1。",
         textZhG1: "【展开中】每当对手进行的《攻击》结算完毕时，你可以依次执行：\n距（1）⇔ 虚 \n选择风神槽或雷神槽，其值增加1。",
         textKo: "【전개중】상대의 《공격》 해결 후에 아래를 전부 처리해도 좋다.\n・간격⇔더스트：1\n・풍신 게이지 또는 뇌신 게이지를 1올린다.",
         textEn: "Ongoing: After one of your opponent's attacks resolves, perform neither or both:\n・Distance (1)⇔ Shadow\n・Increase your Wind or Thunder Gauge by 1.",
