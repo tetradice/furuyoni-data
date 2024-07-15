@@ -126,7 +126,7 @@ exports.CARD_SET_DATA = {
         listNameEn: "",
     },
     "na-s9-2": {
-        seasonNumber: 11,
+        seasonNumber: 13,
         name: "新幕 シーズン9-2",
         listName: "新幕 シーズン9-2 (2024/6/24～)",
         nameZh: "新幕 赛季9-2",

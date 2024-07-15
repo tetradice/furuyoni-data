@@ -136,7 +136,7 @@ export declare const CARD_SET_DATA: {
         readonly listNameEn: "";
     };
     readonly "na-s9-2": {
-        readonly seasonNumber: 11;
+        readonly seasonNumber: 13;
         readonly name: "新幕 シーズン9-2";
         readonly listName: "新幕 シーズン9-2 (2024/6/24～)";
         readonly nameZh: "新幕 赛季9-2";
