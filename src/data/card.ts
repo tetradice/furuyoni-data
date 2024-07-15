@@ -2391,7 +2391,7 @@ export const S2_BASE_CARD_DATA: Partial<{ [id in TCardId]: CardDataItem }> = {
     baseType: "special",
     type: "action",
     cost: "3",
-    text: "毒袋から「滅灯毒」を1枚を選び、そのカードを相手の山札の一番上に置く。",
+    text: "毒袋から「滅灯毒」を1枚選び、そのカードを相手の山札の一番上に置く。",
     textZh: "从毒袋中将1张『灭灯毒』置于对手的牌库顶。",
     textZhG1: "从毒袋中将一张灭灯毒置于对手的牌库顶。",
     textKo:
