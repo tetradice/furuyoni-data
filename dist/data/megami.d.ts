@@ -715,7 +715,7 @@ declare const MEGAMI_DATA_BASE: {
         readonly notExistCardSets: CardSet[];
         readonly tarotNo: "25";
     };
-    readonly "innealra-01": {
+    readonly "innealra-o1": {
         readonly name: "イヌル";
         readonly nameZh: "";
         readonly nameZhG1: "";
@@ -728,10 +728,10 @@ declare const MEGAMI_DATA_BASE: {
         readonly symbolEn: "";
         readonly notExistCardSets: CardSet[];
         readonly base: "innealra";
-        readonly anotherID: "01";
+        readonly anotherID: "O1";
         readonly tarotNo: "26";
     };
-    readonly "innealra-02": {
+    readonly "innealra-o2": {
         readonly name: "マヒル";
         readonly nameZh: "";
         readonly nameZhG1: "";
@@ -744,10 +744,10 @@ declare const MEGAMI_DATA_BASE: {
         readonly symbolEn: "";
         readonly notExistCardSets: CardSet[];
         readonly base: "innealra";
-        readonly anotherID: "02";
+        readonly anotherID: "O2";
         readonly tarotNo: "26";
     };
-    readonly "innealra-03": {
+    readonly "innealra-o3": {
         readonly name: "アクル";
         readonly nameZh: "";
         readonly nameZhG1: "";
@@ -760,7 +760,7 @@ declare const MEGAMI_DATA_BASE: {
         readonly symbolEn: "";
         readonly notExistCardSets: CardSet[];
         readonly base: "innealra";
-        readonly anotherID: "03";
+        readonly anotherID: "O3";
         readonly tarotNo: "26";
     };
     readonly "yurina-story-0": {

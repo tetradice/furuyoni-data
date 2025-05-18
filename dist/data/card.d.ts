@@ -1689,6 +1689,7 @@ export declare const S10_UPDATED_CARD_DATA: {
         readonly rubyEn: "";
         readonly baseType: "normal";
         readonly type: "attack";
+        readonly range: "1-7";
         readonly damage: "1/1";
         readonly text: "【攻撃後】共鳴する。";
         readonly textZh: "";
@@ -1755,6 +1756,8 @@ export declare const S10_UPDATED_CARD_DATA: {
     };
     readonly "26-innealra-o1-n-2": {
         readonly megami: "innealra";
+        readonly anotherID: "O1";
+        readonly replace: "26-innealra-o-n-2";
         readonly name: "呪詛";
         readonly nameEn: "";
         readonly nameZh: "";
@@ -1774,6 +1777,8 @@ export declare const S10_UPDATED_CARD_DATA: {
     };
     readonly "26-innealra-o1-n-3": {
         readonly megami: "innealra";
+        readonly anotherID: "O1";
+        readonly replace: "26-innealra-o-n-3";
         readonly name: "祖槍";
         readonly nameEn: "";
         readonly nameZh: "";
@@ -1793,6 +1798,8 @@ export declare const S10_UPDATED_CARD_DATA: {
     };
     readonly "26-innealra-o1-n-4": {
         readonly megami: "innealra";
+        readonly anotherID: "O1";
+        readonly replace: "26-innealra-o-n-4";
         readonly name: "悔恨";
         readonly nameEn: "";
         readonly nameZh: "";
@@ -1810,6 +1817,8 @@ export declare const S10_UPDATED_CARD_DATA: {
     };
     readonly "26-innealra-o1-n-6": {
         readonly megami: "innealra";
+        readonly anotherID: "O1";
+        readonly replace: "26-innealra-o-n-6";
         readonly name: "憂き意志";
         readonly nameEn: "";
         readonly nameZh: "";
@@ -1828,6 +1837,8 @@ export declare const S10_UPDATED_CARD_DATA: {
     };
     readonly "26-innealra-o1-s-1": {
         readonly megami: "innealra";
+        readonly anotherID: "O1";
+        readonly replace: "26-innealra-o-s-1";
         readonly name: "スピエル・サラバエル";
         readonly nameEn: "";
         readonly nameZh: "";
@@ -1848,6 +1859,8 @@ export declare const S10_UPDATED_CARD_DATA: {
     };
     readonly "26-innealra-o1-s-2": {
         readonly megami: "innealra";
+        readonly anotherID: "O1";
+        readonly replace: "26-innealra-o-s-2";
         readonly name: "イヤルカス・シラマカス";
         readonly nameEn: "";
         readonly nameZh: "";
@@ -1868,6 +1881,8 @@ export declare const S10_UPDATED_CARD_DATA: {
     };
     readonly "26-innealra-o1-s-3": {
         readonly megami: "innealra";
+        readonly anotherID: "O1";
+        readonly replace: "26-innealra-o-s-3";
         readonly name: "イム・クレナズム";
         readonly nameEn: "";
         readonly nameZh: "";
@@ -1876,6 +1891,7 @@ export declare const S10_UPDATED_CARD_DATA: {
         readonly ruby: "";
         readonly rubyEn: "";
         readonly baseType: "special";
+        readonly type: "action";
         readonly cost: "3";
         readonly text: "【使用済】相手の捨て札にあるカードは山札の再構成により移動しない。\n【使用済】相手が山札の再構成を行った後、このカードを取り除く。";
         readonly textZh: "";
@@ -1886,6 +1902,8 @@ export declare const S10_UPDATED_CARD_DATA: {
     };
     readonly "26-innealra-o2-n-2": {
         readonly megami: "innealra";
+        readonly anotherID: "O2";
+        readonly replace: "26-innealra-o-n-2";
         readonly name: "刃砕き";
         readonly nameEn: "";
         readonly nameZh: "";
@@ -1905,6 +1923,8 @@ export declare const S10_UPDATED_CARD_DATA: {
     };
     readonly "26-innealra-o2-n-3": {
         readonly megami: "innealra";
+        readonly anotherID: "O2";
+        readonly replace: "26-innealra-o-n-3";
         readonly name: "鳴槍";
         readonly nameEn: "";
         readonly nameZh: "";
@@ -1924,6 +1944,8 @@ export declare const S10_UPDATED_CARD_DATA: {
     };
     readonly "26-innealra-o2-n-4": {
         readonly megami: "innealra";
+        readonly anotherID: "O2";
+        readonly replace: "26-innealra-o-n-4";
         readonly name: "当惑";
         readonly nameEn: "";
         readonly nameZh: "";
@@ -1941,6 +1963,8 @@ export declare const S10_UPDATED_CARD_DATA: {
     };
     readonly "26-innealra-o2-n-6": {
         readonly megami: "innealra";
+        readonly anotherID: "O2";
+        readonly replace: "26-innealra-o-n-6";
         readonly name: "脆き意志";
         readonly nameEn: "";
         readonly nameZh: "";
@@ -1959,6 +1983,8 @@ export declare const S10_UPDATED_CARD_DATA: {
     };
     readonly "26-innealra-o2-s-1": {
         readonly megami: "innealra";
+        readonly anotherID: "O2";
+        readonly replace: "26-innealra-o-s-1";
         readonly name: "スピエル・ウレエル";
         readonly nameEn: "";
         readonly nameZh: "";
@@ -1979,6 +2005,8 @@ export declare const S10_UPDATED_CARD_DATA: {
     };
     readonly "26-innealra-o2-s-2": {
         readonly megami: "innealra";
+        readonly anotherID: "O2";
+        readonly replace: "26-innealra-o-s-2";
         readonly name: "スナハイド・ドウズレド";
         readonly nameEn: "";
         readonly nameZh: "";
@@ -1999,6 +2027,8 @@ export declare const S10_UPDATED_CARD_DATA: {
     };
     readonly "26-innealra-o2-s-3": {
         readonly megami: "innealra";
+        readonly anotherID: "O2";
+        readonly replace: "26-innealra-o-s-3";
         readonly name: "シキリス・ホリス";
         readonly nameEn: "";
         readonly nameZh: "";
@@ -2019,6 +2049,8 @@ export declare const S10_UPDATED_CARD_DATA: {
     };
     readonly "26-innealra-o3-n-2": {
         readonly megami: "innealra";
+        readonly anotherID: "O3";
+        readonly replace: "26-innealra-o-n-2";
         readonly name: "星空包み";
         readonly nameEn: "";
         readonly nameZh: "";
@@ -2038,6 +2070,8 @@ export declare const S10_UPDATED_CARD_DATA: {
     };
     readonly "26-innealra-o3-n-3": {
         readonly megami: "innealra";
+        readonly anotherID: "O3";
+        readonly replace: "26-innealra-o-n-3";
         readonly name: "怪槍";
         readonly nameEn: "";
         readonly nameZh: "";
@@ -2057,6 +2091,8 @@ export declare const S10_UPDATED_CARD_DATA: {
     };
     readonly "26-innealra-o3-n-4": {
         readonly megami: "innealra";
+        readonly anotherID: "O3";
+        readonly replace: "26-innealra-o-n-4";
         readonly name: "諦観";
         readonly nameEn: "";
         readonly nameZh: "";
@@ -2074,6 +2110,8 @@ export declare const S10_UPDATED_CARD_DATA: {
     };
     readonly "26-innealra-o3-n-6": {
         readonly megami: "innealra";
+        readonly anotherID: "O3";
+        readonly replace: "26-innealra-o-n-6";
         readonly name: "儚き意志";
         readonly nameEn: "";
         readonly nameZh: "";
@@ -2092,6 +2130,8 @@ export declare const S10_UPDATED_CARD_DATA: {
     };
     readonly "26-innealra-o3-s-1": {
         readonly megami: "innealra";
+        readonly anotherID: "O3";
+        readonly replace: "26-innealra-o-s-1";
         readonly name: "スピエル・ナガラエル";
         readonly nameEn: "";
         readonly nameZh: "";
@@ -2112,6 +2152,8 @@ export declare const S10_UPDATED_CARD_DATA: {
     };
     readonly "26-innealra-o3-s-2": {
         readonly megami: "innealra";
+        readonly anotherID: "O3";
+        readonly replace: "26-innealra-o-s-2";
         readonly name: "アイリアス・アルアス";
         readonly nameEn: "";
         readonly nameZh: "";
@@ -2132,6 +2174,8 @@ export declare const S10_UPDATED_CARD_DATA: {
     };
     readonly "26-innealra-o3-s-3": {
         readonly megami: "innealra";
+        readonly anotherID: "O3";
+        readonly replace: "26-innealra-o-s-3";
         readonly name: "クレーニャ・アンニャ";
         readonly nameEn: "";
         readonly nameZh: "";
@@ -2148,6 +2192,128 @@ export declare const S10_UPDATED_CARD_DATA: {
         readonly textKo: "";
         readonly textEn: "";
         readonly removable: true;
+    };
+    readonly "26-innealra-o-n-2": {
+        readonly megami: "innealra";
+        readonly name: "";
+        readonly nameEn: "";
+        readonly nameZh: "";
+        readonly nameZhG1: "";
+        readonly nameKo: "";
+        readonly ruby: "";
+        readonly rubyEn: "";
+        readonly baseType: "normal";
+        readonly type: "action";
+        readonly text: "";
+        readonly textZh: "";
+        readonly textZhG1: "";
+        readonly textKo: "";
+        readonly textEn: "";
+    };
+    readonly "26-innealra-o-n-3": {
+        readonly megami: "innealra";
+        readonly name: "";
+        readonly nameEn: "";
+        readonly nameZh: "";
+        readonly nameZhG1: "";
+        readonly nameKo: "";
+        readonly ruby: "";
+        readonly rubyEn: "";
+        readonly baseType: "normal";
+        readonly type: "action";
+        readonly text: "";
+        readonly textZh: "";
+        readonly textZhG1: "";
+        readonly textKo: "";
+        readonly textEn: "";
+    };
+    readonly "26-innealra-o-n-4": {
+        readonly megami: "innealra";
+        readonly name: "";
+        readonly nameEn: "";
+        readonly nameZh: "";
+        readonly nameZhG1: "";
+        readonly nameKo: "";
+        readonly ruby: "";
+        readonly rubyEn: "";
+        readonly baseType: "normal";
+        readonly type: "action";
+        readonly text: "";
+        readonly textZh: "";
+        readonly textZhG1: "";
+        readonly textKo: "";
+        readonly textEn: "";
+    };
+    readonly "26-innealra-o-n-6": {
+        readonly megami: "innealra";
+        readonly name: "";
+        readonly nameEn: "";
+        readonly nameZh: "";
+        readonly nameZhG1: "";
+        readonly nameKo: "";
+        readonly ruby: "";
+        readonly rubyEn: "";
+        readonly baseType: "normal";
+        readonly type: "action";
+        readonly text: "";
+        readonly textZh: "";
+        readonly textZhG1: "";
+        readonly textKo: "";
+        readonly textEn: "";
+    };
+    readonly "26-innealra-o-s-1": {
+        readonly megami: "innealra";
+        readonly name: "";
+        readonly nameEn: "";
+        readonly nameZh: "";
+        readonly nameZhG1: "";
+        readonly nameKo: "";
+        readonly ruby: "";
+        readonly rubyEn: "";
+        readonly baseType: "special";
+        readonly type: "action";
+        readonly cost: "ｘ";
+        readonly text: "";
+        readonly textZh: "";
+        readonly textZhG1: "";
+        readonly textKo: "";
+        readonly textEn: "";
+    };
+    readonly "26-innealra-o-s-2": {
+        readonly megami: "innealra";
+        readonly name: "";
+        readonly nameEn: "";
+        readonly nameZh: "";
+        readonly nameZhG1: "";
+        readonly nameKo: "";
+        readonly ruby: "";
+        readonly rubyEn: "";
+        readonly baseType: "special";
+        readonly type: "action";
+        readonly cost: "x";
+        readonly text: "";
+        readonly textZh: "";
+        readonly textZhG1: "";
+        readonly textKo: "";
+        readonly textEn: "";
+    };
+    readonly "26-innealra-o-s-3": {
+        readonly megami: "innealra";
+        readonly name: "";
+        readonly nameEn: "";
+        readonly nameZh: "";
+        readonly nameZhG1: "";
+        readonly nameKo: "";
+        readonly ruby: "";
+        readonly rubyEn: "";
+        readonly baseType: "special";
+        readonly type: "action";
+        readonly cost: "x";
+        readonly text: "";
+        readonly textZh: "";
+        readonly textZhG1: "";
+        readonly textKo: "";
+        readonly textEn: "";
     };
 };
 export declare const STORY_CARD_DATA: Partial<{

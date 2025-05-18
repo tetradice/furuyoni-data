@@ -873,7 +873,7 @@ const MEGAMI_DATA_BASE = {
     ] as CardSet[],
     tarotNo: "25",
   },
-  "innealra-01": {
+  "innealra-o1": {
     name: "イヌル",
     nameZh: "",
     nameZhG1: "",
@@ -900,10 +900,10 @@ const MEGAMI_DATA_BASE = {
       "na-s9-2",
     ] as CardSet[],
     base: "innealra",
-    anotherID: "01",
+    anotherID: "O1",
     tarotNo: "26",
   },
-  "innealra-02": {
+  "innealra-o2": {
     name: "マヒル",
     nameZh: "",
     nameZhG1: "",
@@ -930,10 +930,10 @@ const MEGAMI_DATA_BASE = {
       "na-s9-2",
     ] as CardSet[],
     base: "innealra",
-    anotherID: "02",
+    anotherID: "O2",
     tarotNo: "26",
   },
-  "innealra-03": {
+  "innealra-o3": {
     name: "アクル",
     nameZh: "",
     nameZhG1: "",
@@ -960,7 +960,7 @@ const MEGAMI_DATA_BASE = {
       "na-s9-2",
     ] as CardSet[],
     base: "innealra",
-    anotherID: "03",
+    anotherID: "O3",
     tarotNo: "26",
   },
 

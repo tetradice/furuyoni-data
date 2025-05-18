@@ -87,6 +87,9 @@ function getMegamiKeys(mode, cardSet) {
     for (let key in index_js_1.MEGAMI_DATA) {
         let megami = key;
         let megamiData = index_js_1.MEGAMI_DATA[megami];
+        // イニルノルニルのオリジンはダミーデータのためスキップ
+        if (megami === "innealra")
+            continue;
         // 原初メガミは対応する物語セットでなければスキップ
         if (megami === "korunu-story-10" &&
             cardSet !== "story-10" &&
