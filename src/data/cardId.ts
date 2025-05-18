@@ -670,6 +670,55 @@ export namespace CardId {
     "26-innealra-o3-s-2";
   /** 《クレーニャ・アンニャ》 */ export const INNEALRA_O3_S_3: TCardId =
     "26-innealra-o3-s-3";
+
+  /** 《かえりみ》 */ export const INNEALRA_O1_F_1: TCardId =
+    "26-innealra-o1-f-1";
+  /** 《糾えるかえりみ》 */ export const INNEALRA_O1_F_1A: TCardId =
+    "26-innealra-o1-f-1a";
+  /** 《くやみ》 */ export const INNEALRA_O1_F_2: TCardId =
+    "26-innealra-o1-f-2";
+  /** 《糾えるくやみ》 */ export const INNEALRA_O1_F_2A: TCardId =
+    "26-innealra-o1-f-2a";
+  /** 《うらみ》 */ export const INNEALRA_O1_F_3: TCardId =
+    "26-innealra-o1-f-3";
+  /** 《糾えるうらみ》 */ export const INNEALRA_O1_F_3A: TCardId =
+    "26-innealra-o1-f-3a";
+  /** 《まどろみ》 */ export const INNEALRA_O1_F_4: TCardId =
+    "26-innealra-o1-f-4";
+  /** 《糾えるまどろみ》 */ export const INNEALRA_O1_F_4A: TCardId =
+    "26-innealra-o1-f-4a";
+  /** 《とまどい》 */ export const INNEALRA_O2_F_1: TCardId =
+    "26-innealra-o2-f-1";
+  /** 《糾えるとまどい》 */ export const INNEALRA_O2_F_1A: TCardId =
+    "26-innealra-o2-f-1a";
+  /** 《うつろい》 */ export const INNEALRA_O2_F_2: TCardId =
+    "26-innealra-o2-f-2";
+  /** 《糾えるうつろい》 */ export const INNEALRA_O2_F_2A: TCardId =
+    "26-innealra-o2-f-2a";
+  /** 《ちりまがい》 */ export const INNEALRA_O2_F_3: TCardId =
+    "26-innealra-o2-f-3";
+  /** 《糾えるちりまがい》 */ export const INNEALRA_O2_F_3A: TCardId =
+    "26-innealra-o2-f-3a";
+  /** 《あがない》 */ export const INNEALRA_O2_F_4: TCardId =
+    "26-innealra-o2-f-4";
+  /** 《糾えるあがない》 */ export const INNEALRA_O2_F_4A: TCardId =
+    "26-innealra-o2-f-4a";
+  /** 《あこがれ》 */ export const INNEALRA_O3_F_1: TCardId =
+    "26-innealra-o3-f-1";
+  /** 《糾えるあこがれ》 */ export const INNEALRA_O3_F_1A: TCardId =
+    "26-innealra-o3-f-1a";
+  /** 《うなだれ》 */ export const INNEALRA_O3_F_2: TCardId =
+    "26-innealra-o3-f-2";
+  /** 《糾えるうなだれ》 */ export const INNEALRA_O3_F_2A: TCardId =
+    "26-innealra-o3-f-2a";
+  /** 《のがれ》 */ export const INNEALRA_O3_F_3: TCardId =
+    "26-innealra-o3-f-3";
+  /** 《糾えるのがれ》 */ export const INNEALRA_O3_F_3A: TCardId =
+    "26-innealra-o3-f-3a";
+  /** 《かすれ》 */ export const INNEALRA_O3_F_4: TCardId =
+    "26-innealra-o3-f-4";
+  /** 《糾えるかすれ》 */ export const INNEALRA_O3_F_4A: TCardId =
+    "26-innealra-o3-f-4a";
 }
 
 export type TCardId =
@@ -1141,6 +1190,30 @@ export type TCardId =
   | "26-innealra-o-s-1"
   | "26-innealra-o-s-2"
   | "26-innealra-o-s-3"
+  | "26-innealra-o1-f-1"
+  | "26-innealra-o1-f-1a"
+  | "26-innealra-o1-f-2"
+  | "26-innealra-o1-f-2a"
+  | "26-innealra-o1-f-3"
+  | "26-innealra-o1-f-3a"
+  | "26-innealra-o1-f-4"
+  | "26-innealra-o1-f-4a"
+  | "26-innealra-o2-f-1"
+  | "26-innealra-o2-f-1a"
+  | "26-innealra-o2-f-2"
+  | "26-innealra-o2-f-2a"
+  | "26-innealra-o2-f-3"
+  | "26-innealra-o2-f-3a"
+  | "26-innealra-o2-f-4"
+  | "26-innealra-o2-f-4a"
+  | "26-innealra-o3-f-1"
+  | "26-innealra-o3-f-1a"
+  | "26-innealra-o3-f-2"
+  | "26-innealra-o3-f-2a"
+  | "26-innealra-o3-f-3"
+  | "26-innealra-o3-f-3a"
+  | "26-innealra-o3-f-4"
+  | "26-innealra-o3-f-4a"
 
   // 物語セット
   | "story-00-A-1"

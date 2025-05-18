@@ -89,7 +89,8 @@ export interface CardDataItem {
     | "plan"
     | "diving"
     | "mainParts"
-    | "customParts";
+    | "customParts"
+    | "fate";
   name: string;
   nameZh: string;
   nameZhG1: string;
