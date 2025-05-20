@@ -2427,7 +2427,7 @@ export declare const S10_UPDATED_CARD_DATA: {
         readonly ruby: "";
         readonly rubyEn: "";
         readonly baseType: "fate";
-        readonly text: "";
+        readonly text: "あなたと相手の山札の上から1枚を伏せ札にする。\nこの運命が過去にあるならば、もう1回行う。";
         readonly textAdditional: "（クリックでまだ見ぬ運命へと移動）";
         readonly textZh: "";
         readonly textZhG1: "";
@@ -2444,7 +2444,7 @@ export declare const S10_UPDATED_CARD_DATA: {
         readonly ruby: "あざなえるまどろみ";
         readonly rubyEn: "";
         readonly baseType: "fate";
-        readonly text: "";
+        readonly text: "このターン中にあなたが基本動作を行っていないならば、相手のライフに1ダメージを与える。";
         readonly textAdditional: "（クリックでまだ見ぬ運命へと移動）";
         readonly textZh: "";
         readonly textZhG1: "";
@@ -2461,7 +2461,7 @@ export declare const S10_UPDATED_CARD_DATA: {
         readonly ruby: "";
         readonly rubyEn: "";
         readonly baseType: "fate";
-        readonly text: "";
+        readonly text: "相オーラ→相フレア：1\n相手のオーラが5以上ならば、この矢印で動く桜花結晶は1つ多くなる。";
         readonly textAdditional: "（クリックでまだ見ぬ運命へと移動）";
         readonly textZh: "";
         readonly textZhG1: "";
@@ -2478,7 +2478,7 @@ export declare const S10_UPDATED_CARD_DATA: {
         readonly ruby: "あざなえるとまどい";
         readonly rubyEn: "";
         readonly baseType: "fate";
-        readonly text: "";
+        readonly text: "相オーラ→自フレア：2";
         readonly textAdditional: "（クリックでまだ見ぬ運命へと移動）";
         readonly textZh: "";
         readonly textZhG1: "";
@@ -2495,7 +2495,7 @@ export declare const S10_UPDATED_CARD_DATA: {
         readonly ruby: "";
         readonly rubyEn: "";
         readonly baseType: "fate";
-        readonly text: "";
+        readonly text: "現在の間合に応じて以下を行う。\n5以上…間合→ダスト：2\n3以下…ダスト→間合：2";
         readonly textAdditional: "（クリックでまだ見ぬ運命へと移動）";
         readonly textZh: "";
         readonly textZhG1: "";
@@ -2512,7 +2512,7 @@ export declare const S10_UPDATED_CARD_DATA: {
         readonly ruby: "あざなえるうつろい";
         readonly rubyEn: "";
         readonly baseType: "fate";
-        readonly text: "";
+        readonly text: "間合⇔ダスト：3\nあなたはこの効果で本来より少ない個数の桜花結晶を動かしてもよい。";
         readonly textAdditional: "（クリックでまだ見ぬ運命へと移動）";
         readonly textZh: "";
         readonly textZhG1: "";
@@ -2529,7 +2529,7 @@ export declare const S10_UPDATED_CARD_DATA: {
         readonly ruby: "";
         readonly rubyEn: "";
         readonly baseType: "fate";
-        readonly text: "";
+        readonly text: "あなたは畏縮する。\n攻撃『適正距離3-5、2/2』を行う。";
         readonly textAdditional: "（クリックでまだ見ぬ運命へと移動）";
         readonly textZh: "";
         readonly textZhG1: "";
@@ -2546,7 +2546,7 @@ export declare const S10_UPDATED_CARD_DATA: {
         readonly ruby: "あざなえるちりまがい";
         readonly rubyEn: "";
         readonly baseType: "fate";
-        readonly text: "";
+        readonly text: "攻撃『適正距離2-5、3/2』を行う。";
         readonly textAdditional: "（クリックでまだ見ぬ運命へと移動）";
         readonly textZh: "";
         readonly textZhG1: "";
@@ -2563,7 +2563,7 @@ export declare const S10_UPDATED_CARD_DATA: {
         readonly ruby: "";
         readonly rubyEn: "";
         readonly baseType: "fate";
-        readonly text: "";
+        readonly text: "ダスト→自オーラ：2\nダスト→相オーラ：1";
         readonly textAdditional: "（クリックでまだ見ぬ運命へと移動）";
         readonly textZh: "";
         readonly textZhG1: "";
@@ -2580,7 +2580,7 @@ export declare const S10_UPDATED_CARD_DATA: {
         readonly ruby: "あざなえるあがない";
         readonly rubyEn: "";
         readonly baseType: "fate";
-        readonly text: "";
+        readonly text: "ダスト→自オーラ：3";
         readonly textAdditional: "（クリックでまだ見ぬ運命へと移動）";
         readonly textZh: "";
         readonly textZhG1: "";
@@ -2597,7 +2597,7 @@ export declare const S10_UPDATED_CARD_DATA: {
         readonly ruby: "";
         readonly rubyEn: "";
         readonly baseType: "fate";
-        readonly text: "";
+        readonly text: "ロスト→ダスト：3\nこの効果で3個以上の桜花結晶が移動したならば、攻撃『適正距離0-3、3/1』を行う。";
         readonly textAdditional: "（クリックでまだ見ぬ運命へと移動）";
         readonly textZh: "";
         readonly textZhG1: "";
@@ -2614,7 +2614,7 @@ export declare const S10_UPDATED_CARD_DATA: {
         readonly ruby: "あざなえるあこがれ";
         readonly rubyEn: "";
         readonly baseType: "fate";
-        readonly text: "";
+        readonly text: "攻撃『適正距離0-X、3/5、対応不可、【常時】Xはロストに等しい』を行う。\nロスト→ダスト：∞";
         readonly textAdditional: "（クリックでまだ見ぬ運命へと移動）";
         readonly textZh: "";
         readonly textZhG1: "";
@@ -2631,7 +2631,7 @@ export declare const S10_UPDATED_CARD_DATA: {
         readonly ruby: "";
         readonly rubyEn: "";
         readonly baseType: "fate";
-        readonly text: "";
+        readonly text: "ルールによる共鳴ならば以下を行う。\nあなたは集中力を1得て、自オーラ→ロスト：1\n\nそうでないならば以下を行う。\n相手を畏縮させ、ロスト→ダスト：1";
         readonly textAdditional: "（クリックでまだ見ぬ運命へと移動）";
         readonly textZh: "";
         readonly textZhG1: "";
@@ -2648,7 +2648,7 @@ export declare const S10_UPDATED_CARD_DATA: {
         readonly ruby: "あざなえるうなだれ";
         readonly rubyEn: "";
         readonly baseType: "fate";
-        readonly text: "";
+        readonly text: "相ライフ→ロスト：1";
         readonly textAdditional: "（クリックでまだ見ぬ運命へと移動）";
         readonly textZh: "";
         readonly textZhG1: "";
@@ -2665,7 +2665,7 @@ export declare const S10_UPDATED_CARD_DATA: {
         readonly ruby: "";
         readonly rubyEn: "";
         readonly baseType: "fate";
-        readonly text: "";
+        readonly text: "ルールによる共鳴ならば以下を行う。\n間合→ロスト：1\n\nそうでないならば以下を行う。\n間合→ダスト：1　　ロスト→ダスト：1";
         readonly textAdditional: "（クリックでまだ見ぬ運命へと移動）";
         readonly textZh: "";
         readonly textZhG1: "";
@@ -2682,7 +2682,7 @@ export declare const S10_UPDATED_CARD_DATA: {
         readonly ruby: "あざなえるのがれ";
         readonly rubyEn: "";
         readonly baseType: "fate";
-        readonly text: "";
+        readonly text: "間合→ロスト：1\n間合→ダスト：1";
         readonly textAdditional: "（クリックでまだ見ぬ運命へと移動）";
         readonly textZh: "";
         readonly textZhG1: "";
@@ -2699,7 +2699,7 @@ export declare const S10_UPDATED_CARD_DATA: {
         readonly ruby: "";
         readonly rubyEn: "";
         readonly baseType: "fate";
-        readonly text: "";
+        readonly text: "ルールによる共鳴ならば以下を行う。\nダスト→ロスト：2\n\nそうでないならば以下を行う。\nダスト→ロスト：1";
         readonly textAdditional: "（クリックでまだ見ぬ運命へと移動）";
         readonly textZh: "";
         readonly textZhG1: "";
@@ -2716,7 +2716,7 @@ export declare const S10_UPDATED_CARD_DATA: {
         readonly ruby: "あざなえるかすれ";
         readonly rubyEn: "";
         readonly baseType: "fate";
-        readonly text: "";
+        readonly text: "相オーラ→ロスト：1\n相フレア→ロスト：1";
         readonly textAdditional: "（クリックでまだ見ぬ運命へと移動）";
         readonly textZh: "";
         readonly textZhG1: "";
