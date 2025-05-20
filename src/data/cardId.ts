@@ -4,6 +4,8 @@ export namespace CardId {
   /** 《一閃》 */ export const YURINA_O_N_2 = "01-yurina-o-n-2";
   /** 《柄打ち》 */ export const YURINA_O_N_3 = "01-yurina-o-n-3";
   /** 《居合》 */ export const YURINA_O_N_4 = "01-yurina-o-n-4";
+  /** 《足捌き》->《気迫》->《体捌き》 */ export const YURINA_O_N_5 =
+    "01-yurina-o-n-5";
   /** 《圧気》 */ export const YURINA_O_N_6 = "01-yurina-o-n-6";
   /** 《癇癪玉》 */ export const YURINA_A1_N_6 = "01-yurina-A1-n-6";
   /** 《気炎万丈》 */ export const YURINA_O_N_7 = "01-yurina-o-n-7";
@@ -251,7 +253,6 @@ export namespace CardId {
   /** 《六葉鏡の星の海》 */ export const YATSUHA_O_S_3 = "16-yatsuha-o-s-3";
   /** 《八葉鏡の向こう側》 */ export const YATSUHA_O_S_4 = "16-yatsuha-o-s-4";
 
-  /** 《気迫》 */ export const YURINA_O_N_5 = "01-yurina-o-n-5";
   /** 《浦波嵐》 */ export const YURINA_O_S_2 = "01-yurina-o-s-2";
   /** 《不完全浦波嵐》 */ export const YURINA_A1_S_2 = "01-yurina-A1-s-2";
   /** 《圏域》 */ export const SAINE_O_N_5 = "02-saine-o-n-5";
@@ -626,6 +627,98 @@ export namespace CardId {
     "08-yukihi-o-n-a";
   /** 《ゆきのいろ》 */ export const YUKIHI_O_S_A: TCardId = "08-yukihi-o-s-a";
   /** 《滅灯淀路》 */ export const YUKIHI_O_S_B: TCardId = "08-yukihi-o-s-b";
+
+  /** 《槍振るい》 */ export const INNEALRA_O_N_1: TCardId =
+    "26-innealra-o-n-1";
+  /** 《雨露霜雪》 */ export const INNEALRA_O_N_5: TCardId =
+    "26-innealra-o-n-5";
+  /** 《変転》 */ export const INNEALRA_O_N_7: TCardId = "26-innealra-o-n-7";
+  /** 《イニルノルニル・アザナエル》 */ export const INNEALRA_O_S_4: TCardId =
+    "26-innealra-o-s-4";
+  /** 《呪詛》 */ export const INNEALRA_O1_N_2: TCardId = "26-innealra-o1-n-2";
+  /** 《祖槍》 */ export const INNEALRA_O1_N_3: TCardId = "26-innealra-o1-n-3";
+  /** 《悔恨》 */ export const INNEALRA_O1_N_4: TCardId = "26-innealra-o1-n-4";
+  /** 《憂き意志》 */ export const INNEALRA_O1_N_6: TCardId =
+    "26-innealra-o1-n-6";
+  /** 《スピエル・サラバエル》 */ export const INNEALRA_O1_S_1: TCardId =
+    "26-innealra-o1-s-1";
+  /** 《イヤルカス・シラマカス》 */ export const INNEALRA_O1_S_2: TCardId =
+    "26-innealra-o1-s-2";
+  /** 《イム・クレナズム》 */ export const INNEALRA_O1_S_3: TCardId =
+    "26-innealra-o1-s-3";
+  /** 《刃砕き》 */ export const INNEALRA_O2_N_2: TCardId =
+    "26-innealra-o2-n-2";
+  /** 《鳴槍》 */ export const INNEALRA_O2_N_3: TCardId = "26-innealra-o2-n-3";
+  /** 《当惑》 */ export const INNEALRA_O2_N_4: TCardId = "26-innealra-o2-n-4";
+  /** 《脆き意志》 */ export const INNEALRA_O2_N_6: TCardId =
+    "26-innealra-o2-n-6";
+  /** 《スピエル・ウレエル》 */ export const INNEALRA_O2_S_1: TCardId =
+    "26-innealra-o2-s-1";
+  /** 《スナハイド・ドウズレド》 */ export const INNEALRA_O2_S_2: TCardId =
+    "26-innealra-o2-s-2";
+  /** 《シキリス・ホリス》 */ export const INNEALRA_O2_S_3: TCardId =
+    "26-innealra-o2-s-3";
+  /** 《星空包み》 */ export const INNEALRA_O3_N_2: TCardId =
+    "26-innealra-o3-n-2";
+  /** 《怪槍》 */ export const INNEALRA_O3_N_3: TCardId = "26-innealra-o3-n-3";
+  /** 《諦観》 */ export const INNEALRA_O3_N_4: TCardId = "26-innealra-o3-n-4";
+  /** 《儚き意志》 */ export const INNEALRA_O3_N_6: TCardId =
+    "26-innealra-o3-n-6";
+  /** 《スピエル・ナガラエル》 */ export const INNEALRA_O3_S_1: TCardId =
+    "26-innealra-o3-s-1";
+  /** 《アイリアス・アルアス》 */ export const INNEALRA_O3_S_2: TCardId =
+    "26-innealra-o3-s-2";
+  /** 《クレーニャ・アンニャ》 */ export const INNEALRA_O3_S_3: TCardId =
+    "26-innealra-o3-s-3";
+
+  /** 《かえりみ》 */ export const INNEALRA_O1_F_1: TCardId =
+    "26-innealra-o1-f-1";
+  /** 《糾えるかえりみ》 */ export const INNEALRA_O1_F_1A: TCardId =
+    "26-innealra-o1-f-1a";
+  /** 《くやみ》 */ export const INNEALRA_O1_F_2: TCardId =
+    "26-innealra-o1-f-2";
+  /** 《糾えるくやみ》 */ export const INNEALRA_O1_F_2A: TCardId =
+    "26-innealra-o1-f-2a";
+  /** 《うらみ》 */ export const INNEALRA_O1_F_3: TCardId =
+    "26-innealra-o1-f-3";
+  /** 《糾えるうらみ》 */ export const INNEALRA_O1_F_3A: TCardId =
+    "26-innealra-o1-f-3a";
+  /** 《まどろみ》 */ export const INNEALRA_O1_F_4: TCardId =
+    "26-innealra-o1-f-4";
+  /** 《糾えるまどろみ》 */ export const INNEALRA_O1_F_4A: TCardId =
+    "26-innealra-o1-f-4a";
+  /** 《とまどい》 */ export const INNEALRA_O2_F_1: TCardId =
+    "26-innealra-o2-f-1";
+  /** 《糾えるとまどい》 */ export const INNEALRA_O2_F_1A: TCardId =
+    "26-innealra-o2-f-1a";
+  /** 《うつろい》 */ export const INNEALRA_O2_F_2: TCardId =
+    "26-innealra-o2-f-2";
+  /** 《糾えるうつろい》 */ export const INNEALRA_O2_F_2A: TCardId =
+    "26-innealra-o2-f-2a";
+  /** 《ちりまがい》 */ export const INNEALRA_O2_F_3: TCardId =
+    "26-innealra-o2-f-3";
+  /** 《糾えるちりまがい》 */ export const INNEALRA_O2_F_3A: TCardId =
+    "26-innealra-o2-f-3a";
+  /** 《あがない》 */ export const INNEALRA_O2_F_4: TCardId =
+    "26-innealra-o2-f-4";
+  /** 《糾えるあがない》 */ export const INNEALRA_O2_F_4A: TCardId =
+    "26-innealra-o2-f-4a";
+  /** 《あこがれ》 */ export const INNEALRA_O3_F_1: TCardId =
+    "26-innealra-o3-f-1";
+  /** 《糾えるあこがれ》 */ export const INNEALRA_O3_F_1A: TCardId =
+    "26-innealra-o3-f-1a";
+  /** 《うなだれ》 */ export const INNEALRA_O3_F_2: TCardId =
+    "26-innealra-o3-f-2";
+  /** 《糾えるうなだれ》 */ export const INNEALRA_O3_F_2A: TCardId =
+    "26-innealra-o3-f-2a";
+  /** 《のがれ》 */ export const INNEALRA_O3_F_3: TCardId =
+    "26-innealra-o3-f-3";
+  /** 《糾えるのがれ》 */ export const INNEALRA_O3_F_3A: TCardId =
+    "26-innealra-o3-f-3a";
+  /** 《かすれ》 */ export const INNEALRA_O3_F_4: TCardId =
+    "26-innealra-o3-f-4";
+  /** 《糾えるかすれ》 */ export const INNEALRA_O3_F_4A: TCardId =
+    "26-innealra-o3-f-4a";
 }
 
 export type TCardId =
@@ -1044,6 +1137,83 @@ export type TCardId =
   | "23-akina-o-s-2"
   | "23-akina-o-s-3"
   | "23-akina-o-s-4"
+  | "05-oboro-a2-n-1"
+  | "05-oboro-a2-s-1"
+  | "05-oboro-a2-s-3"
+  | "05-oboro-a2-mp-1"
+  | "05-oboro-a2-mp-2"
+  | "05-oboro-a2-mp-3"
+  | "05-oboro-a2-cp-1"
+  | "05-oboro-a2-cp-2"
+  | "05-oboro-a2-cp-3"
+  | "05-oboro-a2-cp-4"
+  | "25-misora-o-n-1"
+  | "25-misora-o-n-2"
+  | "25-misora-o-n-3"
+  | "25-misora-o-n-4"
+  | "25-misora-o-n-5"
+  | "25-misora-o-n-6"
+  | "25-misora-o-n-7"
+  | "25-misora-o-s-1"
+  | "25-misora-o-s-2"
+  | "25-misora-o-s-3"
+  | "25-misora-o-s-4"
+  | "26-innealra-o-n-1"
+  | "26-innealra-o-n-5"
+  | "26-innealra-o-n-7"
+  | "26-innealra-o-s-4"
+  | "26-innealra-o1-n-2"
+  | "26-innealra-o1-n-3"
+  | "26-innealra-o1-n-4"
+  | "26-innealra-o1-n-6"
+  | "26-innealra-o1-s-1"
+  | "26-innealra-o1-s-2"
+  | "26-innealra-o1-s-3"
+  | "26-innealra-o2-n-2"
+  | "26-innealra-o2-n-3"
+  | "26-innealra-o2-n-4"
+  | "26-innealra-o2-n-6"
+  | "26-innealra-o2-s-1"
+  | "26-innealra-o2-s-2"
+  | "26-innealra-o2-s-3"
+  | "26-innealra-o3-n-2"
+  | "26-innealra-o3-n-3"
+  | "26-innealra-o3-n-4"
+  | "26-innealra-o3-n-6"
+  | "26-innealra-o3-s-1"
+  | "26-innealra-o3-s-2"
+  | "26-innealra-o3-s-3"
+  | "26-innealra-o-n-2"
+  | "26-innealra-o-n-3"
+  | "26-innealra-o-n-4"
+  | "26-innealra-o-n-6"
+  | "26-innealra-o-s-1"
+  | "26-innealra-o-s-2"
+  | "26-innealra-o-s-3"
+  | "26-innealra-o1-f-1"
+  | "26-innealra-o1-f-1a"
+  | "26-innealra-o1-f-2"
+  | "26-innealra-o1-f-2a"
+  | "26-innealra-o1-f-3"
+  | "26-innealra-o1-f-3a"
+  | "26-innealra-o1-f-4"
+  | "26-innealra-o1-f-4a"
+  | "26-innealra-o2-f-1"
+  | "26-innealra-o2-f-1a"
+  | "26-innealra-o2-f-2"
+  | "26-innealra-o2-f-2a"
+  | "26-innealra-o2-f-3"
+  | "26-innealra-o2-f-3a"
+  | "26-innealra-o2-f-4"
+  | "26-innealra-o2-f-4a"
+  | "26-innealra-o3-f-1"
+  | "26-innealra-o3-f-1a"
+  | "26-innealra-o3-f-2"
+  | "26-innealra-o3-f-2a"
+  | "26-innealra-o3-f-3"
+  | "26-innealra-o3-f-3a"
+  | "26-innealra-o3-f-4"
+  | "26-innealra-o3-f-4a"
 
   // 物語セット
   | "story-00-A-1"
@@ -1174,28 +1344,7 @@ export type TCardId =
   | "22-renri-a1-n-5-ex2"
   | "22-renri-a1-n-5-ex3"
   | "22-renri-a1-s-1"
-  | "02_04-saine_tokoyo-A1-n-1_4"
-  | "05-oboro-a2-n-1"
-  | "05-oboro-a2-s-1"
-  | "05-oboro-a2-s-3"
-  | "05-oboro-a2-mp-1"
-  | "05-oboro-a2-mp-2"
-  | "05-oboro-a2-mp-3"
-  | "05-oboro-a2-cp-1"
-  | "05-oboro-a2-cp-2"
-  | "05-oboro-a2-cp-3"
-  | "05-oboro-a2-cp-4"
-  | "25-misora-o-n-1"
-  | "25-misora-o-n-2"
-  | "25-misora-o-n-3"
-  | "25-misora-o-n-4"
-  | "25-misora-o-n-5"
-  | "25-misora-o-n-6"
-  | "25-misora-o-n-7"
-  | "25-misora-o-s-1"
-  | "25-misora-o-s-2"
-  | "25-misora-o-s-3"
-  | "25-misora-o-s-4";
+  | "02_04-saine_tokoyo-A1-n-1_4";
 
 /** 偽証カードのID */
 export type TLieCardId =

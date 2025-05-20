@@ -70,7 +70,7 @@ export const GetMegamiKeyMode = {
   CardList: "CardList",
 } as const;
 export type TGetMegamiKeyMode =
-  typeof GetMegamiKeyMode[keyof typeof GetMegamiKeyMode];
+  (typeof GetMegamiKeyMode)[keyof typeof GetMegamiKeyMode];
 
 /** 指定したカードセットに対応するメガミのキー一覧を取得 */
 export function getMegamiKeys(
@@ -101,6 +101,9 @@ export function getMegamiKeys(
   for (let key in MEGAMI_DATA) {
     let megami = key as Megami;
     let megamiData = MEGAMI_DATA[megami];
+
+    // イニルノルニルのオリジンはダミーデータのためスキップ
+    if (megami === "innealra") continue;
 
     // 原初メガミは対応する物語セットでなければスキップ
     if (

@@ -2,7 +2,7 @@ import { Megami, TCardId } from "../data/index.js";
 /** カードセット */
 export type CardSet = StandardCardSet | StoryCardSet;
 /** 通常のカードセット（物語セットを含まない） */
-export type StandardCardSet = "na-s2" | "na-s3" | "na-s4" | "na-s5" | "na-s6" | "na-s6-2" | "na-s7" | "na-s7-2" | "na-s8" | "na-s8-2" | "na-s9" | "na-s9-2";
+export type StandardCardSet = "na-s2" | "na-s3" | "na-s4" | "na-s5" | "na-s6" | "na-s6-2" | "na-s7" | "na-s7-2" | "na-s8" | "na-s8-2" | "na-s9" | "na-s9-2" | "na-s10";
 /** 物語カードセット（はじまりの決闘、メガミへの挑戦も含む） */
 export type StoryCardSet = "story-0" | "story-1" | "story-2" | "story-9" | "story-10" | "story-10-heroic" | "story-12" | "story-12-heroic" | "story-13" | "story-13-heroic" | "story-15" | "hajimari" | "oboro-challenge" | "oboro-challenge-heroic" | "chikage-challenge" | "chikage-challenge-heroic" | "raira-challenge" | "raira-challenge-heroic" | "megumi-challenge" | "megumi-challenge-heroic" | "shinra-challenge" | "shinra-challenge-heroic" | "korunu-challenge" | "korunu-challenge-heroic" | "hagane-challenge" | "hagane-challenge-heroic" | "yukihi-challenge" | "yukihi-challenge-heroic";
 /** カードタイプ */
@@ -28,7 +28,7 @@ export interface MegamiDataItem {
 }
 export interface CardDataItem {
     megami: Megami;
-    baseType: "normal" | "special" | "poison" | "transform" | "troop" | "storm" | "plan" | "diving" | "mainParts" | "customParts";
+    baseType: "normal" | "special" | "poison" | "transform" | "troop" | "storm" | "plan" | "diving" | "mainParts" | "customParts" | "fate";
     name: string;
     nameZh: string;
     nameZhG1: string;

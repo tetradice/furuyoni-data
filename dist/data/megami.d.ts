@@ -701,6 +701,68 @@ declare const MEGAMI_DATA_BASE: {
         readonly notExistCardSets: CardSet[];
         readonly tarotNo: "25";
     };
+    readonly innealra: {
+        readonly name: "イヌルノルニル";
+        readonly nameZh: "";
+        readonly nameZhG1: "";
+        readonly nameKo: "";
+        readonly nameEn: "";
+        readonly symbol: "槍";
+        readonly symbolZh: "";
+        readonly symbolZhG1: "";
+        readonly symbolKo: "";
+        readonly symbolEn: "";
+        readonly notExistCardSets: CardSet[];
+        readonly tarotNo: "25";
+    };
+    readonly "innealra-o1": {
+        readonly name: "イニル・イヌル";
+        readonly nameZh: "";
+        readonly nameZhG1: "";
+        readonly nameKo: "";
+        readonly nameEn: "";
+        readonly symbol: "過去";
+        readonly symbolZh: "";
+        readonly symbolZhG1: "";
+        readonly symbolKo: "";
+        readonly symbolEn: "";
+        readonly notExistCardSets: CardSet[];
+        readonly base: "innealra";
+        readonly anotherID: "O1";
+        readonly tarotNo: "26";
+    };
+    readonly "innealra-o2": {
+        readonly name: "イニル・マヒル";
+        readonly nameZh: "";
+        readonly nameZhG1: "";
+        readonly nameKo: "";
+        readonly nameEn: "";
+        readonly symbol: "現在";
+        readonly symbolZh: "";
+        readonly symbolZhG1: "";
+        readonly symbolKo: "";
+        readonly symbolEn: "";
+        readonly notExistCardSets: CardSet[];
+        readonly base: "innealra";
+        readonly anotherID: "O2";
+        readonly tarotNo: "26";
+    };
+    readonly "innealra-o3": {
+        readonly name: "イニル・アクル";
+        readonly nameZh: "";
+        readonly nameZhG1: "";
+        readonly nameKo: "";
+        readonly nameEn: "";
+        readonly symbol: "未来";
+        readonly symbolZh: "";
+        readonly symbolZhG1: "";
+        readonly symbolKo: "";
+        readonly symbolEn: "";
+        readonly notExistCardSets: CardSet[];
+        readonly base: "innealra";
+        readonly anotherID: "O3";
+        readonly tarotNo: "26";
+    };
     readonly "yurina-story-0": {
         readonly name: "天音揺波";
         readonly nameZh: "天音摇波";
