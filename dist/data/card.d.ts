@@ -2326,6 +2326,7 @@ export declare const S10_UPDATED_CARD_DATA: {
         readonly rubyEn: "";
         readonly baseType: "fate";
         readonly text: "このターン中、あなたは《攻撃》を行えない。\n現在の間合が5以下ならば、相オーラ→間合：1\nこの運命が過去にあるならば、もう1回行う。";
+        readonly textAdditional: "（クリックでまだ見ぬ運命へと移動）";
         readonly textZh: "";
         readonly textZhG1: "";
         readonly textKo: "";
@@ -2342,6 +2343,7 @@ export declare const S10_UPDATED_CARD_DATA: {
         readonly rubyEn: "";
         readonly baseType: "fate";
         readonly text: "このターン中、あなたは通常札を使用できない。\n相手のライフに1ダメージを与える。";
+        readonly textAdditional: "（クリックでまだ見ぬ運命へと移動）";
         readonly textZh: "";
         readonly textZhG1: "";
         readonly textKo: "";
@@ -2358,6 +2360,7 @@ export declare const S10_UPDATED_CARD_DATA: {
         readonly rubyEn: "";
         readonly baseType: "fate";
         readonly text: "このターン中、あなたは基本動作《前進》と《後退》を行えない。\n相フレア→相オーラ：1";
+        readonly textAdditional: "（クリックでまだ見ぬ運命へと移動）";
         readonly textZh: "";
         readonly textZhG1: "";
         readonly textKo: "";
@@ -2374,6 +2377,7 @@ export declare const S10_UPDATED_CARD_DATA: {
         readonly rubyEn: "";
         readonly baseType: "fate";
         readonly text: "このターン中、あなたは基本動作を行えない。\n相手のライフに1ダメージを与える。";
+        readonly textAdditional: "（クリックでまだ見ぬ運命へと移動）";
         readonly textZh: "";
         readonly textZhG1: "";
         readonly textKo: "";
@@ -2390,6 +2394,7 @@ export declare const S10_UPDATED_CARD_DATA: {
         readonly rubyEn: "";
         readonly baseType: "fate";
         readonly text: "この運命が過去にあるならば、相手のライフに1ダメージを与える。そうした場合、あなたは手札から《対応》カード1枚を捨て札にする。それが行えない場合、あなたは手札を公開する。";
+        readonly textAdditional: "（クリックでまだ見ぬ運命へと移動）";
         readonly textZh: "";
         readonly textZhG1: "";
         readonly textKo: "";
@@ -2406,6 +2411,7 @@ export declare const S10_UPDATED_CARD_DATA: {
         readonly rubyEn: "";
         readonly baseType: "fate";
         readonly text: "このターン中にあなたが通常札を使用していないならば、相手のライフに1ダメージを与える。";
+        readonly textAdditional: "（クリックでまだ見ぬ運命へと移動）";
         readonly textZh: "";
         readonly textZhG1: "";
         readonly textKo: "";
@@ -2422,6 +2428,7 @@ export declare const S10_UPDATED_CARD_DATA: {
         readonly rubyEn: "";
         readonly baseType: "fate";
         readonly text: "";
+        readonly textAdditional: "（クリックでまだ見ぬ運命へと移動）";
         readonly textZh: "";
         readonly textZhG1: "";
         readonly textKo: "";
@@ -2438,6 +2445,7 @@ export declare const S10_UPDATED_CARD_DATA: {
         readonly rubyEn: "";
         readonly baseType: "fate";
         readonly text: "";
+        readonly textAdditional: "（クリックでまだ見ぬ運命へと移動）";
         readonly textZh: "";
         readonly textZhG1: "";
         readonly textKo: "";
@@ -2454,6 +2462,7 @@ export declare const S10_UPDATED_CARD_DATA: {
         readonly rubyEn: "";
         readonly baseType: "fate";
         readonly text: "";
+        readonly textAdditional: "（クリックでまだ見ぬ運命へと移動）";
         readonly textZh: "";
         readonly textZhG1: "";
         readonly textKo: "";
@@ -2470,6 +2479,7 @@ export declare const S10_UPDATED_CARD_DATA: {
         readonly rubyEn: "";
         readonly baseType: "fate";
         readonly text: "";
+        readonly textAdditional: "（クリックでまだ見ぬ運命へと移動）";
         readonly textZh: "";
         readonly textZhG1: "";
         readonly textKo: "";
@@ -2486,6 +2496,7 @@ export declare const S10_UPDATED_CARD_DATA: {
         readonly rubyEn: "";
         readonly baseType: "fate";
         readonly text: "";
+        readonly textAdditional: "（クリックでまだ見ぬ運命へと移動）";
         readonly textZh: "";
         readonly textZhG1: "";
         readonly textKo: "";
@@ -2502,6 +2513,7 @@ export declare const S10_UPDATED_CARD_DATA: {
         readonly rubyEn: "";
         readonly baseType: "fate";
         readonly text: "";
+        readonly textAdditional: "（クリックでまだ見ぬ運命へと移動）";
         readonly textZh: "";
         readonly textZhG1: "";
         readonly textKo: "";
@@ -2518,6 +2530,7 @@ export declare const S10_UPDATED_CARD_DATA: {
         readonly rubyEn: "";
         readonly baseType: "fate";
         readonly text: "";
+        readonly textAdditional: "（クリックでまだ見ぬ運命へと移動）";
         readonly textZh: "";
         readonly textZhG1: "";
         readonly textKo: "";
@@ -2534,6 +2547,7 @@ export declare const S10_UPDATED_CARD_DATA: {
         readonly rubyEn: "";
         readonly baseType: "fate";
         readonly text: "";
+        readonly textAdditional: "（クリックでまだ見ぬ運命へと移動）";
         readonly textZh: "";
         readonly textZhG1: "";
         readonly textKo: "";
@@ -2550,6 +2564,7 @@ export declare const S10_UPDATED_CARD_DATA: {
         readonly rubyEn: "";
         readonly baseType: "fate";
         readonly text: "";
+        readonly textAdditional: "（クリックでまだ見ぬ運命へと移動）";
         readonly textZh: "";
         readonly textZhG1: "";
         readonly textKo: "";
@@ -2566,6 +2581,7 @@ export declare const S10_UPDATED_CARD_DATA: {
         readonly rubyEn: "";
         readonly baseType: "fate";
         readonly text: "";
+        readonly textAdditional: "（クリックでまだ見ぬ運命へと移動）";
         readonly textZh: "";
         readonly textZhG1: "";
         readonly textKo: "";
@@ -2582,6 +2598,7 @@ export declare const S10_UPDATED_CARD_DATA: {
         readonly rubyEn: "";
         readonly baseType: "fate";
         readonly text: "";
+        readonly textAdditional: "（クリックでまだ見ぬ運命へと移動）";
         readonly textZh: "";
         readonly textZhG1: "";
         readonly textKo: "";
@@ -2598,6 +2615,7 @@ export declare const S10_UPDATED_CARD_DATA: {
         readonly rubyEn: "";
         readonly baseType: "fate";
         readonly text: "";
+        readonly textAdditional: "（クリックでまだ見ぬ運命へと移動）";
         readonly textZh: "";
         readonly textZhG1: "";
         readonly textKo: "";
@@ -2614,6 +2632,7 @@ export declare const S10_UPDATED_CARD_DATA: {
         readonly rubyEn: "";
         readonly baseType: "fate";
         readonly text: "";
+        readonly textAdditional: "（クリックでまだ見ぬ運命へと移動）";
         readonly textZh: "";
         readonly textZhG1: "";
         readonly textKo: "";
@@ -2630,6 +2649,7 @@ export declare const S10_UPDATED_CARD_DATA: {
         readonly rubyEn: "";
         readonly baseType: "fate";
         readonly text: "";
+        readonly textAdditional: "（クリックでまだ見ぬ運命へと移動）";
         readonly textZh: "";
         readonly textZhG1: "";
         readonly textKo: "";
@@ -2646,6 +2666,7 @@ export declare const S10_UPDATED_CARD_DATA: {
         readonly rubyEn: "";
         readonly baseType: "fate";
         readonly text: "";
+        readonly textAdditional: "（クリックでまだ見ぬ運命へと移動）";
         readonly textZh: "";
         readonly textZhG1: "";
         readonly textKo: "";
@@ -2662,6 +2683,7 @@ export declare const S10_UPDATED_CARD_DATA: {
         readonly rubyEn: "";
         readonly baseType: "fate";
         readonly text: "";
+        readonly textAdditional: "（クリックでまだ見ぬ運命へと移動）";
         readonly textZh: "";
         readonly textZhG1: "";
         readonly textKo: "";
@@ -2678,6 +2700,7 @@ export declare const S10_UPDATED_CARD_DATA: {
         readonly rubyEn: "";
         readonly baseType: "fate";
         readonly text: "";
+        readonly textAdditional: "（クリックでまだ見ぬ運命へと移動）";
         readonly textZh: "";
         readonly textZhG1: "";
         readonly textKo: "";
@@ -2694,6 +2717,7 @@ export declare const S10_UPDATED_CARD_DATA: {
         readonly rubyEn: "";
         readonly baseType: "fate";
         readonly text: "";
+        readonly textAdditional: "（クリックでまだ見ぬ運命へと移動）";
         readonly textZh: "";
         readonly textZhG1: "";
         readonly textKo: "";
