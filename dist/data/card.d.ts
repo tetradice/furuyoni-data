@@ -1652,6 +1652,7 @@ export declare const S10_UPDATED_CARD_DATA: {
         readonly rubyEn: "";
         readonly baseType: "normal";
         readonly type: "enhance";
+        readonly capacity: "2";
         readonly text: "間合制限（0-3）\n【展開時】相フレア→間合：2\n【展開中】この付与札の上の桜花結晶がダストへと送られるならば、それは代わりに相手のフレアへと移動する。";
         readonly textZh: "距离限制（0-3）\n【展开时】敌气→2→距\n〇〇";
         readonly textZhG1: "";
@@ -1728,7 +1729,7 @@ export declare const S10_UPDATED_CARD_DATA: {
         readonly type: "enhance";
         readonly subType: "reaction";
         readonly capacity: "1";
-        readonly text: "【破棄時】過去の運命をまだ見ぬ運命へと動かしてもよい。";
+        readonly text: "【展開時】ダスト→自オーラ：1\n【破棄時】過去の運命をまだ見ぬ運命へと動かしてもよい。";
         readonly textZh: "";
         readonly textZhG1: "";
         readonly textKo: "";
@@ -2317,6 +2318,8 @@ export declare const S10_UPDATED_CARD_DATA: {
     };
     readonly "26-innealra-o1-f-1": {
         readonly megami: "innealra";
+        readonly anotherID: "O1";
+        readonly replace: "";
         readonly name: "かえりみ";
         readonly nameEn: "";
         readonly nameZh: "";
@@ -2334,6 +2337,8 @@ export declare const S10_UPDATED_CARD_DATA: {
     };
     readonly "26-innealra-o1-f-1a": {
         readonly megami: "innealra";
+        readonly anotherID: "O1";
+        readonly replace: "";
         readonly name: "糾えるかえりみ";
         readonly nameEn: "";
         readonly nameZh: "";
@@ -2351,6 +2356,8 @@ export declare const S10_UPDATED_CARD_DATA: {
     };
     readonly "26-innealra-o1-f-2": {
         readonly megami: "innealra";
+        readonly anotherID: "O1";
+        readonly replace: "";
         readonly name: "くやみ";
         readonly nameEn: "";
         readonly nameZh: "";
@@ -2368,6 +2375,8 @@ export declare const S10_UPDATED_CARD_DATA: {
     };
     readonly "26-innealra-o1-f-2a": {
         readonly megami: "innealra";
+        readonly anotherID: "O1";
+        readonly replace: "";
         readonly name: "糾えるくやみ";
         readonly nameEn: "";
         readonly nameZh: "";
@@ -2385,6 +2394,8 @@ export declare const S10_UPDATED_CARD_DATA: {
     };
     readonly "26-innealra-o1-f-3": {
         readonly megami: "innealra";
+        readonly anotherID: "O1";
+        readonly replace: "";
         readonly name: "うらみ";
         readonly nameEn: "";
         readonly nameZh: "";
@@ -2402,6 +2413,8 @@ export declare const S10_UPDATED_CARD_DATA: {
     };
     readonly "26-innealra-o1-f-3a": {
         readonly megami: "innealra";
+        readonly anotherID: "O1";
+        readonly replace: "";
         readonly name: "糾えるうらみ";
         readonly nameEn: "";
         readonly nameZh: "";
@@ -2419,6 +2432,8 @@ export declare const S10_UPDATED_CARD_DATA: {
     };
     readonly "26-innealra-o1-f-4": {
         readonly megami: "innealra";
+        readonly anotherID: "O1";
+        readonly replace: "";
         readonly name: "まどろみ";
         readonly nameEn: "";
         readonly nameZh: "";
@@ -2436,6 +2451,8 @@ export declare const S10_UPDATED_CARD_DATA: {
     };
     readonly "26-innealra-o1-f-4a": {
         readonly megami: "innealra";
+        readonly anotherID: "O1";
+        readonly replace: "";
         readonly name: "糾えるまどろみ";
         readonly nameEn: "";
         readonly nameZh: "";
@@ -2453,6 +2470,8 @@ export declare const S10_UPDATED_CARD_DATA: {
     };
     readonly "26-innealra-o2-f-1": {
         readonly megami: "innealra";
+        readonly anotherID: "O2";
+        readonly replace: "";
         readonly name: "とまどい";
         readonly nameEn: "";
         readonly nameZh: "";
@@ -2470,6 +2489,8 @@ export declare const S10_UPDATED_CARD_DATA: {
     };
     readonly "26-innealra-o2-f-1a": {
         readonly megami: "innealra";
+        readonly anotherID: "O2";
+        readonly replace: "";
         readonly name: "糾えるとまどい";
         readonly nameEn: "";
         readonly nameZh: "";
@@ -2487,6 +2508,8 @@ export declare const S10_UPDATED_CARD_DATA: {
     };
     readonly "26-innealra-o2-f-2": {
         readonly megami: "innealra";
+        readonly anotherID: "O2";
+        readonly replace: "";
         readonly name: "うつろい";
         readonly nameEn: "";
         readonly nameZh: "";
@@ -2504,6 +2527,8 @@ export declare const S10_UPDATED_CARD_DATA: {
     };
     readonly "26-innealra-o2-f-2a": {
         readonly megami: "innealra";
+        readonly anotherID: "O2";
+        readonly replace: "";
         readonly name: "糾えるうつろい";
         readonly nameEn: "";
         readonly nameZh: "";
@@ -2521,6 +2546,8 @@ export declare const S10_UPDATED_CARD_DATA: {
     };
     readonly "26-innealra-o2-f-3": {
         readonly megami: "innealra";
+        readonly anotherID: "O2";
+        readonly replace: "";
         readonly name: "ちりまがい";
         readonly nameEn: "";
         readonly nameZh: "";
@@ -2538,6 +2565,8 @@ export declare const S10_UPDATED_CARD_DATA: {
     };
     readonly "26-innealra-o2-f-3a": {
         readonly megami: "innealra";
+        readonly anotherID: "O2";
+        readonly replace: "";
         readonly name: "糾えるちりまがい";
         readonly nameEn: "";
         readonly nameZh: "";
@@ -2555,6 +2584,8 @@ export declare const S10_UPDATED_CARD_DATA: {
     };
     readonly "26-innealra-o2-f-4": {
         readonly megami: "innealra";
+        readonly anotherID: "O2";
+        readonly replace: "";
         readonly name: "あがない";
         readonly nameEn: "";
         readonly nameZh: "";
@@ -2572,6 +2603,8 @@ export declare const S10_UPDATED_CARD_DATA: {
     };
     readonly "26-innealra-o2-f-4a": {
         readonly megami: "innealra";
+        readonly anotherID: "O2";
+        readonly replace: "";
         readonly name: "糾えるあがない";
         readonly nameEn: "";
         readonly nameZh: "";
@@ -2589,6 +2622,8 @@ export declare const S10_UPDATED_CARD_DATA: {
     };
     readonly "26-innealra-o3-f-1": {
         readonly megami: "innealra";
+        readonly anotherID: "O3";
+        readonly replace: "";
         readonly name: "あこがれ";
         readonly nameEn: "";
         readonly nameZh: "";
@@ -2606,6 +2641,8 @@ export declare const S10_UPDATED_CARD_DATA: {
     };
     readonly "26-innealra-o3-f-1a": {
         readonly megami: "innealra";
+        readonly anotherID: "O3";
+        readonly replace: "";
         readonly name: "糾えるあこがれ";
         readonly nameEn: "";
         readonly nameZh: "";
@@ -2623,6 +2660,8 @@ export declare const S10_UPDATED_CARD_DATA: {
     };
     readonly "26-innealra-o3-f-2": {
         readonly megami: "innealra";
+        readonly anotherID: "O3";
+        readonly replace: "";
         readonly name: "うなだれ";
         readonly nameEn: "";
         readonly nameZh: "";
@@ -2640,6 +2679,8 @@ export declare const S10_UPDATED_CARD_DATA: {
     };
     readonly "26-innealra-o3-f-2a": {
         readonly megami: "innealra";
+        readonly anotherID: "O3";
+        readonly replace: "";
         readonly name: "糾えるうなだれ";
         readonly nameEn: "";
         readonly nameZh: "";
@@ -2657,6 +2698,8 @@ export declare const S10_UPDATED_CARD_DATA: {
     };
     readonly "26-innealra-o3-f-3": {
         readonly megami: "innealra";
+        readonly anotherID: "O3";
+        readonly replace: "";
         readonly name: "のがれ";
         readonly nameEn: "";
         readonly nameZh: "";
@@ -2674,6 +2717,8 @@ export declare const S10_UPDATED_CARD_DATA: {
     };
     readonly "26-innealra-o3-f-3a": {
         readonly megami: "innealra";
+        readonly anotherID: "O3";
+        readonly replace: "";
         readonly name: "糾えるのがれ";
         readonly nameEn: "";
         readonly nameZh: "";
@@ -2691,6 +2736,8 @@ export declare const S10_UPDATED_CARD_DATA: {
     };
     readonly "26-innealra-o3-f-4": {
         readonly megami: "innealra";
+        readonly anotherID: "O3";
+        readonly replace: "";
         readonly name: "かすれ";
         readonly nameEn: "";
         readonly nameZh: "";
@@ -2708,6 +2755,8 @@ export declare const S10_UPDATED_CARD_DATA: {
     };
     readonly "26-innealra-o3-f-4a": {
         readonly megami: "innealra";
+        readonly anotherID: "O3";
+        readonly replace: "";
         readonly name: "糾えるかすれ";
         readonly nameEn: "";
         readonly nameZh: "";

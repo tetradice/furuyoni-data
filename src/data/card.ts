@@ -12784,6 +12784,7 @@ export const S10_UPDATED_CARD_DATA = {
     rubyEn: "",
     baseType: "normal",
     type: "enhance",
+    capacity: "2",
     text: "間合制限（0-3）\n【展開時】相フレア→間合：2\n【展開中】この付与札の上の桜花結晶がダストへと送られるならば、それは代わりに相手のフレアへと移動する。",
     textZh: "距离限制（0-3）\n【展开时】敌气→2→距\n〇〇",
     textZhG1: "",
@@ -12851,6 +12852,7 @@ export const S10_UPDATED_CARD_DATA = {
     textKo: "",
     textEn: "",
   },
+
   "26-innealra-o-n-7": {
     megami: "innealra",
     name: "変転",
@@ -12864,7 +12866,7 @@ export const S10_UPDATED_CARD_DATA = {
     type: "enhance",
     subType: "reaction",
     capacity: "1",
-    text: "【破棄時】過去の運命をまだ見ぬ運命へと動かしてもよい。",
+    text: "【展開時】ダスト→自オーラ：1\n【破棄時】過去の運命をまだ見ぬ運命へと動かしてもよい。",
     textZh: "",
     textZhG1: "",
     textKo: "",
@@ -13454,6 +13456,8 @@ export const S10_UPDATED_CARD_DATA = {
 
   "26-innealra-o1-f-1": {
     megami: "innealra",
+    anotherID: "O1",
+    replace: "",
     name: "かえりみ",
     nameEn: "",
     nameZh: "",
@@ -13471,6 +13475,8 @@ export const S10_UPDATED_CARD_DATA = {
   },
   "26-innealra-o1-f-1a": {
     megami: "innealra",
+    anotherID: "O1",
+    replace: "",
     name: "糾えるかえりみ",
     nameEn: "",
     nameZh: "",
@@ -13488,6 +13494,8 @@ export const S10_UPDATED_CARD_DATA = {
   },
   "26-innealra-o1-f-2": {
     megami: "innealra",
+    anotherID: "O1",
+    replace: "",
     name: "くやみ",
     nameEn: "",
     nameZh: "",
@@ -13505,6 +13513,8 @@ export const S10_UPDATED_CARD_DATA = {
   },
   "26-innealra-o1-f-2a": {
     megami: "innealra",
+    anotherID: "O1",
+    replace: "",
     name: "糾えるくやみ",
     nameEn: "",
     nameZh: "",
@@ -13522,6 +13532,8 @@ export const S10_UPDATED_CARD_DATA = {
   },
   "26-innealra-o1-f-3": {
     megami: "innealra",
+    anotherID: "O1",
+    replace: "",
     name: "うらみ",
     nameEn: "",
     nameZh: "",
@@ -13539,6 +13551,8 @@ export const S10_UPDATED_CARD_DATA = {
   },
   "26-innealra-o1-f-3a": {
     megami: "innealra",
+    anotherID: "O1",
+    replace: "",
     name: "糾えるうらみ",
     nameEn: "",
     nameZh: "",
@@ -13556,6 +13570,8 @@ export const S10_UPDATED_CARD_DATA = {
   },
   "26-innealra-o1-f-4": {
     megami: "innealra",
+    anotherID: "O1",
+    replace: "",
     name: "まどろみ",
     nameEn: "",
     nameZh: "",
@@ -13573,6 +13589,8 @@ export const S10_UPDATED_CARD_DATA = {
   },
   "26-innealra-o1-f-4a": {
     megami: "innealra",
+    anotherID: "O1",
+    replace: "",
     name: "糾えるまどろみ",
     nameEn: "",
     nameZh: "",
@@ -13590,6 +13608,8 @@ export const S10_UPDATED_CARD_DATA = {
   },
   "26-innealra-o2-f-1": {
     megami: "innealra",
+    anotherID: "O2",
+    replace: "",
     name: "とまどい",
     nameEn: "",
     nameZh: "",
@@ -13607,6 +13627,8 @@ export const S10_UPDATED_CARD_DATA = {
   },
   "26-innealra-o2-f-1a": {
     megami: "innealra",
+    anotherID: "O2",
+    replace: "",
     name: "糾えるとまどい",
     nameEn: "",
     nameZh: "",
@@ -13624,6 +13646,8 @@ export const S10_UPDATED_CARD_DATA = {
   },
   "26-innealra-o2-f-2": {
     megami: "innealra",
+    anotherID: "O2",
+    replace: "",
     name: "うつろい",
     nameEn: "",
     nameZh: "",
@@ -13641,6 +13665,8 @@ export const S10_UPDATED_CARD_DATA = {
   },
   "26-innealra-o2-f-2a": {
     megami: "innealra",
+    anotherID: "O2",
+    replace: "",
     name: "糾えるうつろい",
     nameEn: "",
     nameZh: "",
@@ -13658,6 +13684,8 @@ export const S10_UPDATED_CARD_DATA = {
   },
   "26-innealra-o2-f-3": {
     megami: "innealra",
+    anotherID: "O2",
+    replace: "",
     name: "ちりまがい",
     nameEn: "",
     nameZh: "",
@@ -13675,6 +13703,8 @@ export const S10_UPDATED_CARD_DATA = {
   },
   "26-innealra-o2-f-3a": {
     megami: "innealra",
+    anotherID: "O2",
+    replace: "",
     name: "糾えるちりまがい",
     nameEn: "",
     nameZh: "",
@@ -13692,6 +13722,8 @@ export const S10_UPDATED_CARD_DATA = {
   },
   "26-innealra-o2-f-4": {
     megami: "innealra",
+    anotherID: "O2",
+    replace: "",
     name: "あがない",
     nameEn: "",
     nameZh: "",
@@ -13709,6 +13741,8 @@ export const S10_UPDATED_CARD_DATA = {
   },
   "26-innealra-o2-f-4a": {
     megami: "innealra",
+    anotherID: "O2",
+    replace: "",
     name: "糾えるあがない",
     nameEn: "",
     nameZh: "",
@@ -13726,6 +13760,8 @@ export const S10_UPDATED_CARD_DATA = {
   },
   "26-innealra-o3-f-1": {
     megami: "innealra",
+    anotherID: "O3",
+    replace: "",
     name: "あこがれ",
     nameEn: "",
     nameZh: "",
@@ -13743,6 +13779,8 @@ export const S10_UPDATED_CARD_DATA = {
   },
   "26-innealra-o3-f-1a": {
     megami: "innealra",
+    anotherID: "O3",
+    replace: "",
     name: "糾えるあこがれ",
     nameEn: "",
     nameZh: "",
@@ -13760,6 +13798,8 @@ export const S10_UPDATED_CARD_DATA = {
   },
   "26-innealra-o3-f-2": {
     megami: "innealra",
+    anotherID: "O3",
+    replace: "",
     name: "うなだれ",
     nameEn: "",
     nameZh: "",
@@ -13777,6 +13817,8 @@ export const S10_UPDATED_CARD_DATA = {
   },
   "26-innealra-o3-f-2a": {
     megami: "innealra",
+    anotherID: "O3",
+    replace: "",
     name: "糾えるうなだれ",
     nameEn: "",
     nameZh: "",
@@ -13794,6 +13836,8 @@ export const S10_UPDATED_CARD_DATA = {
   },
   "26-innealra-o3-f-3": {
     megami: "innealra",
+    anotherID: "O3",
+    replace: "",
     name: "のがれ",
     nameEn: "",
     nameZh: "",
@@ -13811,6 +13855,8 @@ export const S10_UPDATED_CARD_DATA = {
   },
   "26-innealra-o3-f-3a": {
     megami: "innealra",
+    anotherID: "O3",
+    replace: "",
     name: "糾えるのがれ",
     nameEn: "",
     nameZh: "",
@@ -13828,6 +13874,8 @@ export const S10_UPDATED_CARD_DATA = {
   },
   "26-innealra-o3-f-4": {
     megami: "innealra",
+    anotherID: "O3",
+    replace: "",
     name: "かすれ",
     nameEn: "",
     nameZh: "",
@@ -13845,6 +13893,8 @@ export const S10_UPDATED_CARD_DATA = {
   },
   "26-innealra-o3-f-4a": {
     megami: "innealra",
+    anotherID: "O3",
+    replace: "",
     name: "糾えるかすれ",
     nameEn: "",
     nameZh: "",
