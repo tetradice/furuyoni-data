@@ -716,7 +716,7 @@ declare const MEGAMI_DATA_BASE: {
         readonly tarotNo: "25";
     };
     readonly "innealra-o1": {
-        readonly name: "イヌル";
+        readonly name: "イニル・イヌル";
         readonly nameZh: "";
         readonly nameZhG1: "";
         readonly nameKo: "";
@@ -732,7 +732,7 @@ declare const MEGAMI_DATA_BASE: {
         readonly tarotNo: "26";
     };
     readonly "innealra-o2": {
-        readonly name: "マヒル";
+        readonly name: "イニル・マヒル";
         readonly nameZh: "";
         readonly nameZhG1: "";
         readonly nameKo: "";
@@ -748,7 +748,7 @@ declare const MEGAMI_DATA_BASE: {
         readonly tarotNo: "26";
     };
     readonly "innealra-o3": {
-        readonly name: "アクル";
+        readonly name: "イニル・アクル";
         readonly nameZh: "";
         readonly nameZhG1: "";
         readonly nameKo: "";

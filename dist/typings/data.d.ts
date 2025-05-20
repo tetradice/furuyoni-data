@@ -28,7 +28,7 @@ export interface MegamiDataItem {
 }
 export interface CardDataItem {
     megami: Megami;
-    baseType: "normal" | "special" | "poison" | "transform" | "troop" | "storm" | "plan" | "diving" | "mainParts" | "customParts";
+    baseType: "normal" | "special" | "poison" | "transform" | "troop" | "storm" | "plan" | "diving" | "mainParts" | "customParts" | "fate";
     name: string;
     nameZh: string;
     nameZhG1: string;
