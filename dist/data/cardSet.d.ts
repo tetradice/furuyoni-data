@@ -151,9 +151,9 @@ export declare const CARD_SET_DATA: {
         readonly name: "新幕 シーズン10";
         readonly listName: "新幕 シーズン10 (2025/4～ 『後日譚』以降)";
         readonly nameZh: "新幕 赛季10";
-        readonly listNameZh: "";
+        readonly listNameZh: "新幕 赛季10(2025/4～ 『新剧扩展：神座樱缘起 后日谈』之后)";
         readonly nameKo: "신막 시즌10";
-        readonly listNameKo: "";
+        readonly listNameKo: "신막 시즌10(2025/4~「후일담」이후)";
         readonly nameEn: "Shinmaku Season 10";
         readonly listNameEn: "";
     };

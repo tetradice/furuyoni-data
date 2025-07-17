@@ -717,14 +717,14 @@ declare const MEGAMI_DATA_BASE: {
     };
     readonly "innealra-o1": {
         readonly name: "イニル・イヌル";
-        readonly nameZh: "";
+        readonly nameZh: "造神·忆瑠";
         readonly nameZhG1: "";
-        readonly nameKo: "";
+        readonly nameKo: "이니르 이누르";
         readonly nameEn: "";
         readonly symbol: "過去";
-        readonly symbolZh: "";
+        readonly symbolZh: "过去";
         readonly symbolZhG1: "";
-        readonly symbolKo: "";
+        readonly symbolKo: "과거";
         readonly symbolEn: "";
         readonly notExistCardSets: CardSet[];
         readonly base: "innealra";
@@ -733,14 +733,14 @@ declare const MEGAMI_DATA_BASE: {
     };
     readonly "innealra-o2": {
         readonly name: "イニル・マヒル";
-        readonly nameZh: "";
+        readonly nameZh: "造神·真昼";
         readonly nameZhG1: "";
-        readonly nameKo: "";
+        readonly nameKo: "이니르 마히르";
         readonly nameEn: "";
         readonly symbol: "現在";
-        readonly symbolZh: "";
+        readonly symbolZh: "现在";
         readonly symbolZhG1: "";
-        readonly symbolKo: "";
+        readonly symbolKo: "현재";
         readonly symbolEn: "";
         readonly notExistCardSets: CardSet[];
         readonly base: "innealra";
@@ -749,14 +749,14 @@ declare const MEGAMI_DATA_BASE: {
     };
     readonly "innealra-o3": {
         readonly name: "イニル・アクル";
-        readonly nameZh: "";
+        readonly nameZh: "造神·明来";
         readonly nameZhG1: "";
-        readonly nameKo: "";
+        readonly nameKo: "이니르 아쿠르";
         readonly nameEn: "";
         readonly symbol: "未来";
-        readonly symbolZh: "";
+        readonly symbolZh: "未来";
         readonly symbolZhG1: "";
-        readonly symbolKo: "";
+        readonly symbolKo: "미래";
         readonly symbolEn: "";
         readonly notExistCardSets: CardSet[];
         readonly base: "innealra";
