@@ -157,6 +157,17 @@ export declare const CARD_SET_DATA: {
         readonly nameEn: "Shinmaku Season 10";
         readonly listNameEn: "";
     };
+    readonly "na-s10-2": {
+        readonly seasonNumber: 14;
+        readonly name: "新幕 シーズン10-2";
+        readonly listName: "新幕 シーズン10-2 (2026/1/16～)";
+        readonly nameZh: "新幕 赛季10-2";
+        readonly listNameZh: "新幕 赛季10-2（2026/1/16～）";
+        readonly nameKo: "신막 시즌10-2";
+        readonly listNameKo: "신막 시즌10-2 (2026/1/16～)";
+        readonly nameEn: "Shinmaku Season 10-2";
+        readonly listNameEn: "Shinmaku Season 10-2 (from 2026/1/16)";
+    };
     readonly "story-0": {
         readonly seasonNumber: null;
         readonly name: "物語0：神語りのはじまり";

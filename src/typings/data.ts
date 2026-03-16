@@ -17,7 +17,8 @@ export type StandardCardSet =
   | "na-s8-2"
   | "na-s9"
   | "na-s9-2"
-  | "na-s10";
+  | "na-s10"
+  | "na-s10-2";
 
 /** 物語カードセット（はじまりの決闘、メガミへの挑戦も含む） */
 export type StoryCardSet =
@@ -80,17 +81,17 @@ export interface MegamiDataItem {
 export interface CardDataItem {
   megami: Megami;
   baseType:
-    | "normal"
-    | "special"
-    | "poison"
-    | "transform"
-    | "troop"
-    | "storm"
-    | "plan"
-    | "diving"
-    | "mainParts"
-    | "customParts"
-    | "fate";
+  | "normal"
+  | "special"
+  | "poison"
+  | "transform"
+  | "troop"
+  | "storm"
+  | "plan"
+  | "diving"
+  | "mainParts"
+  | "customParts"
+  | "fate";
   name: string;
   nameZh: string;
   nameZhG1: string;

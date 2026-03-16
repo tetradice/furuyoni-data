@@ -147,6 +147,17 @@ exports.CARD_SET_DATA = {
         nameEn: "Shinmaku Season 10",
         listNameEn: "",
     },
+    "na-s10-2": {
+        seasonNumber: 14,
+        name: "新幕 シーズン10-2",
+        listName: "新幕 シーズン10-2 (2026/1/16～)",
+        nameZh: "新幕 赛季10-2",
+        listNameZh: "新幕 赛季10-2（2026/1/16～）",
+        nameKo: "신막 시즌10-2",
+        listNameKo: "신막 시즌10-2 (2026/1/16～)",
+        nameEn: "Shinmaku Season 10-2",
+        listNameEn: "Shinmaku Season 10-2 (from 2026/1/16)",
+    },
     "story-0": {
         seasonNumber: null,
         name: "物語0：神語りのはじまり",

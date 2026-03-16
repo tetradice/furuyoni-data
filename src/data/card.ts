@@ -14017,6 +14017,276 @@ export const S10_UPDATED_CARD_DATA = {
   [id in TCardId]: CardDataItem | null;
 }>;
 
+// シーズン10-2
+export const S10_2_UPDATED_CARD_DATA = {
+  "17-hatsumi-o-s-1": {
+    megami: "hatsumi",
+    name: "イサナ海域",
+    nameEn: "Cetacean Ocean",
+    nameZh: "鲸鱼海域",
+    nameZhG1: "鲸鱼海域",
+    nameKo: "이사나 해역",
+    ruby: "いさなかいいき",
+    rubyEn: "",
+    baseType: "special",
+    type: "attack",
+    range: "3-5",
+    damage: "2/1",
+    cost: "3",
+    text: "【常時】順風ならば、この《攻撃》は+1/+2となる。\n【攻撃後】逆風ならば、\nダスト→間合：2\nを行い、このカードを未使用に戻す。",
+    textZh:
+      "【常时】若顺风，此《攻击》得+1/+2。\n【攻击后】若逆风，则：虚→2→距。\n然后将此牌变为未使用的状态。",
+    textZhG1: "",
+    textZhG1Additional:
+      "【상시】순풍이라면, 이 《공격》은 +1/+2된다.\n【공격시】역풍이라면,\n더스트→간격：2\n을 하고, 이 카드를 미사용으로 되돌린다.",
+    textKo:
+      "Forced: If there is a tailwind, this attack gains +1/+2.\n\nAfter Attack: If there is a headwind, Shadow (2)→ Distance, then turn this card face-down.",
+    textKoAdditional:
+      "Forced: If there is a tailwind, this attack gains +1/+2.\n\nAfter Attack: If there is a headwind, Shadow (2)→ Distance, then turn this card face-down.",
+    textEn:
+      "Forced: If there is a tailwind, this attack gains +1/+2.\n\nAfter Attack: If there is a headwind, Shadow (2)→ Distance, then turn this card face-down.",
+  },
+  "20-kanawe-o-n-2": {
+    megami: "kanawe",
+    name: "脚本化",
+    nameEn: "Composition",
+    nameZh: "剧本化",
+    nameZhG1: "脚本化",
+    nameKo: "각본화",
+    ruby: "きゃくほんか",
+    rubyEn: "",
+    baseType: "normal",
+    type: "attack",
+    range: "3-5",
+    damage: "1/1",
+    text: "【攻撃後】追加札から構想カードを1枚準備してもよい。\n【常時】あなたの終了フェイズにこのカードを捨て札から山札の底に置いてもよい。そうした場合、相手は集中力を1得る。",
+    textZh:
+      "【攻击后】你可以从追加牌区的构想牌中准备1张构想。 \n【常时】在你的结束阶段你可以将此牌从弃牌放到牌库底。若如此做，对手获得1集中力。",
+    textZhG1: "",
+    textZhG1Additional:
+      "【공격후】추가패에서 구상 카드를 1장 준비해도 좋다.\n【상시】당신의 종료 페이즈에 이 카드가 버림패에 있다면 패산의 아래에 두어도 좋다. 그렇게 했다면, 상대는 집중력 1을 얻는다.",
+    textKo:
+      "After Attack: You may prepare one of your set aside Plot cards.\n\nForced: At the end of your turn, you may move this card from your played pile to the bottom of your deck. If you do, your opponent gains 1 Vigor.",
+    textKoAdditional:
+      "After Attack: You may prepare one of your set aside Plot cards.\n\nForced: At the end of your turn, you may move this card from your played pile to the bottom of your deck. If you do, your opponent gains 1 Vigor.",
+    textEn:
+      "After Attack: You may prepare one of your set aside Plot cards.\n\nForced: At the end of your turn, you may move this card from your played pile to the bottom of your deck. If you do, your opponent gains 1 Vigor.",
+  },
+  "21-kamuwi-o-s-1": {
+    megami: "kamuwi",
+    name: "灯",
+    nameEn: "Kindle",
+    nameZh: "灯",
+    nameZhG1: "灯",
+    nameKo: "등불",
+    ruby: "ともしび",
+    rubyEn: "",
+    baseType: "special",
+    type: "action",
+    cost: "5",
+    text: "(+4) あなたのフレアにある桜花結晶全てをダストに送る。追加札から「暁」を未使用で得る。",
+    textZh:
+      "(+3) 将自气的樱花结晶全部移至虚，并给予自命1点伤害。 \n从追加牌区以未使用的状态获得『晓』。",
+    textZhG1: "",
+    textZhG1Additional:
+      "(+4) 당신의 플레어에 있는 벚꽃결정을 전부 더스트로 보낸다. 추가패에서 「새벽」을 미사용 상태로 얻는다.",
+    textKo:
+      '(+3): Move all Sakura tokens on your Flare to Shadow. Deal 1 damage to your Life.\n\nAdd your set aside "Daybreak" to your Special cards, face-down.\n\n----------',
+    textKoAdditional:
+      '(+3): Move all Sakura tokens on your Flare to Shadow. Deal 1 damage to your Life.\n\nAdd your set aside "Daybreak" to your Special cards, face-down.\n\n----------',
+    textEn:
+      '(+3): Move all Sakura tokens on your Flare to Shadow. Deal 1 damage to your Life.\n\nAdd your set aside "Daybreak" to your Special cards, face-down.\n\n----------',
+  },
+  "23-akina-o-n-2": {
+    megami: "akina",
+    name: "恫喝",
+    nameEn: "Browbeat",
+    nameZh: "恫吓",
+    nameZhG1: "恫吓",
+    nameKo: "공갈",
+    ruby: "どうかつ",
+    rubyEn: "",
+    baseType: "normal",
+    type: "attack",
+    range: "4",
+    damage: "-/0",
+    text: "投資券\n【常時】あなたの資本が相手の資本より大きいならば、この《攻撃》は+0/+1となる。\n【攻撃後】あなたの資本が相手の資本以下ならば、このカードを伏せ札にする。",
+    textZh:
+      "投资券\n【常时】你的资本比对手的资本更多的话，此攻击得+0/+1。\n【攻击后】你的资本不比对手的资本多的话，盖伏此卡。",
+    textZhG1: "",
+    textZhG1Additional:
+      "투자권\n【상시】 당신의 자본이 상대의 자본보다 크다면, 이 《공격》은 +0/+1 된다.\n【공격후】당신의 자본이 상대의 자본 이하라면, 이 카드를 덮음패로 만든다.",
+    textKo: "",
+    textEn: "",
+    investable: true,
+  },
+  "26-innealra-o3-n-6": {
+    megami: "innealra",
+    anotherID: "O3",
+    replace: "26-innealra-o-n-6",
+    name: "儚き意志",
+    nameEn: "",
+    nameZh: "缥缈意志",
+    nameZhG1: "",
+    nameKo: "덧없는 의지",
+    ruby: "はかなきいし",
+    rubyEn: "",
+    baseType: "normal",
+    type: "enhance",
+    capacity: "2",
+    text: "【展開時/破棄時】過去の運命をまだ見ぬ運命へと動かしてもよい。\n【常時】この付与札の上の桜花結晶がダストへと送られるならば、代わりにロストへと移動する。",
+    textZh:
+      "【展开时】可以将过去的命运移去未知的命运。\n 【展开中】达人距离的数值减少1。",
+    textZhG1: "",
+    textZhG1Additional:
+      "【전개시/파기시】과거의 운명을 아직 보지 않은 운명으로 이동시켜도 된다.\n【상시】이 부여패 위의 벚꽃결정이 더스트로 보내진다면, 대신 로스트로 이동한다.",
+    textKo: "",
+    textEn: "",
+  },
+  "26-innealra-o3-s-3": {
+    megami: "innealra",
+    anotherID: "O3",
+    replace: "26-innealra-o-s-3",
+    name: "クレーニャ・アンニャ",
+    nameEn: "",
+    nameZh: "‌宙宇·玄奥无明",
+    nameZhG1: "",
+    nameKo: "크레냐·안냐",
+    ruby: "",
+    rubyEn: "",
+    rubyZh: "cruinne",
+    baseType: "special",
+    type: "action",
+    subType: "reaction",
+    cost: "0",
+    text: "過去の運命をまだ見ぬ運命へと動かしてもよい。\n自オーラ⇔ロスト：1\n【使用済】各ターンの開始フェイズの開始時に攻撃『適正距離0-10、1/1、不可避、【常時】この《攻撃》のダメージにより移動する桜花結晶はダストやフレアではなくロストに動かす』を行う。その後、このカードを取り除く。",
+    textZh:
+      "可以将过去的命运移去未知的命运。\n 【已使用】你的准备步骤开始时，可以进行一次“攻击距离X 伤害2/1 不可避 【常时】X等于迷失的值”的攻击。若如此做，将此卡移出游戏。",
+    textZhG1: "",
+    textZhG1Additional:
+      "과거의 운명을 보지 못한 운명으로 이동시켜도 된다.\n오라(자신)⇔로스트：1\n【사용됨】당신의 개시 페이지의 시작시에 공격『적정거리 0-10, 1/1, 【상시】이 공격으로 이동하는 벚꽃결정은 더스트나 플레어로 이동하지 않고 로스트로 이동한다.』를 수행한다. 그 후, 이 카드를 게임에서 제외한다.",
+    textKo: "",
+    textEn: "",
+    removable: true,
+  },
+  "22-renri-o-n-6": {
+    megami: "renri",
+    name: "魚吊り",
+    nameEn: "Motive",
+    nameZh: "吊魚",
+    nameZhG1: "辜毒谄言",
+    nameKo: "낚시질",
+    ruby: "うおつり",
+    rubyEn: "",
+    rubyZh: "钓鱼",
+    baseType: "normal",
+    type: "action",
+    text: "偽証\n間合→自フレア：1",
+    textZh: "伪证\n距→1→自气",
+    textZhG1: "",
+    textZhG1Additional: "위증\n간격→플레어(자신)：1",
+    textKo: "",
+    textEn: "",
+    lie: true,
+  },
+  "18-mizuki-o-s-3": {
+    megami: "mizuki",
+    name: "大手楯無門",
+    nameEn: 'Ōte Gate "Tatenashi"',
+    nameZh: "大手楯无门",
+    nameZhG1: "大手楯无门",
+    nameKo: "대수순무문",
+    ruby: "おおてたてなしもん",
+    rubyEn: "",
+    baseType: "special",
+    type: "action",
+    cost: "3",
+    text: "終端\n手札のカードを1枚まで選び、それと追加札の「闘神」を兵舎に徴兵済で置く。\n【使用済】あなたが兵舎から使用した《攻撃》カードによる《攻撃》は+1/+0となる。",
+    textZh:
+      "终端 \n将你的1张手牌和追加牌处的『斗神』以已征兵的状态置入兵营。进行1次征兵。 \n【已使用】你从兵营使用的《攻击》牌的《攻击》得+1/+0，从兵营使用的《对应》牌失去终端。",
+    textZhG1: "",
+    textZhG1Additional:
+      "종단\n손패의 카드를 1장까지 고르고 그것과 추가패의 [투신]과 그것들을 병영의 징병된 상태로 놓는다.\n징병을 1회 수행한다.\n【사용됨】당신이 병영에서 사용한 《공격》카드에 의한 《공격》은 +1/+0을 얻는다.",
+    textKo:
+      'Terminal\n\nPut your set aside "Divinity of War" and a card from your hand into your Barracks, conscripted. Conscript a Unit.\n\nDevoted: Attack cards you play from your Barracks gain +1/+0. Reaction cards you play from your Barracks lose Terminal.',
+    textKoAdditional:
+      'Terminal\n\nPut your set aside "Divinity of War" and a card from your hand into your Barracks, conscripted. Conscript a Unit.\n\nDevoted: Attack cards you play from your Barracks gain +1/+0. Reaction cards you play from your Barracks lose Terminal.',
+    textEn:
+      'Terminal\n\nPut your set aside "Divinity of War" and a card from your hand into your Barracks, conscripted. Conscript a Unit.\n\nDevoted: Attack cards you play from your Barracks gain +1/+0. Reaction cards you play from your Barracks lose Terminal.',
+  },
+  "26-innealra-o-n-1": {
+    megami: "innealra",
+    name: "槍振るい",
+    nameEn: "",
+    nameZh: "挥枪",
+    nameZhG1: "",
+    nameKo: "창 휘두르기",
+    ruby: "やりふるい",
+    rubyEn: "",
+    baseType: "normal",
+    type: "attack",
+    range: "1-5",
+    damage: "1/1",
+    text: "【攻撃後】共鳴する。",
+    textZh: "【攻击后】进行共鸣。",
+    textZhG1: "",
+    textZhG1Additional: "【공격후】공명한다",
+    textKo: "",
+    textEn: "",
+  },
+  "26-innealra-o2-s-3": {
+    megami: "innealra",
+    anotherID: "O2",
+    replace: "26-innealra-o-s-3",
+    name: "シキリス・ホリス",
+    nameEn: "",
+    nameZh: "同受异诛·欲壑难填",
+    nameZhG1: "",
+    nameKo: "시키리스·호리스",
+    ruby: "",
+    rubyEn: "",
+    rubyZh: "scrios",
+    baseType: "special",
+    type: "attack",
+    range: "1-3",
+    damage: "1/1",
+    cost: "1",
+    text: "【常時】この《攻撃》のオーラへのダメージにより移動する桜花結晶はダストでなく間合に動かす。\n----\n【再起】あなたがこのターン中に2回以上共鳴している。",
+    textZh:
+      "【常时】因此《攻击》造成的伤害将移动的樱花结晶改为移去距。\n ----\n 【再起】你在本回合进行了至少2次共鸣。",
+    textZhG1: "",
+    textZhG1Additional:
+      "【상시】이 《공격》의 오라 데미지로 이동하는 벚꽃결정은 더스트가 아니라 간격으로 이동시킨다.\n【재기】당신이 이번 턴에 2회 이상 공명하였다.",
+    textKo: "",
+    textEn: "",
+  },
+  "26-innealra-o3-f-1": {
+    megami: "innealra",
+    anotherID: "O3",
+    replace: "",
+    name: "あこがれ",
+    nameEn: "",
+    nameZh: "憧憬",
+    nameZhG1: "",
+    nameKo: "동경하다",
+    ruby: "",
+    rubyEn: "",
+    baseType: "fate",
+    text: "ロスト→ダスト：3\n攻撃『適正距離0-3、X/1』を行う。Xはこの矢印（→）で移動した桜花結晶の数に等しい。",
+    textAdditional: "（クリックでまだ見ぬ運命へと移動）",
+    textZh:
+      "迷失→3→虚\n 若因此效果移动了3个或更多樱花结晶，进行一次“攻击距离0-3 伤害3/1”的攻击。",
+    textZhG1: "",
+    textZhAdditional: "（点击即可将其移去未知的命运）",
+    textZhG1Additional:
+      "로스트→더스트:3\n공격 『적정거리 0-3, X/1』를 수행한다. X는 이 화살표로 이동한 벚꽃결정의 수와 같다.",
+    textKo: "",
+    textEn: "",
+  },
+} as const satisfies Partial<{
+  [id in TCardId]: CardDataItem | null;
+}>;
+
 // 物語セットのオリジナルカードデータ
 export const STORY_CARD_DATA: Partial<{ [id in TCardId]: CardDataItem }> = {
   "story-00-A-1": {
@@ -16358,6 +16628,17 @@ for (let key of typedObjectKeys(S10_UPDATED_CARD_DATA)) {
     CARD_DATA["na-s10"][key] = data;
   }
 }
+
+CARD_DATA["na-s10-2"] = { ...CARD_DATA["na-s10"] };
+for (let key of typedObjectKeys(S10_2_UPDATED_CARD_DATA)) {
+  let data = S10_2_UPDATED_CARD_DATA[key];
+  if (data === null || data === undefined) {
+    delete CARD_DATA["na-s10-2"][key];
+  } else {
+    CARD_DATA["na-s10-2"][key] = data;
+  }
+}
+
 // 物語セットで使用するカード (シーズン5を基本とし、物語セットのカードを追加する)
 CARD_DATA["story-0"] = { ...CARD_DATA["na-s5"] };
 for (let key of typedObjectKeys(STORY_CARD_DATA) as TCardId[]) {
@@ -16485,7 +16766,7 @@ for (let cardSet of typedObjectKeys(CARD_DATA)) {
 
 // カードIDをソートキー順に並べ替える
 let sortedAllCardIds = uniq(
-  sortBy(cardSortKeys, (p) => p[1]).map((p) => p[0])
+  sortBy(cardSortKeys, (p) => p[1]).map((p) => p[0]),
 ) as TCardId[];
 
 // 全カードをソートキー順にソートして、（カードセット別に）全カードIDの配列と、全カードの配列を作成
@@ -16504,7 +16785,7 @@ for (let cardSet of typedObjectKeys(CARD_DATA) as CardSet[]) {
     if (CARD_DATA[cardSet][cardId]) {
       ALL_CARD_ID_LIST[cardSet as CardSet].push(cardId);
       ALL_CARD_LIST[cardSet as CardSet].push(
-        CARD_DATA[cardSet as CardSet][cardId]
+        CARD_DATA[cardSet as CardSet][cardId],
       );
     }
   }
