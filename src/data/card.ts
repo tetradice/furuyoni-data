@@ -14035,11 +14035,12 @@ export const S10_2_UPDATED_CARD_DATA = {
     cost: "3",
     text: "【常時】順風ならば、この《攻撃》は+1/+2となる。\n【攻撃後】逆風ならば、\nダスト→間合：2\nを行い、このカードを未使用に戻す。",
     textZh:
-      "【常时】若顺风，此《攻击》得+1/+2。\n【攻击后】若逆风，则：虚→2→距。\n然后将此牌变为未使用的状态。",
+      "【常时】若顺风，此《攻击》得+1/+2。\n 【攻击后】若逆风，则：虚→2→距。\n 然后将此牌变为未使用的状态。",
     textZhG1: "",
     textKo:
       "【상시】순풍이라면, 이 《공격》은 +1/+2된다.\n【공격시】역풍이라면,\n더스트→간격：2\n을 하고, 이 카드를 미사용으로 되돌린다.",
-    textEn: "",
+    textEn:
+      "Forced: If there is a tailwind, this attack gains +1/+2.\n\nAfter Attack: If there is a headwind, Shadow (2)→ Distance, then turn this card face-down.",
   },
   "20-kanawe-o-n-2": {
     megami: "kanawe",
@@ -14056,11 +14057,12 @@ export const S10_2_UPDATED_CARD_DATA = {
     damage: "1/1",
     text: "【攻撃後】追加札から構想カードを1枚準備してもよい。\n【常時】あなたの終了フェイズにこのカードを捨て札から山札の底に置いてもよい。そうした場合、相手は集中力を1得る。",
     textZh:
-      "【攻击后】你可以从追加牌区的构想牌中准备1张构想。 \n【常时】在你的结束阶段你可以将此牌从弃牌放到牌库底。若如此做，对手获得1集中力。",
+      "【攻击后】你可以从追加牌区的构想牌中准备1张构想。 \n 【常时】在你的结束阶段你可以将此牌从弃牌放到牌库底。若如此做，对手获得1集中力。",
     textZhG1: "",
     textKo:
       "【공격후】추가패에서 구상 카드를 1장 준비해도 좋다.\n【상시】당신의 종료 페이즈에 이 카드가 버림패에 있다면 패산의 아래에 두어도 좋다. 그렇게 했다면, 상대는 집중력 1을 얻는다.",
-    textEn: "",
+    textEn:
+      "After Attack: You may prepare one of your set aside Plot cards.\n\nForced: At the end of your turn, you may move this card from your played pile to the bottom of your deck. If you do, your opponent gains 1 Vigor.",
   },
   "21-kamuwi-o-s-1": {
     megami: "kamuwi",
@@ -14076,11 +14078,12 @@ export const S10_2_UPDATED_CARD_DATA = {
     cost: "5",
     text: "(+4) あなたのフレアにある桜花結晶全てをダストに送る。追加札から「暁」を未使用で得る。",
     textZh:
-      "(+3) 将自气的樱花结晶全部移至虚，并给予自命1点伤害。 \n从追加牌区以未使用的状态获得『晓』。",
+      "(+4) 将自气的樱花结晶全部移至虚。从追加牌区以未使用的状态获得『晓』。",
     textZhG1: "",
     textKo:
       "(+4) 당신의 플레어에 있는 벚꽃결정을 전부 더스트로 보낸다. 추가패에서 「새벽」을 미사용 상태로 얻는다.",
-    textEn: "",
+    textEn:
+      '(+3): Move all Sakura tokens on your Flare to Shadow. Deal 1 damage to your Life.\n\nAdd your set aside "Daybreak" to your Special cards, face-down.\n\n----------',
   },
   "23-akina-o-n-2": {
     megami: "akina",
@@ -14097,7 +14100,7 @@ export const S10_2_UPDATED_CARD_DATA = {
     damage: "-/0",
     text: "投資券\n【常時】あなたの資本が相手の資本より大きいならば、この《攻撃》は+0/+1となる。\n【攻撃後】あなたの資本が相手の資本以下ならば、このカードを伏せ札にする。",
     textZh:
-      "投资券\n【常时】你的资本比对手的资本更多的话，此攻击得+0/+1。\n【攻击后】你的资本不比对手的资本多的话，盖伏此卡。",
+      "投资券\n 【常时】你的资本比对手的资本更多的话，此攻击得+0/+1。\n 【攻击后】你的资本不比对手的资本多的话，盖伏此卡。",
     textZhG1: "",
     textKo:
       "투자권\n【상시】 당신의 자본이 상대의 자본보다 크다면, 이 《공격》은 +0/+1 된다.\n【공격후】당신의 자본이 상대의 자본 이하라면, 이 카드를 덮음패로 만든다.",
@@ -14120,7 +14123,7 @@ export const S10_2_UPDATED_CARD_DATA = {
     capacity: "2",
     text: "【展開時/破棄時】過去の運命をまだ見ぬ運命へと動かしてもよい。\n【常時】この付与札の上の桜花結晶がダストへと送られるならば、代わりにロストへと移動する。",
     textZh:
-      "【展开时】可以将过去的命运移去未知的命运。\n 【展开中】达人距离的数值减少1。",
+      "【展开时/破弃时】可以将过去的命运移去未知的命运。\n 【常时】此付与牌上的樱花结晶将移至虚时，改为移去迷失。",
     textZhG1: "",
     textKo:
       "【전개시/파기시】과거의 운명을 아직 보지 않은 운명으로 이동시켜도 된다.\n【상시】이 부여패 위의 벚꽃결정이 더스트로 보내진다면, 대신 로스트로 이동한다.",
@@ -14144,7 +14147,7 @@ export const S10_2_UPDATED_CARD_DATA = {
     cost: "0",
     text: "過去の運命をまだ見ぬ運命へと動かしてもよい。\n自オーラ⇔ロスト：1\n【使用済】各ターンの開始フェイズの開始時に攻撃『適正距離0-10、1/1、【常時】この《攻撃》のダメージにより移動する桜花結晶はダストやフレアではなくロストに動かす』を行う。その後、このカードを取り除く。",
     textZh:
-      "可以将过去的命运移去未知的命运。\n 【已使用】你的准备步骤开始时，可以进行一次“攻击距离X 伤害2/1 不可避 【常时】X等于迷失的值”的攻击。若如此做，将此卡移出游戏。",
+      "可以将过去的命运移去未知的命运。\n 自装←1→迷失\n 【已使用】任一回合准备步骤开始时，进行一次“攻击距离0-10 伤害1/1 【常时】因此《攻击》的伤害移动的樱花结晶改为至迷失”的攻击。这之后，将此卡移出游戏。",
     textZhG1: "",
     textKo:
       "과거의 운명을 보지 못한 운명으로 이동시켜도 된다.\n오라(자신)⇔로스트：1\n【사용됨】당신의 개시 페이지의 시작시에 공격『적정거리 0-10, 1/1, 【상시】이 공격으로 이동하는 벚꽃결정은 더스트나 플레어로 이동하지 않고 로스트로 이동한다.』를 수행한다. 그 후, 이 카드를 게임에서 제외한다.",
@@ -14165,11 +14168,12 @@ export const S10_2_UPDATED_CARD_DATA = {
     type: "action",
     text: "相手を畏縮させる。\n連火―このカードがこのターンに使用した3枚目以降のカードならば、このターンにあなたが次に行う他のメガミによるオーラへのダメージが3以下の《攻撃》は+1/+1となる。",
     textZh:
-      "令对手畏缩。\n连火～若此牌是本回合你使用的第3张或更多的牌，则本回合你的下一次其他女神的对装伤害不为「-」的《攻击》得+1/+1。",
+      "令对手畏缩。\n 连火～若此牌是本回合你使用的第3张或以后的牌，则本回合你的下一次其他女神的对装伤害不为「-」的《攻击》得+1/+1。",
     textZhG1: "",
     textKo:
       "상대를 위축시킨다。\n 연화-이 카드가 이 턴에 사용한 3장째 이후의 카드라면, 이 턴 당신이 다음에 행하는 다른 여신에 의한 오라 데미지가 3이하의 《공격》을 +1/+1 한다.",
-    textEn: "",
+    textEn:
+      'Flinch your opponent.\n\nInferno - If this is the third or later card you\'ve played this turn, your next attack this turn from a non-Himika Megami that does not have "-" Damage to Aura gains +1/+1.',
   },
   "22-renri-o-n-6": {
     megami: "renri",
@@ -14184,7 +14188,7 @@ export const S10_2_UPDATED_CARD_DATA = {
     baseType: "normal",
     type: "action",
     text: "偽証\n間合→自フレア：1",
-    textZh: "伪证\n距→1→自气",
+    textZh: "伪证\n 距→1→自气",
     textZhG1: "",
     textKo: "위증\n간격→플레어(자신)：1",
     textEn: "",
@@ -14204,11 +14208,12 @@ export const S10_2_UPDATED_CARD_DATA = {
     cost: "3",
     text: "終端\n手札のカードを1枚まで選び、それと追加札の「闘神」を兵舎に徴兵済で置く。\n【使用済】あなたが兵舎から使用した《攻撃》カードによる《攻撃》は+1/+0となる。",
     textZh:
-      "终端 \n将你的1张手牌和追加牌处的『斗神』以已征兵的状态置入兵营。进行1次征兵。 \n【已使用】你从兵营使用的《攻击》牌的《攻击》得+1/+0，从兵营使用的《对应》牌失去终端。",
+      "终端 \n 将你的1张手牌和追加牌处的『斗神』以已征兵的状态置入兵营。\n 【已使用】你从兵营使用的《攻击》牌的《攻击》得+1/+0。",
     textZhG1: "",
     textKo:
       "종단\n손패의 카드를 1장까지 고르고 그것과 추가패의 [투신]과 그것들을 병영의 징병된 상태로 놓는다.\n징병을 1회 수행한다.\n【사용됨】당신이 병영에서 사용한 《공격》카드에 의한 《공격》은 +1/+0을 얻는다.",
-    textEn: "",
+    textEn:
+      'Terminal\n\nPut your set aside "Divinity of War" and a card from your hand into your Barracks, conscripted. Conscript a Unit.\n\nDevoted: Attack cards you play from your Barracks gain +1/+0. Reaction cards you play from your Barracks lose Terminal.',
   },
   "26-innealra-o-n-1": {
     megami: "innealra",
@@ -14269,7 +14274,7 @@ export const S10_2_UPDATED_CARD_DATA = {
     text: "ロスト→ダスト：3\n攻撃『適正距離0-3、X/1』を行う。Xはこの矢印（→）で移動した桜花結晶の数に等しい。",
     textAdditional: "（クリックでまだ見ぬ運命へと移動）",
     textZh:
-      "迷失→3→虚\n 若因此效果移动了3个或更多樱花结晶，进行一次“攻击距离0-3 伤害3/1”的攻击。",
+      "迷失→3→虚\n 进行一次“攻击距离0-3 伤害X/1”的攻击，X为此箭头（→）的效果移动的樱花结晶数。",
     textZhG1: "",
     textZhAdditional: "（点击即可将其移去未知的命运）",
     textKo:
