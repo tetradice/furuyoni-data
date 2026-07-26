@@ -1,55 +1,13 @@
 import { Megami, TCardId } from "../data/index.js";
 
 /** カードセット */
-export type CardSet = StandardCardSet | StoryCardSet;
+export type CardSet = "saien-s1";
 
-/** 通常のカードセット（物語セットを含まない） */
-export type StandardCardSet =
-  | "na-s2"
-  | "na-s3"
-  | "na-s4"
-  | "na-s5"
-  | "na-s6"
-  | "na-s6-2"
-  | "na-s7"
-  | "na-s7-2"
-  | "na-s8"
-  | "na-s8-2"
-  | "na-s9"
-  | "na-s9-2"
-  | "na-s10"
-  | "na-s10-2";
+/** 再演では通常カードセットが1種類だけ存在する */
+export type StandardCardSet = CardSet;
 
-/** 物語カードセット（はじまりの決闘、メガミへの挑戦も含む） */
-export type StoryCardSet =
-  | "story-0"
-  | "story-1"
-  | "story-2"
-  | "story-9"
-  | "story-10"
-  | "story-10-heroic"
-  | "story-12"
-  | "story-12-heroic"
-  | "story-13"
-  | "story-13-heroic"
-  | "story-15"
-  | "hajimari"
-  | "oboro-challenge"
-  | "oboro-challenge-heroic"
-  | "chikage-challenge"
-  | "chikage-challenge-heroic"
-  | "raira-challenge"
-  | "raira-challenge-heroic"
-  | "megumi-challenge"
-  | "megumi-challenge-heroic"
-  | "shinra-challenge"
-  | "shinra-challenge-heroic"
-  | "korunu-challenge"
-  | "korunu-challenge-heroic"
-  | "hagane-challenge"
-  | "hagane-challenge-heroic"
-  | "yukihi-challenge"
-  | "yukihi-challenge-heroic";
+/** 再演には物語カードセットが存在しない */
+export type StoryCardSet = never;
 
 /** カードタイプ */
 export type CardType = "attack" | "action" | "enhance" | "variable";
@@ -74,31 +32,31 @@ export interface MegamiDataItem {
   tarotNo: string;
   base?: Megami;
   anotherID?: string;
-  notExistCardSets?: CardSet[];
 }
 
 // カード情報
 export interface CardDataItem {
   megami: Megami;
   baseType:
-  | "normal"
-  | "special"
-  | "poison"
-  | "transform"
-  | "troop"
-  | "storm"
-  | "plan"
-  | "diving"
-  | "mainParts"
-  | "customParts"
-  | "fate";
+    | "normal"
+    | "special"
+    | "poison"
+    | "transform"
+    | "troop"
+    | "storm"
+    | "plan"
+    | "diving"
+    | "mainParts"
+    | "customParts"
+    | "fate"
+    | "virtualTree";
   name: string;
   nameZh: string;
   nameZhG1: string;
   nameKo: string;
   nameEn: string;
   anotherID?: string;
-  replace?: TCardId | "";
+  replace?: TCardId;
   ruby: string;
   rubyEn: string;
   rubyZh?: string;
@@ -136,7 +94,7 @@ export interface CardDataItem {
   sealable?: boolean;
   /** 取り除くことが可能 */
   removable?: boolean;
-  /** 原初性 */
+  /** 旧処理との互換用。再演カードでは使用しない */
   original?: boolean;
   /** 追加札かどうか(デッキ構築の時に選択できず、ゲーム開始時に追加札領域に置かれる) */
   extra?: boolean;
